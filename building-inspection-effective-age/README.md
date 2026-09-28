@@ -44,6 +44,16 @@ Set up a periodic, vehicle-inspection-style **Building Inspection and Effective 
 - As with vehicle inspection, buildings are inspected at regular intervals.
 - New buildings are exempt for their first "n" years (proposed: 5 to 10 years). After that, periodic inspection becomes mandatory.
 
+### Digital building record (QR code)
+
+- Every building gets a **digital record** that holds its full history: inspection reports and grades, Effective Age, and the maintenance, repairs and renovations carried out.
+- A **QR code** placed at the building entrance links to this record. Residents, prospective buyers, tenants, insurers and inspectors can see the building's current condition and history transparently.
+
+### Incentive model: property tax discount
+
+- Buildings that receive a **"full score"** in inspection get a **property tax discount**.
+- Maintenance then pays off directly for owners and residents on top of the lower insurance premium, which encourages voluntary, regular maintenance.
+
 ## Implementation & Phasing
 
 The system is rolled out gradually so that older buildings do not face sudden, heavy financial burdens:
@@ -66,7 +76,7 @@ The system is designed so that **every stakeholder benefits** from it:
 
 - **Residents:** less exposure to hazards such as rusty pipes, detectors that do not work and poorly maintained elevators, and a better quality of housing.
 - **Buyers, sellers and tenants:** transparent market value, fewer hidden costs and doubts, and objective valuation.
-- **Owners of well-maintained buildings:** a lower Effective Age, so the value of maintenance is recognized.
+- **Owners of well-maintained buildings:** a lower Effective Age, so the value of maintenance is recognized, plus a property tax discount for buildings with a full inspection score.
 - **Insurers and policyholders:** risk premiums that are easier to calculate and lower for well-maintained buildings.
 - **Workforce and industry:** a new line of business and new jobs for building inspection specialists, technical maintenance staff and renewable-energy installation teams.
 - **The country:** energy savings in national consumption, a smaller foreign trade deficit through those savings, and a more sustainable urban fabric.

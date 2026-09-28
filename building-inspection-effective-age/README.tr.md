@@ -44,6 +44,16 @@ Konut stoku için araç muayenesine benzer, periyodik bir **"Bina Muayene ve Efe
 - Araç muayenesinde olduğu gibi bakım ve denetimler düzenli aralıklarla yapılır.
 - Yeni binalar için ilk "n" yıl (önerilen: 5-10 yıl) muafiyet uygulanır; ardından periyodik kontrol zorunlu hale gelir.
 
+### Dijital Bina Karnesi (QR Kod)
+
+- Her binanın muayene raporları ve notları, Efektif Yaşı ile yapılan bakım, onarım ve yenilemeleri içeren **dijital bir geçmişi (karnesi)** tutulur.
+- Bina girişine yerleştirilen bir **QR kod** bu karneye bağlanır; sakinler, alıcı ve kiracı adayları, sigortacılar ve denetçiler binanın güncel durumunu ve geçmişini şeffaf şekilde görebilir.
+
+### Teşvik Modeli: Emlak Vergisi İndirimi
+
+- Muayeneden **"Tam Not"** alan binalara **emlak vergisi indirimi** sağlanır.
+- Böylece bakım, düşük sigorta primine ek olarak mal sahipleri ve sakinler için doğrudan kazanca dönüşür ve gönüllü, düzenli bakım teşvik edilir.
+
 ## Uygulama ve Fazlandırma
 
 Eski binalara ani ve ağır mali yükler getirmemek adına sistem kademeli olarak devreye alınmalıdır:
@@ -66,7 +76,7 @@ Sistem, **her paydaşının bu sistemden faydalanacağı** şekilde tasarlanmı�
 
 - **Konut sakinleri:** Paslı borular, çalışmayan dedektörler ve bakımsız asansörler gibi can sağlığını tehdit eden unsurlar en aza indirilir; barınma kalitesi artar.
 - **Alıcılar, satıcılar ve kiracılar:** Şeffaf emlak piyasa değeri; gizli maliyetlerin ve şüphelerin ortadan kalkması; objektif değerleme.
-- **Bakımlı bina sahipleri:** Daha düşük Efektif Yaş sayesinde bakımın değere yansıması.
+- **Bakımlı bina sahipleri:** Daha düşük Efektif Yaş sayesinde bakımın değere yansıması; muayeneden "Tam Not" alan binalar için emlak vergisi indirimi.
 - **Sigorta sektörü ve sigortalılar:** Daha hesaplanabilir ve bakımlı binalar için daha düşük risk primleri.
 - **İstihdam ve sektör:** Bina denetim uzmanlığı, teknik bakım personeli ve yenilenebilir enerji montaj ekipleri için yeni bir iş kolu ve istihdam alanı.
 - **Ülke:** Ulusal enerji tüketiminde büyük bir tasarruf kalemi, enerji tasarrufu ile dış ticaret açığının azalması ve daha sürdürülebilir bir kentsel doku.
