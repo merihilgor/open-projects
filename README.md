@@ -1,7 +1,7 @@
 # Open Projects
 
 A collection of public-interest **project ideas**, originally drafted as policy
-proposals and published here as open project ideas for anyone to study,
+proposals or product designs and published here as open project ideas for anyone to study,
 discuss, and build on.
 
 | Project | Idea |
@@ -12,6 +12,7 @@ discuss, and build on.
 | [building-inspection-effective-age](building-inspection-effective-age/) | Periodic building inspection, like vehicle inspection, based on a building's "effective age" |
 | [wildfire-biological-circuit-breaker](wildfire-biological-circuit-breaker/) | Honeycomb forest segmentation with fire-resistant green belts, inspired by the software circuit-breaker pattern |
 | [staggered-salary-payment-days](staggered-salary-payment-days/) | Paying salaries on four staggered days to flatten billing, logistics and data-center peaks |
+| [vestinno](vestinno/) | A two-sided marketplace where innovators sell actionable ideas and IP to investors, with reputation-based quality control |
 
 Each project folder contains an English proposal (`README.md`) and the Turkish
 original (`README.tr.md`).
