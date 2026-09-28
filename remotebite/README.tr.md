@@ -132,4 +132,4 @@ Temel kumanda altyapısı, mazen-salah'ın MIT lisanslı açık kaynak Samsung T
 
 ## Lisans
 
-Bu belge ve anlattığı proje fikri, ticari olmayan kullanım için CC BY-NC-SA 4.0 lisansı altındadır (bkz. [LICENSE](LICENSE)). Ticari kullanım için gelir paylaşımı anlaşması gerekir (bkz. [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)). MIT lisanslı kumanda altyapısı ile dil ve konuşma modelleri dahil olmak üzere üçüncü taraf bileşenler kendi lisanslarına tabidir.
+Bu belge ve anlattığı proje fikri, ticari olmayan kullanım için CC BY-NC-SA 4.0 lisansı altındadır (bkz. [LICENSE](LICENSE)). Ticari kullanım için gelir paylaşımı anlaşması gerekir (bkz. [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)). MIT lisanslı kumanda altyapısı ile dil ve konuşma modelleri dahil olmak üzere üçüncü taraf bileşenler kendi lisanslarına tabidir. Değiştirilmiş sürümler yeni bir fikir olarak satılamaz veya üçüncü kişilere aktarılamaz; patent benzeri haklar saklıdır. Bkz. [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md#derivatives-improvements-and-idea-protection).

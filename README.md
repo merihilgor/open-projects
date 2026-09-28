@@ -72,4 +72,15 @@ Every project is licensed **per folder** under a "CC+" model:
   | Vehicle safety feature & standard | hood-open-driving-warning | 2% of net revenue |
   | Physical product | adjustable-window-vent-slider, motorcycle-seat-galosh | 4% of net revenue |
 
+- **Modified versions stay tied to the original idea.** Anyone may adapt and improve these
+  ideas non-commercially, with attribution and under the same license. However, no modified,
+  improved, renamed or combined version may be sold, licensed or transferred to third
+  parties as a new idea without a commercial license, and commercial use of a derivative
+  owes the same royalty.
+- **Patent-like protection:** patent, utility model, design and trademark rights are
+  reserved by the author. The first-commit date of each project in the Git history is its
+  public disclosure date and serves as prior art.
+
+Details: the "Derivatives, improvements and idea protection" section of each `COMMERCIAL-LICENSE.md`.
+
 © Merih İlgör

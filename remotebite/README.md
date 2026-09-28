@@ -132,4 +132,4 @@ Originally designed by Merih İlgör (2026); published here as an open project i
 
 ## License
 
-This document and the project idea it describes are licensed under CC BY-NC-SA 4.0 for non-commercial use (see [LICENSE](LICENSE)). Commercial use requires a revenue-share agreement (see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)). Third-party components, including the MIT-licensed remote-control base and the language and speech models, remain under their own licenses.
+This document and the project idea it describes are licensed under CC BY-NC-SA 4.0 for non-commercial use (see [LICENSE](LICENSE)). Commercial use requires a revenue-share agreement (see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)). Third-party components, including the MIT-licensed remote-control base and the language and speech models, remain under their own licenses. Modified versions may not be sold or transferred to third parties as new ideas, and patent-like rights are reserved; see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md#derivatives-improvements-and-idea-protection).

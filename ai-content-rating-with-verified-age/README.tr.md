@@ -112,4 +112,4 @@ Genel fayda: Geleceğimizin teminatı olan çocuklar, dijital dünyadan soyutlan
 
 ## Lisans
 
-Bu çalışma, ticari olmayan kullanım için CC BY-NC-SA 4.0 ile lisanslanmıştır. Bkz. [LICENSE](LICENSE). Ticari kullanım için gelir paylaşımı anlaşması gerekir. Bkz. [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
+Bu çalışma, ticari olmayan kullanım için CC BY-NC-SA 4.0 ile lisanslanmıştır. Bkz. [LICENSE](LICENSE). Ticari kullanım için gelir paylaşımı anlaşması gerekir. Bkz. [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md). Değiştirilmiş sürümler yeni bir fikir olarak satılamaz veya üçüncü kişilere aktarılamaz; patent benzeri haklar saklıdır. Bkz. [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md#derivatives-improvements-and-idea-protection).

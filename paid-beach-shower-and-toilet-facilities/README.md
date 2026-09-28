@@ -79,4 +79,4 @@ Originally drafted by Merih İlgör as a public policy proposal (August 2026); p
 
 ## License
 
-This project idea is licensed under [CC BY-NC-SA 4.0](LICENSE) for non-commercial use. Commercial use requires a revenue-share agreement; see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
+This project idea is licensed under [CC BY-NC-SA 4.0](LICENSE) for non-commercial use. Commercial use requires a revenue-share agreement; see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md). Modified versions may not be sold or transferred to third parties as new ideas, and patent-like rights are reserved; see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md#derivatives-improvements-and-idea-protection).
