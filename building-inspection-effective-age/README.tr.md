@@ -61,7 +61,7 @@ Konut stoku için araç muayenesine benzer, periyodik bir **"Bina Muayene ve Efe
 
 ### Dijital Bina Karnesi (QR Kod)
 
-- Her binanın muayene raporları ve notları, Efektif Yaşı , yapılan bakım, onarım ve yenilemeleri ile tespit edilen her yapısal değişikliği (risk değerlendirmesi ve çözümüyle birlikte) içeren **dijital bir geçmişi (karnesi)** tutulur.
+- Her binanın muayene raporları ve notları, Efektif Yaşı, yapılan bakım, onarım ve yenilemeleri ile tespit edilen her yapısal değişikliği (risk değerlendirmesi ve çözümüyle birlikte) içeren **dijital bir geçmişi (karnesi)** tutulur.
 - Bina girişine yerleştirilen bir **QR kod** bu karneye bağlanır; sakinler, alıcı ve kiracı adayları, sigortacılar ve denetçiler binanın güncel durumunu ve geçmişini şeffaf şekilde görebilir.
 
 ### Teşvik Modeli: Emlak Vergisi İndirimi
