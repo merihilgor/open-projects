@@ -6,7 +6,7 @@ English: [README.md](README.md)
 
 **Vestinno** (*INVEST* + *INNOVATION* birleşimi), **İnovatörleri** (satıcılar) **Yatırımcılarla** (alıcılar) buluşturan iki taraflı bir dijital pazar yeridir. Garajda çalışan mucitlerden araştırma laboratuvarlarına kadar inovatörler fikri mülkiyet, kod ve teknik çizim gibi uygulanabilir çözümleri listeler. Sermayesi hazır yatırımcılar da bunları doğrudan satın alır. Platformun sloganı *"Yatırımın İnovasyonla Buluştuğu Yer"* (*"Where Investment Meets Innovation"*) şeklindedir. Misyonu inovasyonu demokratikleştirmektir: inovatörler hisse vermeden ve sunum yapmadan emeklerinin karşılığını alır, yatırımcılar da ürüne ya da girişime dönüştürebilecekleri, ön elemeden geçmiş, yüksek kaliteli varlıklara ulaşır.
 
-Kalite, manuel moderasyondan çok platformun kurallarıyla sağlanır. **Kariyer Modu** adlı oyunlaştırılmış itibar sistemi, inovatörlerin daha yüksek fiyatlı fikir satma hakkını doğrulanmış satışlarla kazanmasını şart koşar. Her fikir, herkese açık bir **Tanıtım (Teaser)** ve yalnızca satın alma sonrasında açılan özel bir **Kasa (Vault)** olarak ikiye ayrılır. **Problem Panosu**, yatırımcıların çözülmesini istedikleri sorunları yayımlamasına imkân verir. Platform her satıştan sabit **%20 komisyon** ve abonelik ücretleri kazanır. Aylık sabit maliyetleri sıfıra yakın tutmak için seçilmiş sunucusuz (serverless) bir mimari üzerinde çalışır.
+Kalite, manuel moderasyondan çok platformun kurallarıyla sağlanır. **Kariyer Modu** adlı oyunlaştırılmış itibar sistemi, inovatörlerin daha yüksek fiyatlı fikir satma hakkını doğrulanmış satışlarla kazanmasını şart koşar. Her fikir, herkese açık bir **Tanıtım (Teaser)** ve yalnızca satın alma sonrasında açılan özel bir **Kasa (Vault)** olarak ikiye ayrılır. **Problem Panosu**, yatırımcıların çözülmesini istedikleri sorunları yayımlamasına imkân verir. Platform her satıştan sabit **%20 komisyon** ve abonelik ücretleri kazanır.
 
 ## Sorun
 
@@ -131,19 +131,17 @@ Bir fikir, inovatörün planına göre en fazla 3, 5, 7 veya 10 sektörle etiket
 | **İnovatör abonelikleri** | Daha fazla aktif fikir ve daha yüksek fiyat tavanı sağlayan dört kademe (Starter, Plus, Pro, Ultra). |
 | **Yatırımcı abonelikleri** | Daha fazla satın alma, daha üst kademe fikirler ve daha fazla sektör sağlayan dört kademe (Small, Medium, Enterprise, Ultra). |
 
-**Düşük sabit maliyet stratejisi.** Platform, başlangıçta neredeyse hiç aylık sabit maliyeti olmayacak ("1 $ ile başlangıç") ve kullanım arttıkça ölçeklenecek şekilde tasarlanmıştır. Sunucusuz barındırmaya, küresel bir CDN'e ve cömert ücretsiz kullanım kotaları sunan yönetilen hizmetlere dayanır. Böylece altyapı harcaması yalnızca kullanıcı tabanı ve gelir büyüdükçe artar.
+**Düşük sabit maliyet stratejisi.** Platform, sıfıra yakın sabit maliyetle başlayacak ("1 $ ile başlangıç") şekilde tasarlanmıştır; böylece maliyetleri yalnızca kullanıcı tabanı ve gelir büyüdükçe artar.
 
-## Uygulama ve Fazlandırma
+## Fazlandırma
 
-**Büyüme fazlarına göre maliyet projeksiyonu:**
+Platformun kullanıcı tabanına göre üç fazda büyümesi planlanmaktadır:
 
-| Faz | Kullanıcı | Tahmini aylık altyapı maliyeti |
-|---|---|---|
-| Başlangıç | 0 – 1.000 | ~1 $ |
-| Büyüme | 1.000 – 10.000 | ~30 $ |
-| Ölçek | 10.000+ | Doğrusal, kullanıma dayalı fiyatlandırma |
-
-**Üst düzey mimari.** Vestinno, açık ve koyu temalarda sade, "Apple tarzı" minimalist bir arayüze sahip bir Aşamalı Web Uygulamasıdır (PWA). Küresel CDN'li sunucusuz bir web çatısı ve barındırma üzerinde çalışır. Veriler katı ilişkisel bütünlüğe sahip yönetilen bir PostgreSQL veritabanında, kasa dosyaları ise yalnızca kimliği doğrulanmış erişimle ulaşılabilen özel bir depolama alanında tutulur. Barındırılan bir ödeme altyapısı, yinelenen abonelikleri ve tek seferlik fikir satın almalarını yönetir; yerel kartların gerektirdiği durumlarda yerel para birimiyle tahsilat da yapar. İnovatörler %80'lik paylarını uluslararası ödemelerle alır.
+| Faz | Kullanıcı |
+|---|---|
+| Başlangıç | 0 – 1.000 |
+| Büyüme | 1.000 – 10.000 |
+| Ölçek | 10.000+ |
 
 ## Paydaşlar ve Faydalar
 
@@ -162,7 +160,7 @@ Bir fikir, inovatörün planına göre en fazla 3, 5, 7 veya 10 sektörle etiket
 | **Satın alma öncesi fikri mülkiyet hırsızlığı / sızıntısı** | Kasa satın alma anına kadar kilitli kalır. Tanıtımlar bağlantı veya iletişim bilgisi içeremez. İnovatörler bir fikirde adlarını gizleyebilir. |
 | **Düşük kaliteli veya yanıltıcı ilanlar** | Yeni satıcılar için Kariyer Modu fiyat tavanları, yapay zekâ değerlendirme puanları, alıcı yıldız puanları, 48 saatlik itiraz süresi ve dolandırıcılıkta yasaklama (güven puanı sıfır). |
 | **Hakaret içeren içerik** | Kullanıcıların gönderdiği tüm metinlerde otomatik dil denetimi. |
-| **Platformun veya içeriğinin kazınması (scraping) ve kopyalanması** | Kasa içeriği yalnızca doğrulanmış alıcılara sunulur. Aşırı otomatik gezinme hız sınırlamasına tabidir, oturumlar sürekli doğrulanır ve önizlemelerin kolayca kaydedilmesi zorlaştırılır. |
+| **Platformun veya içeriğinin toplu olarak kopyalanması** | Kasa içeriği yalnızca doğrulanmış alıcılara açıktır, otomatik toplu kopyalama kısıtlanır ve önizlemelerin kolayca kaydedilmesi zorlaştırılır. |
 | **Aksayan ödemeler nedeniyle gelir kaybı** | Dondurulmuş hesaplar işlemleri engeller ama tüm verileri korur; böylece kullanıcılar platformu terk etmek yerine hesaplarını yeniden etkinleştirmeye teşvik edilir. |
 
 ## Köken

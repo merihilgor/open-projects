@@ -48,7 +48,7 @@ Bu düzenleme, dunning faaliyetleri de dahil olmak üzere hem ticaretteki hem de
 2. **Ödeme takvimi:** Her grup maaşını sabit bir günde alır: ayın 7., 14., 21. veya 28. günü.
 3. **Harcamalar maaş gününü izler:** Alışverişler maaş gününün hemen ardından yoğunlaştığı için tek büyük tepe yerine dört küçük ve dengeli tepe oluşur. Böylece tüketici harcamaları ve buna bağlı lojistik trafiği ay geneline yayılır.
 4. **Fatura döngüleri gruplarla örtüşür:** Kredi kartı kullanıcıları kesim tarihlerini maaş gününden hemen sonraya ayarladığı için doğal olarak dört farklı kesim tarihine dağılır. Bu da faturalama sistemlerindeki mevcut dört fatura döngüsüne yükü dengeli biçimde yayar.
-5. **Tahsilat ve ihtar süreçleri de dengelenir:** Faturalamanın ardından tahsilat (collection) gelir. Gecikenler için ayrı bir ikinci iş (job) olarak çalışan gecikmeli tahsilat ihtar süreçleri (dunning) de tek bir tarihe yığılmak yerine dört farklı tarihe yayılır.
+5. **Tahsilat ve ihtar süreçleri de dengelenir:** Faturalamanın ardından tahsilat (collection), gecikenler için de gecikmeli tahsilat ihtar süreçleri (dunning) gelir. Bunlar da tek bir tarihe yığılmak yerine dört farklı tarihe yayılır.
 6. **Altyapı yükü homojenleşir:** Online ödeme, faturalama ve bankacılık sistemlerindeki işlem yükü homojenleşir. Veri merkezlerinde ani ölçeklenme ihtiyacı azalır; bu da aşırı enerji ve soğutma kullanımını düşürür.
 
 ## Uygulama ve Aşamalandırma

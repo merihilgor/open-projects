@@ -17,7 +17,7 @@ This proposal sets out a periodic **Building Inspection System** for the housing
 
 ## Proposed Solution
 
-Set up a periodic, vehicle-inspection-style **Building Inspection and Effective Age Assessment System** for the housing stock, with three core components:
+Set up a periodic, vehicle-inspection-style **Building Inspection and Effective Age Assessment System** for the housing stock, with four core components:
 
 1. **Effective Age calculation.** Each building gets an "Effective Age" score based on its maintenance condition and technical infrastructure, rather than its chronological age. A 30-year-old building that is regularly maintained should count as more valuable and safer than a 10-year-old building that is neglected. Well-maintained buildings get a lower Effective Age.
 2. **Technical inspection scope.** As with vehicle inspection, the following are inspected periodically: plumbing (rusty pipe checks), elevators, safety systems (alarm, fire, generator, hydrophore/booster pump), and energy efficiency (LED conversion of common-area lighting, efficiency of solar water heating systems).
@@ -40,7 +40,7 @@ Set up a periodic, vehicle-inspection-style **Building Inspection and Effective 
 
 1. **Compare with the approved project.** The building's current state is compared with its approved architectural and static/structural project held by the municipality.
 2. **Detect changes.** Structural changes are recorded, for example cut or notched columns and beams, removed load-bearing (shear) walls, openings made in structural elements, or unpermitted extra floors, annexes or heavy loads.
-3. **Assess the risk.** If a change is found, a structural engineer assesses whether it creates earthquake risk or other risks such as collapse or overloading. Where needed, this uses non-destructive tests and a performance analysis.
+3. **Assess the risk.** If a change is found, a structural engineer assesses whether it creates earthquake risk or other risks such as collapse or overloading.
 4. **Act on the result.**
    - *No risk:* the change is recorded in the building's digital record.
    - *Risk found:* the building cannot get a passing grade until the change is reversed or the element is strengthened (retrofitted) under an engineering project. The owners and the municipality are notified.

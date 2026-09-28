@@ -48,7 +48,7 @@ This spreads the load on trade and on online systems evenly across the month, du
 2. **Payment calendar:** Each group receives its salary on a fixed day: the 7th, 14th, 21st or 28th.
 3. **Consumer spending follows payday:** Purchases cluster right after payday. With four staggered paydays, consumer spending and the logistics traffic it generates are spread over four peaks of similar size instead of one large peak.
 4. **Billing cycles line up with the groups:** Credit card holders tend to choose a statement date just after payday. They would then fall naturally into four different statement dates, which spreads the load across billing systems' existing four bill cycles.
-5. **Dunning is balanced too:** Billing is followed by collection, and dunning runs as a separate second job for overdue accounts. Both are spread across four dates instead of piling up on one.
+5. **Dunning is balanced too:** Billing is followed by collection and, for overdue accounts, by dunning. Both are spread across four dates instead of piling up on one.
 6. **Even infrastructure load:** Processing load on online payment, billing and banking systems becomes more even. Data centers need less sudden scaling, so they use less excess energy and cooling.
 
 ## Implementation & Phasing

@@ -76,7 +76,7 @@ These plants do not flare up when fire reaches them. Instead they evaporate thei
 
 ### Using natural topography
 
-The honeycomb does not need perfect hexagons. Geographic Information Systems (GIS) are used to fold existing rock faces, riverbeds, clearings and roads into the cell boundaries, so the hexagonal pattern adapts to the natural topography. Only the remaining gaps are planted, which brings costs close to zero.
+The honeycomb does not need perfect hexagons. Existing rock faces, riverbeds, clearings and roads are mapped and folded into the cell boundaries, so the hexagonal pattern adapts to the natural topography. Only the remaining gaps are planted, which brings costs close to zero.
 
 ## Implementation & Phasing
 
@@ -84,7 +84,7 @@ The honeycomb does not need perfect hexagons. Geographic Information Systems (GI
 
 A pilot covering about **500 hectares** is run in a high-fire-risk area under the Regional Forest Directorates of **Muğla (Marmaris/Datça) or İzmir (Urla/Seferihisar)**:
 
-- **Geographic model:** GIS brings existing rock faces, riverbeds and roads into the honeycomb boundaries, and the hexagonal structure is adapted to the natural topography.
+- **Geographic model:** Existing rock faces, riverbeds and roads are mapped into the honeycomb boundaries, and the hexagonal structure is adapted to the natural topography.
 - **Field validation:** **5 separate cells** are created, and the moisture retention and windbreak performance of the biological belts is monitored.
 
 ### Phase 2: Gradual scale-up

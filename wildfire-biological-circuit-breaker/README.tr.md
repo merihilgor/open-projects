@@ -75,7 +75,7 @@ Bu bitkiler alevle karşılaştığında parlamak yerine suyu buharlaştırarak 
 
 ### Doğal topografyanın kullanılması
 
-Petekleri kusursuz altıgenler yapmak yerine CBS (Coğrafi Bilgi Sistemleri) ile ormandaki mevcut kayalıklar, nehir yatakları, açıklıklar ve yollar petek sınırına dahil edilir ve altıgen yapı doğal topografyaya göre uyarlanır. Yalnızca eksik kalan yerlerin bitkilendirilmesi, maliyeti sıfıra yaklaştırır.
+Petekleri kusursuz altıgenler yapmak yerine ormandaki mevcut kayalıklar, nehir yatakları, açıklıklar ve yollar haritalanarak petek sınırına dahil edilir ve altıgen yapı doğal topografyaya göre uyarlanır. Yalnızca eksik kalan yerlerin bitkilendirilmesi, maliyeti sıfıra yaklaştırır.
 
 ## Uygulama ve Aşamalandırma
 
@@ -83,7 +83,7 @@ Petekleri kusursuz altıgenler yapmak yerine CBS (Coğrafi Bilgi Sistemleri) ile
 
 Projenin ilk aşamasında yangın riski üst düzeyde olan **Muğla (Marmaris/Datça) veya İzmir (Urla/Seferihisar)** Orman Bölge Müdürlükleri sahasında belirlenecek **500 hektarlık** bir alanda pilot çalışma yürütülecektir:
 
-- **Coğrafi model:** CBS ile mevcut kayalıklar, nehir yatakları ve yollar petek sınırına dahil edilir ve altıgen yapı doğal topografyaya göre adapte edilir.
+- **Coğrafi model:** Mevcut kayalıklar, nehir yatakları ve yollar haritalanarak petek sınırına dahil edilir ve altıgen yapı doğal topografyaya göre adapte edilir.
 - **Saha doğrulaması:** **5 ayrık hücre** oluşturularak biyolojik kuşakların nem tutma ve rüzgar kesme performansı izlenir.
 
 ### 2. aşama: Kademeli yaygınlaştırma

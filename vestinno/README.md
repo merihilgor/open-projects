@@ -6,7 +6,7 @@ Türkçe: [README.tr.md](README.tr.md)
 
 **Vestinno** (from *INVEST* + *INNOVATION*) is a two-sided digital marketplace that connects **Innovators** (sellers) with **Investors** (buyers). Innovators, from garage tinkerers to research labs, list actionable solutions such as intellectual property, code and blueprints. Investors with capital to deploy buy them outright. The platform's tagline is *"Where Investment Meets Innovation"*. Its mission is to democratize innovation: innovators get paid for their work without giving up equity or pitching, and investors get vetted, high-quality assets they can turn into products or ventures.
 
-Quality is handled mainly by the platform's rules rather than by manual moderation. A gamified reputation system called **Career Mode** makes innovators earn the right to sell higher-priced ideas through verified sales. Each idea is split into a public **Teaser** and a private **Vault** that opens only after purchase. A **Problem Board** lets investors post the problems they want solved. The platform earns a fixed **20% commission** on every sale plus subscription fees. It runs on a serverless architecture chosen to keep fixed monthly costs close to zero.
+Quality is handled mainly by the platform's rules rather than by manual moderation. A gamified reputation system called **Career Mode** makes innovators earn the right to sell higher-priced ideas through verified sales. Each idea is split into a public **Teaser** and a private **Vault** that opens only after purchase. A **Problem Board** lets investors post the problems they want solved. The platform earns a fixed **20% commission** on every sale plus subscription fees.
 
 ## Problem
 
@@ -131,19 +131,17 @@ An idea can be tagged with up to 3, 5, 7 or 10 sectors depending on the innovato
 | **Innovator subscriptions** | Four tiers (Starter, Plus, Pro, Ultra) that unlock more active ideas and higher price caps. |
 | **Investor subscriptions** | Four tiers (Small, Medium, Enterprise, Ultra) that unlock more purchases, higher-tier ideas and more sectors. |
 
-**Low fixed-cost strategy.** The platform is designed to have almost no fixed monthly cost at launch ("$1 start") and to scale with usage. It relies on serverless hosting, a global CDN and managed services with generous free tiers. Infrastructure spending therefore grows only when the user base and revenue grow.
+**Low fixed-cost strategy.** The platform is designed to start with near-zero fixed costs ("$1 start"), so its costs grow only as its user base and revenue grow.
 
-## Implementation & Phasing
+## Phasing
 
-**Cost projection by growth phase:**
+The platform is planned to grow in three phases by user base:
 
-| Phase | Users | Estimated monthly infrastructure cost |
-|---|---|---|
-| Startup | 0 – 1,000 | ~$1 |
-| Growth | 1,000 – 10,000 | ~$30 |
-| Scale | 10,000+ | Linear, usage-based pricing |
-
-**High-level architecture.** Vestinno is a Progressive Web App with a clean, "Apple-esque", minimalist interface in light and dark themes. It runs on a serverless web framework and hosting with a global CDN. Data lives in a managed PostgreSQL database with strict relational integrity, and vault files sit in private storage that can be reached only through authenticated access. A hosted payment gateway handles recurring subscriptions and one-time idea purchases, including local-currency charging where domestic cards require it. Innovators receive their 80% share through international payouts.
+| Phase | Users |
+|---|---|
+| Startup | 0 – 1,000 |
+| Growth | 1,000 – 10,000 |
+| Scale | 10,000+ |
 
 ## Stakeholders & Benefits
 
@@ -162,7 +160,7 @@ An idea can be tagged with up to 3, 5, 7 or 10 sectors depending on the innovato
 | **IP theft / leakage before purchase** | The Vault stays locked until purchase. Teasers cannot contain links or contact details. Innovators can hide their name on an idea. |
 | **Low-quality or misleading listings** | Career Mode price caps for new sellers, AI review scores, buyer star ratings, a 48-hour dispute window, and bans (trust score zero) for fraud. |
 | **Abusive content** | Automatic language moderation on all user-submitted text. |
-| **Scraping and cloning of the platform or its content** | Vault content is served only to verified buyers. Excessive automated browsing is rate-limited, sessions are checked continuously, and casual saving of previews is discouraged. |
+| **Scraping and cloning of the platform or its content** | Vault content is available only to verified buyers, bulk automated copying is restricted, and casual saving of previews is discouraged. |
 | **Revenue loss from lapsed payments** | Frozen accounts block activity but keep all data, so users are encouraged to reactivate instead of leaving. |
 
 ## Origin

@@ -40,7 +40,7 @@ Konut stoku için araç muayenesine benzer, periyodik bir **"Bina Muayene ve Efe
 
 1. **Onaylı projeyle karşılaştırma:** Binanın mevcut durumu, belediyede kayıtlı onaylı mimari ve statik projesiyle karşılaştırılır.
 2. **Değişikliklerin tespiti:** Kolon ve kirişlerin kesilmesi veya oyulması, taşıyıcı (perde) duvarların kaldırılması, taşıyıcı elemanlarda açılan boşluklar, ruhsatsız kat, ek veya ağır yükler gibi yapısal değişiklikler kayıt altına alınır.
-3. **Risk değerlendirmesi:** Değişiklik tespit edilirse, bir inşaat (statik) mühendisi bu değişikliğin deprem riski veya çökme, aşırı yüklenme gibi diğer riskleri doğurup doğurmadığını değerlendirir; gerektiğinde tahribatsız testler ve performans analizi yapılır.
+3. **Risk değerlendirmesi:** Değişiklik tespit edilirse, bir inşaat (statik) mühendisi bu değişikliğin deprem riski veya çökme, aşırı yüklenme gibi diğer riskleri doğurup doğurmadığını değerlendirir.
 4. **Sonuca göre işlem:**
    - *Risk yok:* Değişiklik binanın dijital karnesine işlenir.
    - *Risk var:* Değişiklik geri alınana veya mühendislik projesiyle ilgili eleman güçlendirilene kadar bina geçer not alamaz; mal sahipleri ve belediye bilgilendirilir.
