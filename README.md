@@ -13,6 +13,7 @@ discuss, and build on.
 | [wildfire-biological-circuit-breaker](wildfire-biological-circuit-breaker/) | Honeycomb forest segmentation with fire-resistant green belts, inspired by the software circuit-breaker pattern |
 | [staggered-salary-payment-days](staggered-salary-payment-days/) | Paying salaries on four staggered days to flatten billing, logistics and data-center peaks |
 | [vestinno](vestinno/) | A two-sided marketplace where innovators sell actionable ideas and IP to investors, with reputation-based quality control |
+| [remotebite](remotebite/) | Private, on-device AI voice control for smart TVs, with "zero-click" connecting, navigation and settings by voice |
 
 Each project folder contains an English proposal (`README.md`) and the Turkish
 original (`README.tr.md`).
