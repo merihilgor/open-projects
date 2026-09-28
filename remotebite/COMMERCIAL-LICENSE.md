@@ -20,14 +20,34 @@ Any **commercial use** is *not* granted by the CC BY-NC-SA 4.0 license. This inc
 selling, productizing, operating as a paid service, or implementing the idea in a
 for-profit product, service, tender or contract, directly or through a third party.
 
-Commercial rights are available **only** under a separate written agreement with the
-author, which will include:
+Commercial rights are available **only** under a separate written license agreement
+with the author, on the following default terms:
 
-1. **Ongoing revenue sharing:** a percentage of the gross revenue derived from the
-   commercial use, paid periodically (for example, quarterly) for as long as the
-   commercial use continues. The rate and reporting terms are set in the agreement.
-2. **Attribution** of the original idea to the author.
-3. **Transparency:** periodic revenue reports that the author may audit.
+### Ongoing revenue share
+
+| Term | Default |
+|---|---|
+| Project type | Software application |
+| **Royalty rate** | **8% of Net Revenue** derived from the commercial use |
+| Duration | Ongoing, for as long as the commercial use continues |
+| Payment period | Quarterly, within 30 days after the end of each calendar quarter |
+| Reporting | A quarterly revenue report accompanies each payment |
+| Audit | The author may audit the relevant records once per year |
+
+**Net Revenue** means gross revenue from products, services, operations or contracts that
+implement or are substantially based on this project idea, less taxes, refunds and
+payment-processing fees actually incurred.
+
+### Additional conditions
+
+1. **Attribution:** the original idea is credited to the author in the product or service
+   documentation.
+2. **Sublicensing and transfer:** the license may not be sublicensed or transferred without
+   the author's written consent. Revenue earned by affiliates or sublicensees counts toward
+   Net Revenue.
+3. **Negotiation:** the rate above is the default starting point. It can be adjusted in the
+   written agreement, for example with an upfront fee, a minimum annual royalty, or a
+   different rate for public-sector or non-profit deployments.
 
 Commercial use without such an agreement is outside the scope of the license and
 constitutes infringement.

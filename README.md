@@ -24,7 +24,14 @@ Every project is licensed **per folder** under a "CC+" model:
 
 - **Non-commercial use is free** under
   [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See each folder's `LICENSE`.
-- **Commercial use requires a written agreement with ongoing revenue sharing.**
-  See each folder's `COMMERCIAL-LICENSE.md`.
+- **Commercial use requires a written agreement with an ongoing revenue share**
+  (a royalty on net revenue, paid quarterly for as long as the commercial use continues).
+  See each folder's `COMMERCIAL-LICENSE.md`. Default rates:
+
+  | Project type | Projects | Default royalty |
+  |---|---|---|
+  | Public-policy ideas | ai-content-rating, building-inspection, paid-beach, staggered-salary, wildfire | 2% of net revenue |
+  | Physical product & operating model | solar-smart-water-refill-stations | 4% of net revenue |
+  | Software | vestinno, remotebite | 8% of net revenue |
 
 © Merih İlgör
