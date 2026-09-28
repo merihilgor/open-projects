@@ -29,6 +29,21 @@ Fikirlerin birer varlık gibi alınıp satıldığı, premium ve minimalist bir 
 
 ## Nasıl Çalışır
 
+```mermaid
+flowchart TD
+    PB["Yatırımcı Problem Panosu'nda problem yayımlar"] -->|inovatör bağlı bir fikirle yanıt verir| I["İnovatör fikir yayımlar"]
+    I --> T["Açık Tanıtım: başlık, problem, sektörler, fiyat, puanlar"]
+    I --> V["Özel Kasa: tam çözüm, kod, teknik çizimler, dosyalar"]
+    T --> B["Yatırımcı tanıtımlara göz atar ve satın alır"]
+    B --> UV["Kasa alıcıya açılır"]
+    V --> UV
+    B --> S["Gelir paylaşımı: %80 inovatör, %20 platform"]
+    UV --> RT["Yatırımcı fikri puanlar"]
+    B -->|doğrulanmış satışlar seviyeyi yükseltir| REP["İtibar: Kariyer Modu seviyesi, puanlar, rozetler"]
+    RT --> REP
+    REP -->|daha yüksek fiyat tavanı ve alıcı güveni| I
+```
+
 ### Roller
 
 | Rol | Ne yapar |
@@ -162,6 +177,8 @@ Platformun kullanıcı tabanına göre üç fazda büyümesi planlanmaktadır:
 | **Hakaret içeren içerik** | Kullanıcıların gönderdiği tüm metinlerde otomatik dil denetimi. |
 | **Platformun veya içeriğinin toplu olarak kopyalanması** | Kasa içeriği yalnızca doğrulanmış alıcılara açıktır, otomatik toplu kopyalama kısıtlanır ve önizlemelerin kolayca kaydedilmesi zorlaştırılır. |
 | **Aksayan ödemeler nedeniyle gelir kaybı** | Dondurulmuş hesaplar işlemleri engeller ama tüm verileri korur; böylece kullanıcılar platformu terk etmek yerine hesaplarını yeniden etkinleştirmeye teşvik edilir. |
+
+**Anahtar kelimeler:** inovasyon pazar yeri, fikir pazarı, fikri mülkiyet, yatırımcı, açık inovasyon, itibar sistemi
 
 ## Köken
 

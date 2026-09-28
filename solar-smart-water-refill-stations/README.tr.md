@@ -37,6 +37,8 @@ Proje, sadece bir yasak getirmek yerine akıllı altyapıyla desteklenmiş, ekon
 
 ## İşleyiş
 
+![Yalıtımlı tankı, dolum musluğu, temassız ödemesi ve örnek dolum hacimleriyle güneş enerjili dolum istasyonu](assets/refill-station.tr.svg)
+
 ### A. Güneş Enerjili Akıllı Su Dolum İstasyonları Ağı Kurulması
 
 - Nüfus yoğunluğuna ve turistik kapasiteye göre belirlenecek "Önemli Noktalara" (Point of Interest: halk plajları, meydanlar, parklar) su şirketleri tarafından "Akıllı Su Dolum İstasyonları" kurulması pazar payları oranında zorunlu hale getirilmelidir. Her önemli noktada oranın insan kapasitesine uygun miktarda istasyon bulunması Çevre, Şehircilik ve İklim Değişikliği Bakanlığı tarafından zorunlu tutulmalı, toplam ihtiyaç duyulan istasyon sayısı büyük su şirketlerine zorunlu hedef olarak verilmeli ve su firmalarına pazar payları oranında istasyon kurma ve işletme kotası tahsis edilmelidir.
@@ -118,6 +120,8 @@ Bu proje sayesinde devlete ve yerel yönetimlere hiçbir ekstra finansal yük ve
 - **İngiltere modeli:** Defalarca kullanıma uygun, kalın ve daha büyük ebatlı standart şişeler; ambalaj standartları revizyonu için referans alınmıştır.
 - **Türkiye'de market poşetleri için uygulanan 25 Kuruşluk ücret:** Enflasyon karşısında caydırıcılığını yitiren ücret örneği.
 - **İstanbulkart:** İstasyonlarda temassız ödeme için kullanılabilecek yerel ulaşım kartı örneği.
+
+**Anahtar kelimeler:** plastik atık azaltma, pet şişe, su dolum istasyonu, güneş enerjisi, döngüsel ekonomi, sıfır atık, poşet ücreti, sürdürülebilirlik, belediye hizmetleri
 
 ## Köken
 

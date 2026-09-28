@@ -29,6 +29,19 @@ Geleneksel medyada başarıyla uygulanan içerik derecelendirme (Akıllı İşar
 
 ## Nasıl Çalışır
 
+```mermaid
+flowchart TD
+    G["Uluslararası iş birliği (G7, G20, BM)"] -->|bağlayıcı regülasyon| P["Platformlar yapay zekâ derecelendirme ve filtreleme altyapısını kurar"]
+    P --> U["İçerik üreticisi içerik yükler"]
+    U --> R["Yapay zekâ içeriği yayından önce derecelendirir"]
+    R --> C{"Kullanıcının ülkesi regülasyonu uyguluyor mu?"}
+    C -->|Evet| L["Kullanıcı giriş yapar ve resmi kimlikle yaşını doğrular"]
+    L --> A{"Doğrulanan yaş"}
+    A -->|Çocuk| S["Devletin belirlediği filtreler otomatik uygulanır (zorunlu)"]
+    A -->|Yetişkin| F["Tam erişim, isteğe bağlı kişisel etiket filtreleri"]
+    C -->|Hayır| N["Platform bugünkü gibi çalışır; yetişkinler yine de isteğe bağlı etiket filtresi koyabilir"]
+```
+
 ### İşleyiş modeli
 
 | Katman | Sorumlu | Zorunlu / Opsiyonel |
@@ -90,6 +103,8 @@ Genel fayda: Geleceğimizin teminatı olan çocuklar, dijital dünyadan soyutlan
 - **YouTube:** Çocuklara yönelik sayısız eğitim videosu ve ders içeriği barındıran platform örneği.
 - **YouTube, Instagram, TikTok:** Regülasyonun başta uygulanacağı küresel platformlar.
 - **G7, G20, Birleşmiş Milletler:** Ortak eylem planı için önerilen uluslararası platformlar.
+
+**Anahtar kelimeler:** çocukların çevrimiçi güvenliği, yaş doğrulama, içerik derecelendirme, sosyal medya düzenlemesi, yapay zekâ moderasyonu, dijital politika, uluslararası düzenleme
 
 ## Köken
 

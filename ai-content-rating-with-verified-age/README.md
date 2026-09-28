@@ -29,6 +29,19 @@ Integrate the content rating system used in traditional media into social media 
 
 ## How It Works
 
+```mermaid
+flowchart TD
+    G["International coordination (G7, G20, UN)"] -->|binding regulation| P["Platforms build the AI rating and filtering infrastructure"]
+    P --> U["Creator uploads content"]
+    U --> R["AI rates the content before publication"]
+    R --> C{"Has the user's country adopted the regulation?"}
+    C -->|Yes| L["User logs in and verifies age with an official ID"]
+    L --> A{"Verified age"}
+    A -->|Child| S["State-defined filters apply automatically (mandatory)"]
+    A -->|Adult| F["Full access, with optional personal label filters"]
+    C -->|No| N["Platform works as today; adults can still set optional label filters"]
+```
+
 ### Operating model
 
 | Layer | Who is responsible | Mandatory or optional |
@@ -90,6 +103,8 @@ The overall benefit is that the internet is protected as a safe space for childr
 - **YouTube:** Cited as a platform with countless educational videos and lessons for children.
 - **YouTube, Instagram, TikTok:** Named as the main global platforms the regulation would apply to.
 - **G7, G20, United Nations:** Proposed international venues for the common action plan.
+
+**Keywords:** child online safety, age verification, content rating, social media regulation, AI moderation, digital policy, online harms, parental controls, G20, international regulation
 
 ## Origin
 

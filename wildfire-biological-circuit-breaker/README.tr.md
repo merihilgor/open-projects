@@ -41,6 +41,8 @@ Projenin temel yaklaşımı üç unsura dayanır:
 
 ## Nasıl Çalışır
 
+![Yeşil kuşaklarla ayrılmış orman hücrelerinden oluşan petek; yanan hücre izole edilmiş, komşu hücreler güvende](assets/honeycomb-firebreak.tr.svg)
+
 ### Teorik model: Circuit Breaker ve hücresel izolasyon
 
 ```
@@ -132,6 +134,8 @@ Biyolojik kuşakların oluşturulması, fidan dikimi, saha bakımı ve arazi dü
 
 - **Andilla yangını, Valensiya, İspanya (2012):** Her şeyi kül eden orman yangınında Akdeniz Servisi (*Cupressus sempervirens*) ağaçlarından oluşan bir şeridin yanmadığı ve yangını durdurduğu kanıtlanmıştır. Bu örnek, üst katman bariyer türünün seçiminin ampirik dayanağıdır.
 - **Circuit Breaker tasarım prensibi (yazılım mimarisi):** Ardışık servisler arasında zincirleme hataları (cascading failure) durdurmak için kullanılan tasarım prensibi. Modelin kavramsal kaynağıdır.
+
+**Anahtar kelimeler:** orman yangını önleme, yangın emniyet şeridi, yeşil kuşak, biyomimikri, devre kesici, iklim uyumu, ormancılık, doğa temelli çözümler
 
 ## Köken
 

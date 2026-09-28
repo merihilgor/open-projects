@@ -22,6 +22,18 @@ Sesli çekirdeğin çalışan bir prototipi mevcuttur. Sıfır dokunuş kontrol�
 
 ## Fikir
 
+```mermaid
+flowchart TD
+    U["Kullanıcı doğal bir dille konuşur"] --> P["Telefon isteği cihazda anlar (çevrimdışı, gizli)"]
+    P -->|emin değil| Q["Sorar: Şunu mu demek istediniz...?"]
+    Q --> U
+    P -->|TV komutları| T["Televizyon her adımı sırayla uygular"]
+    P -->|uygulama komutları| Z["Sıfır dokunuş: bağlanma, TV değiştirme, ayarlar ve gezinme sesle, dokunmadan"]
+    T --> C["Kısa sesli onay"]
+    Z --> C
+    R["Sesin yanında eksiksiz dokunmatik kumanda"] -.->|yedek| T
+```
+
 - **Televizyonunuzla bir insanla konuşur gibi konuşun.** Serbest, bileşik ve ada dayalı istekler anlaşılır, adım adım uygulanır ve kısa bir sesli onayla bildirilir.
 - **Tasarımı gereği gizli.** Dinleme, anlama ve uygulama tamamen telefonda gerçekleşir. İlk indirmeden sonra internet gerekmez.
 - **Sadece düğmeler için değil, her şey için ses.** Bağlanma, televizyonlar arasında geçiş, ayarları değiştirme ve uygulama içinde gezinme her ekrandan sesle yapılabilir.
@@ -111,6 +123,8 @@ Sıfır dokunuş kilometre taşı, gerçek telefonlarda ve gerçek bir televizyo
 ## Teşekkür
 
 Temel kumanda altyapısı, mazen-salah'ın MIT lisanslı açık kaynak Samsung TV kumanda projesine dayanır. Burada anlatılan fikirler bu altyapının üzerine yapılan eklemelerdir.
+
+**Anahtar kelimeler:** sesli kontrol, akıllı televizyon, erişilebilirlik, çevrimdışı yapay zekâ, gizlilik, eller serbest, kumanda
 
 ## Köken
 

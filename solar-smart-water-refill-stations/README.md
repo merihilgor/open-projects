@@ -39,6 +39,8 @@ The solution has six components:
 
 ## How It Works
 
+![Solar-powered refill station with insulated tank, refill tap, contactless payment and example fill volumes](assets/refill-station.svg)
+
 ### A. Smart refill station network
 
 - **Siting and obligation.** "Points of Interest" (public beaches, squares, parks and similar locations) are identified based on population density and tourist capacity. At each one, a number of stations suited to its human capacity becomes mandatory under the Ministry of Environment, Urbanization and Climate Change. The total number of stations needed is set as a mandatory target for the large water companies. Each company receives a quota for installing and operating stations in proportion to its market share.
@@ -125,6 +127,8 @@ The source sets out the project as a set of parallel workstreams rather than a d
 - **United Kingdom model:** larger standard bottle sizes made from thick materials that can be reused many times, cited as the reference for the packaging standards revision.
 - **Türkiye's 25 kuruş supermarket bag charge:** cited as a fee that lost its deterrent effect against inflation.
 - **İstanbulkart:** cited as an example of a local transport card usable for contactless payment at stations.
+
+**Keywords:** plastic waste reduction, PET bottles, water refill stations, solar energy, circular economy, zero waste, plastic bag fee, sustainability, municipal services, public health
 
 ## Origin
 

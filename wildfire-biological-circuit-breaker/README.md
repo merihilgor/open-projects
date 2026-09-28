@@ -41,6 +41,8 @@ The proposal rests on three pillars:
 
 ## How It Works
 
+![Honeycomb of forest cells separated by green belts, with one burning cell contained and its neighbours safe](assets/honeycomb-firebreak.svg)
+
 ### Theoretical model: circuit breaker and cellular isolation
 
 ```
@@ -133,6 +135,8 @@ Building the biological belts, planting saplings, and preparing and maintaining 
 
 - **Andilla wildfire, Valencia, Spain (2012):** during a wildfire that burned everything else in the area, a strip of Mediterranean cypress (*Cupressus sempervirens*) did not burn and stopped the fire. This is the empirical evidence behind the upper-layer barrier species.
 - **Circuit Breaker pattern (software architecture):** a design principle for stopping cascading failures between chained services. It is the conceptual source of the model.
+
+**Keywords:** wildfire prevention, forest fire, firebreaks, green belts, biomimicry, circuit breaker pattern, climate adaptation, forestry, Mediterranean, nature-based solutions
 
 ## Origin
 

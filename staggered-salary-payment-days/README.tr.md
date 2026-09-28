@@ -51,6 +51,8 @@ Bu düzenleme, dunning faaliyetleri de dahil olmak üzere hem ticaretteki hem de
 5. **Tahsilat ve ihtar süreçleri de dengelenir:** Faturalamanın ardından tahsilat (collection), gecikenler için de gecikmeli tahsilat ihtar süreçleri (dunning) gelir. Bunlar da tek bir tarihe yığılmak yerine dört farklı tarihe yayılır.
 6. **Altyapı yükü homojenleşir:** Online ödeme, faturalama ve bankacılık sistemlerindeki işlem yükü homojenleşir. Veri merkezlerinde ani ölçeklenme ihtiyacı azalır; bu da aşırı enerji ve soğutma kullanımını düşürür.
 
+![Temsili bir aylık zaman çizelgesi: bugün tek ortak maaş gününün hemen ardından tek büyük faturalama, alışveriş ve lojistik yükü tepesi; öneriyle ayın 7'si, 14'ü, 21'i ve 28'inin ardından dört küçük ve dengeli tepe](assets/payday-load.tr.svg)
+
 ## Uygulama ve Aşamalandırma
 
 1. **İnceleme:** Modelin, Dünya Ekonomik Forumu'nun (WEF) liderliğinde ulusal hükümetler ve büyük küresel kuruluşlarla iş birliği içinde incelenmesi.
@@ -76,6 +78,8 @@ Bu düzenleme, dunning faaliyetleri de dahil olmak üzere hem ticaretteki hem de
 | Sistem performansı ve güvenilirliği | Online ödeme, faturalama ve bankacılık sistemlerindeki yük ayın belli günlerine yığılmak yerine dengeli dağılacaktır. Bu, performansı ve güvenilirliği artıracak, hizmet kesintisi riskini azaltacaktır. |
 
 KMÖD, yalnızca finansal bir düzenleme değildir. Lojistik ve dijital altyapı üzerinden küresel sıfır karbon hedeflerine somut katkı sağlayan, akıllı ve basit bir mekanizmadır. Küresel ticaret ve finansal altyapılar üzerinde yaratacağı sinerji hem ekonomik istikrarı hem de çevresel sürdürülebilirliği destekleyecek, ekonomik büyüme ile çevresel sorumluluğu birleştiren sürdürülebilir bir geleceğin inşasına katkı sunacaktır.
+
+**Anahtar kelimeler:** maaş ödeme günleri, bordro, yük dengeleme, fatura dönemleri, lojistik, veri merkezi enerjisi, karbon salınımı, ekonomi politikası
 
 ## Köken
 

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+<title id="t">An unlatched hood can fly up at speed and block the driver's view</title>
+<desc id="d">Side view of a moving car whose unlatched hood has flipped up over the windshield, blocking the driver's view.</desc>
+<rect x="1" y="1" width="898" height="468" rx="16" fill="#f8faf9" stroke="#d9e2de" stroke-width="1.5"/>
+<line x1="40" y1="378" x2="860" y2="378" stroke="#8c9994" stroke-width="3"/>
+<line x1="40" y1="394" x2="860" y2="394" stroke="#d9e2de" stroke-width="4" stroke-dasharray="36 28"/>
+<line x1="90" y1="262" x2="180" y2="262" stroke="#8c9994" stroke-width="3" stroke-linecap="round"/>
+<line x1="60" y1="292" x2="185" y2="292" stroke="#8c9994" stroke-width="3" stroke-linecap="round"/>
+<line x1="100" y1="322" x2="190" y2="322" stroke="#8c9994" stroke-width="3" stroke-linecap="round"/>
+<path d="M205,335 L205,292 Q208,268 235,262 L340,256 L385,200 Q392,192 402,192 L478,192 Q488,192 494,200 L540,256 L672,272 Q690,276 692,295 L692,330 Q692,340 682,340 L612,340 A40 40 0 0 0 532,340 L340,340 A40 40 0 0 0 260,340 L215,340 Q205,340 205,335 Z" fill="#6f9a90" stroke="#2f3b36" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M548,258 L668,273 L666,283 L550,268 Z" fill="#3c4a45"/>
+<path d="M352,254 L390,207 L440,205 L440,254 Z" fill="#dfeae7" stroke="#2f3b36" stroke-width="2"/>
+<path d="M450,205 L484,205 L524,254 L450,254 Z" fill="#dfeae7" stroke="#2f3b36" stroke-width="2"/>
+<line x1="445" y1="258" x2="445" y2="332" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="458" y="270" width="20" height="5" rx="2" fill="#2f3b36"/>
+<rect x="676" y="284" width="14" height="10" rx="3" fill="#f3e3a6" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="206" y="280" width="10" height="12" rx="2" fill="#b8654a"/>
+<circle cx="300" cy="342" r="34" fill="#3c4a45"/>
+<circle cx="300" cy="342" r="14" fill="#c9d3cf"/>
+<circle cx="572" cy="342" r="34" fill="#3c4a45"/>
+<circle cx="572" cy="342" r="14" fill="#c9d3cf"/>
+<circle cx="462" cy="226" r="12" fill="#2f3b36"/>
+<line x1="476" y1="224" x2="512" y2="224" stroke="#b8654a" stroke-width="2.5" stroke-dasharray="5 4"/>
+<path d="M540,256 Q515,196 470,138" fill="none" stroke="#b8654a" stroke-width="11" stroke-linecap="round"/>
+<circle cx="540" cy="256" r="4.5" fill="#2f3b36"/>
+<path d="M503,215 L521,233 M521,215 L503,233" stroke="#2f3b36" stroke-width="3" stroke-linecap="round"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#3f7f73"/></marker></defs>
+<path d="M830,300 C770,300 730,296 700,282" fill="none" stroke="#3f7f73" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M830,268 C760,268 690,262 612,236" fill="none" stroke="#3f7f73" stroke-width="3" marker-end="url(#ah)"/>
+<text x="250" y="120" font-size="16" fill="#2f3b36" text-anchor="start" font-weight="600">Unlatched hood flies up</text>
+<line x1="400" y1="128" x2="462" y2="140" stroke="#5f6f68" stroke-width="1.5"/>
+<text x="600" y="170" font-size="16" fill="#2f3b36" text-anchor="start" font-weight="600">Driver's view blocked</text>
+<line x1="598" y1="176" x2="526" y2="214" stroke="#5f6f68" stroke-width="1.5"/>
+<text x="840" y="222" font-size="15" fill="#3f7f73" text-anchor="end" font-weight="600">Air pressure at speed</text>
+<text x="450" y="440" font-size="18" fill="#2f3b36" text-anchor="middle" font-weight="600">An unlatched hood can fly up at speed and block the driver's view</text>
+</svg>

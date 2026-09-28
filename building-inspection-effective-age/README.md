@@ -47,7 +47,26 @@ Set up a periodic, vehicle-inspection-style **Building Inspection and Effective 
    - *Critical, life-threatening risk:* the relevant authority is notified immediately so that urgent safety measures can be taken.
 5. **Assign responsibility.** Where records allow, the unit or person responsible for the change is identified so that repair costs are not unfairly shared by every resident.
 
+```mermaid
+flowchart TD
+    A["Periodic inspection"] --> B["Scope checks: plumbing, elevators, safety systems, energy efficiency"]
+    B --> C{"Structural conformity vs. the approved project"}
+    C -->|"No change"| R["Recorded in the digital record (QR)"]
+    C -->|"Change, no risk"| R
+    C -->|"Change with risk"| K["No passing grade until reversed or strengthened. Owners and municipality notified"]
+    C -->|"Critical risk"| U["Immediate notification to the authority"]
+    R --> G["Inspection report + grade"]
+    K --> G
+    U --> G
+    G --> E["Effective Age"]
+    E --> S["Sale and rental report"]
+    E --> I["Insurance premium"]
+    E --> T["Property tax discount on a full score"]
+```
+
 ### Effective Age and the Building Inspection Report
+
+![Conceptual comparison: a regularly maintained 30-year-old building gets a lower Effective Age than a neglected 10-year-old building](assets/effective-age.svg)
 
 - Each inspection produces a **Building Inspection Report** and an **inspection grade**, from which the building's **Effective Age** is calculated.
 - A structural change that creates risk overrides every other score: however well maintained a building is, it cannot get a passing grade or a low Effective Age until the risk is removed.
@@ -114,6 +133,8 @@ Examples given in the original proposal:
 - **Typical hidden defects:** rusty plumbing pipes, generators and alarms that do not work, detectors that do not work, and poorly maintained elevators.
 - **Energy waste:** high-consumption lamps not replaced with LED bulbs, and solar water heating systems that do not work or have lost efficiency.
 - **Analogy:** periodic vehicle inspection.
+
+**Keywords:** building inspection, earthquake safety, structural safety, effective age, housing policy, real estate valuation, home insurance, energy efficiency, urban renewal, digital building record, property tax incentive
 
 ## Origin
 

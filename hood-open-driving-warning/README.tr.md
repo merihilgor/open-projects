@@ -13,6 +13,8 @@ Araçlar kapı veya bagaj açık kaldığında sürücüyü zaten uyarıyor. Kap
 - Seyir hızında hava basıncı kilitlenmemiş kaputu kaldırabilir. Kaput kalkarsa **ön camı bir anda tamamen kapatır**. Sürücü hiçbir uyarı olmadan görüşünü kaybeder; bu da panikle frene basmaya, kontrol kaybına ve çarpışmalara yol açabilir, hem araçtakileri hem de diğer yol kullanıcılarını tehlikeye atar.
 - Sürücülerin çoğu kapı açık uyarısına alışkındır, ancak kaput bu korumanın çoğu zaman dışında kalır ya da birçok araçta bu uyarı bulunmaz.
 
+![Hareket halindeki bir aracın yan görünüşü: kilitlenmemiş kaput kalkıp ön camın üzerine kapanmış ve sürücünün görüşünü engelliyor](assets/hood-flies-up.tr.svg)
+
 ## Önerilen Çözüm
 
 Kaputu, kapılar için zaten var olan "açık kalan kapak" uyarı mantığına dahil etmek:
@@ -30,6 +32,18 @@ Kaputu, kapılar için zaten var olan "açık kalan kapak" uyarı mantığına d
 | Kontak açık, kaput tam kilitli değil | Gösterge panelinde simge ve mesaj: "Kaput açık" |
 | Araç hareket ediyor, kaput tam kilitli değil | Sürekli sesli uyarı ve belirgin mesaj: "Kaput açık, güvenli şekilde durup kaputu kapatın" |
 | Algılamanın kendisi arızalı | Ayrı bir arıza göstergesi; böylece bozuk bir uyarı asla kapalı kaput sanılmaz |
+
+```mermaid
+flowchart TD
+    Start(["Kontak açık"]) --> Check{"Kaput tam kapalı ve kilitli mi?"}
+    Check -->|Evet| Normal["Normal sürüş, uyarı yok"]
+    Check -->|Hayır| Warn["Gösterge paneli uyarısı: simge ve mesaj"]
+    Warn -->|"Araç hareket etmeye başlar"| Alert["Artan sesli uyarı ve mesaj: güvenli şekilde durup kaputu kapatın"]
+    Warn -->|"Kaput kapatılıp kilitlenir"| Off["Uyarı söner"]
+    Alert -->|"Kaput kapatılıp kilitlenir"| Off
+    Fault["Algılama arızası"] --> FaultInd["Ayrı arıza göstergesi, asla kapalı kaput gibi gösterilmez"]
+    Rule["Sistem yalnızca uyarır. Aracı asla frenlemez veya durdurmaz."]
+```
 
 Deneyim, sürücülerin zaten bildiği kapı açık uyarısını bilinçli olarak taklit eder; yeni bir alışkanlık veya eğitim gerekmez.
 
@@ -57,6 +71,8 @@ Deneyim, sürücülerin zaten bildiği kapı açık uyarısını bilinçli olara
 | Sürücüler uyarıyı görmezden gelir | Araç hareket edince uyarı şiddetlenir ve kaput kapanana kadar devam eder |
 | Otomatik müdahale kendisi tehlike yaratabilir | Sistem yalnızca uyarır; aracı asla frenlemez veya durdurmaz |
 | Üreticiler ve araç sahipleri için maliyet | Yeni modellerden başlayarak kademeli geçiş |
+
+**Anahtar kelimeler:** trafik güvenliği, araç güvenliği, kaput, sürücü uyarısı, kaza önleme, tip onayı, otomotiv standartları
 
 ## Köken
 

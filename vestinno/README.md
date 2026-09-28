@@ -29,6 +29,21 @@ Build a premium, minimalist marketplace where ideas are traded as assets:
 
 ## How It Works
 
+```mermaid
+flowchart TD
+    PB["Investor posts a problem on the Problem Board"] -->|innovator answers with a linked idea| I["Innovator posts an idea"]
+    I --> T["Public Teaser: title, problem, sectors, price, ratings"]
+    I --> V["Private Vault: full solution, code, blueprints, files"]
+    T --> B["Investor browses teasers and buys"]
+    B --> UV["Vault unlocked for the buyer"]
+    V --> UV
+    B --> S["Revenue split: 80% innovator, 20% platform"]
+    UV --> RT["Investor rates the idea"]
+    B -->|verified sales raise the level| REP["Reputation: Career Mode level, ratings, badges"]
+    RT --> REP
+    REP -->|higher price caps and more buyer trust| I
+```
+
 ### Roles
 
 | Role | What they do |
@@ -162,6 +177,8 @@ The platform is planned to grow in three phases by user base:
 | **Abusive content** | Automatic language moderation on all user-submitted text. |
 | **Scraping and cloning of the platform or its content** | Vault content is available only to verified buyers, bulk automated copying is restricted, and casual saving of previews is discouraged. |
 | **Revenue loss from lapsed payments** | Frozen accounts block activity but keep all data, so users are encouraged to reactivate instead of leaving. |
+
+**Keywords:** innovation marketplace, idea marketplace, intellectual property, investors, crowdsourced innovation, open innovation, reputation system, two-sided marketplace, startup ideas
 
 ## Origin
 

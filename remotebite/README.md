@@ -22,6 +22,18 @@ A working prototype of the voice core exists. Zero-click control is the next mil
 
 ## The Idea
 
+```mermaid
+flowchart TD
+    U["User speaks naturally"] --> P["Phone understands the request on the device (offline, private)"]
+    P -->|unsure| Q["Asks: Did you mean...?"]
+    Q --> U
+    P -->|TV commands| T["TV carries out each step in order"]
+    P -->|app commands| Z["Zero-click: connect, switch TVs, change settings and navigate by voice, no touch"]
+    T --> C["Short spoken confirmation"]
+    Z --> C
+    R["Full touch remote alongside voice"] -.->|fallback| T
+```
+
 - **Talk to your TV the way you talk to a person.** Free-form, compound and name-based requests are understood and carried out step by step, with a short spoken confirmation.
 - **Private by design.** Listening, understanding and acting all happen on the phone, with no internet needed after the first download.
 - **Voice for everything, not just the buttons.** Connecting, switching TVs, changing settings and navigating the app all work by voice, from any screen.
@@ -111,6 +123,8 @@ The zero-click milestone is reached when, on real phones with a real TV, a user 
 ## Acknowledgements
 
 The basic remote-control foundation is based on an MIT-licensed open-source Samsung TV remote project by mazen-salah; the ideas described here are the additions on top of it.
+
+**Keywords:** voice control, smart TV, accessibility, offline AI, on-device AI, privacy, hands-free, assistive technology, remote control
 
 ## Origin
 

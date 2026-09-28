@@ -47,7 +47,26 @@ Konut stoku için araç muayenesine benzer, periyodik bir **"Bina Muayene ve Efe
    - *Can güvenliğini tehdit eden kritik risk:* Acil güvenlik önlemleri alınabilmesi için ilgili makam derhal bilgilendirilir.
 5. **Sorumluluğun belirlenmesi:** Kayıtlar elverdiği ölçüde değişikliği yapan bağımsız bölüm veya kişi belirlenir; böylece onarım maliyeti haksız şekilde tüm sakinlere yüklenmez.
 
+```mermaid
+flowchart TD
+    A["Periyodik muayene"] --> B["Kapsam kontrolleri: tesisat, asansörler, güvenlik sistemleri, enerji verimliliği"]
+    B --> C{"Onaylı projeye göre yapısal uygunluk"}
+    C -->|"Değişiklik yok"| R["Dijital karneye işlenir (QR)"]
+    C -->|"Değişiklik var, risk yok"| R
+    C -->|"Riskli değişiklik"| K["Geri alınana veya güçlendirilene kadar geçer not yok. Mal sahipleri ve belediye bilgilendirilir"]
+    C -->|"Kritik risk"| U["İlgili makama derhal bildirim"]
+    R --> G["Bina Muayene Raporu + muayene notu"]
+    K --> G
+    U --> G
+    G --> E["Efektif Yaş"]
+    E --> S["Alım-satım ve kiralama raporu"]
+    E --> I["Sigorta risk primi"]
+    E --> T["Tam Not alan binaya emlak vergisi indirimi"]
+```
+
 ### Efektif Yaş ve Bina Muayene Raporu
+
+![Kavramsal karşılaştırma: düzenli bakımı yapılan 30 yıllık bir bina, bakımsız 10 yıllık bir binadan daha düşük bir Efektif Yaş alır](assets/effective-age.tr.svg)
 
 - Her muayene sonucunda bir **"Bina Muayene Raporu"** ve **"muayene notu"** oluşturulur; binanın **Efektif Yaşı** buna göre hesaplanır.
 - Risk doğuran bir yapısal değişiklik diğer tüm puanların önüne geçer: bina ne kadar bakımlı olursa olsun, risk giderilene kadar geçer not ve düşük Efektif Yaş alamaz.
@@ -114,6 +133,8 @@ Sistem, **her paydaşının bu sistemden faydalanacağı** şekilde tasarlanmı�
 - **Tipik gizli kusurlar:** Paslı tesisat boruları, çalışmayan jeneratör ve alarmlar, çalışmayan dedektörler, bakımsız asansörler.
 - **Enerji israfı:** LED ampullerle değiştirilmemiş, enerji sarfiyatı yüksek lambalar; çalışmayan veya verimsizleşen gün-ısı/güneş enerjisi sistemleri.
 - **Model:** Periyodik araç muayenesi.
+
+**Anahtar kelimeler:** bina muayenesi, deprem güvenliği, yapısal güvenlik, efektif yaş, konut politikası, gayrimenkul değerleme, konut sigortası, enerji verimliliği, kentsel dönüşüm, dijital bina karnesi, emlak vergisi indirimi
 
 ## Köken
 

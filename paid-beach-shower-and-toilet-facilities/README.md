@@ -23,6 +23,16 @@ Make the following measures mandatory through legislation and administrative dec
 
 ## How It Works
 
+```mermaid
+flowchart TD
+    A["Small, symbolic usage fee"] --> B["Funds 24/7 hygiene inspection, permanent staff and periodic maintenance"]
+    A -.-> W["Discourages water and resource waste"]
+    B --> C["Clean, working toilets and showers"]
+    C --> D["People use them, so there is no pollution on the beach"]
+    D --> E["Sustained with no burden on the public budget"]
+    E --> A
+```
+
 | Component | What it does | Why it matters |
 |---|---|---|
 | Capacity-based infrastructure | Hygienic toilets and shower cabins sized to each public beach's capacity | Meets basic needs where people actually are, so there is no pollution on the beach |
@@ -60,6 +70,8 @@ The fee does not exist to make a profit. It is the tool that keeps the facilitie
 | Free facilities lead to water and resource waste | A symbolic usage fee discourages waste and encourages responsible use |
 | Facilities get damaged within a short time | Fee revenue funds periodic maintenance and permanent staff |
 | Cleaning cannot be kept up consistently | Revenue is earmarked for 24/7 hygiene inspection and continuous cleaning |
+
+**Keywords:** public beaches, sanitation, public toilets, coastal management, tourism, hygiene, user fees, public health, environmental pollution
 
 ## Origin
 

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" width="1000" height="660" role="img" aria-label="Yalıtımlı tankı, dolum musluğu ve temassız ödeme noktası olan güneş enerjili su dolum istasyonu çizimi" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+<title>Güneş enerjili akıllı su dolum istasyonu</title>
+<defs>
+<pattern id="ins" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<rect width="8" height="8" fill="#f4efe2"/><line x1="0" y1="0" x2="0" y2="8" stroke="#d6c9a6" stroke-width="3"/>
+</pattern>
+<linearGradient id="pv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4d6f8c"/><stop offset="1" stop-color="#3d5a73"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="660" rx="16" fill="#f8faf9" stroke="#dce4e0"/>
+<text x="40" y="46" font-size="24" font-weight="700" fill="#24332c">Güneş enerjili akıllı su dolum istasyonu</text>
+<text x="40" y="72" font-size="15" fill="#5b6b63">Plajda, meydanda ve parkta yeni şişe almak yerine kendi şişenizi doldurun</text>
+<circle cx="92" cy="130" r="20" fill="#e9b949"/>
+<line x1="119.0" y1="130.0" x2="128.0" y2="130.0" stroke="#e9b949" stroke-width="3" stroke-linecap="round"/>
+<line x1="111.1" y1="149.1" x2="117.5" y2="155.5" stroke="#e9b949" stroke-width="3" stroke-linecap="round"/>
+<line x1="92.0" y1="157.0" x2="92.0" y2="166.0" stroke="#e9b949" stroke-width="3" stroke-linecap="round"/>
+<line x1="72.9" y1="149.1" x2="66.5" y2="155.5" stroke="#e9b949" stroke-width="3" stroke-linecap="round"/>
+<line x1="65.0" y1="130.0" x2="56.0" y2="130.0" stroke="#e9b949" stroke-width="3" stroke-linecap="round"/>
+<line x1="72.9" y1="110.9" x2="66.5" y2="104.5" stroke="#e9b949" stroke-width="3" stroke-linecap="round"/>
+<line x1="92.0" y1="103.0" x2="92.0" y2="94.0" stroke="#e9b949" stroke-width="3" stroke-linecap="round"/>
+<line x1="111.1" y1="110.9" x2="117.5" y2="104.5" stroke="#e9b949" stroke-width="3" stroke-linecap="round"/>
+<path d="M150,172 L420,150 L440,178 L140,196 Z" fill="url(#pv)" stroke="#2f4658" stroke-width="2" stroke-linejoin="round"/>
+<line x1="195.0" y1="168.3" x2="190.0" y2="193.0" stroke="#8fb0c8" stroke-width="1"/>
+<line x1="240.0" y1="164.7" x2="240.0" y2="190.0" stroke="#8fb0c8" stroke-width="1"/>
+<line x1="285.0" y1="161.0" x2="290.0" y2="187.0" stroke="#8fb0c8" stroke-width="1"/>
+<line x1="330.0" y1="157.3" x2="340.0" y2="184.0" stroke="#8fb0c8" stroke-width="1"/>
+<line x1="375.0" y1="153.7" x2="390.0" y2="181.0" stroke="#8fb0c8" stroke-width="1"/>
+<line x1="145" y1="184" x2="430" y2="164" stroke="#8fb0c8" stroke-width="1"/>
+<rect x="178" y="190" width="8" height="18" fill="#9fb0a8"/><rect x="394" y="175" width="8" height="33" fill="#9fb0a8"/>
+<rect x="170" y="206" width="240" height="376" rx="14" fill="#e9efec" stroke="#9fb0a8" stroke-width="2"/>
+<rect x="190" y="224" width="200" height="130" rx="12" fill="url(#ins)" stroke="#c4b489" stroke-width="1.5"/>
+<rect x="204" y="238" width="172" height="102" rx="8" fill="#f7fbfd" stroke="#4f8fb8" stroke-width="1.5"/>
+<path d="M205,268 q14,-7 28,0 t28,0 t28,0 t28,0 t28,0 t30,0 L375,332 Q375,339 368,339 L212,339 Q205,339 205,332 Z" fill="#8fc1de"/>
+<path d="M290,285 c10,14 14,20 14,27 a14,14 0 0 1 -28,0 c0,-7 4,-13 14,-27 z" fill="#ffffff" opacity="0.85"/>
+<rect x="190" y="370" width="45" height="30" rx="6" fill="#ffffff" stroke="#9fb0a8" stroke-width="1.5"/>
+<text x="212.5" y="390" text-anchor="middle" font-size="14" font-weight="700" fill="#24332c">0.5 L</text>
+<rect x="241" y="370" width="45" height="30" rx="6" fill="#ffffff" stroke="#9fb0a8" stroke-width="1.5"/>
+<text x="263.5" y="390" text-anchor="middle" font-size="14" font-weight="700" fill="#24332c">1 L</text>
+<rect x="292" y="370" width="45" height="30" rx="6" fill="#ffffff" stroke="#9fb0a8" stroke-width="1.5"/>
+<text x="314.5" y="390" text-anchor="middle" font-size="14" font-weight="700" fill="#24332c">1.5 L</text>
+<rect x="343" y="370" width="45" height="30" rx="6" fill="#ffffff" stroke="#9fb0a8" stroke-width="1.5"/>
+<text x="365.5" y="390" text-anchor="middle" font-size="14" font-weight="700" fill="#24332c">5 L</text>
+<rect x="300" y="414" width="90" height="46" rx="8" fill="#ffffff" stroke="#9fb0a8" stroke-width="1.5"/>
+<path d="M335.4,431 a6,6 0 0 1 0,12" fill="none" stroke="#3f7f78" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M340.8,425 a12,12 0 0 1 0,24" fill="none" stroke="#3f7f78" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M346.2,419 a18,18 0 0 1 0,36" fill="none" stroke="#3f7f78" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="330" cy="437" r="3" fill="#3f7f78"/>
+<rect x="190" y="414" width="98" height="46" rx="8" fill="#dfe8e4" stroke="#9fb0a8" stroke-width="1.5"/>
+<path d="M205,437 h18 M229,437 h40" stroke="#9fb0a8" stroke-width="4" stroke-linecap="round"/>
+<rect x="190" y="474" width="200" height="92" rx="10" fill="#d7e0dc" stroke="#9fb0a8" stroke-width="1.5"/>
+<rect x="276" y="474" width="28" height="14" rx="3" fill="#b7c4be"/>
+<path d="M282,488 L298,488 L296,498 L284,498 Z" fill="#8a9a93"/>
+<rect x="288" y="499" width="4" height="16" fill="#8fc1de"/>
+<path d="M273.0,556 L273.0,532.56 Q273.0,524.56 280.54,518.56 L283.54,522 L296.46,522 L299.46,518.56 Q307.0,524.56 307.0,532.56 L307.0,556 Q307.0,562 301.0,562 L279.0,562 Q273.0,562 273.0,556 Z" fill="#dcecf5" stroke="#4f8fb8" stroke-width="1.8"/><rect x="282.54" y="514" width="14.92" height="9" rx="2" fill="#3f7f78"/>
+<rect x="160" y="580" width="260" height="12" rx="4" fill="#c9d3ce"/>
+<path d="M405,160 L452,145 L464,145" fill="none" stroke="#3f7f78" stroke-width="1.5"/><circle cx="405" cy="160" r="4" fill="#3f7f78"/><text x="472" y="150" font-size="17" font-weight="700" fill="#24332c">Güneş paneli çatı</text><text x="472" y="171" font-size="14" fill="#5b6b63">şebekeden bağımsız enerji sağlar</text>
+<path d="M390,280 L452,257 L464,257" fill="none" stroke="#3f7f78" stroke-width="1.5"/><circle cx="390" cy="280" r="4" fill="#3f7f78"/><text x="472" y="262" font-size="17" font-weight="700" fill="#24332c">Yalıtımlı tank</text><text x="472" y="283" font-size="14" fill="#5b6b63">her mevsim ideal içme sıcaklığında su</text>
+<path d="M390,437 L452,413 L464,413" fill="none" stroke="#3f7f78" stroke-width="1.5"/><circle cx="390" cy="437" r="4" fill="#3f7f78"/><text x="472" y="418" font-size="17" font-weight="700" fill="#24332c">Temassız ödeme</text><text x="472" y="439" font-size="14" fill="#5b6b63">banka kartı ve yerel ulaşım kartı</text>
+<path d="M304,492 L452,501 L464,501" fill="none" stroke="#3f7f78" stroke-width="1.5"/><circle cx="304" cy="492" r="4" fill="#3f7f78"/><text x="472" y="506" font-size="17" font-weight="700" fill="#24332c">Dolum musluğu</text><text x="472" y="527" font-size="14" fill="#5b6b63">seçtiğiniz hacimde doldurun</text>
+<rect x="740" y="370" width="230" height="250" rx="12" fill="#ffffff" stroke="#dde5e1"/>
+<text x="855" y="398" text-anchor="middle" font-size="15" font-weight="700" fill="#24332c">Örnek dolum hacimleri</text>
+<path d="M757.0,566 L757.0,533.2 Q757.0,525.2 762.06,519.2 L765.06,520 L774.94,520 L777.94,519.2 Q783.0,525.2 783.0,533.2 L783.0,566 Q783.0,572 777.0,572 L763.0,572 Q757.0,572 757.0,566 Z" fill="#dcecf5" stroke="#4f8fb8" stroke-width="1.8"/><rect x="764.06" y="512" width="11.88" height="9" rx="2" fill="#3f7f78"/><text x="770" y="594" text-anchor="middle" font-size="15" font-weight="700" fill="#24332c">0.5 L</text>
+<path d="M802.0,566 L802.0,514.48 Q802.0,506.48 808.92,500.48 L811.92,496 L824.08,496 L827.08,500.48 Q834.0,506.48 834.0,514.48 L834.0,566 Q834.0,572 828.0,572 L808.0,572 Q802.0,572 802.0,566 Z" fill="#dcecf5" stroke="#4f8fb8" stroke-width="1.8"/><rect x="810.92" y="488" width="14.16" height="9" rx="2" fill="#3f7f78"/><text x="818" y="594" text-anchor="middle" font-size="15" font-weight="700" fill="#24332c">1 L</text>
+<path d="M851.0,566 L851.0,495.76 Q851.0,487.76 859.78,481.76 L862.78,472 L877.22,472 L880.22,481.76 Q889.0,487.76 889.0,495.76 L889.0,566 Q889.0,572 883.0,572 L857.0,572 Q851.0,572 851.0,566 Z" fill="#dcecf5" stroke="#4f8fb8" stroke-width="1.8"/><rect x="861.78" y="464" width="16.439999999999998" height="9" rx="2" fill="#3f7f78"/><text x="870" y="594" text-anchor="middle" font-size="15" font-weight="700" fill="#24332c">1.5 L</text>
+<rect x="909.0" y="468" width="50" height="104" rx="10" fill="#dcecf5" stroke="#4f8fb8" stroke-width="1.8"/><path d="M955.0,482 q16,4 14,22 q-2,12 -14,14" fill="none" stroke="#4f8fb8" stroke-width="3"/><rect x="925" y="456" width="18" height="13" rx="2" fill="#3f7f78"/><text x="934" y="594" text-anchor="middle" font-size="15" font-weight="700" fill="#24332c">5 L</text>
+<rect x="740" y="112" width="230" height="200" rx="16" fill="#e4f0e6" stroke="#3f7f78" stroke-width="2"/>
+<path d="M803,184 L803,152 Q803,144 808,140 L808,132 L816,132 L816,140 Q821,144 821,152 L821,184 Z" fill="#ffffff" stroke="#5b6b63" stroke-width="1.8"/>
+<path d="M882,146 L914,146 L911,184 L885,184 Z" fill="#ffffff" stroke="#5b6b63" stroke-width="1.8"/>
+<path d="M890,146 q0,-14 8,-14 q8,0 8,14" fill="none" stroke="#5b6b63" stroke-width="1.8"/>
+<circle cx="812" cy="158" r="27" fill="none" stroke="#c9543a" stroke-width="3"/>
+<line x1="793" y1="177" x2="831" y2="139" stroke="#c9543a" stroke-width="3"/>
+<circle cx="898" cy="158" r="27" fill="none" stroke="#c9543a" stroke-width="3"/>
+<line x1="879" y1="177" x2="917" y2="139" stroke="#c9543a" stroke-width="3"/>
+<text x="855" y="230" text-anchor="middle" font-size="19" font-weight="700" fill="#24332c">Daha az PET şişe</text>
+<text x="855" y="254" text-anchor="middle" font-size="19" font-weight="700" fill="#24332c">ve plastik poşet</text>
+<text x="855" y="282" text-anchor="middle" font-size="14" fill="#5b6b63">kullan-at yerine yeniden doldur</text>
+<path d="M855,364 L855,326" stroke="#3f7f78" stroke-width="3" stroke-linecap="round"/>
+<path d="M845,334 L855,322 L865,334" fill="none" stroke="#3f7f78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

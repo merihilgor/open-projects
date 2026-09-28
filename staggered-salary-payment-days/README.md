@@ -51,6 +51,8 @@ This spreads the load on trade and on online systems evenly across the month, du
 5. **Dunning is balanced too:** Billing is followed by collection and, for overdue accounts, by dunning. Both are spread across four dates instead of piling up on one.
 6. **Even infrastructure load:** Processing load on online payment, billing and banking systems becomes more even. Data centers need less sudden scaling, so they use less excess energy and cooling.
 
+![Illustrative one-month timeline: today a single tall spike of billing, shopping and logistics load right after one common payday; with the proposal, four smaller, even peaks after the 7th, 14th, 21st and 28th](assets/payday-load.svg)
+
 ## Implementation & Phasing
 
 1. **Review:** The model would be reviewed under the leadership of the World Economic Forum (WEF), together with national governments and major global organizations.
@@ -76,6 +78,8 @@ This spreads the load on trade and on online systems evenly across the month, du
 | System performance | Load on online payment, billing and banking systems is spread evenly instead of piling up on certain days of the month. This improves performance and reliability and lowers the risk of service interruptions. |
 
 GSPB is more than a financial adjustment. It is a simple, practical mechanism that helps meet global zero-carbon targets through logistics and digital infrastructure. It links economic growth with environmental responsibility, and it supports both economic stability and environmental sustainability.
+
+**Keywords:** payroll, salary payment dates, peak load, billing cycles, logistics, data center energy, carbon emissions, economic policy, sustainability
 
 ## Origin
 

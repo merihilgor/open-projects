@@ -13,6 +13,8 @@ Vehicles already warn the driver when a door or the trunk is left open. The hood
 - At driving speed, air pressure can lift an unlocked hood. If it flies up, it **suddenly blocks the entire windshield**. The driver loses visibility with no warning, which can lead to panic braking, loss of control and collisions, putting the occupants and other road users at risk.
 - Most drivers are used to the door-open warning, but the hood is often left out of this protection, or the warning is missing on many vehicles.
 
+![Side view of a moving car whose unlatched hood has flown up over the windshield, blocking the driver's view](assets/hood-flies-up.svg)
+
 ## Proposed Solution
 
 Make the hood part of the same "open closure" warning logic that already exists for doors:
@@ -30,6 +32,18 @@ Make the hood part of the same "open closure" warning logic that already exists 
 | Ignition on, hood not fully locked | Dashboard icon and message: "Hood open" |
 | Vehicle starts moving, hood not fully locked | Continuous audible alert plus a prominent message: "Hood open, stop safely and close the hood" |
 | The detection itself fails | A separate fault indicator, so a broken warning is never mistaken for a closed hood |
+
+```mermaid
+flowchart TD
+    Start(["Ignition on"]) --> Check{"Hood fully closed and locked?"}
+    Check -->|Yes| Normal["Normal driving, no warning"]
+    Check -->|No| Warn["Dashboard warning: icon and message"]
+    Warn -->|"Vehicle starts moving"| Alert["Escalating audible alert and message: stop safely and close the hood"]
+    Warn -->|"Hood closed and locked"| Off["Warning off"]
+    Alert -->|"Hood closed and locked"| Off
+    Fault["Detection fault"] --> FaultInd["Separate fault indicator, never shown as a closed hood"]
+    Rule["The system only warns. It never brakes or stops the vehicle."]
+```
 
 The experience deliberately mirrors the door-open warning that drivers already understand, so no new habits or training are needed.
 
@@ -57,6 +71,8 @@ The experience deliberately mirrors the door-open warning that drivers already u
 | Drivers ignore the warning | The warning escalates when the vehicle moves and stays on until the hood is closed |
 | Automatic intervention could itself cause danger | The system only warns; it never brakes or stops the vehicle |
 | Cost for manufacturers and owners | Phased introduction, starting with new models |
+
+**Keywords:** road safety, vehicle safety, car hood, bonnet, driver warning, accident prevention, type approval, automotive standards
 
 ## Origin
 

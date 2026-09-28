@@ -23,6 +23,16 @@ Aşağıdaki düzenlemelerin mevzuat ve idari kararlarla zorunlu kılınması ö
 
 ## Nasıl Çalışır
 
+```mermaid
+flowchart TD
+    A["Cüzi, sembolik kullanım ücreti"] --> B["7/24 hijyen denetimi, sürekli personel ve periyodik bakımı fonlar"]
+    A -.-> W["Su ve kaynak israfını engeller"]
+    B --> C["Temiz ve çalışan tuvalet ve duşlar"]
+    C --> D["İnsanlar tesisleri kullanır, plajda kirlilik olmaz"]
+    D --> E["Kamu bütçesine yük getirmeden sürdürülür"]
+    E --> A
+```
+
 | Bileşen | İşlevi | Önemi |
 |---|---|---|
 | Kapasiteye uygun altyapı | Her halk plajının kapasitesine uygun sayıda hijyenik tuvalet ve duş kabini | Temel insani ihtiyaçları yerinde karşılar, plajda kirliliği önler |
@@ -60,6 +70,8 @@ Aşağıdaki düzenlemelerin mevzuat ve idari kararlarla zorunlu kılınması ö
 | Ücretsiz hizmette su ve kaynak israfının artması | Sembolik kullanım ücreti ile israfın engellenmesi ve kullanım bilincinin artırılması |
 | Tesislerin kısa sürede tahrip edilmesi | Ücret gelirleriyle periyodik bakım ve sürekli personel istihdamı |
 | Temizlik hizmetlerinin sürekliliğinin sağlanamaması | Gelirlerin 7/24 hijyen denetimi ve sürekli temizliğe ayrılması |
+
+**Anahtar kelimeler:** halk plajları, sanitasyon, umumi tuvalet, kıyı yönetimi, turizm, hijyen, kullanım ücreti, halk sağlığı, çevre kirliliği
 
 ## Köken
 
