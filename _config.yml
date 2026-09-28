@@ -1,0 +1,15 @@
+title: Open Projects
+description: >-
+  Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0).
+author: Merih İlgör
+url: "https://merihilgor.github.io"
+baseurl: "/open-projects"
+lang: en
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false

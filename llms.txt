@@ -1,0 +1,50 @@
+# Open Projects
+
+> Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0).
+
+Each project is a self-contained proposal describing WHAT the idea is and WHY it matters (problem, solution, how it works, phasing, stakeholders, risks), in English (README.md) and Turkish (README.tr.md). Author: Merih İlgör. Non-commercial use is free under CC BY-NC-SA 4.0 with attribution; commercial use requires a revenue-share agreement (COMMERCIAL-LICENSE.md in each folder). A machine-readable catalog is in projects.json.
+
+## Environment & waste
+
+- [AKASU: Solar-Powered Smart Water Refill Stations and Integrated Plastic Waste Reduction](https://raw.githubusercontent.com/merihilgor/open-projects/main/solar-smart-water-refill-stations/README.md): Solar-powered smart drinking-water refill stations, combined with packaging and pricing measures, to cut single-use PET bottles and plastic bags. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/solar-smart-water-refill-stations/README.tr.md
+
+## Public health & tourism
+
+- [Low-Fee, Continuously Maintained Showers and Toilets at Every Public Beach](https://raw.githubusercontent.com/merihilgor/open-projects/main/paid-beach-shower-and-toilet-facilities/README.md): Mandatory, low-fee, continuously maintained showers and toilets at every public beach; the fee prevents waste and funds 24/7 upkeep. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/paid-beach-shower-and-toilet-facilities/README.tr.md
+
+## Digital policy & child safety
+
+- [AI-Based Content Rating with ID-Verified Age for Social Media Platforms](https://raw.githubusercontent.com/merihilgor/open-projects/main/ai-content-rating-with-verified-age/README.md): AI-based content rating on social media combined with ID-verified age, adopted per country and coordinated internationally, to protect children without banning platforms. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/ai-content-rating-with-verified-age/README.tr.md
+
+## Housing & urban safety
+
+- [Building Inspection and Effective Age Assessment System](https://raw.githubusercontent.com/merihilgor/open-projects/main/building-inspection-effective-age/README.md): Periodic building inspection, like vehicle inspection, that scores an 'effective age', checks structural changes against the approved project for earthquake risk, and keeps a QR digital building record. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/building-inspection-effective-age/README.tr.md
+
+## Environment & climate
+
+- [Cellular Biological Circuit Breaker Model for Wildfire Spread Prevention](https://raw.githubusercontent.com/merihilgor/open-projects/main/wildfire-biological-circuit-breaker/README.md): Honeycomb-like forest cells separated by fire-resistant native green belts, inspired by the software circuit-breaker pattern, so a wildfire is contained in one cell. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/wildfire-biological-circuit-breaker/README.tr.md
+
+## Economy & sustainability
+
+- [Global Salary Payment Balance (GSPB): Staggered Salary Payment Days](https://raw.githubusercontent.com/merihilgor/open-projects/main/staggered-salary-payment-days/README.md): Paying salaries in four staggered groups (7th, 14th, 21st, 28th) to flatten billing, logistics and data-center peaks and lower energy use and emissions. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/staggered-salary-payment-days/README.tr.md
+
+## Innovation & marketplaces
+
+- [Vestinno: A Marketplace Where Investment Meets Innovation](https://raw.githubusercontent.com/merihilgor/open-projects/main/vestinno/README.md): A two-sided marketplace where innovators sell actionable ideas and IP to investors, with public teasers, private vaults, a problem board and reputation-based quality control. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/vestinno/README.tr.md
+
+## Accessibility & consumer tech
+
+- [RemoteBite: Private, Offline AI Voice Control for Your Smart TV](https://raw.githubusercontent.com/merihilgor/open-projects/main/remotebite/README.md): Private, offline voice control for smart TVs: connect, navigate and change settings by voice with no touch, understood entirely on the phone. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/remotebite/README.tr.md
+
+## Road safety
+
+- [Hood-Open Driving Warning: Preventing Accidents Caused by an Unlatched Hood](https://raw.githubusercontent.com/merihilgor/open-projects/main/hood-open-driving-warning/README.md): A door-open-style warning for an unlatched car hood that escalates while driving, so a hood never flies up, blocks the windshield and causes an accident. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/hood-open-driving-warning/README.tr.md
+
+## Housing & health
+
+- [Adjustable Window Vent Slider: Continuous Fresh Air Without Opening the Window](https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.md): A small, adjustable, rain-, insect- and noise-proof vent slider on PVC windows for continuous winter ventilation without heat loss, preventing damp and mold. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.tr.md
+
+## Optional
+
+- [Project catalog (JSON)](https://raw.githubusercontent.com/merihilgor/open-projects/main/projects.json): titles, summaries, themes and keywords for all projects
+- [Citation metadata](https://raw.githubusercontent.com/merihilgor/open-projects/main/CITATION.cff): how to cite this repository

@@ -1,0 +1,363 @@
+{
+  "name": "Open Projects",
+  "description": "Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0).",
+  "url": "https://github.com/merihilgor/open-projects",
+  "author": {
+    "name": "Merih İlgör",
+    "email": "merihilgor@gmail.com"
+  },
+  "license": {
+    "noncommercial": "CC-BY-NC-SA-4.0",
+    "commercial": "Revenue-share agreement required (see each project's COMMERCIAL-LICENSE.md)"
+  },
+  "languages": [
+    "en",
+    "tr"
+  ],
+  "projects": [
+    {
+      "slug": "solar-smart-water-refill-stations",
+      "title": "AKASU: Solar-Powered Smart Water Refill Stations and Integrated Plastic Waste Reduction",
+      "title_tr": "AKASU: Güneş Enerjili Akıllı Su Dolum İstasyonları ve Entegre Plastik Atık Azaltım Projesi",
+      "summary": "Solar-powered smart drinking-water refill stations, combined with packaging and pricing measures, to cut single-use PET bottles and plastic bags.",
+      "theme": "Environment & waste",
+      "type": "Physical product & operating model",
+      "keywords": [
+        "plastic waste reduction",
+        "PET bottles",
+        "water refill stations",
+        "solar energy",
+        "circular economy",
+        "zero waste",
+        "plastic bag fee",
+        "sustainability",
+        "municipal services",
+        "public health"
+      ],
+      "keywords_tr": [
+        "plastik atık azaltma",
+        "pet şişe",
+        "su dolum istasyonu",
+        "güneş enerjisi",
+        "döngüsel ekonomi",
+        "sıfır atık",
+        "poşet ücreti",
+        "sürdürülebilirlik",
+        "belediye hizmetleri"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/solar-smart-water-refill-stations",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/solar-smart-water-refill-stations/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/solar-smart-water-refill-stations/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "4% of net revenue"
+    },
+    {
+      "slug": "paid-beach-shower-and-toilet-facilities",
+      "title": "Low-Fee, Continuously Maintained Showers and Toilets at Every Public Beach",
+      "title_tr": "Halk Plajlarında Cüzi Ücretli, Sürekli Bakımlı Tuvalet ve Duş Altyapısı",
+      "summary": "Mandatory, low-fee, continuously maintained showers and toilets at every public beach; the fee prevents waste and funds 24/7 upkeep.",
+      "theme": "Public health & tourism",
+      "type": "Public-policy idea",
+      "keywords": [
+        "public beaches",
+        "sanitation",
+        "public toilets",
+        "coastal management",
+        "tourism",
+        "hygiene",
+        "user fees",
+        "public health",
+        "environmental pollution"
+      ],
+      "keywords_tr": [
+        "halk plajları",
+        "sanitasyon",
+        "umumi tuvalet",
+        "kıyı yönetimi",
+        "turizm",
+        "hijyen",
+        "kullanım ücreti",
+        "halk sağlığı",
+        "çevre kirliliği"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/paid-beach-shower-and-toilet-facilities",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/paid-beach-shower-and-toilet-facilities/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/paid-beach-shower-and-toilet-facilities/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "2% of net revenue"
+    },
+    {
+      "slug": "ai-content-rating-with-verified-age",
+      "title": "AI-Based Content Rating with ID-Verified Age for Social Media Platforms",
+      "title_tr": "Sosyal Medya Platformları İçin Yapay Zekâ Destekli İçerik Derecelendirme ve Kimlik Doğrulamalı Yaş Tespiti",
+      "summary": "AI-based content rating on social media combined with ID-verified age, adopted per country and coordinated internationally, to protect children without banning platforms.",
+      "theme": "Digital policy & child safety",
+      "type": "Public-policy idea",
+      "keywords": [
+        "child online safety",
+        "age verification",
+        "content rating",
+        "social media regulation",
+        "AI moderation",
+        "digital policy",
+        "online harms",
+        "parental controls",
+        "G20",
+        "international regulation"
+      ],
+      "keywords_tr": [
+        "çocukların çevrimiçi güvenliği",
+        "yaş doğrulama",
+        "içerik derecelendirme",
+        "sosyal medya düzenlemesi",
+        "yapay zekâ moderasyonu",
+        "dijital politika",
+        "uluslararası düzenleme"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/ai-content-rating-with-verified-age",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/ai-content-rating-with-verified-age/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/ai-content-rating-with-verified-age/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "2% of net revenue"
+    },
+    {
+      "slug": "building-inspection-effective-age",
+      "title": "Building Inspection and Effective Age Assessment System",
+      "title_tr": "Bina Muayene ve Efektif Yaş Değerleme Sistemi",
+      "summary": "Periodic building inspection, like vehicle inspection, that scores an 'effective age', checks structural changes against the approved project for earthquake risk, and keeps a QR digital building record.",
+      "theme": "Housing & urban safety",
+      "type": "Public-policy idea",
+      "keywords": [
+        "building inspection",
+        "earthquake safety",
+        "structural safety",
+        "effective age",
+        "housing policy",
+        "real estate valuation",
+        "home insurance",
+        "energy efficiency",
+        "urban renewal",
+        "digital building record",
+        "property tax incentive"
+      ],
+      "keywords_tr": [
+        "bina muayenesi",
+        "deprem güvenliği",
+        "yapısal güvenlik",
+        "efektif yaş",
+        "konut politikası",
+        "gayrimenkul değerleme",
+        "konut sigortası",
+        "enerji verimliliği",
+        "kentsel dönüşüm",
+        "dijital bina karnesi",
+        "emlak vergisi indirimi"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/building-inspection-effective-age",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/building-inspection-effective-age/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/building-inspection-effective-age/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "2% of net revenue"
+    },
+    {
+      "slug": "wildfire-biological-circuit-breaker",
+      "title": "Cellular Biological Circuit Breaker Model for Wildfire Spread Prevention",
+      "title_tr": "Hücresel Biyolojik Devre Kesici (Circuit Breaker) Modeli ile Orman Yangınları Yayılım Önleme Projesi",
+      "summary": "Honeycomb-like forest cells separated by fire-resistant native green belts, inspired by the software circuit-breaker pattern, so a wildfire is contained in one cell.",
+      "theme": "Environment & climate",
+      "type": "Public-policy idea",
+      "keywords": [
+        "wildfire prevention",
+        "forest fire",
+        "firebreaks",
+        "green belts",
+        "biomimicry",
+        "circuit breaker pattern",
+        "climate adaptation",
+        "forestry",
+        "Mediterranean",
+        "nature-based solutions"
+      ],
+      "keywords_tr": [
+        "orman yangını önleme",
+        "yangın emniyet şeridi",
+        "yeşil kuşak",
+        "biyomimikri",
+        "devre kesici",
+        "iklim uyumu",
+        "ormancılık",
+        "doğa temelli çözümler"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/wildfire-biological-circuit-breaker",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/wildfire-biological-circuit-breaker/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/wildfire-biological-circuit-breaker/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "2% of net revenue"
+    },
+    {
+      "slug": "staggered-salary-payment-days",
+      "title": "Global Salary Payment Balance (GSPB): Staggered Salary Payment Days",
+      "title_tr": "Küresel Maaş Ödeme Dengesi (KMÖD): Kademeli Maaş Ödeme Günleri",
+      "summary": "Paying salaries in four staggered groups (7th, 14th, 21st, 28th) to flatten billing, logistics and data-center peaks and lower energy use and emissions.",
+      "theme": "Economy & sustainability",
+      "type": "Public-policy idea",
+      "keywords": [
+        "payroll",
+        "salary payment dates",
+        "peak load",
+        "billing cycles",
+        "logistics",
+        "data center energy",
+        "carbon emissions",
+        "economic policy",
+        "sustainability"
+      ],
+      "keywords_tr": [
+        "maaş ödeme günleri",
+        "bordro",
+        "yük dengeleme",
+        "fatura dönemleri",
+        "lojistik",
+        "veri merkezi enerjisi",
+        "karbon salınımı",
+        "ekonomi politikası"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/staggered-salary-payment-days",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/staggered-salary-payment-days/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/staggered-salary-payment-days/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "2% of net revenue"
+    },
+    {
+      "slug": "vestinno",
+      "title": "Vestinno: A Marketplace Where Investment Meets Innovation",
+      "title_tr": "Vestinno: Yatırımın İnovasyonla Buluştuğu Pazar Yeri",
+      "summary": "A two-sided marketplace where innovators sell actionable ideas and IP to investors, with public teasers, private vaults, a problem board and reputation-based quality control.",
+      "theme": "Innovation & marketplaces",
+      "type": "Software",
+      "keywords": [
+        "innovation marketplace",
+        "idea marketplace",
+        "intellectual property",
+        "investors",
+        "crowdsourced innovation",
+        "open innovation",
+        "reputation system",
+        "two-sided marketplace",
+        "startup ideas"
+      ],
+      "keywords_tr": [
+        "inovasyon pazar yeri",
+        "fikir pazarı",
+        "fikri mülkiyet",
+        "yatırımcı",
+        "açık inovasyon",
+        "itibar sistemi"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/vestinno",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/vestinno/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/vestinno/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "8% of net revenue"
+    },
+    {
+      "slug": "remotebite",
+      "title": "RemoteBite: Private, Offline AI Voice Control for Your Smart TV",
+      "title_tr": "RemoteBite: Akıllı Televizyonunuz İçin Gizli ve Çevrimdışı Yapay Zekâ Sesli Kontrol",
+      "summary": "Private, offline voice control for smart TVs: connect, navigate and change settings by voice with no touch, understood entirely on the phone.",
+      "theme": "Accessibility & consumer tech",
+      "type": "Software",
+      "keywords": [
+        "voice control",
+        "smart TV",
+        "accessibility",
+        "offline AI",
+        "on-device AI",
+        "privacy",
+        "hands-free",
+        "assistive technology",
+        "remote control"
+      ],
+      "keywords_tr": [
+        "sesli kontrol",
+        "akıllı televizyon",
+        "erişilebilirlik",
+        "çevrimdışı yapay zekâ",
+        "gizlilik",
+        "eller serbest",
+        "kumanda"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/remotebite",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/remotebite/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/remotebite/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "8% of net revenue"
+    },
+    {
+      "slug": "hood-open-driving-warning",
+      "title": "Hood-Open Driving Warning: Preventing Accidents Caused by an Unlatched Hood",
+      "title_tr": "Seyir Sırasında Açık Kaput Uyarısı: Kilitlenmemiş Kaputun Neden Olduğu Kazaların Önlenmesi",
+      "summary": "A door-open-style warning for an unlatched car hood that escalates while driving, so a hood never flies up, blocks the windshield and causes an accident.",
+      "theme": "Road safety",
+      "type": "Vehicle safety feature & standard",
+      "keywords": [
+        "road safety",
+        "vehicle safety",
+        "car hood",
+        "bonnet",
+        "driver warning",
+        "accident prevention",
+        "type approval",
+        "automotive standards"
+      ],
+      "keywords_tr": [
+        "trafik güvenliği",
+        "araç güvenliği",
+        "kaput",
+        "sürücü uyarısı",
+        "kaza önleme",
+        "tip onayı",
+        "otomotiv standartları"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/hood-open-driving-warning",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/hood-open-driving-warning/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/hood-open-driving-warning/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "2% of net revenue"
+    },
+    {
+      "slug": "adjustable-window-vent-slider",
+      "title": "Adjustable Window Vent Slider: Continuous Fresh Air Without Opening the Window",
+      "title_tr": "Ayarlanabilir Pencere Havalandırma Sürgüsü: Pencereyi Açmadan Sürekli Temiz Hava",
+      "summary": "A small, adjustable, rain-, insect- and noise-proof vent slider on PVC windows for continuous winter ventilation without heat loss, preventing damp and mold.",
+      "theme": "Housing & health",
+      "type": "Physical product",
+      "keywords": [
+        "window ventilation",
+        "trickle vent",
+        "PVC windows",
+        "indoor air quality",
+        "condensation",
+        "damp and mold",
+        "energy efficiency",
+        "healthy housing",
+        "retrofit"
+      ],
+      "keywords_tr": [
+        "pencere havalandırma",
+        "pimapen",
+        "iç hava kalitesi",
+        "terleme",
+        "rutubet ve küf",
+        "enerji verimliliği",
+        "sağlıklı konut",
+        "sonradan takılabilir"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/adjustable-window-vent-slider",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "4% of net revenue"
+    }
+  ]
+}

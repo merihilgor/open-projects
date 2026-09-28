@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or build on these project ideas, please cite them as below."
+title: "Open Projects: Public-Policy and Product Ideas"
+type: generic
+authors:
+  - family-names: "İlgör"
+    given-names: "Merih"
+    email: "merihilgor@gmail.com"
+repository-code: "https://github.com/merihilgor/open-projects"
+url: "https://github.com/merihilgor/open-projects"
+abstract: "Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0)."
+keywords:
+  - "public policy"
+  - "project ideas"
+  - "open innovation"
+  - "sustainability"
+  - "earthquake safety"
+  - "wildfire prevention"
+  - "child online safety"
+  - "road safety"
+  - "accessibility"
+  - "plastic waste"
+license: CC-BY-NC-SA-4.0
+date-released: "2026-09-28"
