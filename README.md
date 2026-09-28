@@ -29,6 +29,7 @@ metni `README.tr.md` dosyasındadır.
 | [RemoteBite: Private, Offline AI Voice Control for Your Smart TV](remotebite/) | [Türkçe](remotebite/README.tr.md) | Private, offline voice control for smart TVs: connect, navigate and change settings by voice with no touch, understood entirely on the phone. | Accessibility & consumer tech |
 | [Hood-Open Driving Warning: Preventing Accidents Caused by an Unlatched Hood](hood-open-driving-warning/) | [Türkçe](hood-open-driving-warning/README.tr.md) | A door-open-style warning for an unlatched car hood that escalates while driving, so a hood never flies up, blocks the windshield and causes an accident. | Road safety |
 | [Adjustable Window Vent Slider: Continuous Fresh Air Without Opening the Window](adjustable-window-vent-slider/) | [Türkçe](adjustable-window-vent-slider/README.tr.md) | A small, adjustable, rain-, insect- and noise-proof vent slider on PVC windows for continuous winter ventilation without heat loss, preventing damp and mold. | Housing & health |
+| [Motorcycle Seat Galosh: A Slip-On Cover That Keeps Parked Seats Clean](motorcycle-seat-galosh/) | [Türkçe](motorcycle-seat-galosh/README.tr.md) | A galosh-style, seat-only slip-on cover that keeps parked motorcycle and scooter seats clean from cats' paw prints and dirt: on in seconds when parked, off before riding. | Consumer products |
 
 ## Browse by theme
 
@@ -42,6 +43,7 @@ metni `README.tr.md` dosyasındadır.
 - **Accessibility & consumer tech:** [remotebite](remotebite/)
 - **Road safety:** [hood-open-driving-warning](hood-open-driving-warning/)
 - **Housing & health:** [adjustable-window-vent-slider](adjustable-window-vent-slider/)
+- **Consumer products:** [motorcycle-seat-galosh](motorcycle-seat-galosh/)
 
 ## For researchers and AI assistants
 
@@ -68,6 +70,6 @@ Every project is licensed **per folder** under a "CC+" model:
   | Public-policy idea | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days | 2% of net revenue |
   | Software | vestinno, remotebite | 8% of net revenue |
   | Vehicle safety feature & standard | hood-open-driving-warning | 2% of net revenue |
-  | Physical product | adjustable-window-vent-slider | 4% of net revenue |
+  | Physical product | adjustable-window-vent-slider, motorcycle-seat-galosh | 4% of net revenue |
 
 © Merih İlgör

@@ -358,6 +358,40 @@
       "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.tr.md",
       "license": "CC-BY-NC-SA-4.0",
       "commercial_royalty_default": "4% of net revenue"
+    },
+    {
+      "slug": "motorcycle-seat-galosh",
+      "title": "Motorcycle Seat Galosh: A Slip-On Cover That Keeps Parked Seats Clean",
+      "title_tr": "Motosiklet Sele Galoşu: Park Halindeki Seleyi Temiz Tutan Geçirmeli Kılıf",
+      "summary": "A galosh-style, seat-only slip-on cover that keeps parked motorcycle and scooter seats clean from cats' paw prints and dirt: on in seconds when parked, off before riding.",
+      "theme": "Consumer products",
+      "type": "Physical product",
+      "keywords": [
+        "motorcycle accessories",
+        "scooter",
+        "seat cover",
+        "galosh",
+        "street cats",
+        "parking",
+        "hygiene",
+        "couriers",
+        "consumer product"
+      ],
+      "keywords_tr": [
+        "motosiklet aksesuarı",
+        "scooter",
+        "sele kılıfı",
+        "galoş",
+        "sokak kedileri",
+        "park",
+        "hijyen",
+        "kurye"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/motorcycle-seat-galosh",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/motorcycle-seat-galosh/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/motorcycle-seat-galosh/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "4% of net revenue"
     }
   ]
 }

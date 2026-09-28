@@ -44,6 +44,10 @@ Each project is a self-contained proposal describing WHAT the idea is and WHY it
 
 - [Adjustable Window Vent Slider: Continuous Fresh Air Without Opening the Window](https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.md): A small, adjustable, rain-, insect- and noise-proof vent slider on PVC windows for continuous winter ventilation without heat loss, preventing damp and mold. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.tr.md
 
+## Consumer products
+
+- [Motorcycle Seat Galosh: A Slip-On Cover That Keeps Parked Seats Clean](https://raw.githubusercontent.com/merihilgor/open-projects/main/motorcycle-seat-galosh/README.md): A galosh-style, seat-only slip-on cover that keeps parked motorcycle and scooter seats clean from cats' paw prints and dirt: on in seconds when parked, off before riding. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/motorcycle-seat-galosh/README.tr.md
+
 ## Optional
 
 - [Project catalog (JSON)](https://raw.githubusercontent.com/merihilgor/open-projects/main/projects.json): titles, summaries, themes and keywords for all projects
