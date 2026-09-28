@@ -14,6 +14,7 @@ discuss, and build on.
 | [staggered-salary-payment-days](staggered-salary-payment-days/) | Paying salaries on four staggered days to flatten billing, logistics and data-center peaks |
 | [vestinno](vestinno/) | A two-sided marketplace where innovators sell actionable ideas and IP to investors, with reputation-based quality control |
 | [remotebite](remotebite/) | Private, on-device AI voice control for smart TVs, with "zero-click" connecting, navigation and settings by voice |
+| [hood-open-driving-warning](hood-open-driving-warning/) | A door-open-style warning for an unlatched hood that escalates while driving, so a hood never flies up and causes an accident |
 
 Each project folder contains an English proposal (`README.md`) and the Turkish
 original (`README.tr.md`).
@@ -31,6 +32,7 @@ Every project is licensed **per folder** under a "CC+" model:
   | Project type | Projects | Default royalty |
   |---|---|---|
   | Public-policy ideas | ai-content-rating, building-inspection, paid-beach, staggered-salary, wildfire | 2% of net revenue |
+  | Vehicle safety feature & standard | hood-open-driving-warning | 2% of net revenue |
   | Physical product & operating model | solar-smart-water-refill-stations | 4% of net revenue |
   | Software | vestinno, remotebite | 8% of net revenue |
 
