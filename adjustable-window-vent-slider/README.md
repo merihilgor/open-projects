@@ -4,7 +4,7 @@ Türkçe: [README.tr.md](README.tr.md)
 
 ## Summary
 
-A small sliding vent, about a hand-span (roughly 20 cm) long, is built into PVC-type windows next to or above the opening handle. It can be opened **as much or as little as needed**, from a thin gap to fully open. It is **sealed against rain and water** and **screened against insects**. When it is closed, the window insulates exactly as it does today. In autumn and winter, the vent lets a room get **continuous, controlled fresh air for as long as needed**, adjusted to the cold, the rain and the wind. There is no need to tilt or fully open the window, and it helps prevent damp and mold in homes that suffer from them.
+A small sliding vent, about a hand-span (roughly 20 cm) long, is built into PVC-type windows next to or above the opening handle. It can be opened **as much or as little as needed**, from a thin gap to fully open. It is **sealed against rain and water**, **screened against insects** and **quiet**: it does not whistle, hum or rattle in the wind. When it is closed, the window insulates exactly as it does today. In autumn and winter, the vent lets a room get **continuous, controlled fresh air for as long as needed**, adjusted to the cold, the rain and the wind. There is no need to tilt or fully open the window, and it helps prevent damp and mold in homes that suffer from them.
 
 ## Problem
 
@@ -23,9 +23,12 @@ Add a **small, adjustable, weather-sealed ventilation slider** to the window its
 3. **Sealed against water and weather:** rain and wind-driven water cannot get in, even when the vent is open.
 4. **Insect screen:** a built-in screen keeps flies and mosquitoes out while air flows.
 5. **Full insulation when closed:** when the slider is closed, the window keeps its original thermal and sound insulation.
-6. **Unlimited ventilation time:** because the airflow is small and controlled, the vent can stay open for hours or all day without chilling the room, instead of the short, wasteful "open the window for ten minutes" routine.
+6. **Quiet in the wind:** the vent is shaped so that air passing through it, even in strong wind, makes no whistling, humming or rattling. It can stay open in bedrooms and at night without disturbing anyone.
+7. **Unlimited ventilation time:** because the airflow is small and controlled, the vent can stay open for hours or all day without chilling the room, instead of the short, wasteful "open the window for ten minutes" routine.
 
 ## How It Works
+
+![Front view of a window with an adjustable, sealed, screened and quiet sliding vent above the handle](assets/vent-slider.svg)
 
 | Situation | Setting | Result |
 |---|---|---|
@@ -39,7 +42,7 @@ The user simply slides it by hand, like adjusting a small shutter. The window it
 
 ## Implementation & Phasing
 
-1. **Prototype and testing:** a prototype is built for common PVC window types and tested for airflow, water tightness, insect protection and insulation when closed.
+1. **Prototype and testing:** a prototype is built for common PVC window types and tested for airflow, water tightness, insect protection, **noise in strong wind** and insulation when closed.
 2. **Factory-fitted option:** window manufacturers offer the slider as an option on new windows.
 3. **Retrofit version:** a version that can be fitted to existing PVC windows is offered, so that homes with damp problems can benefit without replacing their windows.
 4. **Wider adoption:** housing projects, schools, hospitals and public buildings, where fresh air and damp prevention matter most, are encouraged to use it. Energy-efficiency or healthy-housing programs could include it.
@@ -60,8 +63,11 @@ The user simply slides it by hand, like adjusting a small shutter. The window it
 | Water or wind-driven rain getting in | Weather-sealed design, tested for water tightness |
 | Heat loss if left fully open in severe cold | Fine adjustment, so users can leave only a thin gap; clear markings for cold-weather settings |
 | Weakening the window's insulation or security | Full insulation when closed; the slot is too small for entry |
+| Wind noise (whistling, humming or rattling) through the open vent | A quiet airflow design, tested in strong wind at every opening setting |
 | Dust or dirt in the vent and screen | An easy-to-clean, removable screen |
 | Similar background ventilators ("trickle vents") already exist in some markets | This proposal focuses on fine user adjustment at handle height, water and insect sealing together, and a retrofit version for existing PVC windows |
+
+**Keywords:** window ventilation, trickle vent, PVC windows, indoor air quality, condensation, damp and mold, energy efficiency, healthy housing, retrofit
 
 ## Origin
 

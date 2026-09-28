@@ -4,7 +4,7 @@ English: [README.md](README.md)
 
 ## Özet
 
-Pimapen benzeri pencerelerde, açma kolunun üstüne veya yanına yaklaşık bir karış (20 cm civarı) uzunluğunda küçük bir sürgülü havalandırma yerleştirilir. Sürgü, ince bir aralıktan tamamen açığa kadar **istenildiği kadar** açılabilir. **Yağmura ve suya karşı yalıtımlıdır**, **sineklere karşı tellidir**. Kapalıyken pencere bugünkü gibi tam yalıtım sağlar. Sonbahar ve kış aylarında odanın; soğuğa, yağışa ve rüzgâra göre ayarlanarak **istenildiği kadar ve süresiz** havalandırılmasını sağlar. Pencereyi yarım veya tam açmaya gerek kalmaz; rutubet sorunu olan evlerde rutubet ve küfü önlemeye yardımcı olur.
+Pimapen benzeri pencerelerde, açma kolunun üstüne veya yanına yaklaşık bir karış (20 cm civarı) uzunluğunda küçük bir sürgülü havalandırma yerleştirilir. Sürgü, ince bir aralıktan tamamen açığa kadar **istenildiği kadar** açılabilir. **Yağmura ve suya karşı yalıtımlıdır**, **sineklere karşı tellidir** ve **sessizdir**: rüzgârda ıslık çalmaz, uğultu veya tıkırtı yapmaz. Kapalıyken pencere bugünkü gibi tam yalıtım sağlar. Sonbahar ve kış aylarında odanın; soğuğa, yağışa ve rüzgâra göre ayarlanarak **istenildiği kadar ve süresiz** havalandırılmasını sağlar. Pencereyi yarım veya tam açmaya gerek kalmaz; rutubet sorunu olan evlerde rutubet ve küfü önlemeye yardımcı olur.
 
 ## Sorun
 
@@ -23,9 +23,12 @@ Pencerenin kendisine **küçük, ayarlanabilir ve hava koşullarına karşı yal
 3. **Suya ve hava koşullarına karşı yalıtım:** Sürgü açıkken bile yağmur ve rüzgârla savrulan su içeri giremez.
 4. **Sinek teli:** Dahili tel, hava geçerken sinek ve sivrisinekleri dışarıda tutar.
 5. **Kapalıyken tam yalıtım:** Sürgü kapatıldığında pencere orijinal ısı ve ses yalıtımını korur.
-6. **Süresiz havalandırma:** Hava akışı küçük ve kontrollü olduğu için sürgü, odayı üşütmeden saatlerce veya tüm gün açık kalabilir. "Pencereyi on dakika aç" şeklindeki kısa ve israflı alışkanlığın yerini alır.
+6. **Rüzgârda sessiz:** Havalandırma, kuvvetli rüzgârda bile içinden geçen havanın ıslık, uğultu veya tıkırtı yapmayacağı şekilde tasarlanır. Böylece yatak odalarında ve gece boyunca kimseyi rahatsız etmeden açık kalabilir.
+7. **Süresiz havalandırma:** Hava akışı küçük ve kontrollü olduğu için sürgü, odayı üşütmeden saatlerce veya tüm gün açık kalabilir. "Pencereyi on dakika aç" şeklindeki kısa ve israflı alışkanlığın yerini alır.
 
 ## Nasıl Çalışır
+
+![Açma kolunun üstünde ayarlanabilir, yalıtımlı, telli ve sessiz sürgülü havalandırması olan pencerenin önden görünümü](assets/vent-slider.tr.svg)
 
 | Durum | Ayar | Sonuç |
 |---|---|---|
@@ -39,7 +42,7 @@ Kullanıcı sürgüyü küçük bir kepenk ayarlar gibi elle kaydırır. Soğuk 
 
 ## Uygulama ve Fazlandırma
 
-1. **Prototip ve test:** Yaygın pimapen pencere tipleri için bir prototip üretilir; hava akışı, su sızdırmazlığı, sinek koruması ve kapalıyken yalıtım açısından test edilir.
+1. **Prototip ve test:** Yaygın pimapen pencere tipleri için bir prototip üretilir; hava akışı, su sızdırmazlığı, sinek koruması, **kuvvetli rüzgârdaki ses** ve kapalıyken yalıtım açısından test edilir.
 2. **Fabrikada takılı seçenek:** Pencere üreticileri sürgüyü yeni pencerelerde bir seçenek olarak sunar.
 3. **Sonradan takılabilir versiyon:** Mevcut pimapen pencerelere takılabilen bir versiyon sunulur; böylece rutubet sorunu yaşayan evler pencerelerini değiştirmeden faydalanabilir.
 4. **Yaygınlaştırma:** Temiz havanın ve rutubet önlemenin en önemli olduğu konut projeleri, okullar, hastaneler ve kamu binalarında kullanımı teşvik edilir; enerji verimliliği veya sağlıklı konut programlarına dahil edilebilir.
@@ -60,8 +63,11 @@ Kullanıcı sürgüyü küçük bir kepenk ayarlar gibi elle kaydırır. Soğuk 
 | Su veya rüzgârla savrulan yağmurun içeri girmesi | Hava koşullarına karşı yalıtımlı, su sızdırmazlığı test edilmiş tasarım |
 | Şiddetli soğukta tam açık bırakılırsa ısı kaybı | İnce ayar imkânı ile yalnızca ince bir aralık bırakılabilmesi; soğuk hava ayarları için net işaretler |
 | Pencerenin yalıtımının veya güvenliğinin zayıflaması | Kapalıyken tam yalıtım; yuva içeri girişe izin vermeyecek kadar küçük |
+| Açık havalandırmadan rüzgâr sesi (ıslık, uğultu veya tıkırtı) gelmesi | Sessiz hava akışı tasarımı; her açıklık ayarında kuvvetli rüzgârda test edilmesi |
 | Havalandırmada ve telde toz ve kir birikmesi | Kolay temizlenen, çıkarılabilir tel |
 | Benzer arka plan havalandırıcılarının ("trickle vent") bazı pazarlarda zaten bulunması | Bu öneri; kol hizasında kullanıcının ince ayar yapabilmesine, su ve sinek yalıtımının birlikte sağlanmasına ve mevcut pimapen pencereler için sonradan takılabilir bir versiyona odaklanır |
+
+**Anahtar kelimeler:** pencere havalandırma, pimapen, iç hava kalitesi, terleme, rutubet ve küf, enerji verimliliği, sağlıklı konut, sonradan takılabilir
 
 ## Köken
 
