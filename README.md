@@ -15,6 +15,7 @@ discuss, and build on.
 | [vestinno](vestinno/) | A two-sided marketplace where innovators sell actionable ideas and IP to investors, with reputation-based quality control |
 | [remotebite](remotebite/) | Private, on-device AI voice control for smart TVs, with "zero-click" connecting, navigation and settings by voice |
 | [hood-open-driving-warning](hood-open-driving-warning/) | A door-open-style warning for an unlatched hood that escalates while driving, so a hood never flies up and causes an accident |
+| [adjustable-window-vent-slider](adjustable-window-vent-slider/) | A small, adjustable, rain- and insect-sealed vent slider on PVC windows for continuous winter ventilation without heat loss or damp |
 
 Each project folder contains an English proposal (`README.md`) and the Turkish
 original (`README.tr.md`).
@@ -33,7 +34,7 @@ Every project is licensed **per folder** under a "CC+" model:
   |---|---|---|
   | Public-policy ideas | ai-content-rating, building-inspection, paid-beach, staggered-salary, wildfire | 2% of net revenue |
   | Vehicle safety feature & standard | hood-open-driving-warning | 2% of net revenue |
-  | Physical product & operating model | solar-smart-water-refill-stations | 4% of net revenue |
+  | Physical product & operating model | solar-smart-water-refill-stations, adjustable-window-vent-slider | 4% of net revenue |
   | Software | vestinno, remotebite | 8% of net revenue |
 
 © Merih İlgör
