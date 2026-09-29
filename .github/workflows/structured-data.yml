@@ -1,0 +1,26 @@
+name: Structured data
+
+on:
+  push:
+    paths:
+      - projects.json
+      - scripts/build_jsonld.py
+      - _includes/head-custom.html
+      - .github/workflows/structured-data.yml
+  pull_request:
+    paths:
+      - projects.json
+      - scripts/build_jsonld.py
+      - _includes/head-custom.html
+      - .github/workflows/structured-data.yml
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: JSON-LD include matches projects.json
+        run: python3 scripts/build_jsonld.py --check
