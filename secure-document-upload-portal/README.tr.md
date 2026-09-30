@@ -84,7 +84,7 @@ Başvuru sahibi için deneyim basittir: evden bir kez yükler ve belgelerini tam
 | Farklı ulusal kuralların sınır ötesi kullanımı zorlaştırması | Ülkeler arasında ya da bir ülkeler birliği içinde üzerinde anlaşılan ortak standartlar |
 | Aracı işletmelerin işlerinin bir kısmını kaybetmesi | Belgelerin kopyasını tutmadan, başvuru sahiplerine portalı kullanmada yardımcı olmaya devam edebilirler |
 
-**Anahtar kelimeler:** kişisel verilerin korunması, kimlik hırsızlığı, dolandırıcılığın önlenmesi, vize başvurusu, güvenli belge yükleme, dijital kimlik, e-devlet, mahremiyet
+**Anahtar kelimeler:** kişisel verilerin korunması, kimlik hırsızlığı, dolandırıcılığın önlenmesi, vize başvurusu, güvenli belge yükleme, dijital kimlik, dijital devlet, mahremiyet
 
 ## Köken
 

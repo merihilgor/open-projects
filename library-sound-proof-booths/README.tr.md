@@ -4,7 +4,7 @@ English: [README.md](README.md)
 
 ## Özet
 
-Kütüphaneler sessizlik üzerine kuruludur, ancak öğrenmenin ve çalışmanın giderek daha büyük bir kısmı artık sesli yapılıyor: dil uygulamaları, kayıtlı dersler, çevrim içi sınıflar, görüntülü toplantılar ve telefon görüşmeleri. Bu öneri, okuma için ayrılan alanın elverdiği yerlerde, halk ve millet kütüphanelerine tek kişilik veya küçük grup için **ses yalıtımlı kabinler** eklenmesini önerir. Kabinin içinde insanlar rahatça konuşabilir; dışarıda ise okuma salonları sessiz kalır. Kütüphane asıl işlevini korurken sesli ve çağdaş öğrenme için de bir mekâna dönüşür.
+Kütüphaneler sessizlik üzerine kuruludur, ancak öğrenmenin ve çalışmanın giderek daha büyük bir kısmı artık sesli yapılıyor: dil uygulamaları, kayıtlı dersler, çevrim içi sınıflar, görüntülü toplantılar ve telefon görüşmeleri. Bu öneri, okuma için ayrılan alanın elverdiği yerlerde, halk kütüphanelerine tek kişilik veya küçük grup için **ses yalıtımlı kabinler** eklenmesini önerir. Kabinin içinde insanlar rahatça konuşabilir; dışarıda ise okuma salonları sessiz kalır. Kütüphane asıl işlevini korurken sesli ve çağdaş öğrenme için de bir mekâna dönüşür.
 
 ## Sorun
 
@@ -71,7 +71,7 @@ flowchart TD
 | Kabinler öğrenme veya iş dışı amaçlarla kullanılır | Açık kullanım kuralları ve personel gözetimi |
 | Kurulum ve bakım maliyeti | Önce pilot, ardından ölçülen talebe göre yaygınlaştırma |
 
-**Anahtar kelimeler:** halk kütüphaneleri, millet kütüphaneleri, ses yalıtımlı kabin, sessiz çalışma, sesli öğrenme, çevrim içi ders, uzaktan çalışma, yaşam boyu öğrenme
+**Anahtar kelimeler:** halk kütüphaneleri, ses yalıtımlı kabin, sessiz çalışma, sesli öğrenme, çevrim içi ders, uzaktan çalışma, yaşam boyu öğrenme
 
 ## Köken
 

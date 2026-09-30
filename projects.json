@@ -413,7 +413,6 @@
       ],
       "keywords_tr": [
         "halk kütüphaneleri",
-        "millet kütüphaneleri",
         "ses yalıtımlı kabin",
         "sessiz çalışma",
         "sesli öğrenme",
@@ -696,7 +695,7 @@
         "vize başvurusu",
         "güvenli belge yükleme",
         "dijital kimlik",
-        "e-devlet",
+        "dijital devlet",
         "mahremiyet"
       ],
       "url": "https://github.com/merihilgor/open-projects/tree/main/secure-document-upload-portal",
