@@ -1,6 +1,6 @@
 # Open Projects
 
-> Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0).
+> Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, fire prevention, water and energy, digital government, privacy, payments, taxation, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0).
 
 Each project is a self-contained proposal describing WHAT the idea is and WHY it matters (problem, solution, how it works, phasing, stakeholders, risks), in English (README.md) and Turkish (README.tr.md). Author: Merih İlgör. Non-commercial use is free under CC BY-NC-SA 4.0 with attribution; commercial use, including selling modified versions as new ideas, requires a revenue-share agreement (COMMERCIAL-LICENSE.md in each folder); patent-like rights are reserved. A machine-readable catalog is in projects.json.
 
@@ -39,6 +39,7 @@ Each project is a self-contained proposal describing WHAT the idea is and WHY it
 ## Road safety
 
 - [Hood-Open Driving Warning: Preventing Accidents Caused by an Unlatched Hood](https://raw.githubusercontent.com/merihilgor/open-projects/main/hood-open-driving-warning/README.md): A door-open-style warning for an unlatched car hood that escalates while driving, so a hood never flies up, blocks the windshield and causes an accident. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/hood-open-driving-warning/README.tr.md
+- [Dashcam-Based Traffic Violation Detection: Extending Enforcement Beyond Fixed Cameras](https://raw.githubusercontent.com/merihilgor/open-projects/main/dashcam-traffic-violation-detection/README.md): Police-approved dashcams with a sealed detection app send only still images, time and location of violations via the driver's phone for fines; uncertain cases go to an officer. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/dashcam-traffic-violation-detection/README.tr.md
 
 ## Housing & health
 
@@ -47,6 +48,38 @@ Each project is a self-contained proposal describing WHAT the idea is and WHY it
 ## Consumer products
 
 - [Motorcycle Seat Galosh: A Slip-On Cover That Keeps Parked Seats Clean](https://raw.githubusercontent.com/merihilgor/open-projects/main/motorcycle-seat-galosh/README.md): A galosh-style, seat-only slip-on cover that keeps parked motorcycle and scooter seats clean from cats' paw prints and dirt: on in seconds when parked, off before riding. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/motorcycle-seat-galosh/README.tr.md
+
+## Public spaces & education
+
+- [Sound-Proof Booths in Public Libraries: Voice-Based Learning Without Breaking the Silence](https://raw.githubusercontent.com/merihilgor/open-projects/main/library-sound-proof-booths/README.md): Sound-proof single and small-group booths in public libraries, where reading capacity allows, for calls, online classes and voice-based learning, so reading rooms stay silent. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/library-sound-proof-booths/README.tr.md
+
+## Energy & water
+
+- [Floating Solar on Reservoirs: Saving Water and Generating Energy on the Same Surface](https://raw.githubusercontent.com/merihilgor/open-projects/main/floating-solar-on-reservoirs/README.md): Floating solar panels on pontoons over dam reservoirs and treatment ponds shade the water to cut evaporation on hot days while generating clean energy, with no land used. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/floating-solar-on-reservoirs/README.tr.md
+
+## Digital government
+
+- [Building-Level Postcodes: A Full Address from a Postcode and a Door Number](https://raw.githubusercontent.com/merihilgor/open-projects/main/building-level-postcodes/README.md): A unique postcode for each building so that postcode plus door number gives the full address, enabling validation and autofill and ending costly correction of free-text addresses. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/building-level-postcodes/README.tr.md
+
+## Home & fire safety
+
+- [Smart Relay Panel for Fire Prevention: Switching Off Whole Circuits When Nobody Needs Them](https://raw.githubusercontent.com/merihilgor/open-projects/main/smart-relay-panel-fire-prevention/README.md): A multi-channel smart relay in the electrical panel cuts every circuit except alarm and fridge when people leave, and unused ones at night; insurers sponsor it, factories first, then homes. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/smart-relay-panel-fire-prevention/README.tr.md
+
+## Finance & consumer protection
+
+- [Incoming Transfer Approval: Letting Recipients Accept or Return Money Before It Lands](https://raw.githubusercontent.com/merihilgor/open-projects/main/incoming-transfer-approval/README.md): Opt-in control over incoming transfers: hold money until the recipient accepts (app, SMS, voice menu, branch) or auto-hold unknown senders; rejected money goes back, businesses use rules. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/incoming-transfer-approval/README.tr.md
+
+## Economy & entrepreneurship
+
+- [Zero Tax Until First Profit: Encouraging New Businesses with a Simple Startup Tax Status](https://raw.githubusercontent.com/merihilgor/open-projects/main/zero-tax-until-first-profit/README.md): New businesses, sole proprietorships included, pay zero income or corporate tax until their first profit, then move to normal rates in simple steps, with low-cost setup and a digital status card. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/zero-tax-until-first-profit/README.tr.md
+
+## Housing & consumer rights
+
+- [Brokerage Fee Paid by the Client: Whoever Hires the Agent Pays the Agent](https://raw.githubusercontent.com/merihilgor/open-projects/main/brokerage-fee-paid-by-client/README.md): By default the party who hires the real estate agent pays the fee (the seller in a sale, the landlord in a rental), unless the contract says otherwise; buyers and tenants pay nothing. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/brokerage-fee-paid-by-client/README.tr.md
+
+## Privacy & e-government
+
+- [Secure Document-Upload Portal for Official Applications: Sensitive Documents Without Photocopies and Intermediaries](https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-document-upload-portal/README.md): A state-hosted portal where applicants upload visa and other sensitive documents once; it forwards them to consulates with authorized, time-limited, logged access and deletion after use. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-document-upload-portal/README.tr.md
 
 ## Optional
 
