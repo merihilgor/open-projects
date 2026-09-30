@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+<title id="t">Ses yalıtımlı kabinler, kütüphane sessizliğini bozmadan sesli öğrenmeye alan açar</title>
+<desc id="d">Bir kütüphanenin kesiti. Solda masalarda okuyucuların olduğu sessiz okuma salonu. Sağda bir kişinin görüntülü görüşme yaptığı tek kişilik ses yalıtımlı kabin ve üç kişinin konuştuğu küçük grup kabini; ses kabin duvarlarının içinde kalıyor.</desc>
+<rect x="1" y="1" width="898" height="468" rx="16" fill="#f8faf9" stroke="#d9e2de" stroke-width="1.5"/>
+<line x1="40" y1="380" x2="860" y2="380" stroke="#8c9994" stroke-width="3"/>
+<text x="240" y="70" font-size="18" fill="#2f3b36" text-anchor="middle" font-weight="700">Sessiz okuma salonu</text>
+<text x="675" y="70" font-size="18" fill="#2f3b36" text-anchor="middle" font-weight="700">Ses yalıtımlı kabinler</text>
+<text x="240" y="96" font-size="14" fill="#5f6f68" text-anchor="middle">Okuma ve çalışma, tam sessizlik</text>
+<text x="675" y="96" font-size="14" fill="#5f6f68" text-anchor="middle">Görüşme, çevrim içi ders, grup çalışması</text>
+<rect x="60" y="150" width="360" height="70" rx="4" fill="#dfeae7" stroke="#c9d3cf" stroke-width="1.5"/>
+<rect x="66.0" y="166" width="9" height="48" fill="#6f9a90"/>
+<rect x="77.5" y="159" width="9" height="55" fill="#b8654a"/>
+<rect x="89.0" y="152" width="9" height="62" fill="#8c9994"/>
+<rect x="100.5" y="161" width="9" height="53" fill="#3f7f73"/>
+<rect x="112.0" y="154" width="9" height="60" fill="#c9d3cf"/>
+<rect x="123.5" y="163" width="9" height="51" fill="#6f9a90"/>
+<rect x="135.0" y="156" width="9" height="58" fill="#b8654a"/>
+<rect x="146.5" y="165" width="9" height="49" fill="#8c9994"/>
+<rect x="158.0" y="158" width="9" height="56" fill="#3f7f73"/>
+<rect x="169.5" y="151" width="9" height="63" fill="#c9d3cf"/>
+<rect x="181.0" y="160" width="9" height="54" fill="#6f9a90"/>
+<rect x="192.5" y="153" width="9" height="61" fill="#b8654a"/>
+<rect x="204.0" y="162" width="9" height="52" fill="#8c9994"/>
+<rect x="215.5" y="155" width="9" height="59" fill="#3f7f73"/>
+<rect x="227.0" y="164" width="9" height="50" fill="#c9d3cf"/>
+<rect x="238.5" y="157" width="9" height="57" fill="#6f9a90"/>
+<rect x="250.0" y="166" width="9" height="48" fill="#b8654a"/>
+<rect x="261.5" y="159" width="9" height="55" fill="#8c9994"/>
+<rect x="273.0" y="152" width="9" height="62" fill="#3f7f73"/>
+<rect x="284.5" y="161" width="9" height="53" fill="#c9d3cf"/>
+<rect x="296.0" y="154" width="9" height="60" fill="#6f9a90"/>
+<rect x="307.5" y="163" width="9" height="51" fill="#b8654a"/>
+<rect x="319.0" y="156" width="9" height="58" fill="#8c9994"/>
+<rect x="330.5" y="165" width="9" height="49" fill="#3f7f73"/>
+<rect x="342.0" y="158" width="9" height="56" fill="#c9d3cf"/>
+<rect x="353.5" y="151" width="9" height="63" fill="#6f9a90"/>
+<rect x="365.0" y="160" width="9" height="54" fill="#b8654a"/>
+<rect x="376.5" y="153" width="9" height="61" fill="#8c9994"/>
+<rect x="388.0" y="162" width="9" height="52" fill="#3f7f73"/>
+<rect x="399.5" y="155" width="9" height="59" fill="#c9d3cf"/>
+<circle cx="120" cy="258" r="11" fill="#2f3b36"/>
+<path d="M104,298 L104,282 Q104,272 114,272 L126,272 Q136,272 136,282 L136,298 Z" fill="#6f9a90"/>
+<circle cx="180" cy="258" r="11" fill="#2f3b36"/>
+<path d="M164,298 L164,282 Q164,272 174,272 L186,272 Q196,272 196,282 L196,298 Z" fill="#6f9a90"/>
+<rect x="80" y="298" width="160" height="9" rx="3" fill="#8c9994"/>
+<line x1="92" y1="307" x2="92" y2="380" stroke="#8c9994" stroke-width="4"/>
+<line x1="228" y1="307" x2="228" y2="380" stroke="#8c9994" stroke-width="4"/>
+<path d="M108,296 L120,290 L132,296 Z" fill="#f8faf9" stroke="#2f3b36" stroke-width="1.5"/>
+<path d="M168,296 L180,290 L192,296 Z" fill="#f8faf9" stroke="#2f3b36" stroke-width="1.5"/>
+<circle cx="300" cy="258" r="11" fill="#2f3b36"/>
+<path d="M284,298 L284,282 Q284,272 294,272 L306,272 Q316,272 316,282 L316,298 Z" fill="#6f9a90"/>
+<circle cx="360" cy="258" r="11" fill="#2f3b36"/>
+<path d="M344,298 L344,282 Q344,272 354,272 L366,272 Q376,272 376,282 L376,298 Z" fill="#6f9a90"/>
+<rect x="260" y="298" width="160" height="9" rx="3" fill="#8c9994"/>
+<line x1="272" y1="307" x2="272" y2="380" stroke="#8c9994" stroke-width="4"/>
+<line x1="408" y1="307" x2="408" y2="380" stroke="#8c9994" stroke-width="4"/>
+<path d="M288,296 L300,290 L312,296 Z" fill="#f8faf9" stroke="#2f3b36" stroke-width="1.5"/>
+<path d="M348,296 L360,290 L372,296 Z" fill="#f8faf9" stroke="#2f3b36" stroke-width="1.5"/>
+<circle cx="240" cy="126" r="14" fill="none" stroke="#3f7f73" stroke-width="2.5"/>
+<path d="M233,122 L237,122 L243,116 L243,136 L237,130 L233,130 Z" fill="#3f7f73"/>
+<line x1="230" y1="136" x2="250" y2="116" stroke="#3f7f73" stroke-width="2.5"/>
+<line x1="455" y1="120" x2="455" y2="380" stroke="#c9d3cf" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="480" y="150" width="170" height="230" rx="8" fill="#6f9a90"/>
+<rect x="490" y="160" width="150" height="220" rx="4" fill="#eef4f2"/>
+<text x="565.0" y="138" font-size="15" fill="#2f3b36" text-anchor="middle" font-weight="600">Tek kişilik kabin</text>
+<rect x="675" y="150" width="190" height="230" rx="8" fill="#6f9a90"/>
+<rect x="685" y="160" width="170" height="220" rx="4" fill="#eef4f2"/>
+<text x="770.0" y="138" font-size="15" fill="#2f3b36" text-anchor="middle" font-weight="600">Küçük grup kabini</text>
+<circle cx="545" cy="258" r="11" fill="#2f3b36"/>
+<path d="M529,298 L529,282 Q529,272 539,272 L551,272 Q561,272 561,282 L561,298 Z" fill="#6f9a90"/>
+<rect x="500" y="298" width="130" height="9" rx="3" fill="#8c9994"/>
+<line x1="512" y1="307" x2="512" y2="380" stroke="#8c9994" stroke-width="4"/>
+<line x1="618" y1="307" x2="618" y2="380" stroke="#8c9994" stroke-width="4"/>
+<path d="M584,296 L596,270 L622,270 L612,296 Z" fill="#2f3b36"/>
+<path d="M587,293 L597,273 L618,273 L609,293 Z" fill="#dfeae7"/>
+<path d="M560.0,255.2 Q564.8,262 560.0,268.8" fill="none" stroke="#3f7f73" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M563.5,249.25 Q572.5,262 563.5,274.75" fill="none" stroke="#3f7f73" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="710" cy="262" r="11" fill="#2f3b36"/>
+<path d="M694,302 L694,286 Q694,276 704,276 L716,276 Q726,276 726,286 L726,302 Z" fill="#6f9a90"/>
+<circle cx="770" cy="248" r="11" fill="#2f3b36"/>
+<path d="M754,288 L754,272 Q754,262 764,262 L776,262 Q786,262 786,272 L786,288 Z" fill="#6f9a90"/>
+<circle cx="830" cy="262" r="11" fill="#2f3b36"/>
+<path d="M814,302 L814,286 Q814,276 824,276 L836,276 Q846,276 846,286 L846,302 Z" fill="#6f9a90"/>
+<rect x="700" y="302" width="140" height="9" rx="3" fill="#8c9994"/>
+<line x1="712" y1="311" x2="712" y2="380" stroke="#8c9994" stroke-width="4"/>
+<line x1="828" y1="311" x2="828" y2="380" stroke="#8c9994" stroke-width="4"/>
+<path d="M725.0,255.2 Q729.8,262 725.0,268.8" fill="none" stroke="#3f7f73" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M728.5,249.25 Q737.5,262 728.5,274.75" fill="none" stroke="#3f7f73" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M815.0,255.2 Q810.2,262 815.0,268.8" fill="none" stroke="#3f7f73" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M811.5,249.25 Q802.5,262 811.5,274.75" fill="none" stroke="#3f7f73" stroke-width="2.2" stroke-linecap="round"/>
+<rect x="738" y="178" width="64" height="30" rx="10" fill="#f8faf9" stroke="#3f7f73" stroke-width="2"/>
+<path d="M764,208 L770,218 L776,208" fill="#f8faf9" stroke="#3f7f73" stroke-width="2"/>
+<line x1="764" y1="208" x2="776" y2="208" stroke="#f8faf9" stroke-width="3"/>
+<circle cx="756" cy="193" r="3" fill="#3f7f73"/><circle cx="770" cy="193" r="3" fill="#3f7f73"/><circle cx="784" cy="193" r="3" fill="#3f7f73"/>
+<text x="675" y="408" font-size="14" fill="#3f7f73" text-anchor="middle" font-weight="600">Ses, yalıtımlı duvarların içinde kalır</text>
+<text x="450" y="448" font-size="18" fill="#2f3b36" text-anchor="middle" font-weight="600">Sesli öğrenme kabinlere taşınır, okuma salonları sessiz kalır</text>
+</svg>
