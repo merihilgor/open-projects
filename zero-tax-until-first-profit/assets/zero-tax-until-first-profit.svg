@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+<title id="t">Zero income or corporate tax until the first profit</title>
+<desc id="d">Timeline of a new business. From founding until the first profitable year its income or corporate tax is zero. After the first profitable year the rate rises step by step to the normal rate. A startup tax status card shows the current stage, the tax owed and the next stage.</desc>
+<rect x="1" y="1" width="898" height="468" rx="16" fill="#f8faf9" stroke="#d9e2de" stroke-width="1.5"/>
+<line x1="80" y1="170" x2="80" y2="360" stroke="#8c9994" stroke-width="2"/>
+<text x="62" y="265" font-size="13" fill="#5f6f68" text-anchor="middle" transform="rotate(-90 62 265)">Income or corporate tax</text>
+<line x1="80" y1="200" x2="860" y2="200" stroke="#c9d3cf" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="860" y="190" font-size="14" fill="#5f6f68" text-anchor="end" font-weight="600">Normal rate</text>
+<rect x="100" y="326" width="380" height="34" rx="4" fill="#dfeae7"/>
+<text x="290" y="349" font-size="18" fill="#3f7f73" text-anchor="middle" font-weight="700">Zero tax</text>
+<line x1="480" y1="150" x2="480" y2="360" stroke="#b8654a" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="480" y="142" font-size="15" fill="#b8654a" text-anchor="middle" font-weight="700">First profitable year</text>
+<path d="M100,360 L480,360 L480,320 L570,320 L570,280 L660,280 L660,240 L740,240 L740,200 L860,200" fill="none" stroke="#3f7f73" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="80" y1="360" x2="870" y2="360" stroke="#2f3b36" stroke-width="2.5"/>
+<line x1="100" y1="360" x2="100" y2="370" stroke="#2f3b36" stroke-width="2"/>
+<line x1="480" y1="360" x2="480" y2="370" stroke="#2f3b36" stroke-width="2"/>
+<line x1="740" y1="360" x2="740" y2="370" stroke="#2f3b36" stroke-width="2"/>
+<line x1="860" y1="360" x2="860" y2="370" stroke="#2f3b36" stroke-width="2"/>
+<text x="100" y="392" font-size="15" fill="#2f3b36" text-anchor="start" font-weight="600">Founding</text>
+<text x="300" y="392" font-size="15" fill="#2f3b36" text-anchor="middle" font-weight="600">Startup: no profit</text>
+<text x="610" y="392" font-size="15" fill="#2f3b36" text-anchor="middle" font-weight="600">Graduated transition</text>
+<text x="800" y="392" font-size="15" fill="#2f3b36" text-anchor="middle" font-weight="600">Normal</text>
+<line x1="240" y1="172" x2="240" y2="324" stroke="#8c9994" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="100" y="34" width="290" height="138" rx="12" fill="#ffffff" stroke="#3f7f73" stroke-width="2"/>
+<path d="M100,46 Q100,34 112,34 L378,34 Q390,34 390,46 L390,72 L100,72 Z" fill="#3f7f73"/>
+<text x="116" y="59" font-size="15" fill="#ffffff" font-weight="700">Startup tax status card</text>
+<text x="116" y="100" font-size="14" fill="#2f3b36" font-weight="600">Stage: Startup</text>
+<text x="116" y="126" font-size="14" fill="#2f3b36">Income or corporate tax: 0</text>
+<text x="116" y="152" font-size="14" fill="#5f6f68">Next: transition after first profit</text>
+<circle cx="364" cy="96" r="9" fill="#6f9a90"/>
+<text x="450" y="446" font-size="17" fill="#2f3b36" text-anchor="middle" font-weight="600">No profit, no income tax; after the first profit, a short step-by-step path to the normal rate</text>
+</svg>

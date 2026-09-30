@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+<title id="t">Opt-in transfer approval: the recipient accepts, or the money goes back</title>
+<desc id="d">A sender's transfer arrives in the recipient's account but is held on hold. The recipient's phone shows Accept and Reject buttons. Accept makes the money available; Reject returns it to the sender automatically. People without a smartphone can decide by SMS, phone voice menu or at a branch.</desc>
+<rect x="1" y="1" width="898" height="468" rx="16" fill="#f8faf9" stroke="#d9e2de" stroke-width="1.5"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#3f7f73"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#b8654a"/></marker></defs>
+<rect x="40" y="160" width="150" height="110" rx="12" fill="#ffffff" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="115" cy="112" r="13" fill="#6f9a90" stroke="#2f3b36" stroke-width="2"/>
+<path d="M92,152 Q92,130 115,130 Q138,130 138,152 Z" fill="#6f9a90" stroke="#2f3b36" stroke-width="2" stroke-linejoin="round"/>
+<text x="115" y="200" font-size="16" fill="#2f3b36" text-anchor="middle" font-weight="700">Sender</text>
+<text x="115" y="226" font-size="13" fill="#5f6f68" text-anchor="middle">sends a transfer</text>
+<circle cx="115" cy="248" r="9" fill="#f3e3a6" stroke="#2f3b36" stroke-width="1.5"/>
+<path d="M192,215 L262,215" fill="none" stroke="#3f7f73" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="270" y="150" width="200" height="140" rx="12" fill="#dfeae7" stroke="#2f3b36" stroke-width="2"/>
+<text x="370" y="178" font-size="15" fill="#2f3b36" text-anchor="middle" font-weight="700">Your account</text>
+<path d="M356,214 L356,202 A14 14 0 0 1 384,202 L384,214" fill="none" stroke="#2f3b36" stroke-width="3.5"/>
+<rect x="348" y="212" width="44" height="34" rx="5" fill="#b8654a" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="370" cy="226" r="4" fill="#2f3b36"/>
+<rect x="368" y="228" width="4" height="10" fill="#2f3b36"/>
+<text x="370" y="274" font-size="13" fill="#2f3b36" text-anchor="middle" font-weight="600">On hold until you decide</text>
+<path d="M472,215 L552,215" fill="none" stroke="#3f7f73" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#ah)"/>
+<rect x="560" y="100" width="120" height="220" rx="16" fill="#2f3b36"/>
+<rect x="569" y="116" width="102" height="188" rx="6" fill="#dfeae7"/>
+<text x="620" y="146" font-size="13" fill="#2f3b36" text-anchor="middle" font-weight="700">Incoming</text>
+<text x="620" y="164" font-size="13" fill="#2f3b36" text-anchor="middle" font-weight="700">transfer</text>
+<rect x="578" y="190" width="84" height="32" rx="8" fill="#3f7f73"/>
+<text x="620" y="211" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">Accept</text>
+<rect x="578" y="238" width="84" height="32" rx="8" fill="#b8654a"/>
+<text x="620" y="259" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">Reject</text>
+<path d="M664,206 L722,176" fill="none" stroke="#3f7f73" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="730" y="136" width="150" height="70" rx="12" fill="#ffffff" stroke="#3f7f73" stroke-width="2.5"/>
+<text x="805" y="164" font-size="14" fill="#3f7f73" text-anchor="middle" font-weight="700">Accepted:</text>
+<text x="805" y="188" font-size="13" fill="#2f3b36" text-anchor="middle" font-weight="600">money available</text>
+<text x="805" y="250" font-size="13" fill="#2f3b36" text-anchor="middle" font-weight="700">No smartphone?</text>
+<text x="805" y="270" font-size="13" fill="#5f6f68" text-anchor="middle">SMS, voice menu</text>
+<text x="805" y="290" font-size="13" fill="#5f6f68" text-anchor="middle">or branch</text>
+<path d="M620,322 L620,370 Q620,378 612,378 L123,378 Q115,378 115,370 L115,280" fill="none" stroke="#b8654a" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<text x="370" y="402" font-size="15" fill="#b8654a" text-anchor="middle" font-weight="600">Rejected: returned to the sender automatically</text>
+<text x="450" y="446" font-size="18" fill="#2f3b36" text-anchor="middle" font-weight="600">Opt-in transfer approval: the recipient accepts, or the money goes back</text>
+</svg>

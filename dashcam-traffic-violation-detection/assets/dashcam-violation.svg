@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+<title id="t">Only the evidence of a violation leaves the car</title>
+<desc id="d">Top-down view of a road: a car with an approved dashcam records a vehicle weaving onto the hard shoulder. A sealed evidence package with three still images, time, location and violation type goes through the driver's phone to the traffic police, which checks it automatically or by an officer. All other footage stays in the car.</desc>
+<rect x="1" y="1" width="898" height="468" rx="16" fill="#f8faf9" stroke="#d9e2de" stroke-width="1.5"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#3f7f73"/></marker></defs>
+<rect x="90" y="24" width="260" height="392" fill="#e4e9e7"/>
+<line x1="90" y1="24" x2="90" y2="416" stroke="#8c9994" stroke-width="3"/>
+<line x1="350" y1="24" x2="350" y2="416" stroke="#8c9994" stroke-width="3"/>
+<line x1="190" y1="24" x2="190" y2="416" stroke="#ffffff" stroke-width="4" stroke-dasharray="30 24"/>
+<line x1="290" y1="24" x2="290" y2="416" stroke="#ffffff" stroke-width="4"/>
+<text x="330" y="330" font-size="12" fill="#5f6f68" text-anchor="middle" transform="rotate(-90 330 330)">Hard shoulder</text>
+<polygon points="140,312 92,100 348,100" fill="#3f7f73" fill-opacity="0.12" stroke="#3f7f73" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 4"/>
+<path d="M240,410 C240,340 250,300 275,262 C295,232 318,226 320,200" fill="none" stroke="#b8654a" stroke-width="3" stroke-dasharray="7 6"/>
+<rect x="298" y="122" width="44" height="76" rx="10" fill="#b8654a" stroke="#2f3b36" stroke-width="2"/><rect x="304" y="134" width="32" height="14" rx="3" fill="#dfeae7" stroke="#2f3b36" stroke-width="1.5"/><rect x="304" y="176" width="32" height="10" rx="3" fill="#dfeae7" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="118" y="300" width="44" height="76" rx="10" fill="#6f9a90" stroke="#2f3b36" stroke-width="2"/><rect x="124" y="312" width="32" height="14" rx="3" fill="#dfeae7" stroke="#2f3b36" stroke-width="1.5"/><rect x="124" y="354" width="32" height="10" rx="3" fill="#dfeae7" stroke="#2f3b36" stroke-width="1.5"/>
+<circle cx="140" cy="314" r="4.5" fill="#2f3b36"/>
+<rect x="96" y="384" width="152" height="24" rx="6" fill="#f8faf9" stroke="#c9d3cf" stroke-width="1"/>
+<text x="172" y="401" font-size="13" fill="#2f3b36" text-anchor="middle" font-weight="600">Approved dashcam</text>
+<text x="100" y="52" font-size="15" fill="#b8654a" text-anchor="start" font-weight="700">Unsafe weaving onto</text>
+<text x="100" y="72" font-size="15" fill="#b8654a" text-anchor="start" font-weight="700">the hard shoulder</text>
+<line x1="240" y1="78" x2="300" y2="120" stroke="#5f6f68" stroke-width="1.5"/>
+<path d="M346,150 C400,140 420,100 456,92" fill="none" stroke="#3f7f73" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#ah)"/>
+<rect x="460" y="36" width="400" height="108" rx="12" fill="#ffffff" stroke="#3f7f73" stroke-width="2"/>
+<text x="480" y="64" font-size="16" fill="#2f3b36" font-weight="700">Sealed evidence package</text>
+<rect x="480" y="80" width="50" height="40" rx="4" fill="#dfeae7" stroke="#3f7f73" stroke-width="1.5"/><line x1="510" y1="84" x2="510" y2="116" stroke="#ffffff" stroke-width="2"/><rect x="512" y="92" width="10" height="17" rx="3" fill="#b8654a"/>
+<rect x="540" y="80" width="50" height="40" rx="4" fill="#dfeae7" stroke="#3f7f73" stroke-width="1.5"/><line x1="570" y1="84" x2="570" y2="116" stroke="#ffffff" stroke-width="2"/><rect x="572" y="92" width="10" height="17" rx="3" fill="#b8654a"/>
+<rect x="600" y="80" width="50" height="40" rx="4" fill="#dfeae7" stroke="#3f7f73" stroke-width="1.5"/><line x1="630" y1="84" x2="630" y2="116" stroke="#ffffff" stroke-width="2"/><rect x="632" y="92" width="10" height="17" rx="3" fill="#b8654a"/>
+<text x="680" y="92" font-size="14" fill="#2f3b36">Time</text>
+<text x="680" y="110" font-size="14" fill="#2f3b36">Location</text>
+<text x="680" y="128" font-size="14" fill="#2f3b36">Violation type</text>
+<circle cx="830" cy="60" r="12" fill="#3f7f73"/><path d="M824,60 L829,65 L837,55" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="146" x2="560" y2="176" stroke="#3f7f73" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="540" y="182" width="40" height="64" rx="7" fill="#2f3b36"/><rect x="545" y="190" width="30" height="46" rx="3" fill="#dfeae7"/>
+<text x="600" y="210" font-size="15" fill="#2f3b36" font-weight="600">Through the driver's phone</text>
+<text x="600" y="230" font-size="13" fill="#5f6f68">(no continuous upload)</text>
+<line x1="560" y1="248" x2="560" y2="278" stroke="#3f7f73" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="460" y="284" width="400" height="62" rx="12" fill="#dfeae7" stroke="#3f7f73" stroke-width="2"/>
+<path d="M492,298 L508,304 L508,318 Q508,330 492,336 Q476,330 476,318 L476,304 Z" fill="#3f7f73"/>
+<text x="524" y="308" font-size="16" fill="#2f3b36" font-weight="700">Traffic police</text>
+<text x="524" y="330" font-size="14" fill="#2f3b36">Automatic check, or officer review if unsure</text>
+<rect x="460" y="362" width="400" height="44" rx="12" fill="#ffffff" stroke="#c9d3cf" stroke-width="1.5"/>
+<rect x="480" y="381" width="16" height="13" rx="2" fill="#6f9a90"/><path d="M483,381 L483,376 Q488,369 493,376 L493,381" fill="none" stroke="#6f9a90" stroke-width="2"/>
+<text x="508" y="391" font-size="15" fill="#3f7f73" font-weight="600">All other footage stays in the car</text>
+<text x="450" y="450" font-size="17" fill="#2f3b36" text-anchor="middle" font-weight="600">Only the evidence of a violation leaves the car; everything else stays on the device</text>
+</svg>

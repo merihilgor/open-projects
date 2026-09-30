@@ -8,7 +8,7 @@ authors:
     email: "merihilgor@gmail.com"
 repository-code: "https://github.com/merihilgor/open-projects"
 url: "https://github.com/merihilgor/open-projects"
-abstract: "Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0)."
+abstract: "Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection and urban renewal, wildfire prevention, child online safety, road safety, fire prevention, water and energy, digital government, privacy, payments, taxation, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0)."
 keywords:
   - "public policy"
   - "project ideas"
@@ -20,5 +20,10 @@ keywords:
   - "road safety"
   - "accessibility"
   - "plastic waste"
+  - "urban renewal"
+  - "digital government"
+  - "privacy"
+  - "fire prevention"
+  - "renewable energy"
 license: CC-BY-NC-SA-4.0
 date-released: "2026-09-28"

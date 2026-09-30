@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+<title id="t">Evden çıkarken alarm ve buzdolabı dışında her şey panodan kesilir</title>
+<desc id="d">İki ray üzerinde on akıllı röle kanalı bulunan bir elektrik panosu. Evden çıkış modunda yalnızca alarm ve buzdolabı kanalları açık kalıyor; kettle, ütü, ısıtıcı, fırın, aydınlatma, prizler, çamaşır makinesi ve TV kapatılıyor. Panonun yanındaki telefonda Evden çıkıyorum ve Gece modu düğmeleri görünüyor.</desc>
+<rect x="1" y="1" width="898" height="468" rx="16" fill="#f8faf9" stroke="#d9e2de" stroke-width="1.5"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#3f7f73"/></marker></defs>
+<rect x="50" y="36" width="560" height="360" rx="14" fill="#ffffff" stroke="#2f3b36" stroke-width="2.5"/>
+<text x="330" y="68" font-size="17" fill="#2f3b36" text-anchor="middle" font-weight="700">Elektrik panosu: çok kanallı akıllı röle</text>
+<rect x="70" y="129" width="520" height="14" rx="3" fill="#c9d3cf" stroke="#8c9994" stroke-width="1"/>
+<rect x="70" y="264" width="520" height="14" rx="3" fill="#c9d3cf" stroke="#8c9994" stroke-width="1"/>
+<rect x="90" y="91" width="80" height="90" rx="6" fill="#dfeae7" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="152" cy="107" r="7" fill="#3f7f73" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="112" y="117" width="22" height="48" rx="4" fill="#ffffff" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="115" y="121" width="16" height="20" rx="3" fill="#3f7f73"/>
+<text x="130" y="203" font-size="13" fill="#2f3b36" text-anchor="middle" font-weight="600">Alarm</text>
+<rect x="190" y="91" width="80" height="90" rx="6" fill="#dfeae7" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="252" cy="107" r="7" fill="#3f7f73" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="212" y="117" width="22" height="48" rx="4" fill="#ffffff" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="215" y="121" width="16" height="20" rx="3" fill="#3f7f73"/>
+<text x="230" y="203" font-size="13" fill="#2f3b36" text-anchor="middle" font-weight="600">Buzdolabı</text>
+<rect x="290" y="91" width="80" height="90" rx="6" fill="#eef1f0" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="352" cy="107" r="7" fill="#c9d3cf" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="312" y="117" width="22" height="48" rx="4" fill="#ffffff" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="315" y="141" width="16" height="20" rx="3" fill="#8c9994"/>
+<text x="330" y="203" font-size="13" fill="#8c9994" text-anchor="middle" font-weight="600">Kettle</text>
+<rect x="390" y="91" width="80" height="90" rx="6" fill="#eef1f0" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="452" cy="107" r="7" fill="#c9d3cf" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="412" y="117" width="22" height="48" rx="4" fill="#ffffff" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="415" y="141" width="16" height="20" rx="3" fill="#8c9994"/>
+<text x="430" y="203" font-size="13" fill="#8c9994" text-anchor="middle" font-weight="600">Ütü</text>
+<rect x="490" y="91" width="80" height="90" rx="6" fill="#eef1f0" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="552" cy="107" r="7" fill="#c9d3cf" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="512" y="117" width="22" height="48" rx="4" fill="#ffffff" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="515" y="141" width="16" height="20" rx="3" fill="#8c9994"/>
+<text x="530" y="203" font-size="13" fill="#8c9994" text-anchor="middle" font-weight="600">Isıtıcı</text>
+<rect x="90" y="226" width="80" height="90" rx="6" fill="#eef1f0" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="152" cy="242" r="7" fill="#c9d3cf" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="112" y="252" width="22" height="48" rx="4" fill="#ffffff" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="115" y="276" width="16" height="20" rx="3" fill="#8c9994"/>
+<text x="130" y="338" font-size="13" fill="#8c9994" text-anchor="middle" font-weight="600">Fırın</text>
+<rect x="190" y="226" width="80" height="90" rx="6" fill="#eef1f0" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="252" cy="242" r="7" fill="#c9d3cf" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="212" y="252" width="22" height="48" rx="4" fill="#ffffff" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="215" y="276" width="16" height="20" rx="3" fill="#8c9994"/>
+<text x="230" y="338" font-size="13" fill="#8c9994" text-anchor="middle" font-weight="600">Aydınlatma</text>
+<rect x="290" y="226" width="80" height="90" rx="6" fill="#eef1f0" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="352" cy="242" r="7" fill="#c9d3cf" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="312" y="252" width="22" height="48" rx="4" fill="#ffffff" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="315" y="276" width="16" height="20" rx="3" fill="#8c9994"/>
+<text x="330" y="338" font-size="13" fill="#8c9994" text-anchor="middle" font-weight="600">Prizler</text>
+<rect x="390" y="226" width="80" height="90" rx="6" fill="#eef1f0" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="452" cy="242" r="7" fill="#c9d3cf" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="412" y="252" width="22" height="48" rx="4" fill="#ffffff" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="415" y="276" width="16" height="20" rx="3" fill="#8c9994"/>
+<text x="430" y="338" font-size="13" fill="#8c9994" text-anchor="middle" font-weight="600">Çamaşır mak.</text>
+<rect x="490" y="226" width="80" height="90" rx="6" fill="#eef1f0" stroke="#2f3b36" stroke-width="2"/>
+<circle cx="552" cy="242" r="7" fill="#c9d3cf" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="512" y="252" width="22" height="48" rx="4" fill="#ffffff" stroke="#2f3b36" stroke-width="1.5"/>
+<rect x="515" y="276" width="16" height="20" rx="3" fill="#8c9994"/>
+<text x="530" y="338" font-size="13" fill="#8c9994" text-anchor="middle" font-weight="600">TV</text>
+<text x="330" y="378" font-size="14" fill="#5f6f68" text-anchor="middle" font-style="italic">+ daha fazla kanal, örneğin bir evde 30 ila 50</text>
+<path d="M670,215 L620,215" fill="none" stroke="#3f7f73" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#ah)"/>
+<rect x="680" y="70" width="170" height="270" rx="18" fill="#2f3b36"/>
+<rect x="691" y="88" width="148" height="234" rx="8" fill="#dfeae7"/>
+<text x="765" y="116" font-size="14" fill="#2f3b36" text-anchor="middle" font-weight="700">Modlar</text>
+<rect x="703" y="134" width="124" height="48" rx="10" fill="#3f7f73" stroke="#2f3b36" stroke-width="2"/>
+<text x="765" y="163" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">Evden çıkıyorum</text>
+<rect x="703" y="196" width="124" height="48" rx="10" fill="#ffffff" stroke="#6f9a90" stroke-width="2"/>
+<text x="765" y="225" font-size="14" fill="#2f3b36" text-anchor="middle" font-weight="600">Gece modu</text>
+<circle cx="700" cy="370" r="8" fill="#3f7f73" stroke="#2f3b36" stroke-width="1.5"/>
+<text x="716" y="375" font-size="14" fill="#2f3b36" text-anchor="start">Açık kalır</text>
+<circle cx="700" cy="396" r="8" fill="#c9d3cf" stroke="#2f3b36" stroke-width="1.5"/>
+<text x="716" y="401" font-size="14" fill="#2f3b36" text-anchor="start">Elektrik kesilir</text>
+<text x="450" y="440" font-size="18" fill="#2f3b36" text-anchor="middle" font-weight="600">Evden çıkarken alarm ve buzdolabı dışında her şey panodan kesilir</text>
+</svg>
