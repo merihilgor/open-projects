@@ -7,14 +7,14 @@
 **plastic waste and refill stations, earthquake-safe building inspection, wildfire
 prevention, child online safety and age verification, road safety, healthy and
 damp-free housing, fair payroll timing, innovation marketplaces, accessible voice
-control, urban renewal, electrical fire prevention, floating solar, building-level
+control, electrical fire prevention, floating solar, building-level
 postcodes, safer bank transfers, dashcam traffic enforcement, startup
 taxation, fair brokerage fees and secure document submission.** Each proposal explains **what** the idea is and **why** it matters: the
 problem, the proposed solution, how it works, phasing, stakeholders and risks.
 
 **Türkçe:** Bu depo; plastik atık, deprem güvenliği ve bina muayenesi, orman yangını
-önleme, çocukların çevrimiçi güvenliği, trafik güvenliği, sağlıklı konut, kentsel
-dönüşüm, elektrik yangınlarının önlenmesi, dijital devlet, kişisel veri güvenliği ve daha
+önleme, çocukların çevrimiçi güvenliği, trafik güvenliği, sağlıklı konut,
+elektrik yangınlarının önlenmesi, dijital devlet, kişisel veri güvenliği ve daha
 birçok konuda ayrıntılı, iki dilli açık proje fikirleri içerir. Her projenin Türkçe
 metni `README.tr.md` dosyasındadır.
 
@@ -40,7 +40,6 @@ metni `README.tr.md` dosyasındadır.
 | [Incoming Transfer Approval: Letting Recipients Accept or Return Money Before It Lands](incoming-transfer-approval/) | [Türkçe](incoming-transfer-approval/README.tr.md) | Opt-in control over incoming transfers: hold money until the recipient accepts (app, SMS, voice menu, branch) or auto-hold unknown senders; rejected money goes back, businesses use rules. | Finance & consumer protection |
 | [Dashcam-Based Traffic Violation Detection: Extending Enforcement Beyond Fixed Cameras](dashcam-traffic-violation-detection/) | [Türkçe](dashcam-traffic-violation-detection/README.tr.md) | Police-approved dashcams with a sealed detection app send only still images, time and location of violations via the driver's phone for fines; uncertain cases go to an officer. | Road safety |
 | [Zero Tax Until First Profit: Encouraging New Businesses with a Simple Startup Tax Status](zero-tax-until-first-profit/) | [Türkçe](zero-tax-until-first-profit/README.tr.md) | New businesses, sole proprietorships included, pay zero income or corporate tax until their first profit, then move to normal rates in simple steps, with low-cost setup and a digital status card. | Economy & entrepreneurship |
-| [Shift and Lift: A Self-Financing Urban Renewal Model That Keeps Residents in Their Neighborhood](shift-and-lift-urban-renewal/) | [Türkçe](shift-and-lift-urban-renewal/README.tr.md) | State-organized renewal at near-zero cost to residents: rebuild one zone first, shift the next zones' residents into it without leaving the district, and finance it through a moderate capacity increase. | Housing & urban safety |
 | [Brokerage Fee Paid by the Client: Whoever Hires the Agent Pays the Agent](brokerage-fee-paid-by-client/) | [Türkçe](brokerage-fee-paid-by-client/README.tr.md) | By default the party who hires the real estate agent pays the fee (the seller in a sale, the landlord in a rental), unless the contract says otherwise; buyers and tenants pay nothing. | Housing & consumer rights |
 | [Secure Document-Upload Portal for Official Applications: Sensitive Documents Without Photocopies and Intermediaries](secure-document-upload-portal/) | [Türkçe](secure-document-upload-portal/README.tr.md) | A state-hosted portal where applicants upload visa and other sensitive documents once; it forwards them to consulates with authorized, time-limited, logged access and deletion after use. | Privacy & e-government |
 
@@ -49,7 +48,7 @@ metni `README.tr.md` dosyasındadır.
 - **Environment & waste:** [solar-smart-water-refill-stations](solar-smart-water-refill-stations/)
 - **Public health & tourism:** [paid-beach-shower-and-toilet-facilities](paid-beach-shower-and-toilet-facilities/)
 - **Digital policy & child safety:** [ai-content-rating-with-verified-age](ai-content-rating-with-verified-age/)
-- **Housing & urban safety:** [building-inspection-effective-age](building-inspection-effective-age/), [shift-and-lift-urban-renewal](shift-and-lift-urban-renewal/)
+- **Housing & urban safety:** [building-inspection-effective-age](building-inspection-effective-age/)
 - **Environment & climate:** [wildfire-biological-circuit-breaker](wildfire-biological-circuit-breaker/)
 - **Economy & sustainability:** [staggered-salary-payment-days](staggered-salary-payment-days/)
 - **Innovation & marketplaces:** [vestinno](vestinno/)
@@ -88,7 +87,7 @@ Every project is licensed **per folder** under a "CC+" model:
   | Project type | Projects | Default royalty |
   |---|---|---|
   | Physical product & operating model | solar-smart-water-refill-stations, smart-relay-panel-fire-prevention | 4% of net revenue |
-  | Public-policy idea | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days, library-sound-proof-booths, floating-solar-on-reservoirs, building-level-postcodes, incoming-transfer-approval, dashcam-traffic-violation-detection, zero-tax-until-first-profit, shift-and-lift-urban-renewal, brokerage-fee-paid-by-client, secure-document-upload-portal | 2% of net revenue |
+  | Public-policy idea | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days, library-sound-proof-booths, floating-solar-on-reservoirs, building-level-postcodes, incoming-transfer-approval, dashcam-traffic-violation-detection, zero-tax-until-first-profit, brokerage-fee-paid-by-client, secure-document-upload-portal | 2% of net revenue |
   | Software | vestinno, remotebite | 8% of net revenue |
   | Vehicle safety feature & standard | hood-open-driving-warning | 2% of net revenue |
   | Physical product | adjustable-window-vent-slider, motorcycle-seat-galosh | 4% of net revenue |

@@ -1,6 +1,6 @@
 {
   "name": "Open Projects",
-  "description": "Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection and urban renewal, wildfire prevention, child online safety, road safety, fire prevention, water and energy, digital government, privacy, payments, taxation, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0).",
+  "description": "Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, fire prevention, water and energy, digital government, privacy, payments, taxation, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0).",
   "url": "https://github.com/merihilgor/open-projects",
   "author": {
     "name": "Merih İlgör",
@@ -633,41 +633,6 @@
       "url": "https://github.com/merihilgor/open-projects/tree/main/zero-tax-until-first-profit",
       "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/zero-tax-until-first-profit/README.md",
       "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/zero-tax-until-first-profit/README.tr.md",
-      "license": "CC-BY-NC-SA-4.0",
-      "commercial_royalty_default": "2% of net revenue"
-    },
-    {
-      "slug": "shift-and-lift-urban-renewal",
-      "title": "Shift and Lift: A Self-Financing Urban Renewal Model That Keeps Residents in Their Neighborhood",
-      "title_tr": "Kaydır ve Yükselt (Shift and Lift): Sakinleri Semtinden Koparmayan, Kendini Finanse Eden Kentsel Dönüşüm Modeli",
-      "summary": "State-organized renewal at near-zero cost to residents: rebuild one zone first, shift the next zones' residents into it without leaving the district, and finance it through a moderate capacity increase.",
-      "theme": "Housing & urban safety",
-      "type": "Public-policy idea",
-      "keywords": [
-        "urban renewal",
-        "earthquake resilience",
-        "housing",
-        "urban planning",
-        "self-financing",
-        "density",
-        "parking",
-        "energy efficiency",
-        "residents' rights",
-        "satellite town"
-      ],
-      "keywords_tr": [
-        "kentsel dönüşüm",
-        "depreme dayanıklılık",
-        "konut",
-        "şehir planlama",
-        "kendi kendini finanse etme",
-        "otopark",
-        "enerji verimliliği",
-        "uydu kent"
-      ],
-      "url": "https://github.com/merihilgor/open-projects/tree/main/shift-and-lift-urban-renewal",
-      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/shift-and-lift-urban-renewal/README.md",
-      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/shift-and-lift-urban-renewal/README.tr.md",
       "license": "CC-BY-NC-SA-4.0",
       "commercial_royalty_default": "2% of net revenue"
     },

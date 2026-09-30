@@ -1,6 +1,6 @@
 # Open Projects
 
-> Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection and urban renewal, wildfire prevention, child online safety, road safety, fire prevention, water and energy, digital government, privacy, payments, taxation, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0).
+> Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, fire prevention, water and energy, digital government, privacy, payments, taxation, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0).
 
 Each project is a self-contained proposal describing WHAT the idea is and WHY it matters (problem, solution, how it works, phasing, stakeholders, risks), in English (README.md) and Turkish (README.tr.md). Author: Merih İlgör. Non-commercial use is free under CC BY-NC-SA 4.0 with attribution; commercial use, including selling modified versions as new ideas, requires a revenue-share agreement (COMMERCIAL-LICENSE.md in each folder); patent-like rights are reserved. A machine-readable catalog is in projects.json.
 
@@ -19,7 +19,6 @@ Each project is a self-contained proposal describing WHAT the idea is and WHY it
 ## Housing & urban safety
 
 - [Building Inspection and Effective Age Assessment System](https://raw.githubusercontent.com/merihilgor/open-projects/main/building-inspection-effective-age/README.md): Periodic building inspection, like vehicle inspection, that scores an 'effective age', checks structural changes against the approved project for earthquake risk, and keeps a QR digital building record. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/building-inspection-effective-age/README.tr.md
-- [Shift and Lift: A Self-Financing Urban Renewal Model That Keeps Residents in Their Neighborhood](https://raw.githubusercontent.com/merihilgor/open-projects/main/shift-and-lift-urban-renewal/README.md): State-organized renewal at near-zero cost to residents: rebuild one zone first, shift the next zones' residents into it without leaving the district, and finance it through a moderate capacity increase. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/shift-and-lift-urban-renewal/README.tr.md
 
 ## Environment & climate
 
