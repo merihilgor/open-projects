@@ -8,8 +8,8 @@
 prevention, child online safety and age verification, road safety, healthy and
 damp-free housing, fair payroll timing, innovation marketplaces, accessible voice
 control, urban renewal, electrical fire prevention, floating solar, building-level
-postcodes, digital receipts, safer bank transfers, dashcam traffic enforcement, startup
-taxation, fair brokerage fees, free e-petitions and secure document submission.** Each proposal explains **what** the idea is and **why** it matters: the
+postcodes, safer bank transfers, dashcam traffic enforcement, startup
+taxation, fair brokerage fees and secure document submission.** Each proposal explains **what** the idea is and **why** it matters: the
 problem, the proposed solution, how it works, phasing, stakeholders and risks.
 
 **Türkçe:** Bu depo; plastik atık, deprem güvenliği ve bina muayenesi, orman yangını
@@ -36,19 +36,17 @@ metni `README.tr.md` dosyasındadır.
 | [Sound-Proof Booths in Public Libraries: Voice-Based Learning Without Breaking the Silence](library-sound-proof-booths/) | [Türkçe](library-sound-proof-booths/README.tr.md) | Sound-proof single and small-group booths in public libraries, where reading capacity allows, for calls, online classes and voice-based learning, so reading rooms stay silent. | Public spaces & education |
 | [Floating Solar on Reservoirs: Saving Water and Generating Energy on the Same Surface](floating-solar-on-reservoirs/) | [Türkçe](floating-solar-on-reservoirs/README.tr.md) | Floating solar panels on pontoons over dam reservoirs and treatment ponds shade the water to cut evaporation on hot days while generating clean energy, with no land used. | Energy & water |
 | [Building-Level Postcodes: A Full Address from a Postcode and a Door Number](building-level-postcodes/) | [Türkçe](building-level-postcodes/README.tr.md) | A unique postcode for each building so that postcode plus door number gives the full address, enabling validation and autofill and ending costly correction of free-text addresses. | Digital government |
-| [Digital Receipt by Default: No Paper Card Slip for Customers Who Chose E-Slips](digital-receipt-by-default/) | [Türkçe](digital-receipt-by-default/README.tr.md) | Card terminals skip the paper customer slip for card holders who opted into digital receipts; the receipt arrives via their bank, with an SMS amount check and paper on request. | Environment & waste |
 | [Smart Relay Panel for Fire Prevention: Switching Off Whole Circuits When Nobody Needs Them](smart-relay-panel-fire-prevention/) | [Türkçe](smart-relay-panel-fire-prevention/README.tr.md) | A multi-channel smart relay in the electrical panel cuts every circuit except alarm and fridge when people leave, and unused ones at night; insurers sponsor it, factories first, then homes. | Home & fire safety |
 | [Incoming Transfer Approval: Letting Recipients Accept or Return Money Before It Lands](incoming-transfer-approval/) | [Türkçe](incoming-transfer-approval/README.tr.md) | Opt-in control over incoming transfers: hold money until the recipient accepts (app, SMS, voice menu, branch) or auto-hold unknown senders; rejected money goes back, businesses use rules. | Finance & consumer protection |
 | [Dashcam-Based Traffic Violation Detection: Extending Enforcement Beyond Fixed Cameras](dashcam-traffic-violation-detection/) | [Türkçe](dashcam-traffic-violation-detection/README.tr.md) | Police-approved dashcams with a sealed detection app send only still images, time and location of violations via the driver's phone for fines; uncertain cases go to an officer. | Road safety |
 | [Zero Tax Until First Profit: Encouraging New Businesses with a Simple Startup Tax Status](zero-tax-until-first-profit/) | [Türkçe](zero-tax-until-first-profit/README.tr.md) | New businesses, sole proprietorships included, pay zero income or corporate tax until their first profit, then move to normal rates in simple steps, with low-cost setup and a digital status card. | Economy & entrepreneurship |
 | [Shift and Lift: A Self-Financing Urban Renewal Model That Keeps Residents in Their Neighborhood](shift-and-lift-urban-renewal/) | [Türkçe](shift-and-lift-urban-renewal/README.tr.md) | State-organized renewal at near-zero cost to residents: rebuild one zone first, shift the next zones' residents into it without leaving the district, and finance it through a moderate capacity increase. | Housing & urban safety |
 | [Brokerage Fee Paid by the Client: Whoever Hires the Agent Pays the Agent](brokerage-fee-paid-by-client/) | [Türkçe](brokerage-fee-paid-by-client/README.tr.md) | By default the party who hires the real estate agent pays the fee (the seller in a sale, the landlord in a rental), unless the contract says otherwise; buyers and tenants pay nothing. | Housing & consumer rights |
-| [Free Registered E-Petitions for Every Citizen: Legally Valid Petitions Through the Digital-Identity Login](free-citizen-e-petition/) | [Türkçe](free-citizen-e-petition/README.tr.md) | Send legally valid registered e-petitions to public and private institutions, and receive the replies, free through the government digital-identity login, with no paid registered e-mail or e-signature. | Digital rights & e-government |
 | [Secure Document-Upload Portal for Official Applications: Sensitive Documents Without Photocopies and Intermediaries](secure-document-upload-portal/) | [Türkçe](secure-document-upload-portal/README.tr.md) | A state-hosted portal where applicants upload visa and other sensitive documents once; it forwards them to consulates with authorized, time-limited, logged access and deletion after use. | Privacy & e-government |
 
 ## Browse by theme
 
-- **Environment & waste:** [solar-smart-water-refill-stations](solar-smart-water-refill-stations/), [digital-receipt-by-default](digital-receipt-by-default/)
+- **Environment & waste:** [solar-smart-water-refill-stations](solar-smart-water-refill-stations/)
 - **Public health & tourism:** [paid-beach-shower-and-toilet-facilities](paid-beach-shower-and-toilet-facilities/)
 - **Digital policy & child safety:** [ai-content-rating-with-verified-age](ai-content-rating-with-verified-age/)
 - **Housing & urban safety:** [building-inspection-effective-age](building-inspection-effective-age/), [shift-and-lift-urban-renewal](shift-and-lift-urban-renewal/)
@@ -66,7 +64,6 @@ metni `README.tr.md` dosyasındadır.
 - **Finance & consumer protection:** [incoming-transfer-approval](incoming-transfer-approval/)
 - **Economy & entrepreneurship:** [zero-tax-until-first-profit](zero-tax-until-first-profit/)
 - **Housing & consumer rights:** [brokerage-fee-paid-by-client](brokerage-fee-paid-by-client/)
-- **Digital rights & e-government:** [free-citizen-e-petition](free-citizen-e-petition/)
 - **Privacy & e-government:** [secure-document-upload-portal](secure-document-upload-portal/)
 
 ## For researchers and AI assistants
@@ -91,7 +88,7 @@ Every project is licensed **per folder** under a "CC+" model:
   | Project type | Projects | Default royalty |
   |---|---|---|
   | Physical product & operating model | solar-smart-water-refill-stations, smart-relay-panel-fire-prevention | 4% of net revenue |
-  | Public-policy idea | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days, library-sound-proof-booths, floating-solar-on-reservoirs, building-level-postcodes, digital-receipt-by-default, incoming-transfer-approval, dashcam-traffic-violation-detection, zero-tax-until-first-profit, shift-and-lift-urban-renewal, brokerage-fee-paid-by-client, free-citizen-e-petition, secure-document-upload-portal | 2% of net revenue |
+  | Public-policy idea | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days, library-sound-proof-booths, floating-solar-on-reservoirs, building-level-postcodes, incoming-transfer-approval, dashcam-traffic-violation-detection, zero-tax-until-first-profit, shift-and-lift-urban-renewal, brokerage-fee-paid-by-client, secure-document-upload-portal | 2% of net revenue |
   | Software | vestinno, remotebite | 8% of net revenue |
   | Vehicle safety feature & standard | hood-open-driving-warning | 2% of net revenue |
   | Physical product | adjustable-window-vent-slider, motorcycle-seat-galosh | 4% of net revenue |

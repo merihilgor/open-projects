@@ -497,41 +497,6 @@
       "commercial_royalty_default": "2% of net revenue"
     },
     {
-      "slug": "digital-receipt-by-default",
-      "title": "Digital Receipt by Default: No Paper Card Slip for Customers Who Chose E-Slips",
-      "title_tr": "Varsayılan Dijital Fiş: E-Slip Tercih Eden Müşteriye Kâğıt Kart Fişi Basılmaması",
-      "summary": "Card terminals skip the paper customer slip for card holders who opted into digital receipts; the receipt arrives via their bank, with an SMS amount check and paper on request.",
-      "theme": "Environment & waste",
-      "type": "Public-policy idea",
-      "keywords": [
-        "digital receipt",
-        "e-slip",
-        "paper waste",
-        "card payments",
-        "payment terminal",
-        "consumer choice",
-        "sustainability",
-        "banking",
-        "SMS notification",
-        "thermal paper"
-      ],
-      "keywords_tr": [
-        "dijital fiş",
-        "e-slip",
-        "kâğıt israfı",
-        "kartlı ödeme",
-        "POS cihazı",
-        "tüketici tercihi",
-        "sürdürülebilirlik",
-        "SMS bildirimi"
-      ],
-      "url": "https://github.com/merihilgor/open-projects/tree/main/digital-receipt-by-default",
-      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/digital-receipt-by-default/README.md",
-      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/digital-receipt-by-default/README.tr.md",
-      "license": "CC-BY-NC-SA-4.0",
-      "commercial_royalty_default": "2% of net revenue"
-    },
-    {
       "slug": "smart-relay-panel-fire-prevention",
       "title": "Smart Relay Panel for Fire Prevention: Switching Off Whole Circuits When Nobody Needs Them",
       "title_tr": "Yangın Önleme İçin Akıllı Röle Panosu: Kimse İhtiyaç Duymadığında Tüm Hatların Elektriğini Kesmek",
@@ -737,40 +702,6 @@
       "url": "https://github.com/merihilgor/open-projects/tree/main/brokerage-fee-paid-by-client",
       "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/brokerage-fee-paid-by-client/README.md",
       "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/brokerage-fee-paid-by-client/README.tr.md",
-      "license": "CC-BY-NC-SA-4.0",
-      "commercial_royalty_default": "2% of net revenue"
-    },
-    {
-      "slug": "free-citizen-e-petition",
-      "title": "Free Registered E-Petitions for Every Citizen: Legally Valid Petitions Through the Digital-Identity Login",
-      "title_tr": "Her Vatandaşa Ücretsiz Kayıtlı E-Dilekçe: Dijital Kimlik Girişiyle Hukuken Geçerli Dilekçe",
-      "summary": "Send legally valid registered e-petitions to public and private institutions, and receive the replies, free through the government digital-identity login, with no paid registered e-mail or e-signature.",
-      "theme": "Digital rights & e-government",
-      "type": "Public-policy idea",
-      "keywords": [
-        "e-petition",
-        "right to petition",
-        "registered e-mail",
-        "electronic signature",
-        "digital identity",
-        "e-government",
-        "digital rights",
-        "free public service",
-        "citizen participation"
-      ],
-      "keywords_tr": [
-        "e-dilekçe",
-        "dilekçe hakkı",
-        "kayıtlı elektronik posta",
-        "elektronik imza",
-        "dijital kimlik",
-        "e-devlet",
-        "dijital haklar",
-        "ücretsiz kamu hizmeti"
-      ],
-      "url": "https://github.com/merihilgor/open-projects/tree/main/free-citizen-e-petition",
-      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/free-citizen-e-petition/README.md",
-      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/free-citizen-e-petition/README.tr.md",
       "license": "CC-BY-NC-SA-4.0",
       "commercial_royalty_default": "2% of net revenue"
     },

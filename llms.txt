@@ -7,7 +7,6 @@ Each project is a self-contained proposal describing WHAT the idea is and WHY it
 ## Environment & waste
 
 - [AKASU: Solar-Powered Smart Water Refill Stations and Integrated Plastic Waste Reduction](https://raw.githubusercontent.com/merihilgor/open-projects/main/solar-smart-water-refill-stations/README.md): Solar-powered smart drinking-water refill stations, combined with packaging and pricing measures, to cut single-use PET bottles and plastic bags. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/solar-smart-water-refill-stations/README.tr.md
-- [Digital Receipt by Default: No Paper Card Slip for Customers Who Chose E-Slips](https://raw.githubusercontent.com/merihilgor/open-projects/main/digital-receipt-by-default/README.md): Card terminals skip the paper customer slip for card holders who opted into digital receipts; the receipt arrives via their bank, with an SMS amount check and paper on request. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/digital-receipt-by-default/README.tr.md
 
 ## Public health & tourism
 
@@ -78,10 +77,6 @@ Each project is a self-contained proposal describing WHAT the idea is and WHY it
 ## Housing & consumer rights
 
 - [Brokerage Fee Paid by the Client: Whoever Hires the Agent Pays the Agent](https://raw.githubusercontent.com/merihilgor/open-projects/main/brokerage-fee-paid-by-client/README.md): By default the party who hires the real estate agent pays the fee (the seller in a sale, the landlord in a rental), unless the contract says otherwise; buyers and tenants pay nothing. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/brokerage-fee-paid-by-client/README.tr.md
-
-## Digital rights & e-government
-
-- [Free Registered E-Petitions for Every Citizen: Legally Valid Petitions Through the Digital-Identity Login](https://raw.githubusercontent.com/merihilgor/open-projects/main/free-citizen-e-petition/README.md): Send legally valid registered e-petitions to public and private institutions, and receive the replies, free through the government digital-identity login, with no paid registered e-mail or e-signature. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/free-citizen-e-petition/README.tr.md
 
 ## Privacy & e-government
 
