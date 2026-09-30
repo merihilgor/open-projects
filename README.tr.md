@@ -10,7 +10,10 @@
 bir derlemedir: plastik atık ve su dolum istasyonları, deprem güvenliği için bina
 muayenesi, orman yangını önleme, çocukların çevrimiçi güvenliği ve yaş doğrulama, trafik
 güvenliği, sağlıklı ve nemsiz konut, dengeli maaş ödeme günleri, inovasyon pazar yerleri ve
-erişilebilir sesli kontrol. Her öneri fikrin **ne** olduğunu ve **neden** önemli olduğunu
+erişilebilir sesli kontrol, elektrik yangınlarının önlenmesi, barajlarda yüzen güneş
+panelleri, bina düzeyinde posta kodu, daha güvenli banka transferleri, araç içi kamerayla
+trafik denetimi, girişim vergilendirmesi, adil emlak komisyonu ve güvenli belge gönderimi.
+Her öneri fikrin **ne** olduğunu ve **neden** önemli olduğunu
 anlatır: sorun, önerilen çözüm, nasıl çalıştığı, aşamalar, paydaşlar ve riskler.
 
 ## Projeler
@@ -28,6 +31,15 @@ anlatır: sorun, önerilen çözüm, nasıl çalıştığı, aşamalar, paydaşl
 | [Seyir Sırasında Açık Kaput Uyarısı: Kilitlenmemiş Kaputun Neden Olduğu Kazaların Önlenmesi](hood-open-driving-warning/README.tr.md) | [English](hood-open-driving-warning/README.md) |
 | [Ayarlanabilir Pencere Havalandırma Sürgüsü: Pencereyi Açmadan Sürekli Temiz Hava](adjustable-window-vent-slider/README.tr.md) | [English](adjustable-window-vent-slider/README.md) |
 | [Motosiklet Sele Galoşu: Park Halindeki Seleyi Temiz Tutan Geçirmeli Kılıf](motorcycle-seat-galosh/README.tr.md) | [English](motorcycle-seat-galosh/README.md) |
+| [Halk Kütüphanelerinde Ses Yalıtımlı Kabinler: Sessizliği Bozmadan Sesli Öğrenme](library-sound-proof-booths/README.tr.md) | [English](library-sound-proof-booths/README.md) |
+| [Barajlarda Yüzen Güneş Panelleri: Aynı Yüzeyde Su Tasarrufu ve Enerji Üretimi](floating-solar-on-reservoirs/README.tr.md) | [English](floating-solar-on-reservoirs/README.md) |
+| [Bina Düzeyinde Posta Kodu: Posta Kodu ve Kapı Numarasıyla Tam Adres](building-level-postcodes/README.tr.md) | [English](building-level-postcodes/README.md) |
+| [Yangın Önleme İçin Akıllı Röle Panosu: Kimse İhtiyaç Duymadığında Tüm Hatların Elektriğini Kesmek](smart-relay-panel-fire-prevention/README.tr.md) | [English](smart-relay-panel-fire-prevention/README.md) |
+| [Gelen Transfer Onayı: Alıcının Parayı Hesaba Geçmeden Kabul Etmesi veya İade Etmesi](incoming-transfer-approval/README.tr.md) | [English](incoming-transfer-approval/README.md) |
+| [Araç İçi Kamera ile Trafik İhlali Tespiti: Denetimi Sabit Kameraların Ötesine Taşımak](dashcam-traffic-violation-detection/README.tr.md) | [English](dashcam-traffic-violation-detection/README.md) |
+| [İlk Kâra Kadar Sıfır Vergi: Basit Bir Girişim Vergi Statüsüyle Yeni İşletme Kurmayı Teşvik Etmek](zero-tax-until-first-profit/README.tr.md) | [English](zero-tax-until-first-profit/README.md) |
+| [Emlak Komisyonunu İşi Veren Öder: Aracıyı Kim Görevlendirdiyse Hizmet Bedelini O Öder](brokerage-fee-paid-by-client/README.tr.md) | [English](brokerage-fee-paid-by-client/README.md) |
+| [Resmi Başvurular İçin Güvenli Belge Yükleme Portalı: Fotokopi ve Aracı Olmadan Hassas Belgeler](secure-document-upload-portal/README.tr.md) | [English](secure-document-upload-portal/README.md) |
 
 ## Kullanım amacı: araştırmacılar ve yapay zekâ asistanları için
 
@@ -89,8 +101,8 @@ Her proje **klasör bazında** "CC+" modeliyle lisanslanır:
 
   | Proje türü | Projeler | Varsayılan telif |
   |---|---|---|
-  | Fiziksel ürün ve işletme modeli | solar-smart-water-refill-stations | Net gelirin %4'ü |
-  | Kamu politikası fikri | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days | Net gelirin %2'si |
+  | Fiziksel ürün ve işletme modeli | solar-smart-water-refill-stations, smart-relay-panel-fire-prevention | Net gelirin %4'ü |
+  | Kamu politikası fikri | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days, library-sound-proof-booths, floating-solar-on-reservoirs, building-level-postcodes, incoming-transfer-approval, dashcam-traffic-violation-detection, zero-tax-until-first-profit, brokerage-fee-paid-by-client, secure-document-upload-portal | Net gelirin %2'si |
   | Yazılım | vestinno, remotebite | Net gelirin %8'i |
   | Araç güvenlik özelliği ve standardı | hood-open-driving-warning | Net gelirin %2'si |
   | Fiziksel ürün | adjustable-window-vent-slider, motorcycle-seat-galosh | Net gelirin %4'ü |
