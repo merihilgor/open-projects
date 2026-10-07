@@ -90,6 +90,10 @@ Each project is a self-contained proposal describing WHAT the idea is and WHY it
 
 - [Secure Document-Upload Portal for Official Applications: Sensitive Documents Without Photocopies and Intermediaries](https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-document-upload-portal/README.md): A state-hosted portal where applicants upload visa and other sensitive documents once; it forwards them to consulates with authorized, time-limited, logged access and deletion after use. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-document-upload-portal/README.tr.md
 
+## Telecommunications & frontier science
+
+- [Neutrino Communication: Sending Signals Straight Through the Earth](https://raw.githubusercontent.com/merihilgor/open-projects/main/neutrino-communication/README.md): A new telecommunication method using neutrino transmitters and receivers: signals pass straight through rock, water and the whole planet, reaching submarines at depth and underground sites and linking distant points by the shortest path. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/neutrino-communication/README.tr.md
+
 ## Optional
 
 - [Project catalog (JSON)](https://raw.githubusercontent.com/merihilgor/open-projects/main/projects.json): titles, summaries, themes and keywords for all projects
