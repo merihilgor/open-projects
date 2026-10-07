@@ -703,6 +703,41 @@
       "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-document-upload-portal/README.tr.md",
       "license": "CC-BY-NC-SA-4.0",
       "commercial_royalty_default": "2% of net revenue"
+    },
+    {
+      "slug": "neutrino-communication",
+      "title": "Neutrino Communication: Sending Signals Straight Through the Earth",
+      "title_tr": "Nötrino ile Haberleşme: Sinyalleri Doğrudan Dünya'nın İçinden Göndermek",
+      "summary": "A new telecommunication method using neutrino transmitters and receivers: signals pass straight through rock, water and the whole planet, reaching submarines at depth and underground sites and linking distant points by the shortest path.",
+      "theme": "Telecommunications & frontier science",
+      "type": "Technology / research concept",
+      "keywords": [
+        "neutrino communication",
+        "telecommunications",
+        "through-Earth communication",
+        "submarine communication",
+        "underground communication",
+        "mine rescue",
+        "anti-jamming",
+        "low-latency links",
+        "particle physics",
+        "frontier technology"
+      ],
+      "keywords_tr": [
+        "nötrino haberleşmesi",
+        "telekomünikasyon",
+        "Dünya'nın içinden haberleşme",
+        "denizaltı haberleşmesi",
+        "yer altı haberleşmesi",
+        "maden kurtarma",
+        "karıştırmaya dayanıklı iletişim",
+        "parçacık fiziği"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/neutrino-communication",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/neutrino-communication/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/neutrino-communication/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "4% of net revenue"
     }
   ]
 }

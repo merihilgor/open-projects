@@ -9,7 +9,8 @@ prevention, child online safety and age verification, road safety, healthy and
 damp-free housing, fair payroll timing, innovation marketplaces, accessible voice
 control, electrical fire prevention, floating solar, building-level
 postcodes, safer bank transfers, dashcam traffic enforcement, startup
-taxation, fair brokerage fees and secure document submission.** Each proposal explains **what** the idea is and **why** it matters: the
+taxation, fair brokerage fees, secure document submission and neutrino-based
+communication through the Earth.** Each proposal explains **what** the idea is and **why** it matters: the
 problem, the proposed solution, how it works, phasing, stakeholders and risks.
 
 **Türkçe:** Bu depo; plastik atık, deprem güvenliği ve bina muayenesi, orman yangını
@@ -43,6 +44,7 @@ bilgisi için: [README.tr.md](README.tr.md).
 | [Zero Tax Until First Profit: Encouraging New Businesses with a Simple Startup Tax Status](zero-tax-until-first-profit/) | [Türkçe](zero-tax-until-first-profit/README.tr.md) | New businesses, sole proprietorships included, pay zero income or corporate tax until their first profit, then move to normal rates in simple steps, with low-cost setup and a digital status card. | Economy & entrepreneurship |
 | [Brokerage Fee Paid by the Client: Whoever Hires the Agent Pays the Agent](brokerage-fee-paid-by-client/) | [Türkçe](brokerage-fee-paid-by-client/README.tr.md) | By default the party who hires the real estate agent pays the fee (the seller in a sale, the landlord in a rental), unless the contract says otherwise; buyers and tenants pay nothing. | Housing & consumer rights |
 | [Secure Document-Upload Portal for Official Applications: Sensitive Documents Without Photocopies and Intermediaries](secure-document-upload-portal/) | [Türkçe](secure-document-upload-portal/README.tr.md) | A state-hosted portal where applicants upload visa and other sensitive documents once; it forwards them to consulates with authorized, time-limited, logged access and deletion after use. | Privacy & e-government |
+| [Neutrino Communication: Sending Signals Straight Through the Earth](neutrino-communication/) | [Türkçe](neutrino-communication/README.tr.md) | A new telecommunication method using neutrino transmitters and receivers: signals pass straight through rock, water and the whole planet, reaching submarines at depth and underground sites and linking distant points by the shortest path. | Telecommunications & frontier science |
 
 ## Browse by theme
 
@@ -65,6 +67,7 @@ bilgisi için: [README.tr.md](README.tr.md).
 - **Economy & entrepreneurship:** [zero-tax-until-first-profit](zero-tax-until-first-profit/)
 - **Housing & consumer rights:** [brokerage-fee-paid-by-client](brokerage-fee-paid-by-client/)
 - **Privacy & e-government:** [secure-document-upload-portal](secure-document-upload-portal/)
+- **Telecommunications & frontier science:** [neutrino-communication](neutrino-communication/)
 
 ## Intended use: for researchers and AI assistants
 
@@ -131,6 +134,7 @@ Every project is licensed **per folder** under a "CC+" model:
   | Software | vestinno, remotebite | 8% of net revenue |
   | Vehicle safety feature & standard | hood-open-driving-warning | 2% of net revenue |
   | Physical product | adjustable-window-vent-slider, motorcycle-seat-galosh | 4% of net revenue |
+  | Technology / research concept | neutrino-communication | 4% of net revenue |
 
 - **Modified versions stay tied to the original idea.** Anyone may adapt and improve these
   ideas non-commercially, with attribution and under the same license. However, no modified,

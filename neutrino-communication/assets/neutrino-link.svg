@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-labelledby="t d">
+<title id="t">Neutrino communication: straight through the Earth</title><desc id="d">Neutrinos pass through rock, water and the whole planet, where radio and light cannot go</desc>
+<style>text{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;fill:#2b3a36}.h{font-size:23px;font-weight:700}.s{font-size:15px;fill:#55655f}.b{font-size:15px;font-weight:700}.m{font-size:14px;fill:#55655f}</style>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7b4fb5"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#8a9a95"/></marker></defs>
+<rect x="1" y="1" width="998" height="638" rx="16" fill="#f8faf9" stroke="#dfe6e3"/>
+<text x="40" y="48" class="h">Neutrino communication: straight through the Earth</text><text x="40" y="76" class="s">Neutrinos pass through rock, water and the whole planet, where radio and light cannot go</text>
+<!-- earth -->
+<circle cx="290" cy="400" r="165" fill="#cfe3d6" stroke="#6f8f86" stroke-width="2"/>
+<circle cx="290" cy="400" r="129" fill="#e8d3b4"/>
+<circle cx="290" cy="400" r="69" fill="#e7b48a"/>
+<circle cx="290" cy="400" r="33" fill="#d9925f"/>
+<!-- curved route via satellite -->
+<path d="M131 437 C 121 85, 459 85, 449 435" fill="none" stroke="#8a9a95" stroke-width="2.5" stroke-dasharray="7 6" marker-end="url(#ag)"/>
+<g transform="translate(290 163)"><rect x="-12" y="-8" width="24" height="16" rx="3" fill="#6f8f86"/><rect x="-40" y="-5" width="24" height="10" fill="#9fb8d6" stroke="#5f7fa6"/><rect x="16" y="-5" width="24" height="10" fill="#9fb8d6" stroke="#5f7fa6"/></g>
+<text x="290" y="123" class="b" text-anchor="middle" style="fill:#55655f">Satellite / cable route:</text>
+<text x="290" y="143" class="m" text-anchor="middle">longer, curved path</text>
+<!-- straight neutrino beam -->
+<line x1="137" y1="443" x2="439" y2="443" stroke="#7b4fb5" stroke-width="4" marker-end="url(#ar)"/>
+<text x="290" y="471" class="b" text-anchor="middle" style="fill:#5b3591">Neutrino beam:</text>
+<text x="290" y="491" class="m" text-anchor="middle">shortest straight path</text>
+<!-- tx rx -->
+<g><rect x="87" y="431" width="34" height="24" rx="5" fill="#5b3591"/><text x="104" y="477" class="b" text-anchor="middle">Transmitter</text></g>
+<g><circle cx="475" cy="443" r="15" fill="#fff" stroke="#5b3591" stroke-width="3"/><circle cx="475" cy="443" r="6" fill="#5b3591"/><text x="475" y="481" class="b" text-anchor="middle">Receiver</text></g>
+<!-- right panels -->
+<g transform="translate(555 120)">
+ <rect width="415" height="150" rx="12" fill="#fff" stroke="#dfe6e3"/>
+ <rect x="16" y="40" width="150" height="94" rx="6" fill="#bcd7ea"/>
+ <line x1="16" y1="40" x2="166" y2="40" stroke="#5f7fa6" stroke-width="2"/>
+ <text x="22" y="32" class="m" style="font-size:13px">sea surface</text>
+ <g transform="translate(92 104)"><ellipse rx="44" ry="11" fill="#4f5f5b"/><rect x="-8" y="-20" width="16" height="12" rx="3" fill="#4f5f5b"/></g>
+ <line x1="16" y1="70" x2="62" y2="98" stroke="#7b4fb5" stroke-width="3" marker-end="url(#ar)"/>
+ <text x="182" y="74" class="b">Submarine at depth</text><text x="182" y="96" class="m">reached through the water</text>
+</g>
+<g transform="translate(555 290)">
+ <rect width="415" height="150" rx="12" fill="#fff" stroke="#dfe6e3"/>
+ <rect x="16" y="40" width="150" height="94" rx="6" fill="#d8c3a2"/>
+ <line x1="16" y1="40" x2="166" y2="40" stroke="#8a6b45" stroke-width="2"/>
+ <text x="22" y="32" class="m" style="font-size:13px">ground</text>
+ <path d="M100 40 L100 92 L150 92" fill="none" stroke="#5e4a33" stroke-width="10"/>
+ <circle cx="140" cy="88" r="6" fill="#f2d98c" stroke="#5e4a33"/>
+ <line x1="22" y1="120" x2="120" y2="98" stroke="#7b4fb5" stroke-width="3" marker-end="url(#ar)"/>
+ <text x="182" y="74" class="b">Underground mine or rescue</text><text x="182" y="96" class="m">reached through the rock</text>
+</g>
+<g transform="translate(555 460)">
+ <rect width="415" height="110" rx="12" fill="#fff" stroke="#dfe6e3"/>
+ <g transform="translate(60 55)"><circle r="26" fill="#efe7f7" stroke="#7b4fb5" stroke-width="2"/><path d="M-11 0 L-3 8 L12 -9" fill="none" stroke="#5b3591" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+ <text x="110" y="50" class="b">Cannot be jammed or blocked</text><text x="110" y="72" class="m">no cables or line of sight</text>
+</g>
+</svg>

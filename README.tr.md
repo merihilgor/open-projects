@@ -40,6 +40,7 @@ anlatır: sorun, önerilen çözüm, nasıl çalıştığı, aşamalar, paydaşl
 | [İlk Kâra Kadar Sıfır Vergi: Basit Bir Girişim Vergi Statüsüyle Yeni İşletme Kurmayı Teşvik Etmek](zero-tax-until-first-profit/README.tr.md) | [English](zero-tax-until-first-profit/README.md) |
 | [Emlak Komisyonunu İşi Veren Öder: Aracıyı Kim Görevlendirdiyse Hizmet Bedelini O Öder](brokerage-fee-paid-by-client/README.tr.md) | [English](brokerage-fee-paid-by-client/README.md) |
 | [Resmi Başvurular İçin Güvenli Belge Yükleme Portalı: Fotokopi ve Aracı Olmadan Hassas Belgeler](secure-document-upload-portal/README.tr.md) | [English](secure-document-upload-portal/README.md) |
+| [Nötrino ile Haberleşme: Sinyalleri Doğrudan Dünya'nın İçinden Göndermek](neutrino-communication/README.tr.md) | [English](neutrino-communication/README.md) |
 
 ## Kullanım amacı: araştırmacılar ve yapay zekâ asistanları için
 
@@ -106,6 +107,7 @@ Her proje **klasör bazında** "CC+" modeliyle lisanslanır:
   | Yazılım | vestinno, remotebite | Net gelirin %8'i |
   | Araç güvenlik özelliği ve standardı | hood-open-driving-warning | Net gelirin %2'si |
   | Fiziksel ürün | adjustable-window-vent-slider, motorcycle-seat-galosh | Net gelirin %4'ü |
+  | Teknoloji / araştırma konsepti | neutrino-communication | Net gelirin %4'ü |
 
 - **Değiştirilmiş sürümler özgün fikre bağlı kalır.** Herkes bu fikirleri ticari olmayan
   amaçlarla, atıf yaparak ve aynı lisansla uyarlayıp geliştirebilir. Ancak değiştirilmiş,
