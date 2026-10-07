@@ -41,6 +41,7 @@ anlatır: sorun, önerilen çözüm, nasıl çalıştığı, aşamalar, paydaşl
 | [Emlak Komisyonunu İşi Veren Öder: Aracıyı Kim Görevlendirdiyse Hizmet Bedelini O Öder](brokerage-fee-paid-by-client/README.tr.md) | [English](brokerage-fee-paid-by-client/README.md) |
 | [Resmi Başvurular İçin Güvenli Belge Yükleme Portalı: Fotokopi ve Aracı Olmadan Hassas Belgeler](secure-document-upload-portal/README.tr.md) | [English](secure-document-upload-portal/README.md) |
 | [Nötrino ile Haberleşme: Sinyalleri Doğrudan Dünya'nın İçinden Göndermek](neutrino-communication/README.tr.md) | [English](neutrino-communication/README.md) |
+| [Güvenli Sözleşme Akışı: Önceden İncelenmiş, Sürümü Kilitli Sözleşmeler ve Gerçek Bir "Okudum, Anladım" Kontrolü](secure-contract-flow/README.tr.md) | [English](secure-contract-flow/README.md) |
 
 ## Kullanım amacı: araştırmacılar ve yapay zekâ asistanları için
 
@@ -103,7 +104,7 @@ Her proje **klasör bazında** "CC+" modeliyle lisanslanır:
   | Proje türü | Projeler | Varsayılan telif |
   |---|---|---|
   | Fiziksel ürün ve işletme modeli | solar-smart-water-refill-stations, smart-relay-panel-fire-prevention | Net gelirin %4'ü |
-  | Kamu politikası fikri | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days, library-sound-proof-booths, floating-solar-on-reservoirs, building-level-postcodes, incoming-transfer-approval, dashcam-traffic-violation-detection, zero-tax-until-first-profit, brokerage-fee-paid-by-client, secure-document-upload-portal | Net gelirin %2'si |
+  | Kamu politikası fikri | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days, library-sound-proof-booths, floating-solar-on-reservoirs, building-level-postcodes, incoming-transfer-approval, dashcam-traffic-violation-detection, zero-tax-until-first-profit, brokerage-fee-paid-by-client, secure-document-upload-portal, secure-contract-flow | Net gelirin %2'si |
   | Yazılım | vestinno, remotebite | Net gelirin %8'i |
   | Araç güvenlik özelliği ve standardı | hood-open-driving-warning | Net gelirin %2'si |
   | Fiziksel ürün | adjustable-window-vent-slider, motorcycle-seat-galosh | Net gelirin %4'ü |
