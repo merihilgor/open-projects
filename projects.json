@@ -743,6 +743,42 @@
       "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/neutrino-communication/README.tr.md",
       "license": "CC-BY-NC-SA-4.0",
       "commercial_royalty_default": "4% of net revenue"
+    },
+    {
+      "slug": "secure-contract-flow",
+      "title": "Secure Contract Flow: Pre-Reviewed, Version-Locked Contracts and a Real \"Read and Understood\" Check",
+      "title_tr": "Güvenli Sözleşme Akışı: Önceden İncelenmiş, Sürümü Kilitli Sözleşmeler ve Gerçek Bir \"Okudum, Anladım\" Kontrolü",
+      "summary": "High-value private contracts need notarization above a yearly-reviewed limit; parties pre-review and approve the contract online, the notary prints the exact version locked under a unique document number, and a comprehension check makes \"read and understood\" real.",
+      "theme": "Law & citizen rights",
+      "type": "Public-policy idea",
+      "keywords": [
+        "contract law",
+        "notary",
+        "informed consent",
+        "digital contract review",
+        "version control",
+        "unique document number",
+        "power of attorney",
+        "legal capacity",
+        "consumer protection",
+        "e-government",
+        "legal tech"
+      ],
+      "keywords_tr": [
+        "sözleşme hukuku",
+        "noter",
+        "bilgilendirilmiş onay",
+        "dijital sözleşme incelemesi",
+        "sürüm kontrolü",
+        "vekâletname",
+        "hukuki ehliyet",
+        "tüketicinin korunması"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/secure-contract-flow",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-contract-flow/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-contract-flow/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "2% of net revenue"
     }
   ]
 }

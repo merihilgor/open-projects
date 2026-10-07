@@ -94,6 +94,10 @@ Each project is a self-contained proposal describing WHAT the idea is and WHY it
 
 - [Neutrino Communication: Sending Signals Straight Through the Earth](https://raw.githubusercontent.com/merihilgor/open-projects/main/neutrino-communication/README.md): A new telecommunication method using neutrino transmitters and receivers: signals pass straight through rock, water and the whole planet, reaching submarines at depth and underground sites and linking distant points by the shortest path. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/neutrino-communication/README.tr.md
 
+## Law & citizen rights
+
+- [Secure Contract Flow: Pre-Reviewed, Version-Locked Contracts and a Real "Read and Understood" Check](https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-contract-flow/README.md): High-value private contracts need notarization above a yearly-reviewed limit; parties pre-review and approve the contract online, the notary prints the exact version locked under a unique document number, and a comprehension check makes "read and understood" real. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-contract-flow/README.tr.md
+
 ## Optional
 
 - [Project catalog (JSON)](https://raw.githubusercontent.com/merihilgor/open-projects/main/projects.json): titles, summaries, themes and keywords for all projects
