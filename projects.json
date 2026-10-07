@@ -721,7 +721,10 @@
         "anti-jamming",
         "low-latency links",
         "particle physics",
-        "frontier technology"
+        "frontier technology",
+        "neutrino detector",
+        "neutrino beam",
+        "pulse-position modulation"
       ],
       "keywords_tr": [
         "nötrino haberleşmesi",
@@ -731,7 +734,9 @@
         "yer altı haberleşmesi",
         "maden kurtarma",
         "karıştırmaya dayanıklı iletişim",
-        "parçacık fiziği"
+        "parçacık fiziği",
+        "nötrino dedektörü",
+        "nötrino demeti"
       ],
       "url": "https://github.com/merihilgor/open-projects/tree/main/neutrino-communication",
       "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/neutrino-communication/README.md",
