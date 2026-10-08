@@ -11,7 +11,9 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 - **Sürüm kilidi.** Onaylanan sürüm **benzersiz bir belge numarasıyla** kilitlenir ve noter tam olarak o sürümün çıktısını alır.
 - **Gerçek bir anlama kontrolü.** İmza sırasında noter her tarafa temel şartlarla ilgili sorular sorar; böylece "okudum, anladım" gerçekten doğrulanmış olur.
 
-**Kısacası: ıslak imzadan önce ön onay, ıslak imza sırasında idrak testi.**
+- **Esnek imza.** İmkânlara göre taraflar kâğıt üzerinde ıslak imza ya da dijital belge üzerinde dijital veya biyometrik imza kullanır. Sürüm kilidi ve idrak testi her durumda aynı şekilde uygulanır.
+
+**Kısacası: imzadan önce ön onay, imza sırasında idrak testi.**
 
 ## Sorun
 
@@ -27,14 +29,15 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 2. **Çevrim içi ön inceleme aşaması.** Sınırın üzerindeki sözleşmeler ile kritik, uzun veya anlamsal olarak karmaşık sözleşmelerde taslak, ulusal e-devlet portalına (örneğin e-Devlet) veya benzeri merkezi bir devlet sistemine yüklenir. Her taraf sözleşmeyi indirip okuyabilir ve **yeterli zaman ayırarak** ayrıntılı biçimde inceleyebilir.
 3. **Taraflar arasında sürümleme.** Taraflar anlaşana kadar sistem üzerinden yeni sürümler veya değişiklikler önerebilir. Her sürüm geçmişiyle birlikte saklanır; kimin neyi değiştirdiği her zaman açıktır.
 4. **Karşılıklı ön onay ve benzersiz belge numarası.** Tüm taraflar son sürümü çevrim içi onayladığında sistem onu kilitler ve **benzersiz bir belge numarası** verir.
-5. **Noter tam olarak o sürümün çıktısını alır.** Noter, belge numarasıyla kilitli sözleşmenin çıktısını alır. Bir kopyayı okuyup başka bir kopyayı imzalamak imkânsız hale gelir.
+5. **Noter tam olarak o sürümü kullanır.** Noter, belge numarasıyla kilitli sözleşmenin çıktısını alır veya onu dijital belge olarak açar. Bir kopyayı okuyup başka bir kopyayı imzalamak imkânsız hale gelir.
 6. **İmza sırasında anlama kontrolü.** Noter, her tarafa daha önce incelediği sözleşmenin temel şartları ve doğabilecek olası sonuçları hakkında sorular sorar. "Okudum, anladım" bir formalite değil, gerçek bir kontrol haline gelir.
 7. **"Akıl sağlığı" sorusuna pratik bir cevap.** Sözleşmeyi önceden inceleme fırsatı bulmuş ve onunla ilgili soruları cevaplayabilen biri gerçek bir anlayış gösterir. Bu, notere kişinin ehliyeti hakkında sağlam temelli bir kanaat sağlar. Ağır bir şok içinde olduğu için soruları cevaplayamayan birinin imzası zorlanmaz, ertelenir.
 8. **Vekâletname ve avukat vekâleti için aynı akış.** Vekâlet veren kişi neye yetki verdiğini önceden tam olarak inceler ve imza sırasında anlama sorularını cevaplar. Bu yetki bir avukata devredildiğinde de benzer bir adım uygulanır.
+9. **İmkânlara uygun imza yöntemi.** İmza; noterin ve tarafların kullanabildiği olanaklara göre kâğıt üzerinde ıslak imza ya da dijital belge üzerinde dijital veya biyometrik imza olabilir. Yöntem ne olursa olsun imza yalnızca kilitli sürüme ve yalnızca idrak testinden sonra atılır.
 
 ## Nasıl Çalışır
 
-![Güvenli sözleşme akışı: her yıl gözden geçirilen tutar sınırının altında adi sözleşme yeterlidir; sınırın üzerinde sözleşme ulusal e-devlet portalına yüklenir, taraflar inceleyip sürümler önerir, hepsi son sürümü onaylar, sürüm benzersiz bir belge numarasıyla kilitlenir, noter tam olarak o sürümün çıktısını alır, anlama soruları sorar ve ancak ondan sonra ıslak imza alınır. Aynı akış vekâletname ve avukat vekâleti için de geçerlidir](assets/secure-contract-flow.tr.svg)
+![Güvenli sözleşme akışı: her yıl gözden geçirilen tutar sınırının altında adi sözleşme yeterlidir; sınırın üzerinde sözleşme ulusal e-devlet portalına yüklenir, taraflar inceleyip sürümler önerir, hepsi son sürümü onaylar, sürüm benzersiz bir belge numarasıyla kilitlenir, noter tam olarak o sürümü kullanır, anlama soruları sorar ve ancak ondan sonra ıslak, dijital veya biyometrik imza alınır. Aynı akış vekâletname ve avukat vekâleti için de geçerlidir](assets/secure-contract-flow.tr.svg)
 
 | Durum | Bugün | Güvenli sözleşme akışı ile |
 |---|---|---|
@@ -44,6 +47,7 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 | "Okudum, anladım" | Elle yazılan bir cümle | Temel şartlarla ilgili soruların cevaplarıyla doğrulanır |
 | "Akıl sağlığınız yerinde mi?" | Şok halinde bile tek kelimelik bir cevap | Gerçek anlayışa göre değerlendirilir; gerekirse imza ertelenir |
 | Vekâletname | Kapsamı tam bilinmeden verilir | Önceden incelenir ve imza sırasında kontrol edilir |
+| Sözleşmenin imzalanma şekli | Genellikle kâğıt üzerinde ıslak imza | Islak, dijital veya biyometrik imza; her zaman aynı kilitli sürüm üzerinde |
 
 ## Uygulama ve Fazlandırma
 
@@ -69,14 +73,15 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 | Sözleşme içeriğinin gizliliği | Sözleşmeye yalnızca taraflar ve noter erişebilir; her görüntüleme ve değişiklik kayıt altına alınır |
 | Ek zaman ve maliyet | Akış yalnızca sınırın üzerindeki veya kritik sözleşmelere uygulanır; gündelik küçük anlaşmalar basit kalır |
 | Anlama kontrolünün bir sınav gibi ya da adaletsiz olması | Yalnızca temel şartlar ve sonuçlar hakkında sade dilde sorular; engelli bireyler için erişilebilir |
+| Dijital veya biyometrik imzaların güvenliği | Yalnızca onaylı imza yöntemleri ve noter tarafından doğrulanan kimlik; biyometrik veriler yalnızca imza için kullanılır ve yasal olarak korunur |
 | Diğer tarafın baskısı | Soruların her tarafa ayrı ayrı sorulması |
 | Sınırın enflasyon karşısında anlamını yitirmesi | Tutar sınırının her yıl gözden geçirilip güncellenmesi |
 
-**Anahtar kelimeler:** sözleşme hukuku, noter, bilgilendirilmiş onay, dijital sözleşme incelemesi, sürüm kontrolü, benzersiz belge numarası, vekâletname, hukuki ehliyet, tüketicinin korunması, e-devlet, hukuk teknolojisi
+**Anahtar kelimeler:** sözleşme hukuku, noter, bilgilendirilmiş onay, dijital sözleşme incelemesi, sürüm kontrolü, benzersiz belge numarası, dijital imza, biyometrik imza, vekâletname, hukuki ehliyet, tüketicinin korunması, e-devlet, hukuk teknolojisi
 
 ## Köken
 
-Merih İlgör tarafından önerilmiştir (Ekim 2026); burada açık bir proje fikri olarak yayımlanmaktadır.
+Merih İlgör tarafından önerilmiştir (Ekim 2026); burada açık bir proje fikri olarak yayımlanmaktadır. Değişiklik geçmişi: [CHANGELOG.md](CHANGELOG.md).
 
 ## Lisans
 
