@@ -10,8 +10,9 @@ High-value and complex contracts are often signed under pressure, without being 
 - **Online pre-review.** Before signing, the contract goes through a pre-review stage on the national e-government portal. Every party can read it at their own pace, propose new versions and approve the final text.
 - **A version lock.** The approved version is locked under a **unique document number**, and the notary prints exactly that version.
 - **A real comprehension check.** At signing, the notary asks each party questions about the key terms, so "I have read and understood" becomes something actually verified.
+- **Flexible signing.** Depending on what is available, the parties sign with a wet signature on paper, or with a digital or biometric signature on the digital document. The version lock and comprehension check apply the same way.
 
-**In short: pre-approval before the wet signature, and a comprehension check during it.**
+**In short: pre-approval before signing, and a comprehension check during signing.**
 
 ## Problem
 
@@ -27,14 +28,15 @@ High-value and complex contracts are often signed under pressure, without being 
 2. **Online pre-review stage.** For contracts above the threshold, and for critical, long or semantically complex contracts, the draft is submitted to the national e-government portal or a similar central state system. Every party can download, read and examine it in detail, **with enough time**.
 3. **Versioning between the parties.** The parties can propose new versions or edits through the system until they agree. Every version is kept with its history, so it is always clear who changed what.
 4. **Mutual pre-approval and a unique document number.** When all parties approve the final version online, the system locks it and assigns a **unique document number**.
-5. **The notary prints exactly that version.** Using the document number, the notary prints the locked contract. Reading one copy and signing another becomes impossible.
+5. **The notary uses exactly that version.** Using the document number, the notary prints the locked contract or opens it as a digital document. Reading one copy and signing another becomes impossible.
 6. **Comprehension check at signing.** The notary asks each party questions about the key terms and possible consequences of the contract they already reviewed. "I have read and understood" becomes an actual check, not a formality.
 7. **A practical answer to "sound mind".** A person who had time to study the contract beforehand and can answer questions about it shows real understanding. That gives the notary a well-grounded judgment about their capacity. Someone in acute shock who cannot answer has signing postponed, not forced.
 8. **The same flow for powers of attorney and lawyer mandates.** The person granting a power of attorney reviews exactly what they authorize beforehand and answers comprehension questions at signing. A similar step applies when that power is passed on to a lawyer.
+9. **Signature method that fits the available means.** The signature can be a wet signature on paper, or a digital or biometric signature on the digital document, depending on what the notary and the parties can use. Whatever the method, the signature is applied only to the locked version and only after the comprehension check.
 
 ## How It Works
 
-![Secure contract flow: below a yearly-reviewed value threshold a private contract is enough; above it the contract is uploaded to the national e-government portal, the parties review it and propose versions, all approve the final version, it is locked under a unique document number, the notary prints exactly that version, asks comprehension questions and only then takes the wet signature. The same flow applies to powers of attorney and lawyer mandates](assets/secure-contract-flow.svg)
+![Secure contract flow: below a yearly-reviewed value threshold a private contract is enough; above it the contract is uploaded to the national e-government portal, the parties review it and propose versions, all approve the final version, it is locked under a unique document number, the notary uses exactly that version, asks comprehension questions and only then takes the signature, whether wet, digital or biometric. The same flow applies to powers of attorney and lawyer mandates](assets/secure-contract-flow.svg)
 
 | Situation | Today | With the secure contract flow |
 |---|---|---|
@@ -44,6 +46,7 @@ High-value and complex contracts are often signed under pressure, without being 
 | "I have read and understood" | A sentence written by hand | Confirmed by answers to questions on the key terms |
 | "Are you of sound mind?" | A one-word answer, even in shock | Judged from real understanding; signing is postponed if needed |
 | A power of attorney | Granted without knowing its full scope | Reviewed beforehand and checked at signing |
+| How the contract is signed | Usually a wet signature on paper | Wet, digital or biometric signature, always on the same locked version |
 
 ## Implementation & Phasing
 
@@ -69,14 +72,15 @@ High-value and complex contracts are often signed under pressure, without being 
 | Privacy of contract contents | Only the parties and the notary can access the contract, and every view and change is logged |
 | Extra time and cost | The flow applies only above the threshold or to critical contracts; everyday small agreements stay simple |
 | The comprehension check feels like an exam or is unfair | Plain-language questions on the key terms and consequences only; accessible for people with disabilities |
+| Security of digital or biometric signatures | Only certified signature methods, with identity verified by the notary; biometric data is used only for signing and protected by law |
 | Pressure from the other party | Each party is asked the questions separately |
 | The threshold loses meaning with inflation | Yearly review and indexing of the value ceiling |
 
-**Keywords:** contract law, notary, informed consent, digital contract review, version control, unique document number, power of attorney, legal capacity, consumer protection, e-government, legal tech
+**Keywords:** contract law, notary, informed consent, digital contract review, version control, unique document number, digital signature, biometric signature, power of attorney, legal capacity, consumer protection, e-government, legal tech
 
 ## Origin
 
-Originally proposed by Merih İlgör (October 2026); published here as an open project idea.
+Originally proposed by Merih İlgör (October 2026); published here as an open project idea. Change history: [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
