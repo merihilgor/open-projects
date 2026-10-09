@@ -83,6 +83,13 @@ civic-tech builders, journalists, and entrepreneurs who want to evaluate an idea
 building it. You are welcome to read them, teach with them, critique them, compare them
 with other approaches, and adapt them for non-commercial pilots and research.
 
+**Each proposal is an initial idea, not a finished specification.** It sets out the core
+what and why. Any real implementation should adapt the whole design to its own
+requirements: the country and its laws, the users, the scale and the cases it must cover.
+For example, [secure-contract-flow](secure-contract-flow/) shows how a basic signing flow
+extends to annexes, amendments, sub-contracts, expiration, cancellation, termination and
+completion.
+
 ### How AI assistants may use and cite them
 
 AI search engines, assistants and retrieval systems are welcome to index, retrieve,

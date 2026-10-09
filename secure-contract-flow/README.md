@@ -11,6 +11,7 @@ High-value and complex contracts are often signed under pressure, without being 
 - **A version lock.** The approved version is locked under a **unique document number**, and the notary prints exactly that version.
 - **A real comprehension check.** At signing, the notary asks each party questions about the key terms, so "I have read and understood" becomes something actually verified.
 - **Flexible signing.** Depending on what is available, the parties sign with a wet signature on paper, or with a digital or biometric signature on the digital document. The version lock and comprehension check apply the same way.
+- **The whole contract lifecycle.** The unique document number stays the contract's anchor after signing: attachments, amendments, sub-contracts, renewals, expiration, cancellation, termination and completion are all recorded against it, so the current status and full history of a contract are always clear.
 
 **In short: pre-approval before signing, and a comprehension check during signing.**
 
@@ -33,6 +34,7 @@ High-value and complex contracts are often signed under pressure, without being 
 7. **A practical answer to "sound mind".** A person who had time to study the contract beforehand and can answer questions about it shows real understanding. That gives the notary a well-grounded judgment about their capacity. Someone in acute shock who cannot answer has signing postponed, not forced.
 8. **The same flow for powers of attorney and lawyer mandates.** The person granting a power of attorney reviews exactly what they authorize beforehand and answers comprehension questions at signing. A similar step applies when that power is passed on to a lawyer.
 9. **Signature method that fits the available means.** The signature can be a wet signature on paper, or a digital or biometric signature on the digital document, depending on what the notary and the parties can use. Whatever the method, the signature is applied only to the locked version and only after the comprehension check.
+10. **Managing the contract over its whole life.** Signing is not the end of the flow. Every later event, such as an amendment, a sub-contract, an extension, a cancellation or a termination, is recorded against the same unique document number. Changes that alter the parties' rights or obligations go through the same pre-review, approval, lock and comprehension check; simple status events are recorded with lighter steps (see [Contract Lifecycle](#contract-lifecycle)).
 
 ## How It Works
 
@@ -47,13 +49,40 @@ High-value and complex contracts are often signed under pressure, without being 
 | "Are you of sound mind?" | A one-word answer, even in shock | Judged from real understanding; signing is postponed if needed |
 | A power of attorney | Granted without knowing its full scope | Reviewed beforehand and checked at signing |
 | How the contract is signed | Usually a wet signature on paper | Wet, digital or biometric signature, always on the same locked version |
+| Amendments, annexes and sub-contracts | Separate papers, easy to lose or dispute | Linked to the original document number, each reviewed and locked |
+| Expiry, cancellation or termination | Proven later from scattered letters and notices | Recorded with date and grounds; the contract's status is always clear |
+
+## Contract Lifecycle
+
+A contract lives on after it is signed. The secure contract flow keeps the **unique document number** as the anchor of the contract for its whole life. Every later event creates a new, linked record under that number, and the contract always shows one current status, for example *in review*, *locked*, *signed and active*, *amended*, *suspended*, *expired*, *cancelled*, *terminated* or *completed*.
+
+| Event | How it is handled |
+|---|---|
+| **Attachments and annexes** | Plans, inventories, specifications, price lists and other annexes are reviewed together with the main text and locked under the same document number. An annex referred to in the contract cannot be swapped later. |
+| **Amendments and addenda** | A change creates a new linked version (for example, the original number plus an amendment number). It goes through the same pre-review, all-party approval and lock; the comprehension check covers only what changed. |
+| **Sub-contracts** | A sub-contract (for example, a subcontractor's agreement or a sub-lease) is linked to the parent contract. It cannot grant more than the parent allows, the parent's parties are informed or asked to approve where the parent requires it, and if the parent ends, the linked sub-contracts are flagged. |
+| **Assignment or a change of party** | When rights or obligations are transferred to someone new, the new party reviews the contract and goes through the comprehension check before the transfer takes effect. |
+| **Renewal and extension** | The parties are reminded before the end date. A renewal or extension is recorded as an amendment, so its terms are reviewed and locked like any other change. |
+| **Expiration** | The end date is part of the locked contract. When it passes, the contract is marked expired and the parties are notified. Obligations that survive the end, such as confidentiality or warranties, stay visible. |
+| **Cancellation (mutual)** | When the parties agree to end or undo the contract, they all approve a cancellation record. The comprehension check covers its consequences, such as refunds, returns or penalties. |
+| **Termination (one-sided)** | A party ends the contract on the grounds and notice period the contract allows. The notice is recorded with its date and grounds, the other parties are notified at once, and notice periods are tracked. A disputed termination goes to court with the full history. |
+| **Suspension** | Events that pause performance, such as force majeure or a court order, are recorded with their start and end, so deadlines can be recalculated fairly. |
+| **Completion** | When all obligations are fulfilled, the parties confirm completion and the contract is closed. The record is kept for the legal retention period. |
+| **Disputes** | The full chain of versions, approvals, notices and status changes is available as evidence to the parties, the notary and the court. |
+
+**Proportionality.** Events that change rights or obligations (amendments, assignments, renewals on new terms, sub-contracts that the parent makes subject to approval) go through the notary flow. Simple status events (expiration, completion, a termination notice under existing terms) are recorded online with identity verification and do not need a new notary visit.
+
+**Verification by third parties.** With the parties' consent, or where the law allows it, institutions such as banks and land registries can check a contract's current status by its document number, so an expired, cancelled or terminated contract cannot be presented as active.
+
+**An initial design, to be adapted.** This proposal describes the initial idea. A real implementation should adapt the whole design to its actual requirements: the legal system, the contract types covered, the events they need and the parties involved. The lifecycle above is an example of how the basic flow extends; other events can be added the same way. For teams building on TM Forum Open APIs, a non-binding [mapping and gap note](TMF-OPEN-API-MAPPING.md) shows what maps directly and what is missing.
 
 ## Implementation & Phasing
 
 1. **Pilot:** start with real-estate sales and powers of attorney, where the stakes and the number of disputes are high.
 2. **All contracts above the threshold:** extend the flow to every private contract above the value ceiling.
-3. **Lawyer mandates and other critical contracts:** apply the same pre-review and comprehension step to lawyers' mandates and to contracts designated as critical regardless of value.
-4. **Yearly threshold review:** set up a regular, transparent mechanism to update the value ceiling for inflation and social conditions.
+3. **Lifecycle events:** add attachments, amendments, sub-contracts, renewals, expiration, cancellation, termination and completion under the same document number, starting with the pilot contract types.
+4. **Lawyer mandates and other critical contracts:** apply the same pre-review and comprehension step to lawyers' mandates and to contracts designated as critical regardless of value.
+5. **Yearly threshold review:** set up a regular, transparent mechanism to update the value ceiling for inflation and social conditions.
 
 ## Stakeholders & Benefits
 
@@ -75,8 +104,9 @@ High-value and complex contracts are often signed under pressure, without being 
 | Security of digital or biometric signatures | Only certified signature methods, with identity verified by the notary; biometric data is used only for signing and protected by law |
 | Pressure from the other party | Each party is asked the questions separately |
 | The threshold loses meaning with inflation | Yearly review and indexing of the value ceiling |
+| A contract is changed or ended outside the system | For contracts under the flow, only amendments, cancellations and terminations recorded under the document number take effect; third parties check the current status before relying on a contract |
 
-**Keywords:** contract law, notary, informed consent, digital contract review, version control, unique document number, digital signature, biometric signature, power of attorney, legal capacity, consumer protection, e-government, legal tech
+**Keywords:** contract law, notary, informed consent, digital contract review, version control, unique document number, digital signature, biometric signature, power of attorney, legal capacity, contract lifecycle, amendment, sub-contract, contract termination, consumer protection, e-government, legal tech
 
 ## Origin
 
