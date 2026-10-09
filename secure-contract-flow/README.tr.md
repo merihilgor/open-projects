@@ -12,6 +12,7 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 - **Gerçek bir anlama kontrolü.** İmza sırasında noter her tarafa temel şartlarla ilgili sorular sorar; böylece "okudum, anladım" gerçekten doğrulanmış olur.
 
 - **Esnek imza.** İmkânlara göre taraflar kâğıt üzerinde ıslak imza ya da dijital belge üzerinde dijital veya biyometrik imza kullanır. Sürüm kilidi ve idrak testi her durumda aynı şekilde uygulanır.
+- **Sözleşmenin tüm yaşam döngüsü.** Benzersiz belge numarası imzadan sonra da sözleşmenin dayanağı olmaya devam eder: ekler, tadiller, alt sözleşmeler, yenilemeler, sürenin dolması, iptal, fesih ve ifa (tamamlanma) bu numaraya bağlı olarak kaydedilir; böylece sözleşmenin güncel durumu ve tüm geçmişi her zaman açıktır.
 
 **Kısacası: imzadan önce ön onay, imza sırasında idrak testi.**
 
@@ -34,6 +35,7 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 7. **"Akıl sağlığı" sorusuna pratik bir cevap.** Sözleşmeyi önceden inceleme fırsatı bulmuş ve onunla ilgili soruları cevaplayabilen biri gerçek bir anlayış gösterir. Bu, notere kişinin ehliyeti hakkında sağlam temelli bir kanaat sağlar. Ağır bir şok içinde olduğu için soruları cevaplayamayan birinin imzası zorlanmaz, ertelenir.
 8. **Vekâletname ve avukat vekâleti için aynı akış.** Vekâlet veren kişi neye yetki verdiğini önceden tam olarak inceler ve imza sırasında anlama sorularını cevaplar. Bu yetki bir avukata devredildiğinde de benzer bir adım uygulanır.
 9. **İmkânlara uygun imza yöntemi.** İmza; noterin ve tarafların kullanabildiği olanaklara göre kâğıt üzerinde ıslak imza ya da dijital belge üzerinde dijital veya biyometrik imza olabilir. Yöntem ne olursa olsun imza yalnızca kilitli sürüme ve yalnızca idrak testinden sonra atılır.
+10. **Sözleşmenin tüm ömrü boyunca yönetilmesi.** İmza akışın sonu değildir. Tadil, alt sözleşme, süre uzatımı, iptal veya fesih gibi sonraki her olay aynı benzersiz belge numarasına bağlı olarak kaydedilir. Tarafların hak veya yükümlülüklerini değiştiren değişiklikler aynı ön inceleme, onay, kilit ve idrak testinden geçer; basit durum olayları daha hafif adımlarla kaydedilir (bkz. [Sözleşmenin Yaşam Döngüsü](#sözleşmenin-yaşam-döngüsü)).
 
 ## Nasıl Çalışır
 
@@ -48,13 +50,40 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 | "Akıl sağlığınız yerinde mi?" | Şok halinde bile tek kelimelik bir cevap | Gerçek anlayışa göre değerlendirilir; gerekirse imza ertelenir |
 | Vekâletname | Kapsamı tam bilinmeden verilir | Önceden incelenir ve imza sırasında kontrol edilir |
 | Sözleşmenin imzalanma şekli | Genellikle kâğıt üzerinde ıslak imza | Islak, dijital veya biyometrik imza; her zaman aynı kilitli sürüm üzerinde |
+| Tadiller, ekler ve alt sözleşmeler | Kaybolması veya itiraz edilmesi kolay ayrı kâğıtlar | Asıl belge numarasına bağlanır; her biri incelenir ve kilitlenir |
+| Sürenin dolması, iptal veya fesih | Sonradan dağınık yazışma ve ihtarnamelerle ispatlanır | Tarihi ve gerekçesiyle kaydedilir; sözleşmenin durumu her zaman açıktır |
+
+## Sözleşmenin Yaşam Döngüsü
+
+Bir sözleşme imzalandıktan sonra da yaşamaya devam eder. Güvenli sözleşme akışı, **benzersiz belge numarasını** sözleşmenin tüm ömrü boyunca dayanağı olarak korur. Sonraki her olay bu numara altında yeni ve bağlantılı bir kayıt oluşturur; sözleşme her zaman tek bir güncel durum gösterir: örneğin *incelemede*, *kilitli*, *imzalı ve yürürlükte*, *tadil edilmiş*, *askıya alınmış*, *süresi dolmuş*, *iptal edilmiş*, *feshedilmiş* veya *tamamlanmış*.
+
+| Olay | Nasıl ele alınır |
+|---|---|
+| **Ekler** | Planlar, envanterler, şartnameler, fiyat listeleri ve diğer ekler ana metinle birlikte incelenir ve aynı belge numarası altında kilitlenir. Sözleşmede atıf yapılan bir ek sonradan değiştirilemez. |
+| **Tadiller ve ek protokoller** | Bir değişiklik, bağlantılı yeni bir sürüm oluşturur (örneğin asıl numara artı bir tadil numarası). Aynı ön inceleme, tüm tarafların onayı ve kilitten geçer; idrak testi yalnızca değişen kısmı kapsar. |
+| **Alt sözleşmeler** | Bir alt sözleşme (örneğin taşeron sözleşmesi veya alt kira) ana sözleşmeye bağlanır. Ana sözleşmenin izin verdiğinden fazlasını veremez; ana sözleşme gerektiriyorsa onun tarafları bilgilendirilir veya onayları alınır; ana sözleşme sona ererse bağlı alt sözleşmeler işaretlenir. |
+| **Devir veya taraf değişikliği** | Haklar veya yükümlülükler yeni birine devredildiğinde, yeni taraf devir yürürlüğe girmeden önce sözleşmeyi inceler ve idrak testinden geçer. |
+| **Yenileme ve süre uzatımı** | Taraflara bitiş tarihinden önce hatırlatma yapılır. Yenileme veya uzatma bir tadil olarak kaydedilir; şartları diğer her değişiklik gibi incelenir ve kilitlenir. |
+| **Sürenin dolması** | Bitiş tarihi kilitli sözleşmenin parçasıdır. Tarih geçtiğinde sözleşme "süresi dolmuş" olarak işaretlenir ve taraflara bildirilir. Gizlilik veya garanti gibi sona ermeden sonra da süren yükümlülükler görünür kalır. |
+| **İptal (karşılıklı)** | Taraflar sözleşmeyi sona erdirmek veya geri almak için anlaştığında, hepsi bir iptal kaydını onaylar. İdrak testi iade, geri teslim veya cezai şart gibi sonuçlarını kapsar. |
+| **Fesih (tek taraflı)** | Bir taraf, sözleşmenin izin verdiği gerekçe ve bildirim süresiyle sözleşmeyi sona erdirir. Fesih bildirimi tarihi ve gerekçesiyle kaydedilir, diğer taraflara hemen bildirilir ve bildirim süreleri takip edilir. İtiraz edilen bir fesih, tüm geçmişiyle birlikte mahkemeye taşınır. |
+| **Askıya alma** | Mücbir sebep veya mahkeme kararı gibi ifayı durduran olaylar başlangıç ve bitişleriyle kaydedilir; böylece süreler adil biçimde yeniden hesaplanabilir. |
+| **Tamamlanma (ifa)** | Tüm yükümlülükler yerine getirildiğinde taraflar tamamlanmayı onaylar ve sözleşme kapatılır. Kayıt yasal saklama süresi boyunca tutulur. |
+| **Uyuşmazlıklar** | Sürümlerin, onayların, bildirimlerin ve durum değişikliklerinin tüm zinciri taraflar, noter ve mahkeme için delil olarak erişilebilir. |
+
+**Orantılılık.** Hak veya yükümlülükleri değiştiren olaylar (tadiller, devirler, yeni şartlarla yenilemeler, ana sözleşmenin onaya bağladığı alt sözleşmeler) noter akışından geçer. Basit durum olayları (sürenin dolması, tamamlanma, mevcut şartlara dayanan bir fesih bildirimi) kimlik doğrulamasıyla çevrim içi kaydedilir ve yeni bir noter ziyareti gerektirmez.
+
+**Üçüncü kişilerin doğrulaması.** Tarafların izniyle veya kanunun izin verdiği durumlarda bankalar ve tapu müdürlükleri gibi kurumlar bir sözleşmenin güncel durumunu belge numarasıyla kontrol edebilir; böylece süresi dolmuş, iptal edilmiş veya feshedilmiş bir sözleşme yürürlükteymiş gibi sunulamaz.
+
+**Başlangıç tasarımı, uyarlanmak üzere.** Bu öneri ilk fikri anlatır. Gerçek bir uygulama tüm tasarımı kendi gereksinimlerine göre uyarlamalıdır: hukuk sistemi, kapsanan sözleşme türleri, ihtiyaç duydukları olaylar ve ilgili taraflar. Yukarıdaki yaşam döngüsü, temel akışın nasıl genişletilebileceğine bir örnektir; başka olaylar da aynı şekilde eklenebilir. TM Forum Open API'leri üzerine geliştirme yapan ekipler için bağlayıcı olmayan bir [eşleme ve eksiklik notu](TMF-OPEN-API-MAPPING.tr.md), neyin doğrudan eşlendiğini ve neyin eksik olduğunu gösterir.
 
 ## Uygulama ve Fazlandırma
 
 1. **Pilot:** Riskin ve uyuşmazlık sayısının yüksek olduğu gayrimenkul satışları ve vekâletnamelerle başlamak.
 2. **Sınırın üzerindeki tüm sözleşmeler:** Akışı, tutar sınırını aşan tüm adi sözleşmelere genişletmek.
-3. **Avukat vekâletleri ve diğer kritik sözleşmeler:** Aynı ön inceleme ve anlama adımını avukat vekâletlerine ve tutarından bağımsız olarak kritik kabul edilen sözleşmelere uygulamak.
-4. **Yıllık sınır güncellemesi:** Tutar sınırını enflasyon ve toplumsal koşullara göre güncelleyen düzenli ve şeffaf bir mekanizma kurmak.
+3. **Yaşam döngüsü olayları:** Ekleri, tadilleri, alt sözleşmeleri, yenilemeleri, sürenin dolmasını, iptali, feshi ve tamamlanmayı, pilot sözleşme türlerinden başlayarak aynı belge numarası altında eklemek.
+4. **Avukat vekâletleri ve diğer kritik sözleşmeler:** Aynı ön inceleme ve anlama adımını avukat vekâletlerine ve tutarından bağımsız olarak kritik kabul edilen sözleşmelere uygulamak.
+5. **Yıllık sınır güncellemesi:** Tutar sınırını enflasyon ve toplumsal koşullara göre güncelleyen düzenli ve şeffaf bir mekanizma kurmak.
 
 ## Paydaşlar ve Faydalar
 
@@ -76,8 +105,9 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 | Dijital veya biyometrik imzaların güvenliği | Yalnızca onaylı imza yöntemleri ve noter tarafından doğrulanan kimlik; biyometrik veriler yalnızca imza için kullanılır ve yasal olarak korunur |
 | Diğer tarafın baskısı | Soruların her tarafa ayrı ayrı sorulması |
 | Sınırın enflasyon karşısında anlamını yitirmesi | Tutar sınırının her yıl gözden geçirilip güncellenmesi |
+| Sözleşmenin sistem dışında değiştirilmesi veya sona erdirilmesi | Akış kapsamındaki sözleşmelerde yalnızca belge numarası altında kaydedilen tadil, iptal ve fesihler hüküm doğurur; üçüncü kişiler bir sözleşmeye dayanmadan önce güncel durumunu kontrol eder |
 
-**Anahtar kelimeler:** sözleşme hukuku, noter, bilgilendirilmiş onay, dijital sözleşme incelemesi, sürüm kontrolü, benzersiz belge numarası, dijital imza, biyometrik imza, vekâletname, hukuki ehliyet, tüketicinin korunması, e-devlet, hukuk teknolojisi
+**Anahtar kelimeler:** sözleşme hukuku, noter, bilgilendirilmiş onay, dijital sözleşme incelemesi, sürüm kontrolü, benzersiz belge numarası, dijital imza, biyometrik imza, vekâletname, hukuki ehliyet, sözleşme yaşam döngüsü, tadil, alt sözleşme, sözleşmenin feshi, tüketicinin korunması, e-devlet, hukuk teknolojisi
 
 ## Köken
 

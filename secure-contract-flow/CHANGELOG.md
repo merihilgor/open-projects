@@ -3,6 +3,18 @@
 All notable changes to this project idea are recorded here, newest first.
 Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şekilde kaydedilir.
 
+## 2026-10-09
+
+### Added / Eklendi
+- **Contract lifecycle:** the unique document number stays the contract's anchor after signing. A new section covers attachments and annexes, amendments, sub-contracts, assignment, renewal and extension, expiration, mutual cancellation, one-sided termination, suspension, completion and disputes, each recorded as a linked record with a clear current status. Includes proportionality (rights-changing events go through the notary flow, simple status events are recorded online) and third-party status checks.
+  **Sözleşmenin yaşam döngüsü:** Benzersiz belge numarası imzadan sonra da sözleşmenin dayanağı olarak kalır. Yeni bölüm ekleri, tadilleri, alt sözleşmeleri, devri, yenileme ve süre uzatımını, sürenin dolmasını, karşılıklı iptali, tek taraflı feshi, askıya almayı, tamamlanmayı ve uyuşmazlıkları kapsar; her biri bağlantılı bir kayıt olarak, açık bir güncel durumla tutulur. Orantılılık (hakları değiştiren olaylar noter akışından geçer, basit durum olayları çevrim içi kaydedilir) ve üçüncü kişilerin durum kontrolü de eklendi.
+- A note that this proposal is an initial design and a real implementation should adapt it to its own requirements.
+  Bu önerinin bir başlangıç tasarımı olduğu ve gerçek bir uygulamanın onu kendi gereksinimlerine göre uyarlaması gerektiğine dair not.
+- **TM Forum Open API mapping (implementation note):** a separate, non-binding EN/TR note mapping the flow and its lifecycle to TMF651 Agreement Management (checked against the v4.0.0 schema) and related APIs, with an absence mapping of what has no counterpart (version lock, comprehension check, notary act, signer reference, typed contract links, termination and suspension details, audit, consent) and conflict points (DELETE, PATCH). Linked from the lifecycle section.
+  **TM Forum Open API eşlemesi (uygulama notu):** Akışı ve yaşam döngüsünü TMF651 Agreement Management (v4.0.0 şemasıyla karşılaştırıldı) ve ilgili API'lerle eşleyen, bağlayıcı olmayan ayrı bir EN/TR not. Karşılığı olmayanların eksiklik eşlemesini (sürüm kilidi, idrak testi, noter işlemi, imzalayan referansı, türü belli sözleşme bağlantıları, fesih ve askı ayrıntıları, denetim, izin) ve çatışma noktalarını (DELETE, PATCH) içerir. Yaşam döngüsü bölümünden bağlantı verildi.
+- Solution step 10, two comparison-table rows, a lifecycle phasing step, a risk row on changes made outside the system, and lifecycle keywords.
+  Çözüm adımı 10, iki karşılaştırma tablosu satırı, yaşam döngüsü için bir uygulama aşaması, sistem dışı değişikliklere ilişkin bir risk satırı ve yaşam döngüsü anahtar kelimeleri.
+
 ## 2026-10-08
 
 ### Added / Eklendi

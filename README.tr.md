@@ -55,6 +55,13 @@ gazeteciler ve bir fikri hayata geçirmeden önce değerlendirmek isteyen giriş
 karşılaştırabilir ve ticari olmayan pilot uygulamalar ile araştırmalar için
 uyarlayabilirsiniz.
 
+**Her öneri bitmiş bir şartname değil, bir başlangıç fikridir.** Temel "ne" ve "neden"i
+ortaya koyar. Gerçek bir uygulama tüm tasarımı kendi gereksinimlerine göre uyarlamalıdır:
+ülke ve mevzuatı, kullanıcılar, ölçek ve kapsaması gereken durumlar. Örneğin
+[secure-contract-flow](secure-contract-flow/README.tr.md), temel imza akışının ekler,
+tadiller, alt sözleşmeler, sürenin dolması, iptal, fesih ve tamamlanmaya nasıl
+genişletilebileceğini gösterir.
+
 ### Yapay zekâ asistanları bu içerikleri nasıl kullanabilir ve kaynak gösterebilir
 
 Yapay zekâ arama motorları, asistanlar ve bilgi erişim sistemleri bu projeleri
