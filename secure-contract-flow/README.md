@@ -76,6 +76,40 @@ A contract lives on after it is signed. The secure contract flow keeps the **uni
 
 **An initial design, to be adapted.** This proposal describes the initial idea. A real implementation should adapt the whole design to its actual requirements: the legal system, the contract types covered, the events they need and the parties involved. The lifecycle above is an example of how the basic flow extends; other events can be added the same way. For teams building on TM Forum Open APIs, a non-binding [mapping and gap note](TMF-OPEN-API-MAPPING.md) shows what maps directly and what is missing.
 
+## Similar Practices Elsewhere
+
+Parts of this flow already exist in several countries. As far as this proposal's author knows, none combines them all: a general, yearly-reviewed value threshold, multi-party online review with version history, a version lock under a unique document number, a real comprehension check that can postpone signing, and the whole contract lifecycle under one number.
+
+| Country | Practice | Closest part of this proposal |
+|---|---|---|
+| **Spain** | Under Law 5/2019 on real-estate credit, the lender must give the borrower the documents at least **10 calendar days** before signing (art. 14.1). By the day before signing at the latest, the borrower appears **in person before a notary of their choice** for free, individual advice and **answers a test** in the notary's presence (art. 15). Without this record, the notary **may not authorize** the mortgage deed. ([BOE][es-boe], [Notarios y Registradores][es-nyr]) | Pre-review time and a notarial check at signing. The test mainly records which information was received; it is not a full comprehension check. |
+| **Germany** | For consumer contracts that need notarization, the notary should ensure that the consumer receives the planned text, normally **two weeks** before signing for real-estate purchases, and must document the reasons if the period is shortened (Beurkundungsgesetz §17(2a), since 2013). The notary must explain the legal consequences (§17), and the deed is read aloud (§13). Real-estate purchase contracts require notarization to be valid (BGB §311b). ([§17 BeurkG][de-17], [§13 BeurkG][de-13], [§311b BGB][de-311b], [Haufe][de-haufe]) | Reading the text in advance, a notary's duty to explain, and mandatory notarization for high-value contracts. |
+| **France** | A legal act above **€1,500** must be proven in writing (Civil Code art. 1359, with the amount set by decree and raised over time). A non-professional buyer of a home has a **10-day withdrawal period** (Construction and Housing Code art. L271-1). Since November 2020, notaries can permanently draw up **authentic powers of attorney remotely** by video and electronic signature. ([gdroit][fr-1359], [La finance pour tous][fr-l271], [Le Monde du Droit][fr-remote]) | A value threshold indexed by decree, time to reconsider, and digital notarial acts for powers of attorney. |
+| **Estonia** | Since a pilot in February 2020, almost all notarial acts, including real-estate and company-share transactions, can be done remotely with the national digital ID and identity verification by face recognition. ([e-Estonia][ee-1], [ERR News][ee-2]) | Digital and biometric identity at signing through a state-run system. |
+| **Denmark** | Since 2009, the land register has been fully digital: deeds and mortgages are filed in a central system and signed electronically by all parties, and most cases are handled automatically. ([Life in Denmark][dk-1], [Chambers][dk-2]) | One central system holding the signed text and its later changes. |
+| **European Union** | The Mortgage Credit Directive (2014/17/EU, art. 14) requires personalised pre-contractual information on a standard sheet (ESIS) and **at least seven days** to consider the offer, as a reflection period, a withdrawal period or both. ([legislation.gov.uk][eu-14], [EU Monitor][eu-2]) | Time to understand a contract before it binds. |
+| **Turkey** | For property sales, the application is made online in Web Tapu with e-Devlet login and the documents are uploaded; the land registry checks them before the appointment, and the parties then sign at the office after identity verification. ([TKGM][tr-1], [Hesapkurdu][tr-2]) | Online preparation in a state system before signing. |
+
+**What this proposal adds:** a general value threshold for validity (not only proof); online review and versioning among all parties; a lock under a unique document number that the notary must use; a comprehension check on the key terms that can postpone signing; the same flow for powers of attorney and lawyer mandates; and lifecycle management under one number. The Spanish and German practices show that pre-review periods and a notarial check at signing already work in practice and could serve as models for a pilot.
+
+[es-boe]: https://www.boe.es/buscar/act.php?id=BOE-A-2019-3814
+[es-nyr]: https://www.notariosyregistradores.com/web/?p=58948
+[de-17]: https://lexmea.de/de/gesetz/beurkg/17
+[de-13]: https://www.gesetze-im-internet.de/beurkg/__13.html
+[de-311b]: https://www.gesetze-im-internet.de/bgb/__311b.html
+[de-haufe]: https://www.haufe.de/immobilien/entwicklung-vermarktung/bgh-notar-muss-kaufvertrag-zwei-wochen-vorher-vorlegen_262_311982.html
+[fr-1359]: https://gdroit.fr/droit-des-obligations/preuve-des-actes-juridiques-le-montant-des-actes-soumis-a-lexigence-decrit/
+[fr-l271]: https://www.lafinancepourtous.com/2015/09/02/immobilier-10-jours-pour-renoncer-a-un-achat/
+[fr-remote]: https://www.lemondedudroit.fr/notaire/72542-parutiondecret-perennisant-acte-notarie-comparution-distance-procurations-authentiques.html
+[ee-1]: https://e-estonia.com/estonias-fully-remote-e-notary-service-1st-state-e-service-of-its-kind-in-europe/
+[ee-2]: https://news.err.ee/1031373/notary-acts-can-be-carried-out-in-foreign-embassies-from-february
+[dk-1]: https://lifeindenmark.borger.dk/housing-and-moving/buying/the-digital-land-register
+[dk-2]: https://practiceguides.chambers.com/practice-guides/real-estate-2023/denmark
+[eu-14]: https://www.legislation.gov.uk/eudr/2014/17/article/14
+[eu-2]: https://eumonitor.eu/9353000/1/j4nvhdfcs8bljza_j9vvik7m1c3gyxp/vlipi0g2vory
+[tr-1]: https://www.tkgm.gov.tr/sites/default/files/2021-12/WEB%20TAPU%20VATAN%C5%9E%20PORTAL%20YEN%C4%B0.pdf
+[tr-2]: https://www.hesapkurdu.com/konut-kredisi/rehber/tapu-alim-ve-satim-islemleri
+
 ## Implementation & Phasing
 
 1. **Pilot:** start with real-estate sales and powers of attorney, where the stakes and the number of disputes are high.

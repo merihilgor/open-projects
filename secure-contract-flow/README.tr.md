@@ -77,6 +77,40 @@ Bir sözleşme imzalandıktan sonra da yaşamaya devam eder. Güvenli sözleşme
 
 **Başlangıç tasarımı, uyarlanmak üzere.** Bu öneri ilk fikri anlatır. Gerçek bir uygulama tüm tasarımı kendi gereksinimlerine göre uyarlamalıdır: hukuk sistemi, kapsanan sözleşme türleri, ihtiyaç duydukları olaylar ve ilgili taraflar. Yukarıdaki yaşam döngüsü, temel akışın nasıl genişletilebileceğine bir örnektir; başka olaylar da aynı şekilde eklenebilir. TM Forum Open API'leri üzerine geliştirme yapan ekipler için bağlayıcı olmayan bir [eşleme ve eksiklik notu](TMF-OPEN-API-MAPPING.tr.md), neyin doğrudan eşlendiğini ve neyin eksik olduğunu gösterir.
 
+## Başka Ülkelerdeki Benzer Uygulamalar
+
+Bu akışın parçaları birçok ülkede zaten uygulanıyor. Öneri sahibinin bildiği kadarıyla hiçbiri hepsini bir araya getirmiyor: her yıl gözden geçirilen genel bir tutar sınırı, sürüm geçmişiyle çok taraflı çevrim içi inceleme, benzersiz belge numarasıyla sürüm kilidi, imzayı erteleyebilen gerçek bir idrak testi ve tek numara altında sözleşmenin tüm yaşam döngüsü.
+
+| Ülke | Uygulama | Bu önerideki en yakın parça |
+|---|---|---|
+| **İspanya** | Konut kredisine ilişkin 5/2019 sayılı Kanun'a göre kredi veren, belgeleri imzadan en az **10 takvim günü** önce borçluya vermek zorundadır (md. 14.1). Borçlu en geç imzadan bir gün önce **kendi seçtiği notere bizzat gider**, ücretsiz ve kişiye özel bilgilendirme alır ve noterin önünde **bir testi cevaplar** (md. 15). Bu tutanak olmadan noter ipotekli kredi senedini **düzenleyemez**. ([BOE][es-boe], [Notarios y Registradores][es-nyr]) | İmzadan önce inceleme süresi ve imza sırasında noter kontrolü. Test, tam bir idrak testinden çok hangi bilgilerin alındığını kayda geçirir. |
+| **Almanya** | Noter onayı gereken tüketici sözleşmelerinde noter, tüketicinin planlanan metni almasını sağlamalıdır; gayrimenkul satışlarında bu normalde imzadan **iki hafta** öncedir ve süre kısaltılırsa noter gerekçesini kayda geçirmelidir (Beurkundungsgesetz §17(2a), 2013'ten beri). Noter hukuki sonuçları açıklamak zorundadır (§17) ve senet yüksek sesle okunur (§13). Gayrimenkul satış sözleşmeleri noter onayı olmadan geçersizdir (BGB §311b). ([§17 BeurkG][de-17], [§13 BeurkG][de-13], [§311b BGB][de-311b], [Haufe][de-haufe]) | Metni önceden okuma, noterin açıklama yükümlülüğü ve yüksek değerli sözleşmelerde zorunlu noter onayı. |
+| **Fransa** | **1.500 €**'yu aşan bir hukuki işlem yazılı delille ispatlanmalıdır (Medeni Kanun md. 1359; tutar kararnameyle belirlenir ve zaman içinde artırılmıştır). Profesyonel olmayan konut alıcısının **10 günlük cayma hakkı** vardır (İnşaat ve Konut Kanunu md. L271-1). Kasım 2020'den beri noterler **resmî vekâletnameleri** video ve elektronik imzayla **uzaktan** kalıcı olarak düzenleyebilir. ([gdroit][fr-1359], [La finance pour tous][fr-l271], [Le Monde du Droit][fr-remote]) | Kararnameyle güncellenen bir tutar sınırı, yeniden düşünme süresi ve vekâletnamede dijital noter işlemi. |
+| **Estonya** | Şubat 2020'deki pilottan bu yana gayrimenkul ve şirket payı işlemleri dahil neredeyse tüm noter işlemleri, ulusal dijital kimlik ve yüz tanıma ile kimlik doğrulaması kullanılarak uzaktan yapılabilir. ([e-Estonia][ee-1], [ERR News][ee-2]) | Devletin işlettiği bir sistem üzerinden, imzada dijital ve biyometrik kimlik. |
+| **Danimarka** | 2009'dan beri tapu sicili tamamen dijitaldir: tapu devirleri ve ipotekler merkezi bir sisteme kaydedilir ve tüm taraflarca elektronik olarak imzalanır; işlemlerin çoğu otomatik yürür. ([Life in Denmark][dk-1], [Chambers][dk-2]) | İmzalı metni ve sonraki değişikliklerini tutan tek bir merkezi sistem. |
+| **Avrupa Birliği** | Konut Kredisi Direktifi (2014/17/AB, md. 14), standart bir form (ESIS) üzerinden kişiye özel sözleşme öncesi bilgilendirme ve teklifi değerlendirmek için **en az yedi gün** öngörür; bu süre düşünme süresi, cayma süresi veya ikisinin birleşimi olabilir. ([legislation.gov.uk][eu-14], [EU Monitor][eu-2]) | Bağlayıcı hale gelmeden önce sözleşmeyi anlamak için süre. |
+| **Türkiye** | Gayrimenkul satışında başvuru, e-Devlet girişiyle Web Tapu üzerinden çevrim içi yapılır ve belgeler yüklenir; tapu müdürlüğü randevudan önce bunları kontrol eder, taraflar da kimlik doğrulamasından sonra müdürlükte imza atar. ([TKGM][tr-1], [Hesapkurdu][tr-2]) | İmzadan önce devlet sisteminde çevrim içi hazırlık. |
+
+**Bu önerinin getirdikleri:** yalnızca ispat için değil geçerlilik için genel bir tutar sınırı; tüm taraflar arasında çevrim içi inceleme ve sürümleme; noterin kullanmak zorunda olduğu benzersiz belge numaralı kilit; temel şartlar üzerinde imzayı erteleyebilen bir idrak testi; vekâletname ve avukat vekâleti için aynı akış; ve tek numara altında yaşam döngüsü yönetimi. İspanya ve Almanya örnekleri, imza öncesi inceleme süresinin ve imza sırasındaki noter kontrolünün pratikte işlediğini gösterir ve bir pilot için model olabilir.
+
+[es-boe]: https://www.boe.es/buscar/act.php?id=BOE-A-2019-3814
+[es-nyr]: https://www.notariosyregistradores.com/web/?p=58948
+[de-17]: https://lexmea.de/de/gesetz/beurkg/17
+[de-13]: https://www.gesetze-im-internet.de/beurkg/__13.html
+[de-311b]: https://www.gesetze-im-internet.de/bgb/__311b.html
+[de-haufe]: https://www.haufe.de/immobilien/entwicklung-vermarktung/bgh-notar-muss-kaufvertrag-zwei-wochen-vorher-vorlegen_262_311982.html
+[fr-1359]: https://gdroit.fr/droit-des-obligations/preuve-des-actes-juridiques-le-montant-des-actes-soumis-a-lexigence-decrit/
+[fr-l271]: https://www.lafinancepourtous.com/2015/09/02/immobilier-10-jours-pour-renoncer-a-un-achat/
+[fr-remote]: https://www.lemondedudroit.fr/notaire/72542-parutiondecret-perennisant-acte-notarie-comparution-distance-procurations-authentiques.html
+[ee-1]: https://e-estonia.com/estonias-fully-remote-e-notary-service-1st-state-e-service-of-its-kind-in-europe/
+[ee-2]: https://news.err.ee/1031373/notary-acts-can-be-carried-out-in-foreign-embassies-from-february
+[dk-1]: https://lifeindenmark.borger.dk/housing-and-moving/buying/the-digital-land-register
+[dk-2]: https://practiceguides.chambers.com/practice-guides/real-estate-2023/denmark
+[eu-14]: https://www.legislation.gov.uk/eudr/2014/17/article/14
+[eu-2]: https://eumonitor.eu/9353000/1/j4nvhdfcs8bljza_j9vvik7m1c3gyxp/vlipi0g2vory
+[tr-1]: https://www.tkgm.gov.tr/sites/default/files/2021-12/WEB%20TAPU%20VATAN%C5%9E%20PORTAL%20YEN%C4%B0.pdf
+[tr-2]: https://www.hesapkurdu.com/konut-kredisi/rehber/tapu-alim-ve-satim-islemleri
+
 ## Uygulama ve Fazlandırma
 
 1. **Pilot:** Riskin ve uyuşmazlık sayısının yüksek olduğu gayrimenkul satışları ve vekâletnamelerle başlamak.
