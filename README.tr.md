@@ -94,7 +94,7 @@ ve `COMMERCIAL-LICENSE.md` dosyalarıdır.
 - [`llms.txt`](llms.txt): tüm projelerin doğrudan bağlantılarla listelendiği, dil modellerine uygun dizin ([llmstxt.org](https://llmstxt.org)).
 - [`projects.json`](projects.json): başlıklar (EN/TR), özetler, temalar ve anahtar kelimelerle makinece okunabilir katalog.
 - [`CITATION.cff`](CITATION.cff): kaynak gösterme bilgileri. GitHub'daki "Cite this repository" düğmesini kullanabilirsiniz.
-- Her proje klasörü kendi içinde tamdır: `README.md` (İngilizce), `README.tr.md` (Türkçe), `assets/` içinde görseller, `LICENSE` ve `COMMERCIAL-LICENSE.md`.
+- Her proje klasörü kendi içinde tamdır: `README.md` (İngilizce), `README.tr.md` (Türkçe), `assets/` içinde görseller, `LICENSE`, `COMMERCIAL-LICENSE.md` ve `CHANGELOG.md`.
 
 Sorular, eleştiriler ve iyileştirme önerileri GitHub Issues ve Discussions üzerinden memnuniyetle karşılanır.
 
@@ -117,6 +117,11 @@ Her proje **klasör bazında** "CC+" modeliyle lisanslanır:
   | Fiziksel ürün | adjustable-window-vent-slider, motorcycle-seat-galosh | Net gelirin %4'ü |
   | Teknoloji / araştırma konsepti | neutrino-communication | Net gelirin %4'ü |
 
+- **Devletin zorunlu kıldığı kamusal uygulamalar ücretsizdir.** Devlet bir fikri zorunlu
+  kılıp tüm kamunun yararlanması için kamu bütçesiyle finanse ettiğinde, bu uygulamayı
+  kuran veya işleten şirketler dahil telif alınmaz. Rekabet avantajı için gönüllü ticari
+  kullanım gelir paylaşımına tabi kalır. Fikre dayanan bir standardı ücretsiz yayımlayan
+  standart kuruluşları katkıyı ücretsiz kullanabilir.
 - **Değiştirilmiş sürümler özgün fikre bağlı kalır.** Herkes bu fikirleri ticari olmayan
   amaçlarla, atıf yaparak ve aynı lisansla uyarlayıp geliştirebilir. Ancak değiştirilmiş,
   geliştirilmiş, yeniden adlandırılmış ya da birleştirilmiş hiçbir sürüm ticari lisans

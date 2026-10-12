@@ -118,6 +118,8 @@ Parts of this flow already exist in several countries. As far as this proposal's
 4. **Lawyer mandates and other critical contracts:** apply the same pre-review and comprehension step to lawyers' mandates and to contracts designated as critical regardless of value.
 5. **Yearly threshold review:** set up a regular, transparent mechanism to update the value ceiling for inflation and social conditions.
 
+**Toward a European standard.** The process part of the flow (version lock, document number, comprehension check record, lifecycle records) can be standardized in a law-neutral way, while the threshold and the notary's role stay with national law. A [draft standardization note](STANDARDIZATION.md) contains a CEN Workshop Agreement project plan and a skeleton of the technical specification.
+
 ## Stakeholders & Benefits
 
 - **Citizens:** they know what they sign, and the copy they read is the copy they sign.

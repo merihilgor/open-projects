@@ -119,6 +119,8 @@ Bu akışın parçaları birçok ülkede zaten uygulanıyor. Öneri sahibinin bi
 4. **Avukat vekâletleri ve diğer kritik sözleşmeler:** Aynı ön inceleme ve anlama adımını avukat vekâletlerine ve tutarından bağımsız olarak kritik kabul edilen sözleşmelere uygulamak.
 5. **Yıllık sınır güncellemesi:** Tutar sınırını enflasyon ve toplumsal koşullara göre güncelleyen düzenli ve şeffaf bir mekanizma kurmak.
 
+**Avrupa standardına doğru.** Akışın süreç kısmı (sürüm kilidi, belge numarası, idrak testi kaydı, yaşam döngüsü kayıtları) hukuk açısından tarafsız biçimde standartlaştırılabilir; tutar sınırı ve noterin rolü ise ulusal hukuka kalır. [Standardizasyon notu taslağı](STANDARDIZATION.tr.md), bir CEN Workshop Agreement proje planı ve teknik şartnamenin iskeletini içerir.
+
 ## Paydaşlar ve Faydalar
 
 - **Vatandaşlar:** Ne imzaladıklarını bilirler; okudukları kopya imzaladıkları kopyadır.
