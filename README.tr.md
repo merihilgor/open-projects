@@ -117,6 +117,9 @@ Her proje **klasör bazında** "CC+" modeliyle lisanslanır:
   | Fiziksel ürün | adjustable-window-vent-slider, motorcycle-seat-galosh | Net gelirin %4'ü |
   | Teknoloji / araştırma konsepti | neutrino-communication | Net gelirin %4'ü |
 
+- **Standart ticari lisans, beklemeden.** Bir şirket, bir kayıt e-postası göndererek
+  varsayılan ticari koşulları kendisi alabilir (her `COMMERCIAL-LICENSE.md` dosyasına bakın).
+  Lisans o gün yürürlüğe girer; ödeme bilgisi lisans numarasıyla birlikte özel olarak iletilir.
 - **Devletin zorunlu kıldığı kamusal uygulamalar ücretsizdir.** Devlet bir fikri zorunlu
   kılıp tüm kamunun yararlanması için kamu bütçesiyle finanse ettiğinde, bu uygulamayı
   kuran veya işleten şirketler dahil telif alınmaz. Rekabet avantajı için gönüllü ticari

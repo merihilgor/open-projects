@@ -6,6 +6,8 @@ Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şek
 ## 2026-10-12
 
 ### Changed / Değişti
+- **Standard Commercial License (self-serve):** companies can now take up the default commercial terms on their own, without waiting, by sending a registration email; the license takes effect on that date. Payment details are shared privately with a license number, never in the repository. Public mandatory deployments need no registration; different terms can still be negotiated.
+  **Standart Ticari Lisans (beklemeden):** Şirketler artık bir kayıt e-postası göndererek varsayılan ticari koşulları kendileri alabilir; lisans o gün yürürlüğe girer. Ödeme bilgisi depoda değil, lisans numarasıyla birlikte özel olarak paylaşılır. Devletin zorunlu kıldığı kamusal uygulamalar kayıt gerektirmez; farklı koşullar yine pazarlıkla belirlenebilir.
 - **Commercial license:** state-mandated deployments funded from the public budget are now royalty-free, including the tenders and contracts of companies that build or run them. Voluntary commercial use for a competitive advantage stays under the revenue share. Standards bodies that publish a standard based on the idea free of charge may use the contribution free; those that sell it need a commercial license.
   **Ticari lisans:** Devletin zorunlu kıldığı ve kamu bütçesiyle finanse edilen uygulamalar artık gelir payından muaftır; bunları kuran veya işleten şirketlerin ihale ve sözleşmeleri de buna dahildir. Rekabet avantajı için gönüllü ticari kullanım gelir paylaşımına tabi kalır. Fikre dayanan bir standardı ücretsiz yayımlayan standart kuruluşları katkıyı ücretsiz kullanabilir; standardı satanlar ticari lisans alır.
 
