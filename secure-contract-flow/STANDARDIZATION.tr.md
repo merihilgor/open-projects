@@ -32,6 +32,7 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 Ulusal hukukun veya tarafların güvenli akışa tabi tuttuğu sözleşmeler için ortak ve hukuk açısından tarafsız bir süreç tanımlamak; böylece:
 
 - her taraf aynı metni inceler ve imzalanan metnin onaylanan metin olduğu ispatlanabilir;
+- her taraf metin kilitlenmeden önce belirsiz maddeler ve terimler hakkında soru sorabilir ve cevaplar sözleşmeyle birlikte saklanır;
 - imzalayanın temel şartları anladığı yalnızca beyan edilmez, kontrol edilip kaydedilir;
 - sözleşme ekler, tadiller, alt sözleşmeler, yenileme, sürenin dolması, iptal, fesih, askıya alma ve tamamlanma boyunca tek ve kalıcı bir kimliği korur;
 - yetkili üçüncü kişiler sözleşmenin güncel durumunu kontrol edebilir;
@@ -39,7 +40,7 @@ Ulusal hukukun veya tarafların güvenli akışa tabi tuttuğu sözleşmeler iç
 
 ### 4. Kapsam
 
-**Kapsam içi:** terimler ve tanımlar; süreç durumları ve izin verilen geçişler; belge kimliği, ön inceleme, tüm tarafların onayı, sürüm kilidi, idrak testi kaydı, kilitli sürüm üzerinde yöntemden bağımsız imza, yaşam döngüsü olayları, üçüncü kişilerin durum kontrolü, denetim, saklama, gizlilik ve erişilebilirlik gereksinimleri; uygunluk ölçütleri.
+**Kapsam içi:** terimler ve tanımlar; süreç durumları ve izin verilen geçişler; belge kimliği, ön inceleme, sorular ve açıklamalar, tüm tarafların onayı, sürüm kilidi, idrak testi kaydı, kilitli sürüm üzerinde yöntemden bağımsız imza, yaşam döngüsü olayları, üçüncü kişilerin durum kontrolü, denetim, saklama, gizlilik ve erişilebilirlik gereksinimleri; uygunluk ölçütleri.
 
 **Kapsam dışı:** tutar sınırları; hangi sözleşmelerin akışa tabi olacağı; kayıtların hukuki sonucu; imzayı yöneten yetkililerin nitelikleri ve sorumluluğu; birlikte çalışabilirliğin kesinlikle gerektirdiği dışında belirli teknolojiler, ürünler veya veri formatları.
 
@@ -110,6 +111,7 @@ Bölüm 1, madde 5'teki çerçevelerle tamamlanacak.
 - **Belge kimliği:** güvenli sözleşmenin benzersiz ve kalıcı kimliği (benzersiz belge numarası).
 - **Sürüm:** sözleşme metninin ve eklerinin tam bir hâli.
 - **Kilitli sürüm:** tüm tarafların onayladığı ve artık değiştirilemeyen sürüm.
+- **Açıklama:** bir tarafın bir madde veya terim hakkındaki sorusuna verilen, tüm tarafların kabul ettiği ve sözleşmeyle birlikte kilitlenen cevap.
 - **İdrak testi:** her tarafa temel şartlar ve sonuçlar hakkında sorulan sorular ile cevapların ve sonucun kaydı.
 - **Yaşam döngüsü olayı:** imzadan sonra sözleşmeyi veya durumunu değiştiren olay.
 - **Durum:** güvenli sözleşmenin güncel hâli.
@@ -123,21 +125,23 @@ Durumlar (örneğin: taslak, incelemede, onaylı, kilitli, imzalı ve yürürlü
 
 **5.2 Ön inceleme.** Her taraf her sürüme erişebilir; her değişiklik kimin yaptığıyla birlikte sürüm geçmişinde saklanır; ulusal hukuka veya sözleşme türüne göre asgari bir inceleme süresi belirlenebilir.
 
-**5.3 Onay ve sürüm kilidi.** Her taraf son sürümü ayrı ayrı onaylar; tüm taraflar onayladığında sürüm kilitlenir ve sonraki her değişiklik tespit edilebilir; ekler ana metinle birlikte kilitlenir.
+**5.3 Sorular ve açıklamalar.** Her taraf belirli bir sürümdeki bir maddeye, terime veya eke bağlı soru sorabilir; her soru bir metin değişikliği, tüm tarafların kabul ettiği bağlayıcı bir açıklama veya yalnızca bilgi amaçlı bir cevapla kapanır; bağlayıcı açıklamalar sözleşmeyle birlikte kilitlenen bir ek oluşturur; açık soru varken sürüm kilitlenemez; tanımlı ve açıklanmış terimler listelenir; taraf, diğer taraflar görmeden imzayı yöneten yetkiliye bilgi amaçlı soru sorabilir.
 
-**5.4 İdrak testi.** Sorular temel şartları ve sonuçları sade bir dille kapsar; her tarafa ayrı ayrı sorulur; kayıt soruları, cevapları ve sonucu (geçti, ertelendi) içerir; erteleme sonrasında imzaya geçilmez; test engelliler için erişilebilirdir.
+**5.4 Onay ve sürüm kilidi.** Her taraf son sürümü ayrı ayrı onaylar; tüm taraflar onayladığında sürüm kilitlenir ve sonraki her değişiklik tespit edilebilir; ekler ana metinle birlikte kilitlenir.
 
-**5.5 İmza.** Ulusal hukukun izin verdiği ölçüde yöntemden bağımsızdır (ıslak, dijital veya biyometrik); her imza kilitli sürüme ispatlanabilir biçimde bağlıdır; imzalayanın kimliği ve imzayı yöneten yetkili kaydedilir.
+**5.5 İdrak testi.** Sorular temel şartları ve sonuçları sade bir dille kapsar; her tarafa ayrı ayrı sorulur; kayıt soruları, cevapları ve sonucu (geçti, ertelendi) içerir; erteleme sonrasında imzaya geçilmez; test engelliler için erişilebilirdir.
 
-**5.6 Yaşam döngüsü olayları.** [Sözleşmenin Yaşam Döngüsü](README.tr.md#sözleşmenin-yaşam-döngüsü) bölümündeki her olay türü belge kimliği altında tarihi, yapanı ve gerekçesiyle kaydedilir; hak veya yükümlülükleri değiştiren olaylar, değişen kısım için inceleme, onay, kilit ve idrak testini tekrarlar; basit durum olayları yalnızca kimlik doğrulaması gerektirir.
+**5.6 İmza.** Ulusal hukukun izin verdiği ölçüde yöntemden bağımsızdır (ıslak, dijital veya biyometrik); her imza kilitli sürüme ispatlanabilir biçimde bağlıdır; imzalayanın kimliği ve imzayı yöneten yetkili kaydedilir.
 
-**5.7 Üçüncü kişilerin durum kontrolü.** Yetkili üçüncü kişiler, tarafların izniyle veya hukukun izin verdiği hâllerde, içeriği almadan güncel durumu belge kimliğiyle kontrol edebilir.
+**5.7 Yaşam döngüsü olayları.** [Sözleşmenin Yaşam Döngüsü](README.tr.md#sözleşmenin-yaşam-döngüsü) bölümündeki her olay türü belge kimliği altında tarihi, yapanı ve gerekçesiyle kaydedilir; hak veya yükümlülükleri değiştiren olaylar, değişen kısım için inceleme, onay, kilit ve idrak testini tekrarlar; basit durum olayları yalnızca kimlik doğrulaması gerektirir.
 
-**5.8 Denetim ve saklama.** Her erişim, değişiklik ve durum geçişi değiştirilemez biçimde kaydedilir; kayıtlar ulusal hukukun belirlediği süre boyunca saklanır.
+**5.8 Üçüncü kişilerin durum kontrolü.** Yetkili üçüncü kişiler, tarafların izniyle veya hukukun izin verdiği hâllerde, içeriği almadan güncel durumu belge kimliğiyle kontrol edebilir.
 
-**5.9 Gizlilik ve güvenlik.** Erişim taraflar, imzayı yöneten yetkili ve hukukun yetkilendirdiği kişilerle sınırlıdır; veri en aza indirilir; biyometrik veri yalnızca imza için kullanılır.
+**5.9 Denetim ve saklama.** Her erişim, değişiklik ve durum geçişi değiştirilemez biçimde kaydedilir; kayıtlar ulusal hukukun belirlediği süre boyunca saklanır.
 
-**5.10 Erişilebilirlik ve destekli erişim.** Dijital erişimi veya becerisi olmayan kişiler için imzayı yöneten yetkilinin ofisinde destekli inceleme.
+**5.10 Gizlilik ve güvenlik.** Erişim taraflar, imzayı yöneten yetkili ve hukukun yetkilendirdiği kişilerle sınırlıdır; veri en aza indirilir; biyometrik veri yalnızca imza için kullanılır.
+
+**5.11 Erişilebilirlik ve destekli erişim.** Dijital erişimi veya becerisi olmayan kişiler için imzayı yöneten yetkilinin ofisinde destekli inceleme.
 
 ### 6. Uygunluk
 Uygunluk sınıfları (örneğin: yalnızca temel akış; temel akış ve yaşam döngüsü yönetimi; üçüncü kişilerin durum kontrolü dahil tam akış) ve uygunluğun nasıl değerlendirileceği.

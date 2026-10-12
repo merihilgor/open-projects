@@ -5,6 +5,12 @@ Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şek
 
 ## 2026-10-12
 
+### Added / Eklendi
+- **Questions and clarifications:** during review, any party can ask a question tied to a clause or term. The answer changes the text, becomes a binding clarification locked with the contract, or is kept for information; a version cannot be locked while questions are open. Includes a new section, solution step 4 (later steps renumbered), a problem bullet, a comparison-table row, a risk row on questions used to delay signing, keywords, the updated illustration and requirement 5.3 in the standardization note (later requirements renumbered).
+  **Sorular ve açıklamalar:** İnceleme sırasında her taraf bir madde veya terime bağlı soru sorabilir. Cevap metni değiştirir, sözleşmeyle birlikte kilitlenen bağlayıcı bir açıklamaya dönüşür ya da bilgi olarak kalır; açık soru varken sürüm kilitlenemez. Yeni bir bölüm, 4. çözüm adımı (sonraki adımlar yeniden numaralandı), bir sorun maddesi, bir karşılaştırma satırı, soruların imzayı geciktirmek için kullanılmasına ilişkin bir risk satırı, anahtar kelimeler, güncellenen görsel ve standardizasyon notunda 5.3 gereksinimi (sonraki gereksinimler yeniden numaralandı).
+- **Where the flow begins:** the flow starts when a draft contract exists; requests for proposals or information (RFP/RFI) stay informal or on existing procurement systems, with a later optional phase that lets tender results enter as annexes.
+  **Akışın başladığı yer:** Akış bir sözleşme taslağı oluştuğunda başlar; teklif veya bilgi talepleri (RFP/RFI) gayriresmî kalır ya da mevcut satın alma sistemlerinde yürür; ihale sonuçlarının ek olarak girmesi ileride isteğe bağlı bir aşamadır.
+
 ### Changed / Değişti
 - **Standard Commercial License (self-serve):** companies can now take up the default commercial terms on their own, without waiting, by sending a registration email; the license takes effect on that date. Payment details are shared privately with a license number, never in the repository. Public mandatory deployments need no registration; different terms can still be negotiated.
   **Standart Ticari Lisans (beklemeden):** Şirketler artık bir kayıt e-postası göndererek varsayılan ticari koşulları kendileri alabilir; lisans o gün yürürlüğe girer. Ödeme bilgisi depoda değil, lisans numarasıyla birlikte özel olarak paylaşılır. Devletin zorunlu kıldığı kamusal uygulamalar kayıt gerektirmez; farklı koşullar yine pazarlıkla belirlenebilir.

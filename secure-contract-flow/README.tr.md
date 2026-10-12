@@ -8,6 +8,7 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 
 - **Tutar sınırı.** Para veya değerli varlıklarla ilgili, her yıl gözden geçirilen bir sınırın üzerindeki adi sözleşmeler yalnızca noter onayıyla geçerli olur.
 - **Çevrim içi ön inceleme.** İmzadan önce sözleşme ulusal e-devlet portalında bir ön inceleme aşamasından geçer. Her taraf sözleşmeyi kendi hızında okuyabilir, yeni sürümler önerebilir ve son metni onaylar.
+- **Sorular ve açıklamalar.** İnceleme sırasında her taraf belirsiz bir madde veya terim hakkında soru sorabilir. Her cevap ya metni değiştirir, ya sözleşmeyle birlikte kilitlenen bağlayıcı bir açıklamaya dönüşür, ya da bilgi olarak kayıtta kalır. Açık soru varken sürüm kilitlenemez.
 - **Sürüm kilidi.** Onaylanan sürüm **benzersiz bir belge numarasıyla** kilitlenir ve noter tam olarak o sürümün çıktısını alır.
 - **Gerçek bir anlama kontrolü.** İmza sırasında noter her tarafa temel şartlarla ilgili sorular sorar; böylece "okudum, anladım" gerçekten doğrulanmış olur.
 
@@ -21,6 +22,7 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 - **Yüksek tutarlı adi sözleşmelerin güvencesi yoktur.** Büyük tutarlı para veya değerli varlık içeren sözleşmeler, tarafların neyi kabul ettiğine dair bağımsız bir kontrol olmadan özel olarak yapılabilir.
 - **İnsanlar okumadıklarını imzalar.** Sözleşmeler onlarca sayfa olabilir ve yoğun, muğlak bir dil kullanabilir. Noterde insanlar çoğu zaman "okudum, anladım" yazıp aslında hiç okumadıkları bir sözleşmeyi imzalar.
 - **Okuduğunuz kopya imzaladığınız kopya olmayabilir.** Taslaklar gayriresmî şekilde dolaşınca, bir taraf bir sürümü inceleyip, kasıtlı olarak değiştirilmiş olsun ya da olmasın, başka bir sürümü imzalayabilir.
+- **Belirsiz terimler ancak imzadan sonra netleşir.** "30 gün içinde teslim" gibi muğlak bir madde (iş günü mü, takvim günü mü?) ya hiç sorulmaz ya da imzadan önce sözlü olarak açıklanır ve bu açıklama kaybolur. Soru daha sonra bir uyuşmazlık olarak geri döner.
 - **"Akıl sağlığınız yerinde mi?" sorusu bir saniyede cevaplanır.** Kaza, yakınını kaybetme veya başka ağır bir şok yaşamış biri "evet" diyebilir; ancak o an bir sözleşmeyi okuyup kavrayacak ve değerlendirecek durumda olmayabilir.
 - **Vekâletnamelerde de aynı risk vardır.** İnsanlar tam olarak neye yetki verdiklerini bilmeden vekâlet verir; aynı boşluk sonrasında avukata verilen vekâlette de tekrar ortaya çıkar.
 
@@ -29,22 +31,24 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 1. **Adi sözleşmeler için tutar sınırı.** Para veya değerli varlıklarla ilgili sözleşmeler için adi sözleşmenin yasal bir üst sınırı olur. Bu sınır ulusal düzeyde belirlenir ve enflasyon ile toplumsal koşullara göre **her yıl gözden geçirilir** (örneğin bugünün değerleriyle yaklaşık 500.000 TL). Sınırın üzerindeki bir sözleşme **noter onayı olmadan hukuken geçerli olmaz**.
 2. **Çevrim içi ön inceleme aşaması.** Sınırın üzerindeki sözleşmeler ile kritik, uzun veya anlamsal olarak karmaşık sözleşmelerde taslak, ulusal e-devlet portalına (örneğin e-Devlet) veya benzeri merkezi bir devlet sistemine yüklenir. Her taraf sözleşmeyi indirip okuyabilir ve **yeterli zaman ayırarak** ayrıntılı biçimde inceleyebilir.
 3. **Taraflar arasında sürümleme.** Taraflar anlaşana kadar sistem üzerinden yeni sürümler veya değişiklikler önerebilir. Her sürüm geçmişiyle birlikte saklanır; kimin neyi değiştirdiği her zaman açıktır.
-4. **Karşılıklı ön onay ve benzersiz belge numarası.** Tüm taraflar son sürümü çevrim içi onayladığında sistem onu kilitler ve **benzersiz bir belge numarası** verir.
-5. **Noter tam olarak o sürümü kullanır.** Noter, belge numarasıyla kilitli sözleşmenin çıktısını alır veya onu dijital belge olarak açar. Bir kopyayı okuyup başka bir kopyayı imzalamak imkânsız hale gelir.
-6. **İmza sırasında anlama kontrolü.** Noter, her tarafa daha önce incelediği sözleşmenin temel şartları ve doğabilecek olası sonuçları hakkında sorular sorar. "Okudum, anladım" bir formalite değil, gerçek bir kontrol haline gelir.
-7. **"Akıl sağlığı" sorusuna pratik bir cevap.** Sözleşmeyi önceden inceleme fırsatı bulmuş ve onunla ilgili soruları cevaplayabilen biri gerçek bir anlayış gösterir. Bu, notere kişinin ehliyeti hakkında sağlam temelli bir kanaat sağlar. Ağır bir şok içinde olduğu için soruları cevaplayamayan birinin imzası zorlanmaz, ertelenir.
-8. **Vekâletname ve avukat vekâleti için aynı akış.** Vekâlet veren kişi neye yetki verdiğini önceden tam olarak inceler ve imza sırasında anlama sorularını cevaplar. Bu yetki bir avukata devredildiğinde de benzer bir adım uygulanır.
-9. **İmkânlara uygun imza yöntemi.** İmza; noterin ve tarafların kullanabildiği olanaklara göre kâğıt üzerinde ıslak imza ya da dijital belge üzerinde dijital veya biyometrik imza olabilir. Yöntem ne olursa olsun imza yalnızca kilitli sürüme ve yalnızca idrak testinden sonra atılır.
-10. **Sözleşmenin tüm ömrü boyunca yönetilmesi.** İmza akışın sonu değildir. Tadil, alt sözleşme, süre uzatımı, iptal veya fesih gibi sonraki her olay aynı benzersiz belge numarasına bağlı olarak kaydedilir. Tarafların hak veya yükümlülüklerini değiştiren değişiklikler aynı ön inceleme, onay, kilit ve idrak testinden geçer; basit durum olayları daha hafif adımlarla kaydedilir (bkz. [Sözleşmenin Yaşam Döngüsü](#sözleşmenin-yaşam-döngüsü)).
+4. **Sorular ve açıklamalar.** İnceleme sırasında her taraf belirli bir madde veya terime bağlı soru sorabilir. Cevap ya metni değiştirir (yeni sürüm), ya tüm tarafların kabul ettiği ve sözleşmeyle birlikte kilitlenen **bağlayıcı bir açıklamaya** dönüşür, ya da bilgi olarak kaydedilir. Açık soru varken sürüm kilitlenemez (bkz. [Sorular ve Açıklamalar](#sorular-ve-açıklamalar)).
+5. **Karşılıklı ön onay ve benzersiz belge numarası.** Tüm taraflar son sürümü çevrim içi onayladığında sistem onu kilitler ve **benzersiz bir belge numarası** verir.
+6. **Noter tam olarak o sürümü kullanır.** Noter, belge numarasıyla kilitli sözleşmenin çıktısını alır veya onu dijital belge olarak açar. Bir kopyayı okuyup başka bir kopyayı imzalamak imkânsız hale gelir.
+7. **İmza sırasında anlama kontrolü.** Noter, her tarafa daha önce incelediği sözleşmenin temel şartları ve doğabilecek olası sonuçları hakkında sorular sorar. "Okudum, anladım" bir formalite değil, gerçek bir kontrol haline gelir.
+8. **"Akıl sağlığı" sorusuna pratik bir cevap.** Sözleşmeyi önceden inceleme fırsatı bulmuş ve onunla ilgili soruları cevaplayabilen biri gerçek bir anlayış gösterir. Bu, notere kişinin ehliyeti hakkında sağlam temelli bir kanaat sağlar. Ağır bir şok içinde olduğu için soruları cevaplayamayan birinin imzası zorlanmaz, ertelenir.
+9. **Vekâletname ve avukat vekâleti için aynı akış.** Vekâlet veren kişi neye yetki verdiğini önceden tam olarak inceler ve imza sırasında anlama sorularını cevaplar. Bu yetki bir avukata devredildiğinde de benzer bir adım uygulanır.
+10. **İmkânlara uygun imza yöntemi.** İmza; noterin ve tarafların kullanabildiği olanaklara göre kâğıt üzerinde ıslak imza ya da dijital belge üzerinde dijital veya biyometrik imza olabilir. Yöntem ne olursa olsun imza yalnızca kilitli sürüme ve yalnızca idrak testinden sonra atılır.
+11. **Sözleşmenin tüm ömrü boyunca yönetilmesi.** İmza akışın sonu değildir. Tadil, alt sözleşme, süre uzatımı, iptal veya fesih gibi sonraki her olay aynı benzersiz belge numarasına bağlı olarak kaydedilir. Tarafların hak veya yükümlülüklerini değiştiren değişiklikler aynı ön inceleme, onay, kilit ve idrak testinden geçer; basit durum olayları daha hafif adımlarla kaydedilir (bkz. [Sözleşmenin Yaşam Döngüsü](#sözleşmenin-yaşam-döngüsü)).
 
 ## Nasıl Çalışır
 
-![Güvenli sözleşme akışı: her yıl gözden geçirilen tutar sınırının altında adi sözleşme yeterlidir; sınırın üzerinde sözleşme ulusal e-devlet portalına yüklenir, taraflar inceleyip sürümler önerir, hepsi son sürümü onaylar, sürüm benzersiz bir belge numarasıyla kilitlenir, noter tam olarak o sürümü kullanır, anlama soruları sorar ve ancak ondan sonra ıslak, dijital veya biyometrik imza alınır. Aynı akış vekâletname ve avukat vekâleti için de geçerlidir](assets/secure-contract-flow.tr.svg)
+![Güvenli sözleşme akışı: her yıl gözden geçirilen tutar sınırının altında adi sözleşme yeterlidir; sınırın üzerinde sözleşme ulusal e-devlet portalına yüklenir, taraflar inceleyip belirsiz terimler hakkında soru sorar ve sürümler önerir, hepsi son sürümü onaylar, sürüm benzersiz bir belge numarasıyla kilitlenir, noter tam olarak o sürümü kullanır, anlama soruları sorar ve ancak ondan sonra ıslak, dijital veya biyometrik imza alınır. Aynı akış vekâletname ve avukat vekâleti için de geçerlidir](assets/secure-contract-flow.tr.svg)
 
 | Durum | Bugün | Güvenli sözleşme akışı ile |
 |---|---|---|
 | Uzun, karmaşık bir sözleşme | Noterde dakikalar içinde okunur ya da hiç okunmaz | Her tarafça önceden, kendi hızında incelenir |
 | Pazarlık sırasındaki değişiklikler | Taslaklar gayriresmî şekilde dolaşır | Her sürüm geçmişiyle birlikte tek bir yerde saklanır |
+| Belirsiz bir madde veya terim | Gayriresmî sorulur ya da hiç sorulmaz; cevap kaybolur | Maddeye bağlı sorulur; cevap metni değiştirir ya da bağlayıcı açıklama olarak sözleşmeyle kilitlenir |
 | İmzalanan kopya | Okunandan farklı olabilir | Tam olarak kilitli sürüm, benzersiz belge numarasıyla çıktı alınır |
 | "Okudum, anladım" | Elle yazılan bir cümle | Temel şartlarla ilgili soruların cevaplarıyla doğrulanır |
 | "Akıl sağlığınız yerinde mi?" | Şok halinde bile tek kelimelik bir cevap | Gerçek anlayışa göre değerlendirilir; gerekirse imza ertelenir |
@@ -52,6 +56,23 @@ Yüksek tutarlı ve karmaşık sözleşmeler çoğu zaman baskı altında, okunm
 | Sözleşmenin imzalanma şekli | Genellikle kâğıt üzerinde ıslak imza | Islak, dijital veya biyometrik imza; her zaman aynı kilitli sürüm üzerinde |
 | Tadiller, ekler ve alt sözleşmeler | Kaybolması veya itiraz edilmesi kolay ayrı kâğıtlar | Asıl belge numarasına bağlanır; her biri incelenir ve kilitlenir |
 | Sürenin dolması, iptal veya fesih | Sonradan dağınık yazışma ve ihtarnamelerle ispatlanır | Tarihi ve gerekçesiyle kaydedilir; sözleşmenin durumu her zaman açıktır |
+
+## Sorular ve Açıklamalar
+
+Bir madde iki şekilde okunabiliyorsa sözleşmeyi okumak yetmez. Akış her tarafa, sürüm kilitlenmeden önce kayıtlı biçimde soru sorma imkânı verir; böylece belirsizlik mahkemede değil, imzadan önce giderilir.
+
+| Adım | Nasıl işler |
+|---|---|
+| **Metne bağlı soru** | Taraf bir maddeyi, terimi veya eki seçip soru sorar. Soru, o sürümdeki o yere bağlanır. |
+| **Üç sonuçtan biriyle cevap** | **Metin değişir:** madde yeniden yazılır ve yeni bir sürüm oluşur; tercih edilen sonuç budur. **Bağlayıcı açıklama:** tüm taraflar cevabı kabul eder ve cevap, sözleşmeyle birlikte kilitlenen bir açıklamalar ekine girer. **Yalnızca bilgi:** cevap hiçbir şeyi değiştirmeden açıklar ve kayıtta kalır. |
+| **Açık soru varken kilit yok** | Cevaplanmamış bir soru ya da tüm tarafların henüz kabul etmediği bir cevap varken sürüm kilitlenemez. |
+| **Tanımlı terimler** | Sözleşmede tanımlanan ve inceleme sırasında açıklanan terimler tek bir listede toplanır ve metinde işaretlenir. |
+| **Bağımsız soru** | Taraf, karşı taraf görmeden bilgi almak için notere veya kendi avukatına da soru sorabilir. Bu, güçsüz tarafı korur. |
+| **İdrak testiyle bağlantı** | Noter, açıklanan veya ihtilaflı olan maddeleri idrak testi sorularına dahil edebilir. |
+| **Sonradan delil** | Bir uyuşmazlıkta sorular, cevaplar ve açıklamalar, tarafların imza sırasında neyi anladığını gösterir. |
+| **Tadillerde de** | Sözleşme tadil edildiğinde aynı adım yalnızca değişen kısım için uygulanır. |
+
+**Akışın başladığı yer.** Akış, taraflar ve konu belli olup bir sözleşme taslağı oluştuğunda başlar. Teklif veya bilgi talebi (RFP/RFI) ve karşı tarafın seçilmesi gibi önceki adımlar gayriresmî kalır ya da mevcut satın alma sistemlerinde yürür. İleriki bir aşamada bir ihalenin sonucu (kazanan teklif ve şartnamesi) taslağın ekleri olarak akışa girebilir.
 
 ## Sözleşmenin Yaşam Döngüsü
 
@@ -118,6 +139,7 @@ Bu akışın parçaları birçok ülkede zaten uygulanıyor. Öneri sahibinin bi
 3. **Yaşam döngüsü olayları:** Ekleri, tadilleri, alt sözleşmeleri, yenilemeleri, sürenin dolmasını, iptali, feshi ve tamamlanmayı, pilot sözleşme türlerinden başlayarak aynı belge numarası altında eklemek.
 4. **Avukat vekâletleri ve diğer kritik sözleşmeler:** Aynı ön inceleme ve anlama adımını avukat vekâletlerine ve tutarından bağımsız olarak kritik kabul edilen sözleşmelere uygulamak.
 5. **Yıllık sınır güncellemesi:** Tutar sınırını enflasyon ve toplumsal koşullara göre güncelleyen düzenli ve şeffaf bir mekanizma kurmak.
+6. **Sözleşme öncesi aşama (ileride, isteğe bağlı):** Temel akış oturduktan sonra, satın alma sürecinin kendisi sisteme taşınmadan, ihale ve teklif çağrılarının sonuçlarının taslağın ekleri olarak akışa girmesini sağlamak.
 
 **Avrupa standardına doğru.** Akışın süreç kısmı (sürüm kilidi, belge numarası, idrak testi kaydı, yaşam döngüsü kayıtları) hukuk açısından tarafsız biçimde standartlaştırılabilir; tutar sınırı ve noterin rolü ise ulusal hukuka kalır. [Standardizasyon notu taslağı](STANDARDIZATION.tr.md), bir CEN Workshop Agreement proje planı ve teknik şartnamenin iskeletini içerir.
 
@@ -139,11 +161,12 @@ Bu akışın parçaları birçok ülkede zaten uygulanıyor. Öneri sahibinin bi
 | Ek zaman ve maliyet | Akış yalnızca sınırın üzerindeki veya kritik sözleşmelere uygulanır; gündelik küçük anlaşmalar basit kalır |
 | Anlama kontrolünün bir sınav gibi ya da adaletsiz olması | Yalnızca temel şartlar ve sonuçlar hakkında sade dilde sorular; engelli bireyler için erişilebilir |
 | Dijital veya biyometrik imzaların güvenliği | Yalnızca onaylı imza yöntemleri ve noter tarafından doğrulanan kimlik; biyometrik veriler yalnızca imza için kullanılır ve yasal olarak korunur |
+| Soruların imzayı geciktirmek için kullanılması | Makul bir cevap süresi; karşı taraf cevap vermezse soruyu soran taraf vazgeçebilir veya metni olduğu gibi kabul edebilir; noter, metnin soruyu zaten cevapladığına karar verebilir |
 | Diğer tarafın baskısı | Soruların her tarafa ayrı ayrı sorulması |
 | Sınırın enflasyon karşısında anlamını yitirmesi | Tutar sınırının her yıl gözden geçirilip güncellenmesi |
 | Sözleşmenin sistem dışında değiştirilmesi veya sona erdirilmesi | Akış kapsamındaki sözleşmelerde yalnızca belge numarası altında kaydedilen tadil, iptal ve fesihler hüküm doğurur; üçüncü kişiler bir sözleşmeye dayanmadan önce güncel durumunu kontrol eder |
 
-**Anahtar kelimeler:** sözleşme hukuku, noter, bilgilendirilmiş onay, dijital sözleşme incelemesi, sürüm kontrolü, benzersiz belge numarası, dijital imza, biyometrik imza, vekâletname, hukuki ehliyet, sözleşme yaşam döngüsü, tadil, alt sözleşme, sözleşmenin feshi, tüketicinin korunması, e-devlet, hukuk teknolojisi
+**Anahtar kelimeler:** sözleşme hukuku, noter, bilgilendirilmiş onay, dijital sözleşme incelemesi, sürüm kontrolü, sözleşme açıklaması, tanımlı terimler, benzersiz belge numarası, dijital imza, biyometrik imza, vekâletname, hukuki ehliyet, sözleşme yaşam döngüsü, tadil, alt sözleşme, sözleşmenin feshi, tüketicinin korunması, e-devlet, hukuk teknolojisi
 
 ## Köken
 
