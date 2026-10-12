@@ -122,7 +122,7 @@ repository is public, and the binding terms are the per-folder `LICENSE` and
 - [`llms.txt`](llms.txt): an LLM-friendly index of every project with direct links (see [llmstxt.org](https://llmstxt.org)).
 - [`projects.json`](projects.json): a machine-readable catalog with titles (EN/TR), summaries, themes and keywords.
 - [`CITATION.cff`](CITATION.cff): citation metadata. Use GitHub's "Cite this repository" button.
-- Every project folder is self-contained: `README.md` (English), `README.tr.md` (Turkish), visuals in `assets/`, `LICENSE` and `COMMERCIAL-LICENSE.md`.
+- Every project folder is self-contained: `README.md` (English), `README.tr.md` (Turkish), visuals in `assets/`, `LICENSE`, `COMMERCIAL-LICENSE.md` and `CHANGELOG.md`.
 
 Questions, critiques and improvements are welcome through GitHub Issues and Discussions.
 
@@ -145,6 +145,11 @@ Every project is licensed **per folder** under a "CC+" model:
   | Physical product | adjustable-window-vent-slider, motorcycle-seat-galosh | 4% of net revenue |
   | Technology / research concept | neutrino-communication | 4% of net revenue |
 
+- **Public mandatory deployments are free.** When a state makes an idea mandatory and funds
+  it from the public budget, so that the whole public benefits, no royalty is due, including
+  for the companies that build or run that deployment. Voluntary commercial use for a
+  competitive advantage stays under the revenue share. Standards bodies that publish a
+  standard based on an idea free of charge may use the contribution free.
 - **Modified versions stay tied to the original idea.** Anyone may adapt and improve these
   ideas non-commercially, with attribution and under the same license. However, no modified,
   improved, renamed or combined version may be sold, licensed or transferred to third

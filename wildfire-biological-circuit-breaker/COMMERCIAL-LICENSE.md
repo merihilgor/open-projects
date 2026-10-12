@@ -23,6 +23,14 @@ for-profit product, service, tender or contract, directly or through a third par
 Commercial rights are available **only** under a separate written license agreement
 with the author, on the following default terms:
 
+### Public mandatory deployments — free
+
+The revenue share exists so that a company that uses this idea **voluntarily**, to offer more value or trust than its competitors, shares the value of that advantage. When the idea serves the **whole public**, no fee is due:
+
+1. **State-mandated deployments are royalty-free.** Where a state makes this idea mandatory by law or regulation for those in scope, and the deployment is funded from the public budget without charging users more than ordinary public fees, no revenue share is due. This includes the tenders and contracts of companies that build, operate or maintain that deployment, for the work done for it.
+2. **Voluntary commercial use stays royalty-bearing.** Until such a mandate exists, and outside its scope afterwards, commercial use (for example offering the idea as an optional product or service or using it to gain a competitive advantage) requires the written agreement and the revenue share below.
+3. **Standards bodies.** A standards body that makes a standard based on this idea freely accessible to the public may use the author's contribution free of charge. A body that sells the standard as a commercial product needs a written commercial license.
+
 ### Ongoing revenue share
 
 | Term | Default |
@@ -123,6 +131,15 @@ offer) follows the model described by Creative Commons:
   çevrilmiş), yazarın yazılı ticari lisansı olmadan "yeni" veya "kendi fikri" olarak
   satılamaz, lisanslanamaz, devredilemez ya da üçüncü kişilere bedel karşılığı
   aktarılamaz.
+- **Devletin zorunlu kıldığı kamusal uygulamalar ücretsizdir.** Devlet bu fikri kanun veya
+  yönetmelikle zorunlu kılar ve uygulama, kullanıcılardan olağan kamu harçlarından fazlası
+  alınmadan kamu bütçesiyle finanse edilirse gelir payı alınmaz. Bu uygulamayı kuran,
+  işleten veya bakımını yapan şirketlerin bu iş için yaptığı ihale ve sözleşmeler de
+  muaftır. Böyle bir zorunluluk yokken ve sonrasında onun kapsamı dışında, gönüllü ticari
+  kullanım (örneğin fikri isteğe bağlı bir ürün veya hizmet olarak sunmak ya da rekabet
+  avantajı için kullanmak) gelir paylaşımına tabidir. Standardı kamuya ücretsiz sunan
+  standart kuruluşları katkıyı ücretsiz kullanabilir; standardı satan kuruluşlar ticari
+  lisans alır.
 - **Ticari kullanım sürekli kâr payı gerektirir.** Bu, türetilmiş sürümler için de
   geçerlidir. Oran ve koşullar yukarıdaki tabloda yer alır.
 - **Patent benzeri koruma:**
