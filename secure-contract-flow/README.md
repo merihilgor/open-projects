@@ -8,6 +8,7 @@ High-value and complex contracts are often signed under pressure, without being 
 
 - **A value threshold.** Private contracts about money or valuable assets above a yearly-reviewed limit are valid only when notarized.
 - **Online pre-review.** Before signing, the contract goes through a pre-review stage on the national e-government portal. Every party can read it at their own pace, propose new versions and approve the final text.
+- **Questions and clarifications.** During review, any party can ask about an unclear clause or term. Each answer either changes the text, becomes a binding clarification locked with the contract, or is kept for information. A version cannot be locked while questions are open.
 - **A version lock.** The approved version is locked under a **unique document number**, and the notary prints exactly that version.
 - **A real comprehension check.** At signing, the notary asks each party questions about the key terms, so "I have read and understood" becomes something actually verified.
 - **Flexible signing.** Depending on what is available, the parties sign with a wet signature on paper, or with a digital or biometric signature on the digital document. The version lock and comprehension check apply the same way.
@@ -20,6 +21,7 @@ High-value and complex contracts are often signed under pressure, without being 
 - **High-value private contracts have no safeguard.** Contracts involving large sums of money or valuable assets can be made privately, with no independent check of what the parties agreed to.
 - **People sign what they have not read.** Contracts can run to dozens of pages and use dense, ambiguous language. At the notary, people often write "I have read and understood" and sign a contract they never actually read.
 - **The copy you read may not be the copy you sign.** When drafts are exchanged informally, a party can review one version and sign another, intentionally altered or not.
+- **Unclear terms are settled only after signing.** A vague clause, such as "delivery within 30 days" (working or calendar days?), is either never asked about or explained orally before signing, and the explanation is lost. The question comes back later as a dispute.
 - **"Are you of sound mind?" is answered in a second.** Someone who has just had an accident, a bereavement or another severe shock may say "yes", yet be unable to read, grasp and judge a contract on the spot.
 - **Powers of attorney carry the same risk.** People grant powers without knowing exactly what they authorize, and the same gap appears again in the mandate given to a lawyer afterwards.
 
@@ -28,22 +30,24 @@ High-value and complex contracts are often signed under pressure, without being 
 1. **Value threshold for private contracts.** Contracts about money or valuable assets get a legal ceiling for private agreements, set nationally and **reviewed every year** in line with inflation and social conditions (for example, around 500,000 Turkish lira at today's values). Above the ceiling, a contract is **not legally valid without notarization**.
 2. **Online pre-review stage.** For contracts above the threshold, and for critical, long or semantically complex contracts, the draft is submitted to the national e-government portal or a similar central state system. Every party can download, read and examine it in detail, **with enough time**.
 3. **Versioning between the parties.** The parties can propose new versions or edits through the system until they agree. Every version is kept with its history, so it is always clear who changed what.
-4. **Mutual pre-approval and a unique document number.** When all parties approve the final version online, the system locks it and assigns a **unique document number**.
-5. **The notary uses exactly that version.** Using the document number, the notary prints the locked contract or opens it as a digital document. Reading one copy and signing another becomes impossible.
-6. **Comprehension check at signing.** The notary asks each party questions about the key terms and possible consequences of the contract they already reviewed. "I have read and understood" becomes an actual check, not a formality.
-7. **A practical answer to "sound mind".** A person who had time to study the contract beforehand and can answer questions about it shows real understanding. That gives the notary a well-grounded judgment about their capacity. Someone in acute shock who cannot answer has signing postponed, not forced.
-8. **The same flow for powers of attorney and lawyer mandates.** The person granting a power of attorney reviews exactly what they authorize beforehand and answers comprehension questions at signing. A similar step applies when that power is passed on to a lawyer.
-9. **Signature method that fits the available means.** The signature can be a wet signature on paper, or a digital or biometric signature on the digital document, depending on what the notary and the parties can use. Whatever the method, the signature is applied only to the locked version and only after the comprehension check.
-10. **Managing the contract over its whole life.** Signing is not the end of the flow. Every later event, such as an amendment, a sub-contract, an extension, a cancellation or a termination, is recorded against the same unique document number. Changes that alter the parties' rights or obligations go through the same pre-review, approval, lock and comprehension check; simple status events are recorded with lighter steps (see [Contract Lifecycle](#contract-lifecycle)).
+4. **Questions and clarifications.** During review, any party can ask a question tied to a specific clause or term. The answer either changes the text (a new version), becomes a **binding clarification** that all parties accept and that is locked with the contract, or is recorded for information. A version cannot be locked while a question is open (see [Questions and Clarifications](#questions-and-clarifications)).
+5. **Mutual pre-approval and a unique document number.** When all parties approve the final version online, the system locks it and assigns a **unique document number**.
+6. **The notary uses exactly that version.** Using the document number, the notary prints the locked contract or opens it as a digital document. Reading one copy and signing another becomes impossible.
+7. **Comprehension check at signing.** The notary asks each party questions about the key terms and possible consequences of the contract they already reviewed. "I have read and understood" becomes an actual check, not a formality.
+8. **A practical answer to "sound mind".** A person who had time to study the contract beforehand and can answer questions about it shows real understanding. That gives the notary a well-grounded judgment about their capacity. Someone in acute shock who cannot answer has signing postponed, not forced.
+9. **The same flow for powers of attorney and lawyer mandates.** The person granting a power of attorney reviews exactly what they authorize beforehand and answers comprehension questions at signing. A similar step applies when that power is passed on to a lawyer.
+10. **Signature method that fits the available means.** The signature can be a wet signature on paper, or a digital or biometric signature on the digital document, depending on what the notary and the parties can use. Whatever the method, the signature is applied only to the locked version and only after the comprehension check.
+11. **Managing the contract over its whole life.** Signing is not the end of the flow. Every later event, such as an amendment, a sub-contract, an extension, a cancellation or a termination, is recorded against the same unique document number. Changes that alter the parties' rights or obligations go through the same pre-review, approval, lock and comprehension check; simple status events are recorded with lighter steps (see [Contract Lifecycle](#contract-lifecycle)).
 
 ## How It Works
 
-![Secure contract flow: below a yearly-reviewed value threshold a private contract is enough; above it the contract is uploaded to the national e-government portal, the parties review it and propose versions, all approve the final version, it is locked under a unique document number, the notary uses exactly that version, asks comprehension questions and only then takes the signature, whether wet, digital or biometric. The same flow applies to powers of attorney and lawyer mandates](assets/secure-contract-flow.svg)
+![Secure contract flow: below a yearly-reviewed value threshold a private contract is enough; above it the contract is uploaded to the national e-government portal, the parties review it, ask questions about unclear terms and propose versions, all approve the final version, it is locked under a unique document number, the notary uses exactly that version, asks comprehension questions and only then takes the signature, whether wet, digital or biometric. The same flow applies to powers of attorney and lawyer mandates](assets/secure-contract-flow.svg)
 
 | Situation | Today | With the secure contract flow |
 |---|---|---|
 | A long, complex contract | Read in minutes at the notary, or not at all | Reviewed beforehand, at each party's own pace |
 | Changes during negotiation | Drafts circulate informally | Every version is kept with its history in one place |
+| An unclear clause or term | Asked informally or not at all; the answer is lost | Asked against the clause; the answer changes the text or is locked with the contract as a binding clarification |
 | The copy that gets signed | May differ from the one that was read | Exactly the locked version, printed by its unique document number |
 | "I have read and understood" | A sentence written by hand | Confirmed by answers to questions on the key terms |
 | "Are you of sound mind?" | A one-word answer, even in shock | Judged from real understanding; signing is postponed if needed |
@@ -51,6 +55,23 @@ High-value and complex contracts are often signed under pressure, without being 
 | How the contract is signed | Usually a wet signature on paper | Wet, digital or biometric signature, always on the same locked version |
 | Amendments, annexes and sub-contracts | Separate papers, easy to lose or dispute | Linked to the original document number, each reviewed and locked |
 | Expiry, cancellation or termination | Proven later from scattered letters and notices | Recorded with date and grounds; the contract's status is always clear |
+
+## Questions and Clarifications
+
+Reading a contract is not enough if a clause can be read two ways. The flow gives every party a recorded way to ask before the version is locked, so that ambiguity is settled before signing, not in court.
+
+| Step | How it works |
+|---|---|
+| **Ask against the text** | A party selects a clause, a term or an annex and asks a question. The question is linked to that place in that version. |
+| **Answer with one of three outcomes** | **Change the text:** the clause is rewritten and a new version is created; this is the preferred outcome. **Binding clarification:** all parties accept the answer, and it joins a clarifications annex that is locked with the contract. **Information only:** the answer explains without changing anything and stays in the record. |
+| **No lock with open questions** | The version cannot be locked while a question is unanswered or an answer is not yet accepted by all parties. |
+| **Defined terms** | Terms defined in the contract and terms clarified during review are collected in one list and marked in the text. |
+| **Independent questions** | A party can also ask the notary, or their own lawyer, for information without the other party seeing the question. This protects the weaker party. |
+| **Link to the comprehension check** | The notary can include clarified or disputed clauses in the comprehension questions. |
+| **Evidence later** | In a dispute, the questions, answers and clarifications show what the parties understood when they signed. |
+| **Amendments too** | When the contract is amended, the same step applies, only to what changed. |
+
+**Where the flow begins.** The flow starts once the parties and the subject are known and a draft contract exists. Earlier steps, such as requests for proposals or information (RFP/RFI) and the choice of a counterparty, stay informal or run on existing procurement systems. A later phase can let the result of a tender (the winning offer and its specifications) enter the flow as annexes of the draft.
 
 ## Contract Lifecycle
 
@@ -117,6 +138,7 @@ Parts of this flow already exist in several countries. As far as this proposal's
 3. **Lifecycle events:** add attachments, amendments, sub-contracts, renewals, expiration, cancellation, termination and completion under the same document number, starting with the pilot contract types.
 4. **Lawyer mandates and other critical contracts:** apply the same pre-review and comprehension step to lawyers' mandates and to contracts designated as critical regardless of value.
 5. **Yearly threshold review:** set up a regular, transparent mechanism to update the value ceiling for inflation and social conditions.
+6. **Pre-contract stage (later, optional):** once the core flow works, let the results of tenders and requests for proposals enter the flow as annexes of the draft, without moving procurement itself into the system.
 
 **Toward a European standard.** The process part of the flow (version lock, document number, comprehension check record, lifecycle records) can be standardized in a law-neutral way, while the threshold and the notary's role stay with national law. A [draft standardization note](STANDARDIZATION.md) contains a CEN Workshop Agreement project plan and a skeleton of the technical specification.
 
@@ -138,11 +160,12 @@ Parts of this flow already exist in several countries. As far as this proposal's
 | Extra time and cost | The flow applies only above the threshold or to critical contracts; everyday small agreements stay simple |
 | The comprehension check feels like an exam or is unfair | Plain-language questions on the key terms and consequences only; accessible for people with disabilities |
 | Security of digital or biometric signatures | Only certified signature methods, with identity verified by the notary; biometric data is used only for signing and protected by law |
+| Questions used to delay signing | A reasonable answer period; if the other party does not answer, the asking party can withdraw or accept the text as it is; the notary can rule that the text already answers a question |
 | Pressure from the other party | Each party is asked the questions separately |
 | The threshold loses meaning with inflation | Yearly review and indexing of the value ceiling |
 | A contract is changed or ended outside the system | For contracts under the flow, only amendments, cancellations and terminations recorded under the document number take effect; third parties check the current status before relying on a contract |
 
-**Keywords:** contract law, notary, informed consent, digital contract review, version control, unique document number, digital signature, biometric signature, power of attorney, legal capacity, contract lifecycle, amendment, sub-contract, contract termination, consumer protection, e-government, legal tech
+**Keywords:** contract law, notary, informed consent, digital contract review, version control, contract clarification, defined terms, unique document number, digital signature, biometric signature, power of attorney, legal capacity, contract lifecycle, amendment, sub-contract, contract termination, consumer protection, e-government, legal tech
 
 ## Origin
 

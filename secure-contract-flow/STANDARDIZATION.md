@@ -32,6 +32,7 @@ High-value and complex contracts are often signed under pressure, without being 
 To specify a common, law-neutral process for contracts that national law or the parties place under a secured flow, so that:
 
 - every party reviews the same text, and the text that is signed is provably the text that was approved;
+- every party can ask about unclear clauses and terms before the text is locked, and the answers are kept with the contract;
 - the signer's understanding of the key terms is checked and recorded, not just declared;
 - the contract keeps one persistent identifier through annexes, amendments, sub-contracts, renewal, expiration, cancellation, termination, suspension and completion;
 - authorized third parties can check a contract's current status;
@@ -39,7 +40,7 @@ To specify a common, law-neutral process for contracts that national law or the 
 
 ### 4. Scope
 
-**In scope:** terms and definitions; the process states and allowed transitions; requirements for the document identifier, pre-review, all-party approval, the version lock, the comprehension check record, method-neutral signing on the locked version, lifecycle events, third-party status checks, audit, retention, privacy and accessibility; conformance criteria.
+**In scope:** terms and definitions; the process states and allowed transitions; requirements for the document identifier, pre-review, questions and clarifications, all-party approval, the version lock, the comprehension check record, method-neutral signing on the locked version, lifecycle events, third-party status checks, audit, retention, privacy and accessibility; conformance criteria.
 
 **Out of scope:** value thresholds; which contracts must follow the flow; the legal effect of the records; the qualification and liability of executing officials; specific technologies, products or data formats beyond what interoperability strictly needs.
 
@@ -110,6 +111,7 @@ To be completed with the frameworks listed in Part 1, section 5.
 - **Document identifier:** the unique, persistent identifier of a secured contract.
 - **Version:** one complete state of the contract text and its annexes.
 - **Locked version:** the version approved by all parties, which can no longer be changed.
+- **Clarification:** an answer to a party's question on a clause or term that all parties accept and that is locked with the contract.
 - **Comprehension check:** the questions put to each party on the key terms and consequences, and the record of the answers and the outcome.
 - **Lifecycle event:** an event after signing that changes the contract or its status.
 - **Status:** the current state of a secured contract.
@@ -123,21 +125,23 @@ States (for example: draft, in review, approved, locked, signed and in force, am
 
 **5.2 Pre-review.** Every party can access every version; every change is attributed and kept in the version history; a minimum review time can be configured according to national law or the contract type.
 
-**5.3 Approval and version lock.** Each party approves the final version individually; once all parties approve, the version is locked and any later change is detectable; annexes are locked with the main text.
+**5.3 Questions and clarifications.** Every party can ask a question linked to a clause, term or annex of a given version; each question is closed by a text change, a binding clarification accepted by all parties, or an information-only answer; binding clarifications form an annex locked with the contract; a version cannot be locked while a question is open; defined and clarified terms are listed; a party can ask the executing official for information without the other parties seeing the question.
 
-**5.4 Comprehension check.** Questions cover the key terms and consequences in plain language; each party is asked separately; the record holds the questions, the answers and the outcome (passed, postponed); signing does not proceed after a postponement; the check is accessible to people with disabilities.
+**5.4 Approval and version lock.** Each party approves the final version individually; once all parties approve, the version is locked and any later change is detectable; annexes are locked with the main text.
 
-**5.5 Signing.** Method-neutral (wet, digital or biometric) as allowed by national law; every signature is provably bound to the locked version; the signer's identity and the executing official are recorded.
+**5.5 Comprehension check.** Questions cover the key terms and consequences in plain language; each party is asked separately; the record holds the questions, the answers and the outcome (passed, postponed); signing does not proceed after a postponement; the check is accessible to people with disabilities.
 
-**5.6 Lifecycle events.** Each event type from the [Contract Lifecycle](README.md#contract-lifecycle) is recorded under the document identifier with its date, author and grounds; events that change rights or obligations repeat review, approval, lock and the comprehension check for what changed; simple status events need only identity verification.
+**5.6 Signing.** Method-neutral (wet, digital or biometric) as allowed by national law; every signature is provably bound to the locked version; the signer's identity and the executing official are recorded.
 
-**5.7 Third-party status check.** Authorized third parties can check the current status by document identifier, with the parties' consent or where the law allows, without receiving the content.
+**5.7 Lifecycle events.** Each event type from the [Contract Lifecycle](README.md#contract-lifecycle) is recorded under the document identifier with its date, author and grounds; events that change rights or obligations repeat review, approval, lock and the comprehension check for what changed; simple status events need only identity verification.
 
-**5.8 Audit and retention.** Every access, change and status transition is logged in a tamper-evident way; records are kept for the retention period set by national law.
+**5.8 Third-party status check.** Authorized third parties can check the current status by document identifier, with the parties' consent or where the law allows, without receiving the content.
 
-**5.9 Privacy and security.** Access limited to the parties, the executing official and those authorized by law; data minimization; biometric data used only for signing.
+**5.9 Audit and retention.** Every access, change and status transition is logged in a tamper-evident way; records are kept for the retention period set by national law.
 
-**5.10 Accessibility and assisted access.** Assisted review at the executing official's office for people without digital access or skills.
+**5.10 Privacy and security.** Access limited to the parties, the executing official and those authorized by law; data minimization; biometric data used only for signing.
+
+**5.11 Accessibility and assisted access.** Assisted review at the executing official's office for people without digital access or skills.
 
 ### 6. Conformance
 Conformance classes (for example: the core flow only; the core flow with lifecycle management; the full flow with third-party status checks) and how conformance is assessed.
