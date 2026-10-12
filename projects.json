@@ -8,7 +8,24 @@
   },
   "license": {
     "noncommercial": "CC-BY-NC-SA-4.0",
-    "commercial": "Revenue-share agreement required (see each project's COMMERCIAL-LICENSE.md)"
+    "commercial": "Revenue-share license required (see each project's COMMERCIAL-LICENSE.md); state-mandated, publicly funded deployments are royalty-free",
+    "commercial_self_serve": {
+      "name": "Standard Commercial License",
+      "how": "Email merihilgor@gmail.com with subject 'Commercial license registration: <project-folder>'",
+      "required_fields": [
+        "legal name",
+        "country",
+        "company registration or tax number",
+        "contact person and email",
+        "project folder",
+        "intended commercial use",
+        "start date"
+      ],
+      "effective": "On the date the registration email is sent, on the default terms in COMMERCIAL-LICENSE.md",
+      "payment": "License number and payment details are sent privately; never published",
+      "agents": "An AI agent may prepare the registration; the company sends it and is the licensee",
+      "exempt": "State-mandated deployments funded from the public budget: royalty-free, no registration needed"
+    }
   },
   "languages": [
     "en",

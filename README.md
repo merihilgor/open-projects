@@ -145,6 +145,9 @@ Every project is licensed **per folder** under a "CC+" model:
   | Physical product | adjustable-window-vent-slider, motorcycle-seat-galosh | 4% of net revenue |
   | Technology / research concept | neutrino-communication | 4% of net revenue |
 
+- **Standard Commercial License, no waiting.** A company can take up the default commercial
+  terms on its own by sending a registration email (see each `COMMERCIAL-LICENSE.md`); the
+  license takes effect that day, and payment details follow privately with a license number.
 - **Public mandatory deployments are free.** When a state makes an idea mandatory and funds
   it from the public budget, so that the whole public benefits, no royalty is due, including
   for the companies that build or run that deployment. Voluntary commercial use for a

@@ -20,16 +20,45 @@ Any **commercial use** is *not* granted by the CC BY-NC-SA 4.0 license. This inc
 selling, productizing, operating as a paid service, or implementing the idea in a
 for-profit product, service, tender or contract, directly or through a third party.
 
-Commercial rights are available **only** under a separate written license agreement
-with the author, on the following default terms:
+Commercial rights are available under the **Standard Commercial License** below, which a
+company can take up on its own without waiting, or under a separate written license
+agreement with the author. Both use the following default terms unless agreed otherwise:
 
 ### Public mandatory deployments — free
 
 The revenue share exists so that a company that uses this idea **voluntarily**, to offer more value or trust than its competitors, shares the value of that advantage. When the idea serves the **whole public**, no fee is due:
 
 1. **State-mandated deployments are royalty-free.** Where a state makes this idea mandatory by law or regulation for those in scope, and the deployment is funded from the public budget without charging users more than ordinary public fees, no revenue share is due. This includes the tenders and contracts of companies that build, operate or maintain that deployment, for the work done for it.
-2. **Voluntary commercial use stays royalty-bearing.** Until such a mandate exists, and outside its scope afterwards, commercial use (for example offering the idea as an optional product or service or using it to gain a competitive advantage) requires the written agreement and the revenue share below.
+2. **Voluntary commercial use stays royalty-bearing.** Until such a mandate exists, and outside its scope afterwards, commercial use (for example offering the idea as an optional product or service or using it to gain a competitive advantage) requires a commercial license (the Standard Commercial License or a written agreement) and the revenue share below.
 3. **Standards bodies.** A standards body that makes a standard based on this idea freely accessible to the public may use the author's contribution free of charge. A body that sells the standard as a commercial product needs a written commercial license.
+
+### Standard Commercial License — self-serve
+
+So that companies (and AI agents preparing the work for them) can start without waiting for
+a negotiation, the default terms in this file are offered to everyone as a standard license:
+
+1. **How to take it up.** Send an email to **merihilgor@gmail.com** with the subject
+   `Commercial license registration: <project-folder>`, giving: the licensee's legal name,
+   country and company registration or tax number; a contact person and email; the project
+   folder; a short description of the intended commercial use; and the start date.
+2. **When it takes effect.** The license takes effect on the date the registration email
+   is sent, on the default terms in this file (revenue share, reporting, audit, additional
+   conditions and the rules for Derivatives). No signature or negotiation is needed.
+3. **Confirmation and payment.** The author replies with a license number and the payment
+   details. Payment details are shared only privately, never in this repository. Every
+   payment and quarterly report quotes the license number. Royalties accrue from the start
+   date, and the first payment is due at the end of the first quarter after the payment
+   details are received.
+4. **Correct information.** A registration with false or materially incomplete information
+   does not create a license. The author may decline such a registration within 30 days.
+   Royalties for use already made remain due.
+5. **Agents.** An AI agent may prepare the registration, but the license is concluded by
+   the company that sends it and is responsible for it.
+6. **No registration for public mandatory deployments.** State-mandated deployments that
+   meet the conditions above are royalty-free and need no registration. A short notice to
+   the author is appreciated.
+7. **Different terms.** A company that wants different terms, such as an upfront fee or a
+   different rate, can still negotiate a written agreement (see *Negotiation* below).
 
 ### Ongoing revenue share
 
@@ -57,8 +86,8 @@ payment-processing fees actually incurred.
    written agreement, for example with an upfront fee, a minimum annual royalty, or a
    different rate for public-sector or non-profit deployments.
 
-Commercial use without such an agreement is outside the scope of the license and
-constitutes infringement.
+Commercial use without a Standard Commercial License or a written agreement is outside the
+scope of the license and constitutes infringement.
 
 ## Derivatives, improvements and idea protection
 
@@ -110,8 +139,8 @@ versions, whether or not the text of this repository is copied.
 
 ## Contact
 
-To request a commercial license, contact **Merih İlgör** at merihilgor@gmail.com
-with a short description of the intended use.
+To take up the Standard Commercial License, or to negotiate different terms, contact
+**Merih İlgör** at merihilgor@gmail.com (see *Standard Commercial License — self-serve*).
 
 ---
 
@@ -140,6 +169,14 @@ offer) follows the model described by Creative Commons:
   avantajı için kullanmak) gelir paylaşımına tabidir. Standardı kamuya ücretsiz sunan
   standart kuruluşları katkıyı ücretsiz kullanabilir; standardı satan kuruluşlar ticari
   lisans alır.
+- **Standart ticari lisans, beklemeden alınabilir.** Bir şirket, merihilgor@gmail.com
+  adresine `Commercial license registration: <proje-klasörü>` konulu bir e-posta gönderir.
+  E-postada unvan, ülke, sicil veya vergi numarası, yetkili kişi, proje, kullanım şekli ve
+  başlangıç tarihi yer alır. Lisans, e-postanın gönderildiği gün varsayılan koşullarla
+  yürürlüğe girer. Yazar lisans numarası ve ödeme bilgisiyle cevap verir; ödeme bilgisi
+  yalnızca özel olarak paylaşılır. Her ödeme ve rapor lisans numarasını belirtir. Yanlış
+  bilgiyle yapılan kayıt lisans doğurmaz. Devletin zorunlu kıldığı kamusal uygulamalar kayıt
+  gerektirmez. Farklı koşullar isteyenler yine yazılı sözleşme yapabilir.
 - **Ticari kullanım sürekli kâr payı gerektirir.** Bu, türetilmiş sürümler için de
   geçerlidir. Oran ve koşullar yukarıdaki tabloda yer alır.
 - **Patent benzeri koruma:**
