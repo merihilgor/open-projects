@@ -3,6 +3,12 @@
 All notable changes to this project idea are recorded here, newest first.
 Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şekilde kaydedilir.
 
+## 2026-10-12
+
+### Added / Eklendi
+- **Path to a European standard (draft):** a separate EN/TR note that splits the proposal into a law-neutral process part that can be standardized and a legal part that stays with national law. It contains a draft CEN Workshop Agreement (CWA) project plan (title, background, objective, scope, related work such as eIDAS and ETSI TC ESI, participants, work plan, resources, and how licensing, the rights reserved in the commercial license, the route and supporters are handled) and a skeleton of the technical specification (terms, process model, requirements, conformance, annexes). Linked from the implementation section.
+  **Avrupa standardına giden yol (taslak):** Öneriyi standartlaştırılabilecek, hukuk açısından tarafsız bir süreç kısmına ve ulusal hukuka kalan hukuki kısma ayıran ayrı bir EN/TR not. Bir CEN Workshop Agreement (CWA) proje planı taslağı (başlık, arka plan, amaç, kapsam, eIDAS ve ETSI TC ESI gibi ilgili çalışmalar, katılımcılar, iş planı, kaynaklar ve lisansın, ticari lisansta saklı tutulan hakların, yolun ve destekçilerin nasıl ele alınacağı) ile teknik şartnamenin iskeletini (terimler, süreç modeli, gereksinimler, uygunluk, ekler) içerir. Uygulama bölümünden bağlantı verildi.
+
 ## 2026-10-09
 
 ### Added / Eklendi
