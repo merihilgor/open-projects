@@ -77,17 +77,19 @@ Participation in a workshop may carry a fee set in the business plan. Funding pr
 
 ### 9. Licensing, rights and route
 
-**Licensing of the contribution.** A published CWA is a CEN document: CEN and its national members hold the copyright and sell it. The CC BY-NC-SA 4.0 license of this proposal does not allow that on its own (it forbids commercial use and requires the same license for adaptations), so the author, as the copyright holder, gives the workshop a separate permission to use the **process part** of this proposal. The proposal in this repository keeps its own licenses ([LICENSE](LICENSE), [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)); only the text of the CWA itself is under CEN copyright.
+**The author's position: free for the whole public, paid for a commercial edge.**
 
-**Rights reserved in the commercial license.** Standards bodies ask every contributor to declare any patents essential to the standard and whether they will license them on fair, reasonable and non-discriminatory (FRAND) terms (CEN-CENELEC Guide 8; ETSI has a similar policy). The patent-like rights reserved in the commercial license are a contractual reservation, not a granted patent. In practice this means:
+- **Public use for everyone: free.** When the state makes the flow mandatory, so that the whole public benefits and the weak are protected, the author asks no fee. In that case the standard should be freely accessible, and its development and governance should be paid from taxes, not from selling the standard.
+- **Voluntary commercial use for a competitive edge: revenue share.** As long as the flow is not mandatory, a company that uses it to offer more trust than its competitors uses it as a marketing advantage for part of the market, not for the whole public. This use stays under the revenue share of the [commercial license](COMMERCIAL-LICENSE.md), until a state application makes the flow mandatory.
+- **The same rule for the standards body.** A standards body that offers the result free to the whole public receives the contribution free. A body that sells it as a commercial product should acquire it from the author on paid terms.
 
-- Anyone who implements the published CWA follows the CEN document, not the text of this repository, so the revenue-share terms of the commercial license will generally not reach them.
-- The revenue-share terms keep applying to anyone who uses or sells the text and materials of this repository commercially.
-- If the author later obtains a patent that the standard needs, it must be declared and, for the standard to go ahead, offered on FRAND terms.
+**What this means for standardization.**
 
-Standardization therefore trades a possible revenue share from implementers for wide adoption across Europe. The author accepts this trade-off for the process part. Before signing any contribution or IPR declaration, its text should be checked by a lawyer.
+- **CEN does not pay contributors.** Participants in a workshop grant CEN the use of their contributions free of charge, and CEN and its national members sell the published documents. Under the position above, the author therefore contributes only to a deliverable that is **free to access**: a CWA made freely available under the workshop's business plan, or an ETSI deliverable, which ETSI publishes free of charge. The proposal in this repository keeps its own licenses ([LICENSE](LICENSE), [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)).
+- **The revenue share needs a hook.** A published standard can be implemented without the text of this repository, and copyright protects the text, not the idea. The revenue share for voluntary commercial use therefore rests on: (1) commercial use of the text and materials of this repository; (2) a **certification mark** for the flow, so that a company that wants to claim conformance as a mark of trust needs a license, while state applications use it free of charge; and (3) any patent the author may obtain. Standards bodies ask contributors to declare patents essential to the standard and whether they will license them on fair, reasonable and non-discriminatory (FRAND) terms (CEN-CENELEC Guide 8; ETSI has a similar policy).
+- Before signing any contribution or IPR declaration, or filing a mark, the texts should be checked by a lawyer.
 
-**Route.** The first step is a CWA through **TSE**, the fastest open route. Once the CWA is published, it can be proposed through TSE to a CEN technical committee as a Technical Specification or an EN, and brought to ETSI TC ESI for the parts on signatures.
+**Route.** The first step is a CWA through **TSE**, on condition that the CWA is freely accessible. If free access cannot be agreed, the signature-related parts go to ETSI TC ESI instead. Once the CWA is published, it can be proposed through TSE to a CEN technical committee as a Technical Specification or an EN, under the same free-access condition.
 
 **Supporters.** A workshop needs participants from several member states. Before submitting the plan, collect letters of support from at least one notarial chamber, one registry or e-government agency and one consumer organization, ideally from different countries.
 

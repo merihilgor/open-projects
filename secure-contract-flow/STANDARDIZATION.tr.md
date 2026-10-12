@@ -77,17 +77,19 @@ Bölüm 2'deki iskelete dayanan tek bir CWA.
 
 ### 9. Lisans, haklar ve yol
 
-**Katkının lisansı.** Yayımlanan bir CWA bir CEN belgesidir: telif hakkı CEN'e ve ulusal üyelerine aittir ve belge satılır. Bu önerinin CC BY-NC-SA 4.0 lisansı buna tek başına izin vermez (ticari kullanımı yasaklar ve uyarlamaların aynı lisansla paylaşılmasını ister). Bu yüzden yazar, telif sahibi olarak, önerinin **süreç kısmını** kullanması için çalıştaya ayrı bir izin verir. Bu depodaki öneri kendi lisanslarını korur ([LICENSE](LICENSE), [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)); yalnızca CWA metninin kendisi CEN telifi altındadır.
+**Yazarın tutumu: tüm kamu için ücretsiz, ticari avantaj için ücretli.**
 
-**Ticari lisansta saklı tutulan haklar.** Standart kuruluşları her katkı sahibinden, standart için zorunlu patentlerini ve bunları adil, makul ve ayrımcı olmayan (FRAND) koşullarla lisanslayıp lisanslamayacağını beyan etmesini ister (CEN-CENELEC Guide 8; ETSI'nin de benzer bir politikası vardır). Ticari lisansta saklı tutulan patent benzeri haklar sözleşmesel bir çekincedir, verilmiş bir patent değildir. Pratikte bunun anlamı:
+- **Herkes için kamusal kullanım: ücretsiz.** Devlet akışı zorunlu hâle getirip tüm kamunun yararlanmasını ve zayıfın korunmasını sağladığında yazar ücret talep etmez. Bu durumda standart ücretsiz erişilebilir olmalı; geliştirme ve yönetim masrafları standardın satışından değil vergilerden karşılanmalıdır.
+- **Rekabet avantajı için gönüllü ticari kullanım: gelir paylaşımı.** Akış zorunlu olmadığı sürece, onu rakiplerinden daha yüksek güven sunmak için kullanan bir şirket, onu kamunun tamamı için değil pazarın bir kısmında pazarlama avantajı olarak kullanır. Bu kullanım, bir devlet uygulamasıyla akış zorunlu hâle gelene kadar [ticari lisansın](COMMERCIAL-LICENSE.md) gelir paylaşımına tabidir.
+- **Standart kuruluşu için de aynı kural.** Sonucu tüm kamuya ücretsiz sunan bir standart kuruluşu katkıyı ücretsiz alır. Sonucu ticari bir ürün olarak satan bir kuruluş ise katkıyı yazardan ücret karşılığında edinmelidir.
 
-- Yayımlanan CWA'yı uygulayan biri bu deponun metnini değil CEN belgesini izler; bu yüzden ticari lisanstaki gelir paylaşımı koşulları genellikle ona ulaşmaz.
-- Gelir paylaşımı koşulları, bu deponun metnini ve materyallerini ticari olarak kullanan veya satan herkes için geçerli olmaya devam eder.
-- Yazar ileride standardın gerektirdiği bir patent alırsa, bunu beyan etmeli ve standardın ilerleyebilmesi için FRAND koşullarıyla sunmalıdır.
+**Bunun standardizasyon için anlamı.**
 
-Dolayısıyla standardizasyon, uygulayıcılardan olası bir gelir payını Avrupa çapında yaygın kullanımla takas eder. Yazar süreç kısmı için bu takası kabul eder. Herhangi bir katkı veya fikri mülkiyet beyanı imzalanmadan önce metni bir avukata kontrol ettirilmelidir.
+- **CEN katkı sahiplerine ödeme yapmaz.** Çalıştay katılımcıları katkılarının kullanımını CEN'e bedelsiz verir; CEN ve ulusal üyeleri yayımlanan belgeleri satar. Yukarıdaki tutuma göre yazar bu nedenle yalnızca **ücretsiz erişilebilen** bir çıktıya katkı verir: çalıştayın iş planında ücretsiz erişime açılan bir CWA ya da ETSI'nin ücretsiz yayımladığı bir ETSI belgesi. Bu depodaki öneri kendi lisanslarını korur ([LICENSE](LICENSE), [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)).
+- **Gelir paylaşımının bir dayanağa ihtiyacı vardır.** Yayımlanan bir standart bu deponun metni kullanılmadan uygulanabilir; telif hakkı fikri değil metni korur. Bu yüzden gönüllü ticari kullanımdaki gelir paylaşımı şunlara dayanır: (1) bu deponun metninin ve materyallerinin ticari kullanımı; (2) akış için bir **garanti (sertifika) markası**: uygunluğu bir güven işareti olarak kullanmak isteyen şirket lisans alır, devlet uygulamaları ise ücretsiz kullanır; (3) yazarın ileride alabileceği bir patent. Standart kuruluşları katkı sahiplerinden standart için zorunlu patentlerini ve bunları adil, makul ve ayrımcı olmayan (FRAND) koşullarla lisanslayıp lisanslamayacaklarını beyan etmelerini ister (CEN-CENELEC Guide 8; ETSI'nin de benzer bir politikası vardır).
+- Herhangi bir katkı veya fikri mülkiyet beyanı imzalanmadan ya da marka başvurusu yapılmadan önce metinler bir avukata kontrol ettirilmelidir.
 
-**Yol.** İlk adım, en hızlı açık yol olan **TSE** üzerinden bir CWA'dır. CWA yayımlandıktan sonra TSE aracılığıyla bir CEN teknik komitesine Teknik Şartname veya EN olarak önerilebilir; imzayla ilgili kısımlar ETSI TC ESI'ye taşınabilir.
+**Yol.** İlk adım, CWA'nın ücretsiz erişilebilir olması koşuluyla **TSE** üzerinden bir CWA'dır. Ücretsiz erişim sağlanamazsa imzayla ilgili kısımlar bunun yerine ETSI TC ESI'ye götürülür. CWA yayımlandıktan sonra aynı ücretsiz erişim koşuluyla TSE aracılığıyla bir CEN teknik komitesine Teknik Şartname veya EN olarak önerilebilir.
 
 **Destekçiler.** Bir çalıştay birden fazla üye devletten katılımcı ister. Planı sunmadan önce en az bir noterlik biriminden, bir sicil veya e-devlet kurumundan ve bir tüketici örgütünden, mümkünse farklı ülkelerden destek mektupları toplanmalıdır.
 
