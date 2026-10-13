@@ -173,6 +173,14 @@ Bu modelin ticari uygulamaları [ticari lisansa](COMMERCIAL-LICENSE.md) tabidir:
 - **Yayıncılar**, kaynak olarak aldıkları ödemeler için muaftır.
 - **Devletin zorunlu kıldığı kamusal uygulamalar** telif ödemez; şirketler standart ticari lisansı beklemeden kendileri alabilir.
 
+## Bu Çalışmayı Destekleyin
+
+Bu fikri faydalı bulduysanız yazarın açık çalışmalarını GitHub Sponsors üzerinden destekleyebilirsiniz.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[GitHub'da merihilgor'a sponsor olun](https://github.com/sponsors/merihilgor)
+
 ## Köken
 
 Merih İlgör tarafından önerilmiştir (Ekim 2026); burada açık bir proje fikri olarak yayımlanmaktadır. Değişiklik geçmişi: [CHANGELOG.md](CHANGELOG.md).

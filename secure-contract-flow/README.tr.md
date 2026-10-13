@@ -168,6 +168,14 @@ Bu akışın parçaları birçok ülkede zaten uygulanıyor. Öneri sahibinin bi
 
 **Anahtar kelimeler:** sözleşme hukuku, noter, bilgilendirilmiş onay, dijital sözleşme incelemesi, sürüm kontrolü, sözleşme açıklaması, tanımlı terimler, benzersiz belge numarası, dijital imza, biyometrik imza, vekâletname, hukuki ehliyet, sözleşme yaşam döngüsü, tadil, alt sözleşme, sözleşmenin feshi, tüketicinin korunması, e-devlet, hukuk teknolojisi
 
+## Bu Çalışmayı Destekleyin
+
+Bu fikri faydalı bulduysanız yazarın açık çalışmalarını GitHub Sponsors üzerinden destekleyebilirsiniz.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[GitHub'da merihilgor'a sponsor olun](https://github.com/sponsors/merihilgor)
+
 ## Köken
 
 Merih İlgör tarafından önerilmiştir (Ekim 2026); burada açık bir proje fikri olarak yayımlanmaktadır. Değişiklik geçmişi: [CHANGELOG.md](CHANGELOG.md).

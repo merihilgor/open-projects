@@ -173,6 +173,14 @@ Commercial implementations of this model are subject to the [commercial license]
 - **Publishers are exempt** for the payouts they receive as sources.
 - **Public mandatory deployments** are royalty-free, and companies can take up the standard commercial license on their own without waiting.
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally proposed by Merih İlgör (October 2026); published here as an open project idea. Change history: [CHANGELOG.md](CHANGELOG.md).

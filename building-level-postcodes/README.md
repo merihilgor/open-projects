@@ -75,6 +75,14 @@ flowchart TD
 
 **Keywords:** postcode, postal code, address validation, address autofill, digital government, e-commerce, logistics, emergency response, address data quality
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally proposed by Merih İlgör (June 2025); published here as an open project idea.

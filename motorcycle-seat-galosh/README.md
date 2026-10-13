@@ -61,6 +61,14 @@ A **seat-only, galosh-style slip-on cover**:
 
 **Keywords:** motorcycle accessories, scooter, seat cover, galosh, street cats, parking, hygiene, cleanliness, couriers, consumer product
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally drafted by Merih İlgör (February 2026) as the example idea on the Vestinno innovation marketplace; published here as an open project idea.

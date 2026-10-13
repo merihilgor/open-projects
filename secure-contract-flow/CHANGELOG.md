@@ -3,6 +3,12 @@
 All notable changes to this project idea are recorded here, newest first.
 Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şekilde kaydedilir.
 
+## 2026-10-13
+
+### Added / Eklendi
+- **Support:** a GitHub Sponsors section in the EN/TR README.
+  **Destek:** EN/TR README'ye GitHub Sponsors bölümü.
+
 ## 2026-10-12
 
 ### Added / Eklendi

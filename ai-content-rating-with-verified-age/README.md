@@ -106,6 +106,14 @@ The overall benefit is that the internet is protected as a safe space for childr
 
 **Keywords:** child online safety, age verification, content rating, social media regulation, AI moderation, digital policy, online harms, parental controls, G20, international regulation
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally drafted by Merih İlgör as a public policy proposal (July 2026); published here as an open project idea.

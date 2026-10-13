@@ -139,6 +139,14 @@ A staged path from demonstration to useful links:
 
 **Keywords:** neutrino communication, telecommunications, through-Earth communication, submarine communication, underground communication, mine rescue, anti-jamming, low-latency links, particle physics, neutrino detector, neutrino beam, pulse-position modulation, frontier technology
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally proposed by Merih İlgör (October 2026); published here as an open project idea.

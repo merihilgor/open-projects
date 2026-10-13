@@ -73,6 +73,14 @@ The fee does not exist to make a profit. It is the tool that keeps the facilitie
 
 **Keywords:** public beaches, sanitation, public toilets, coastal management, tourism, hygiene, user fees, public health, environmental pollution
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally drafted by Merih İlgör as a public policy proposal (August 2026); published here as an open project idea.
