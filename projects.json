@@ -1,6 +1,6 @@
 {
   "name": "Open Projects",
-  "description": "Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, fire prevention, water and energy, digital government, privacy, payments, taxation, healthy housing, innovation marketplaces and accessible voice control. Free for non-commercial use (CC BY-NC-SA 4.0).",
+  "description": "Open-source public-policy and product ideas (English + Turkish): plastic waste, earthquake-safe building inspection, wildfire prevention, child online safety, road safety, fire prevention, water and energy, digital government, privacy, payments, taxation, healthy housing, innovation marketplaces, accessible voice control and publisher revenue in AI answers. Free for non-commercial use (CC BY-NC-SA 4.0).",
   "url": "https://github.com/merihilgor/open-projects",
   "author": {
     "name": "Merih İlgör",
@@ -794,6 +794,47 @@
       "url": "https://github.com/merihilgor/open-projects/tree/main/secure-contract-flow",
       "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-contract-flow/README.md",
       "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/secure-contract-flow/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "2% of net revenue"
+    },
+    {
+      "slug": "ai-answer-publisher-revenue",
+      "title": "Publisher Revenue in AI Answers: Source Ads in Free Sessions, Per-Use Fees in Paid Ones",
+      "title_tr": "Yapay Zekâ Cevaplarında Yayıncı Geliri: Ücretsiz Oturumlarda Kaynağın Reklamları, Ücretli Oturumlarda Kullanım Başına Ücret",
+      "summary": "When an AI assistant answers from a news or research site, free sessions show that source's own ads and share the revenue, paid sessions pay a small fee per retrieval or cached display, under one open standard with neutral clearing and independent trust labels.",
+      "theme": "Digital policy & media",
+      "type": "Digital platform model & standard",
+      "keywords": [
+        "AI search",
+        "generative AI",
+        "publisher revenue",
+        "journalism funding",
+        "contextual advertising",
+        "revenue sharing",
+        "pay per use",
+        "AI attribution",
+        "content licensing",
+        "press publishers' right",
+        "trusted sources",
+        "misinformation"
+      ],
+      "keywords_tr": [
+        "yapay zekâ araması",
+        "üretken yapay zekâ",
+        "yayıncı geliri",
+        "gazeteciliğin finansmanı",
+        "bağlamsal reklam",
+        "gelir paylaşımı",
+        "kullanım başına ödeme",
+        "yapay zekâ atfı",
+        "içerik lisanslama",
+        "basın yayıncılarının hakkı",
+        "güvenilir kaynaklar",
+        "yanlış bilgi"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/ai-answer-publisher-revenue",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/ai-answer-publisher-revenue/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/ai-answer-publisher-revenue/README.tr.md",
       "license": "CC-BY-NC-SA-4.0",
       "commercial_royalty_default": "2% of net revenue"
     }

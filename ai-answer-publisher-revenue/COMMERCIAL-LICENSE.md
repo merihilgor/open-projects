@@ -1,0 +1,190 @@
+# Commercial License (CC+)
+
+This project idea is licensed to the public under the
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
+license. See [`LICENSE`](LICENSE).
+
+## Non-commercial use — free
+
+You may read, share, adapt and build upon this work **free of charge** for any
+non-commercial purpose (personal, educational, research, civic, public-interest or
+non-profit use), provided that you:
+
+- give appropriate credit to **Merih İlgör** and link to this repository,
+- indicate if changes were made, and
+- distribute your contributions under the same license (CC BY-NC-SA 4.0).
+
+## Commercial use — revenue share required
+
+Any **commercial use** is *not* granted by the CC BY-NC-SA 4.0 license. This includes
+selling, productizing, operating as a paid service, or implementing the idea in a
+for-profit product, service, tender or contract, directly or through a third party.
+
+Commercial rights are available under the **Standard Commercial License** below, which a
+company can take up on its own without waiting, or under a separate written license
+agreement with the author. Both use the following default terms unless agreed otherwise:
+
+### Public mandatory deployments — free
+
+The revenue share exists so that a company that uses this idea **voluntarily**, to offer more value or trust than its competitors, shares the value of that advantage. When the idea serves the **whole public**, no fee is due:
+
+1. **State-mandated deployments are royalty-free.** Where a state makes this idea mandatory by law or regulation for those in scope, and the deployment is funded from the public budget without charging users more than ordinary public fees, no revenue share is due. This includes the tenders and contracts of companies that build, operate or maintain that deployment, for the work done for it.
+2. **Voluntary commercial use stays royalty-bearing.** Until such a mandate exists, and outside its scope afterwards, commercial use (for example offering the idea as an optional product or service or using it to gain a competitive advantage) requires a commercial license (the Standard Commercial License or a written agreement) and the revenue share below.
+3. **Standards bodies.** A standards body that makes a standard based on this idea freely accessible to the public may use the author's contribution free of charge. A body that sells the standard as a commercial product needs a written commercial license.
+
+### Standard Commercial License — self-serve
+
+So that companies (and AI agents preparing the work for them) can start without waiting for
+a negotiation, the default terms in this file are offered to everyone as a standard license:
+
+1. **How to take it up.** Send an email to **merihilgor@gmail.com** with the subject
+   `Commercial license registration: <project-folder>`, giving: the licensee's legal name,
+   country and company registration or tax number; a contact person and email; the project
+   folder; a short description of the intended commercial use; and the start date.
+2. **When it takes effect.** The license takes effect on the date the registration email
+   is sent, on the default terms in this file (revenue share, reporting, audit, additional
+   conditions and the rules for Derivatives). No signature or negotiation is needed.
+3. **Confirmation and payment.** The author replies with a license number and the payment
+   details. Payment details are shared only privately, never in this repository. Every
+   payment and quarterly report quotes the license number. Royalties accrue from the start
+   date, and the first payment is due at the end of the first quarter after the payment
+   details are received.
+4. **Correct information.** A registration with false or materially incomplete information
+   does not create a license. The author may decline such a registration within 30 days.
+   Royalties for use already made remain due.
+5. **Agents.** An AI agent may prepare the registration, but the license is concluded by
+   the company that sends it and is responsible for it.
+6. **No registration for public mandatory deployments.** State-mandated deployments that
+   meet the conditions above are royalty-free and need no registration. A short notice to
+   the author is appreciated.
+7. **Different terms.** A company that wants different terms, such as an upfront fee or a
+   different rate, can still negotiate a written agreement (see *Negotiation* below).
+
+### Ongoing revenue share
+
+| Term | Default |
+|---|---|
+| Project type | Digital platform model and standard |
+| **Royalty rate** | **2% of Net Revenue** derived from the commercial use |
+| Duration | Ongoing, for as long as the commercial use continues |
+| Payment period | Quarterly, within 30 days after the end of each calendar quarter |
+| Reporting | A quarterly revenue report accompanies each payment |
+| Audit | The author may audit the relevant records once per year |
+
+**Net Revenue** means gross revenue from products, services, operations or contracts that
+implement or are substantially based on this project idea, less taxes, refunds and
+payment-processing fees actually incurred.
+
+### Additional conditions
+
+1. **Attribution:** the original idea is credited to the author in the product or service
+   documentation.
+2. **Sublicensing and transfer:** the license may not be sublicensed or transferred without
+   the author's written consent. Revenue earned by affiliates or sublicensees counts toward
+   Net Revenue.
+3. **Negotiation:** the rate above is the default starting point. It can be adjusted in the
+   written agreement, for example with an upfront fee, a minimum annual royalty, or a
+   different rate for public-sector or non-profit deployments.
+
+Commercial use without a Standard Commercial License or a written agreement is outside the
+scope of the license and constitutes infringement.
+
+## Derivatives, improvements and idea protection
+
+You may **modify, adapt and build on** this project idea. However, a changed version is
+still based on this idea, and it does not become a new, independent idea that someone
+else owns.
+
+### Definitions
+
+A **Derivative** is any idea, proposal, design, product, service, business model or
+document that is derived from, based on, or substantially similar to this project idea.
+This includes modified, improved, extended, combined, renamed, translated or partial
+versions, whether or not the text of this repository is copied.
+
+### Rules for Derivatives
+
+1. **Non-commercial Derivatives are allowed.** They must credit the original
+   ("Based on *Publisher Revenue in AI Answers* by Merih İlgör, github.com/merihilgor/open-projects"),
+   state what was changed, and be shared under CC BY-NC-SA 4.0.
+2. **No selling a Derivative as a new idea.** Neither this idea nor any Derivative may be
+   sold, licensed, assigned, pitched for payment or otherwise transferred for value to a
+   third party, presented as your own or as a new idea, without the author's written
+   commercial license.
+3. **Commercial Derivatives owe the same revenue share.** Any commercial use of a
+   Derivative is commercial use of this project idea. It requires the written agreement
+   and the ongoing royalty described above.
+4. **No false authorship.** No one may claim to be the originator or owner of this idea
+   or of a Derivative's underlying idea, or remove or obscure the attribution to the
+   author.
+
+### Patent-like protection
+
+1. **Reserved rights.** All rights not expressly granted, including patent, utility
+   model, industrial design and trademark rights in this idea and its Derivatives, are
+   reserved by the author. The CC BY-NC-SA 4.0 license does not grant any patent or
+   trademark rights (Section 2(b)(2) of the license).
+2. **Public disclosure and prior art.** This idea was publicly disclosed on the date of
+   its first commit in this repository. The Git history serves as a timestamped record of
+   authorship and as prior art against later patent, utility model or design applications
+   on the same or an obviously derived idea by anyone other than the author.
+3. **No filings by licensees.** A commercial licensee may not file any patent, utility
+   model, design or trademark application covering this idea or a Derivative, except in
+   the author's name or with the author's written consent.
+4. **Improvements are shared back.** A commercial licensee that makes an improvement to
+   this idea grants the author a free, non-exclusive, perpetual license to that
+   improvement. Revenue from the improvement is included in Net Revenue.
+5. **Breach ends the license.** Any breach of these rules ends the commercial license
+   automatically, without prejudice to royalties already owed or other legal remedies.
+
+## Contact
+
+To take up the Standard Commercial License, or to negotiate different terms, contact
+**Merih İlgör** at merihilgor@gmail.com (see *Standard Commercial License — self-serve*).
+
+---
+
+*This "CC+" arrangement (a Creative Commons license plus an additional permissions
+offer) follows the model described by Creative Commons:
+<https://wiki.creativecommons.org/wiki/CCPlus>.*
+
+---
+
+## Türkçe özet
+
+- **Ticari olmayan kullanım ücretsizdir.** Fikir değiştirilebilir ve geliştirilebilir.
+  Bunun için atıf yapılmalı, neyin değiştirildiği belirtilmeli ve sonuç aynı lisansla
+  (CC BY-NC-SA 4.0) paylaşılmalıdır.
+- **Değiştirilmiş hali yeni bir fikir sayılmaz.** Bu fikir veya ondan türetilen hiçbir
+  sürüm (değiştirilmiş, geliştirilmiş, birleştirilmiş, yeniden adlandırılmış ya da
+  çevrilmiş), yazarın yazılı ticari lisansı olmadan "yeni" veya "kendi fikri" olarak
+  satılamaz, lisanslanamaz, devredilemez ya da üçüncü kişilere bedel karşılığı
+  aktarılamaz.
+- **Devletin zorunlu kıldığı kamusal uygulamalar ücretsizdir.** Devlet bu fikri kanun veya
+  yönetmelikle zorunlu kılar ve uygulama, kullanıcılardan olağan kamu harçlarından fazlası
+  alınmadan kamu bütçesiyle finanse edilirse gelir payı alınmaz. Bu uygulamayı kuran,
+  işleten veya bakımını yapan şirketlerin bu iş için yaptığı ihale ve sözleşmeler de
+  muaftır. Böyle bir zorunluluk yokken ve sonrasında onun kapsamı dışında, gönüllü ticari
+  kullanım (örneğin fikri isteğe bağlı bir ürün veya hizmet olarak sunmak ya da rekabet
+  avantajı için kullanmak) gelir paylaşımına tabidir. Standardı kamuya ücretsiz sunan
+  standart kuruluşları katkıyı ücretsiz kullanabilir; standardı satan kuruluşlar ticari
+  lisans alır.
+- **Standart ticari lisans, beklemeden alınabilir.** Bir şirket, merihilgor@gmail.com
+  adresine `Commercial license registration: <proje-klasörü>` konulu bir e-posta gönderir.
+  E-postada unvan, ülke, sicil veya vergi numarası, yetkili kişi, proje, kullanım şekli ve
+  başlangıç tarihi yer alır. Lisans, e-postanın gönderildiği gün varsayılan koşullarla
+  yürürlüğe girer. Yazar lisans numarası ve ödeme bilgisiyle cevap verir; ödeme bilgisi
+  yalnızca özel olarak paylaşılır. Her ödeme ve rapor lisans numarasını belirtir. Yanlış
+  bilgiyle yapılan kayıt lisans doğurmaz. Devletin zorunlu kıldığı kamusal uygulamalar kayıt
+  gerektirmez. Farklı koşullar isteyenler yine yazılı sözleşme yapabilir.
+- **Ticari kullanım sürekli kâr payı gerektirir.** Bu, türetilmiş sürümler için de
+  geçerlidir. Oran ve koşullar yukarıdaki tabloda yer alır.
+- **Patent benzeri koruma:**
+  - Patent, faydalı model, tasarım ve marka hakları yazara aittir.
+  - Bu depodaki ilk commit tarihi, fikrin kamuya açıklandığı tarih ve önceki teknik
+    (prior art) kaydıdır.
+  - Ticari lisans alanlar, yazarın onayı olmadan bu fikir veya türevleri için tescil
+    başvurusu yapamaz.
+  - Geliştirmeler yazarla paylaşılır.
+  - İhlal durumunda ticari lisans kendiliğinden sona erer.
+- İngilizce metin esastır. Bu özet bilgi amaçlıdır.
