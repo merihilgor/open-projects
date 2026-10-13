@@ -84,6 +84,14 @@ People do not need to remember every appliance. They only need to leave home or 
 
 **Keywords:** fire prevention, electrical safety, smart relay, electrical panel, home automation, insurance, forgotten appliances, building safety, energy saving, risk reduction
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally proposed by Merih İlgör (December 2025); published here as an open project idea.

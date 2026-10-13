@@ -101,6 +101,14 @@ flowchart TD
 
 **Keywords:** instant payments, bank transfers, recipient approval, wrong transfer, fraud prevention, money mule, consumer protection, payment systems, banking security, business accounts
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally proposed by Merih İlgör (December 2025); published here as an open project idea.

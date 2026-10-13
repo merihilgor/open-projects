@@ -167,6 +167,14 @@ Parts of this flow already exist in several countries. As far as this proposal's
 
 **Keywords:** contract law, notary, informed consent, digital contract review, version control, contract clarification, defined terms, unique document number, digital signature, biometric signature, power of attorney, legal capacity, contract lifecycle, amendment, sub-contract, contract termination, consumer protection, e-government, legal tech
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally proposed by Merih İlgör (October 2026); published here as an open project idea. Change history: [CHANGELOG.md](CHANGELOG.md).

@@ -86,6 +86,14 @@ For the applicant, the experience is simple: upload once, from home, and know ex
 
 **Keywords:** personal data protection, identity theft, fraud prevention, visa application, secure document upload, digital identity, e-government, privacy, data minimization, consulate
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally proposed by Merih İlgör (December 2025); published here as an open project idea.

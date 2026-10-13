@@ -81,6 +81,14 @@ KMÖD, yalnızca finansal bir düzenleme değildir. Lojistik ve dijital altyapı
 
 **Anahtar kelimeler:** maaş ödeme günleri, bordro, yük dengeleme, fatura dönemleri, lojistik, veri merkezi enerjisi, karbon salınımı, ekonomi politikası
 
+## Bu Çalışmayı Destekleyin
+
+Bu fikri faydalı bulduysanız yazarın açık çalışmalarını GitHub Sponsors üzerinden destekleyebilirsiniz.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[GitHub'da merihilgor'a sponsor olun](https://github.com/sponsors/merihilgor)
+
 ## Köken
 
 İlk olarak Merih İlgör tarafından bir kamu politikası önerisi olarak hazırlanmıştır (Aralık 2025); burada açık bir proje fikri olarak yayımlanmaktadır.

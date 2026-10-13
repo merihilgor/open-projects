@@ -6,6 +6,8 @@ Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şek
 ## 2026-10-13
 
 ### Added / Eklendi
+- **Support:** a GitHub Sponsors section in the EN/TR README.
+  **Destek:** EN/TR README'ye GitHub Sponsors bölümü.
 - **Ad labelling and operating model:** every ad is marked as an ad with the advertiser's name, sits outside the answer, is announced in voice mode and is never acted on by agents. New section comparing provider-run ad networks ("Gemini Ads", "ChatGPT Ads", "Claude Ads") with one shared platform, recommending one open standard and neutral clearing with competitive ad sales on top.
   **Reklam işaretleme ve işletim modeli:** Her reklam reklamverenin adıyla reklam olarak işaretlenir, cevabın dışında durur, sesli modda duyurulur ve ajanlarca asla eyleme dönüştürülmez. Sağlayıcıların kendi reklam ağlarını ("Gemini Ads", "ChatGPT Ads", "Claude Ads") tek ortak platformla karşılaştıran ve üzerinde rekabete açık reklam satışı olan tek açık standart ile tarafsız takası öneren yeni bölüm.
 - **Technical analysis (research level):** a separate EN/TR note covering the guarantees the system must meet, components (source registry and terms, content identity, signed retrieval, usage ledger, attribution, ad selection that never sees the conversation, ad labelling under EU DSA Art. 26, Turkish Law 6502 Art. 61/4 and FTC policy, per-use fees and cache metering, fraud, neutrality audits, clearing, privacy, trust labels), the operating-model comparison, failure modes, phasing and existing standards to reuse.

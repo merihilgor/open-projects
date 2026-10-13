@@ -130,6 +130,14 @@ The source sets out the project as a set of parallel workstreams rather than a d
 
 **Keywords:** plastic waste reduction, PET bottles, water refill stations, solar energy, circular economy, zero waste, plastic bag fee, sustainability, municipal services, public health
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally drafted by Merih İlgör as a public policy proposal (August 2026); published here as an open project idea.

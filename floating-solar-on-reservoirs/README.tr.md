@@ -76,6 +76,14 @@ flowchart LR
 
 **Anahtar kelimeler:** yüzen güneş paneli, yüzer fotovoltaik, baraj gölü, su arıtma, buharlaşma, su güvenliği, yenilenebilir enerji, iklim uyumu
 
+## Bu Çalışmayı Destekleyin
+
+Bu fikri faydalı bulduysanız yazarın açık çalışmalarını GitHub Sponsors üzerinden destekleyebilirsiniz.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[GitHub'da merihilgor'a sponsor olun](https://github.com/sponsors/merihilgor)
+
 ## Köken
 
 Merih İlgör tarafından önerilmiştir (Ocak 2026); burada açık bir proje fikri olarak yayımlanmaktadır.

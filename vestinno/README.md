@@ -180,6 +180,14 @@ The platform is planned to grow in three phases by user base:
 
 **Keywords:** innovation marketplace, idea marketplace, intellectual property, investors, crowdsourced innovation, open innovation, reputation system, two-sided marketplace, startup ideas
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally designed by Merih İlgör (SRS v2.5, February 2026); published here as an open project idea.

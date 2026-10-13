@@ -81,6 +81,14 @@ GSPB is more than a financial adjustment. It is a simple, practical mechanism th
 
 **Keywords:** payroll, salary payment dates, peak load, billing cycles, logistics, data center energy, carbon emissions, economic policy, sustainability
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally drafted by Merih İlgör as a public policy proposal (December 2025); published here as an open project idea.

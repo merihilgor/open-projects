@@ -137,6 +137,14 @@ Biyolojik kuşakların oluşturulması, fidan dikimi, saha bakımı ve arazi dü
 
 **Anahtar kelimeler:** orman yangını önleme, yangın emniyet şeridi, yeşil kuşak, biyomimikri, devre kesici, iklim uyumu, ormancılık, doğa temelli çözümler
 
+## Bu Çalışmayı Destekleyin
+
+Bu fikri faydalı bulduysanız yazarın açık çalışmalarını GitHub Sponsors üzerinden destekleyebilirsiniz.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[GitHub'da merihilgor'a sponsor olun](https://github.com/sponsors/merihilgor)
+
 ## Köken
 
 Merih İlgör tarafından bir kamu politikası önerisi olarak hazırlanmıştır (Temmuz 2026); burada açık proje fikri olarak yayımlanmaktadır.

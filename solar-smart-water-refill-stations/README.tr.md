@@ -123,6 +123,14 @@ Bu proje sayesinde devlete ve yerel yönetimlere hiçbir ekstra finansal yük ve
 
 **Anahtar kelimeler:** plastik atık azaltma, pet şişe, su dolum istasyonu, güneş enerjisi, döngüsel ekonomi, sıfır atık, poşet ücreti, sürdürülebilirlik, belediye hizmetleri
 
+## Bu Çalışmayı Destekleyin
+
+Bu fikri faydalı bulduysanız yazarın açık çalışmalarını GitHub Sponsors üzerinden destekleyebilirsiniz.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[GitHub'da merihilgor'a sponsor olun](https://github.com/sponsors/merihilgor)
+
 ## Köken
 
 İlk olarak Merih İlgör tarafından bir kamu politikası önerisi olarak hazırlanmıştır (Ağustos 2026); burada açık proje fikri olarak yayımlanmaktadır.

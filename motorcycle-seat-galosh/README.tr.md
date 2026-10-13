@@ -61,6 +61,14 @@ Kediler park halindeki motosiklet ve scooterların yumuşak, sıcak selelerini �
 
 **Anahtar kelimeler:** motosiklet aksesuarı, scooter, sele kılıfı, galoş, sokak kedileri, park, hijyen, temizlik, kurye, tüketici ürünü
 
+## Bu Çalışmayı Destekleyin
+
+Bu fikri faydalı bulduysanız yazarın açık çalışmalarını GitHub Sponsors üzerinden destekleyebilirsiniz.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[GitHub'da merihilgor'a sponsor olun](https://github.com/sponsors/merihilgor)
+
 ## Köken
 
 Merih İlgör tarafından Vestinno inovasyon pazar yerindeki örnek fikir olarak hazırlanmıştır (Şubat 2026); burada açık bir proje fikri olarak yayımlanmaktadır.

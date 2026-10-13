@@ -76,6 +76,14 @@ For a buyer or tenant, the experience becomes simple: the listed price or rent i
 
 **Keywords:** brokerage fee, real estate agent, commission, property sale, rental market, tenant rights, consumer protection, housing costs, fair pricing
 
+## Support This Work
+
+If you find this idea useful, you can support the author's open work through GitHub Sponsors.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
+
 ## Origin
 
 Originally proposed by Merih İlgör (November 2025); published here as an open project idea.

@@ -106,6 +106,14 @@ Genel fayda: Geleceğimizin teminatı olan çocuklar, dijital dünyadan soyutlan
 
 **Anahtar kelimeler:** çocukların çevrimiçi güvenliği, yaş doğrulama, içerik derecelendirme, sosyal medya düzenlemesi, yapay zekâ moderasyonu, dijital politika, uluslararası düzenleme
 
+## Bu Çalışmayı Destekleyin
+
+Bu fikri faydalı bulduysanız yazarın açık çalışmalarını GitHub Sponsors üzerinden destekleyebilirsiniz.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[GitHub'da merihilgor'a sponsor olun](https://github.com/sponsors/merihilgor)
+
 ## Köken
 
 İlk olarak Merih İlgör tarafından bir kamu politikası önerisi olarak hazırlanmıştır (Temmuz 2026). Burada açık bir proje fikri olarak yayımlanmaktadır.
