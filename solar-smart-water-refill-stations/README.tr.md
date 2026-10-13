@@ -127,7 +127,7 @@ Bu proje sayesinde devlete ve yerel yönetimlere hiçbir ekstra finansal yük ve
 
 Bu fikri faydalı bulduysanız yazarın açık çalışmalarını GitHub Sponsors üzerinden destekleyebilirsiniz.
 
-<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+<iframe src="https://github.com/sponsors/merihilgor/button" title="Sponsor merihilgor" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
 
 [GitHub'da merihilgor'a sponsor olun](https://github.com/sponsors/merihilgor)
 
