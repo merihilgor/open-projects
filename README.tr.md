@@ -99,6 +99,14 @@ ve `COMMERCIAL-LICENSE.md` dosyalarıdır.
 
 Sorular, eleştiriler ve iyileştirme önerileri GitHub Issues ve Discussions üzerinden memnuniyetle karşılanır.
 
+## Bu Çalışmayı Destekleyin
+
+Bu fikirler açık olarak yayımlanır ve ticari olmayan kullanım için ücretsizdir. Faydalı bulduysanız yazarın açık çalışmalarını GitHub Sponsors üzerinden destekleyebilirsiniz.
+
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+
+[GitHub'da merihilgor'a sponsor olun](https://github.com/sponsors/merihilgor)
+
 ## Lisans
 
 Her proje **klasör bazında** "CC+" modeliyle lisanslanır:
