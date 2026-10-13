@@ -134,7 +134,7 @@ The source sets out the project as a set of parallel workstreams rather than a d
 
 If you find this idea useful, you can support the author's open work through GitHub Sponsors.
 
-<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="100" width="600" style="border: 0;"></iframe>
+<iframe src="https://github.com/sponsors/merihilgor/button" title="Sponsor merihilgor" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
 
 [Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
 

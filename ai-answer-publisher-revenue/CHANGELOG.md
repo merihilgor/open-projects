@@ -18,5 +18,5 @@ Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şek
   İlk yayın: Bir yapay zekâ asistanı kayıtlı bir kaynaktan cevap verdiğinde, ücretsiz oturumlar o kaynağın kendi reklamlarını (sınırlı, etiketli, cevabın dışında, reklamveren onayıyla) gösterir ve geliri paylaşır; ücretli, API ve ajan oturumları reklamsız kalır ve çekim veya önbellekten gösterim başına küçük bir ücret öder. Cevaptaki paya göre atıf, tek açık standart altında tarafsız takas, sansürsüz bağımsız güven etiketleri, gizlilik ve tarafsızlık kuralları, mevcut programlar ve yasalarla kaynaklı karşılaştırma, fazlandırma, paydaşlar ve riskler. EN/TR README, görsel, CC BY-NC-SA 4.0 lisansı ve ticari lisans.
 
 ### Changed / Değişti
-- **Support:** the GitHub Sponsors card height was reduced to fit its content, removing the empty area below it.
-  **Destek:** GitHub Sponsors kartının yüksekliği içeriğine göre azaltıldı; altındaki boş alan kaldırıldı.
+- **Support:** the GitHub Sponsors card, which left an empty area, was replaced with the compact GitHub Sponsors button.
+  **Destek:** Altında boş alan kalan GitHub Sponsors kartı, sade GitHub Sponsors düğmesiyle değiştirildi.
