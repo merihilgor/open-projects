@@ -132,7 +132,7 @@ Questions, critiques and improvements are welcome through GitHub Issues and Disc
 
 These ideas are published openly and free for non-commercial use. If you find them useful, you can support the author's open work through GitHub Sponsors.
 
-<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="225" width="600" style="border: 0;"></iframe>
+<iframe src="https://github.com/sponsors/merihilgor/card" title="Sponsor merihilgor" height="100" width="600" style="border: 0;"></iframe>
 
 [Sponsor merihilgor on GitHub](https://github.com/sponsors/merihilgor)
 

@@ -9,6 +9,10 @@ Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şek
 - **Support:** a GitHub Sponsors section in the EN/TR README.
   **Destek:** EN/TR README'ye GitHub Sponsors bölümü.
 
+### Changed / Değişti
+- **Support:** the GitHub Sponsors card height was reduced to fit its content, removing the empty area below it.
+  **Destek:** GitHub Sponsors kartının yüksekliği içeriğine göre azaltıldı; altındaki boş alan kaldırıldı.
+
 ## 2026-10-12
 
 ### Added / Eklendi
