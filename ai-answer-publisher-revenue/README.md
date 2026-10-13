@@ -26,7 +26,7 @@ People increasingly get news and research from AI assistants instead of visiting
 ## Proposed Solution
 
 1. **Registered sources with their own terms.** A publisher registers once and states, in machine-readable form, how AI may use its content: with its ads, against a per-use fee, both, or not at all. Training use stays a separate licence and is not part of this flow.
-2. **Ads from the source, in free sessions.** When an assistant answers a free-plan user with content from a registered source, it may show ads from that source's own ad inventory, matched to the content, not to the user. The number is capped, for example one ad block per answer, and ads are clearly labelled and kept outside the answer text.
+2. **Ads from the source, in free sessions.** When an assistant answers a free-plan user with content from a registered source, it may show ads from that source's own ad inventory, matched to the content, not to the user. The number is capped, for example one ad block per answer. Every ad is **marked as an ad** ("Ad" / "Sponsored") with the advertiser's name, sits in its own frame outside the answer text, is announced as an ad in voice mode, and is never turned into an action by an agent.
 3. **Advertiser consent.** An advertiser who bought space on a publisher's site chooses whether its ads may also appear in AI sessions that use that publisher. Brand-safety rules from the original placement still apply.
 4. **Per-use fees in paid sessions.** In paid, ad-free sessions, and in API or agent use, the AI provider pays the source a small fee per retrieval, or per display when it serves cached content. The user sees no ads.
 5. **Fair attribution.** An answer often draws on several sources. Each source's share of the revenue or fee follows its share of the answer, and every source used is cited with a link, so the reader can still visit.
@@ -73,6 +73,21 @@ A list of "approved" sources run by a government would threaten press freedom. T
 - **Labels and tiers, not bans.** Certified sources carry a label and take part in the revenue programme. Others can still be read and cited.
 - **Published criteria and appeal.** The criteria and the list of certified sources are public, and refusals can be appealed.
 - **Regular review.** Certification is renewed periodically and can be withdrawn after repeated, uncorrected falsehoods.
+
+## Operating Model: Provider Ad Networks or One Shared Platform
+
+The model can run in two ways. Each AI provider can run its own network ("Gemini Ads", "ChatGPT Ads", "Claude Ads" and so on), or AI providers and publishers can join one shared, neutral ad platform.
+
+| | Each provider's own ad network | One shared platform |
+|---|---|---|
+| Advertisers | Buy separately on each network | Buy once, reach every member |
+| Publishers | Register and reconcile with each provider | Register once, one statement, one payout |
+| Small AI providers | Hard to build their own ad sales | Earn from day one |
+| Main risk | Fragmentation, self-preferencing | Capture by one operator |
+
+**Recommended: one open standard and one neutral clearing, with competitive ad sales on top.** Every provider follows the same rules for terms, counting, attribution, ad labelling and audit, and every publisher registers and is paid through one neutral clearing body. On top of that, a provider may sell ads through its own network, through a shared exchange, or both. Publishers and advertisers deal with one system, and providers still compete. The clearing body is non-profit or utility-like, publishes its fees, and admits every provider and publisher that meets published criteria.
+
+A research-level [technical analysis](TECHNICAL-ANALYSIS.md) describes how to make this work reliably: content identity, signed usage records, attribution rules, ad selection that never sees the conversation, ad labelling, cache metering, fraud controls, neutrality audits, clearing and failure modes.
 
 ## Similar Practices Elsewhere
 
@@ -148,6 +163,15 @@ An initial design, to be adapted: a real implementation should adapt the rates, 
 | Payments go only to large publishers | Low entry threshold and payment by use, not by size |
 
 **Keywords:** AI search, generative AI, publisher revenue, journalism funding, advertising, contextual advertising, revenue sharing, pay per use, pay per crawl, AI attribution, content licensing, press publishers' right, trusted sources, media literacy, misinformation, news sustainability
+
+## Commercial Use
+
+Commercial implementations of this model are subject to the [commercial license](COMMERCIAL-LICENSE.md):
+
+- **Who needs a license:** companies that operate an ad network, exchange, clearing or registry based on this model; AI providers that show source ads or pay per-use fees under it; and companies that sell software or services implementing it.
+- **Royalty base:** the net revenue these companies keep from the model, after the publishers' shares are paid. Amounts passed on to publishers are not counted twice.
+- **Publishers are exempt** for the payouts they receive as sources.
+- **Public mandatory deployments** are royalty-free, and companies can take up the standard commercial license on their own without waiting.
 
 ## Origin
 

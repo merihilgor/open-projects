@@ -32,6 +32,14 @@ The revenue share exists so that a company that uses this idea **voluntarily**, 
 2. **Voluntary commercial use stays royalty-bearing.** Until such a mandate exists, and outside its scope afterwards, commercial use (for example offering the idea as an optional product or service or using it to gain a competitive advantage) requires a commercial license (the Standard Commercial License or a written agreement) and the revenue share below.
 3. **Standards bodies.** A standards body that makes a standard based on this idea freely accessible to the public may use the author's contribution free of charge. A body that sells the standard as a commercial product needs a written commercial license.
 
+### Who pays, and on what, for this project
+
+For *Publisher Revenue in AI Answers*, the following applies in addition to the rest of this file:
+
+1. **Licensees.** A commercial license is required by companies that operate an ad network, ad exchange, clearing body or source registry based on this idea; by AI providers that show source ads or pay per-use fees to sources under it; and by companies that sell software or services implementing it.
+2. **Royalty base.** For these licensees, Net Revenue is the advertising revenue and per-use fees they **keep** from the model, after the shares and fees passed on to publishers. Amounts passed on to publishers are not counted again. Revenue from software or services implementing the model counts as usual.
+3. **Publishers are exempt.** A publisher that only makes its content available as a source and receives ad shares or per-use fees under the model owes no revenue share on those receipts.
+
 ### Standard Commercial License — self-serve
 
 So that companies (and AI agents preparing the work for them) can start without waiting for
@@ -169,6 +177,13 @@ offer) follows the model described by Creative Commons:
   avantajı için kullanmak) gelir paylaşımına tabidir. Standardı kamuya ücretsiz sunan
   standart kuruluşları katkıyı ücretsiz kullanabilir; standardı satan kuruluşlar ticari
   lisans alır.
+- **Bu projede kim, neyin üzerinden öder:** Bu fikre dayalı reklam ağı, reklam borsası,
+  takas kuruluşu veya kaynak sicili işleten şirketler; bu model kapsamında kaynak reklamı
+  gösteren veya kaynaklara kullanım ücreti ödeyen yapay zekâ sağlayıcıları ve modeli
+  uygulayan yazılım veya hizmet satan şirketler ticari lisans alır. Telif tabanı, bu
+  şirketlerin yayıncılara aktarılan paylar ve ücretler düşüldükten sonra modelden
+  kendilerine **kalan** reklam geliri ve kullanım ücretleridir. Yalnızca içeriğini kaynak
+  olarak sunup ödeme alan yayıncılar bu ödemeler için gelir payı ödemez.
 - **Standart ticari lisans, beklemeden alınabilir.** Bir şirket, merihilgor@gmail.com
   adresine `Commercial license registration: <proje-klasörü>` konulu bir e-posta gönderir.
   E-postada unvan, ülke, sicil veya vergi numarası, yetkili kişi, proje, kullanım şekli ve

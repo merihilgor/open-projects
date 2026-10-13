@@ -26,7 +26,7 @@ English: [README.md](README.md)
 ## Önerilen Çözüm
 
 1. **Kendi koşullarını belirleyen kayıtlı kaynaklar.** Yayıncı bir kez kaydolur ve yapay zekânın içeriğini nasıl kullanabileceğini makine tarafından okunabilir biçimde belirtir: reklamlarıyla, kullanım başına ücretle, ikisiyle birden ya da hiç. Model eğitimi için kullanım ayrı bir lisans konusudur ve bu akışın parçası değildir.
-2. **Ücretsiz oturumlarda kaynağın reklamları.** Asistan ücretsiz plandaki bir kullanıcıya kayıtlı bir kaynağın içeriğiyle cevap verdiğinde, o kaynağın kendi reklam envanterinden, kullanıcıya göre değil içeriğe göre eşleşen reklamlar gösterebilir. Sayı sınırlıdır, örneğin cevap başına bir reklam alanı. Reklamlar açıkça etiketlenir ve cevap metninin dışında tutulur.
+2. **Ücretsiz oturumlarda kaynağın reklamları.** Asistan ücretsiz plandaki bir kullanıcıya kayıtlı bir kaynağın içeriğiyle cevap verdiğinde, o kaynağın kendi reklam envanterinden, kullanıcıya göre değil içeriğe göre eşleşen reklamlar gösterebilir. Sayı sınırlıdır, örneğin cevap başına bir reklam alanı. Her reklam reklamverenin adıyla birlikte **açıkça reklam olarak işaretlenir** ("Reklam"), cevap metninin dışında kendi çerçevesinde durur, sesli modda reklam olduğu duyurulur ve bir ajan tarafından asla eyleme dönüştürülmez.
 3. **Reklamverenin onayı.** Bir yayıncının sitesinde yer satın alan reklamveren, reklamlarının o yayıncıyı kullanan yapay zekâ oturumlarında da görünüp görünmeyeceğini seçer. Asıl yerleşimdeki marka güvenliği kuralları burada da geçerlidir.
 4. **Ücretli oturumlarda kullanım başına ücret.** Ücretli ve reklamsız oturumlarda, ayrıca API veya ajan kullanımında, yapay zekâ sağlayıcısı kaynağa her çekim için ya da önbellekteki içeriği her gösterdiğinde küçük bir ücret öder. Kullanıcı reklam görmez.
 5. **Adil atıf.** Bir cevap çoğu zaman birden fazla kaynağa dayanır. Her kaynağın gelir veya ücretten payı, cevaptaki payını izler. Kullanılan her kaynak bağlantısıyla gösterilir, böylece okur yine de siteyi ziyaret edebilir.
@@ -73,6 +73,21 @@ Hükümetin yönettiği bir "onaylı kaynaklar" listesi basın özgürlüğünü
 - **Yasak değil, etiket ve kademe.** Sertifikalı kaynaklar etiket taşır ve gelir programına katılır. Diğerleri yine okunabilir ve atıf yapılabilir.
 - **Açık ölçütler ve itiraz.** Ölçütler ve sertifikalı kaynakların listesi kamuya açıktır; ret kararlarına itiraz edilebilir.
 - **Düzenli gözden geçirme.** Sertifika belirli aralıklarla yenilenir; tekrarlanan ve düzeltilmeyen yanlışlar sonrasında geri alınabilir.
+
+## İşletim Modeli: Sağlayıcı Reklam Ağları mı, Tek Ortak Platform mu
+
+Model iki şekilde işleyebilir. Her yapay zekâ sağlayıcısı kendi ağını işletebilir ("Gemini Ads", "ChatGPT Ads", "Claude Ads" vb.) ya da yapay zekâ sağlayıcıları ve yayıncılar tek, tarafsız ve ortak bir reklam platformuna üye olabilir.
+
+| | Her sağlayıcının kendi reklam ağı | Tek ortak platform |
+|---|---|---|
+| Reklamverenler | Her ağda ayrı ayrı satın alır | Bir kez satın alır, tüm üyelere ulaşır |
+| Yayıncılar | Her sağlayıcıyla ayrı kayıt ve mutabakat | Tek kayıt, tek döküm, tek ödeme |
+| Küçük yapay zekâ sağlayıcıları | Kendi reklam satışını kurmakta zorlanır | İlk günden kazanır |
+| Başlıca risk | Parçalanma, kendini kayırma | Tek işletmecinin ele geçirmesi |
+
+**Önerilen: tek açık standart ve tek tarafsız takas; üzerinde rekabete açık reklam satışı.** Her sağlayıcı koşullar, sayım, atıf, reklam işaretleme ve denetim için aynı kurallara uyar; her yayıncı tek bir tarafsız takas kuruluşuna kaydolur ve oradan ödeme alır. Bunun üzerinde bir sağlayıcı reklamlarını kendi ağıyla, ortak bir borsayla ya da ikisiyle birden satabilir. Böylece yayıncılar ve reklamverenler tek bir sistemle muhatap olur, sağlayıcılar ise rekabet etmeye devam eder. Takas kuruluşu kâr amacı gütmeyen veya kamu hizmeti niteliğindedir, ücretlerini yayımlar ve yayımlanmış ölçütleri karşılayan her sağlayıcıyı ve yayıncıyı kabul eder.
+
+Araştırma düzeyindeki [teknik analiz](TECHNICAL-ANALYSIS.tr.md) bunun güvenilir biçimde nasıl çalışacağını anlatır: içerik kimliği, imzalı kullanım kayıtları, atıf kuralları, sohbeti hiç görmeyen reklam seçimi, reklam işaretleme, önbellek sayımı, sahtekârlık kontrolleri, tarafsızlık denetimleri, takas ve hata durumları.
 
 ## Başka Yerlerdeki Benzer Uygulamalar
 
@@ -148,6 +163,15 @@ Başlangıç tasarımı, uyarlanmak üzere: Gerçek bir uygulama oranları, sın
 | Ödemelerin yalnızca büyük yayıncılara gitmesi | Düşük giriş eşiği ve büyüklüğe göre değil kullanıma göre ödeme |
 
 **Anahtar kelimeler:** yapay zekâ araması, üretken yapay zekâ, yayıncı geliri, gazeteciliğin finansmanı, reklamcılık, bağlamsal reklam, gelir paylaşımı, kullanım başına ödeme, tarama başına ödeme, yapay zekâ atfı, içerik lisanslama, basın yayıncılarının hakkı, güvenilir kaynaklar, medya okuryazarlığı, yanlış bilgi, haberciliğin sürdürülebilirliği
+
+## Ticari Kullanım
+
+Bu modelin ticari uygulamaları [ticari lisansa](COMMERCIAL-LICENSE.md) tabidir:
+
+- **Kimin lisans alması gerekir:** Bu modele dayalı reklam ağı, borsa, takas veya sicil işleten şirketler; bu model kapsamında kaynak reklamı gösteren veya kullanım ücreti ödeyen yapay zekâ sağlayıcıları; modeli uygulayan yazılım veya hizmet satan şirketler.
+- **Telif tabanı:** Bu şirketlerin, yayıncı payları ödendikten sonra modelden kendilerine kalan net gelir. Yayıncılara aktarılan tutarlar iki kez sayılmaz.
+- **Yayıncılar**, kaynak olarak aldıkları ödemeler için muaftır.
+- **Devletin zorunlu kıldığı kamusal uygulamalar** telif ödemez; şirketler standart ticari lisansı beklemeden kendileri alabilir.
 
 ## Köken
 
