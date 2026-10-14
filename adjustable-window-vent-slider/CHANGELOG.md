@@ -3,6 +3,12 @@
 All notable changes to this project idea are recorded here, newest first.
 Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şekilde kaydedilir.
 
+## 2026-10-14
+
+### Added / Eklendi
+- **Easy to clean:** the insect screen and slider come out by hand without tools and can be washed; the air channel has smooth surfaces with no hidden corners. Added to the summary, problem, solution, how-it-works table, testing, risks and illustration.
+  **Kolay temizlik:** Sinek teli ve sürgü alet gerektirmeden elle çıkarılıp yıkanabilir; hava kanalı gizli köşesi olmayan düz yüzeylidir. Özete, soruna, çözüme, nasıl çalışır tablosuna, teste, risklere ve görsele eklendi.
+
 ## 2026-10-13
 
 ### Added / Eklendi

@@ -4,7 +4,7 @@ Türkçe: [README.tr.md](README.tr.md)
 
 ## Summary
 
-A small sliding vent, about a hand-span (roughly 20 cm) long, is built into PVC-type windows next to or above the opening handle. It can be opened **as much or as little as needed**, from a thin gap to fully open. It is **sealed against rain and water**, **screened against insects** and **quiet**: it does not whistle, hum or rattle in the wind. When it is closed, the window insulates exactly as it does today. In autumn and winter, the vent lets a room get **continuous, controlled fresh air for as long as needed**, adjusted to the cold, the rain and the wind. There is no need to tilt or fully open the window, and it helps prevent damp and mold in homes that suffer from them.
+A small sliding vent, about a hand-span (roughly 20 cm) long, is built into PVC-type windows next to or above the opening handle. It can be opened **as much or as little as needed**, from a thin gap to fully open. It is **sealed against rain and water**, **screened against insects**, **quiet**: it does not whistle, hum or rattle in the wind, and **easy to clean**: the screen and slider come out by hand and can be washed. When it is closed, the window insulates exactly as it does today. In autumn and winter, the vent lets a room get **continuous, controlled fresh air for as long as needed**, adjusted to the cold, the rain and the wind. There is no need to tilt or fully open the window, and it helps prevent damp and mold in homes that suffer from them.
 
 ## Problem
 
@@ -12,6 +12,7 @@ A small sliding vent, about a hand-span (roughly 20 cm) long, is built into PVC-
 - A tilted or open window lets in far more cold air than needed. Heat escapes, heating costs rise, and the room quickly becomes uncomfortable, so people close the window again.
 - When windows stay closed for long periods, **humidity builds up**. The result is condensation on the glass and walls, damp, mold and musty air, which are unhealthy, especially for children, the elderly and people with respiratory problems.
 - An open window lets in **rain and wind**, and in mild weather also **flies and mosquitoes**.
+- Existing small vents and screens collect dust, soot and insects, and many cannot be taken apart, so they are rarely cleaned. A dirty vent blocks the airflow, smells, and ends up kept closed.
 - Modern PVC windows seal very tightly. That is good for insulation, but without deliberate ventilation it makes the damp problem worse.
 
 ## Proposed Solution
@@ -24,7 +25,8 @@ Add a **small, adjustable, weather-sealed ventilation slider** to the window its
 4. **Insect screen:** a built-in screen keeps flies and mosquitoes out while air flows.
 5. **Full insulation when closed:** when the slider is closed, the window keeps its original thermal and sound insulation.
 6. **Quiet in the wind:** the vent is shaped so that air passing through it, even in strong wind, makes no whistling, humming or rattling. It can stay open in bedrooms and at night without disturbing anyone.
-7. **Unlimited ventilation time:** because the airflow is small and controlled, the vent can stay open for hours or all day without chilling the room, instead of the short, wasteful "open the window for ten minutes" routine.
+7. **Easy to clean:** the insect screen and the slider come out by hand, without tools, and can be rinsed with water and put back. The air channel has smooth surfaces and no hidden corners where dust, soot or mold can collect, and it can be wiped from inside the room.
+8. **Unlimited ventilation time:** because the airflow is small and controlled, the vent can stay open for hours or all day without chilling the room, instead of the short, wasteful "open the window for ten minutes" routine.
 
 ## How It Works
 
@@ -37,12 +39,13 @@ Add a **small, adjustable, weather-sealed ventilation slider** to the window its
 | Mild weather, or a humid room after cooking, showering or drying laundry | Slider fully open | Faster air exchange, and moisture is removed |
 | Heavy rain | Any setting | No water gets in, thanks to the weather seal |
 | Maximum insulation needed | Slider closed | The window insulates as usual |
+| Cleaning, for example in spring and autumn | Screen and slider removed by hand | Rinsed with water and put back in minutes; the channel is wiped clean |
 
 The user simply slides it by hand, like adjusting a small shutter. The window itself does not need to be tilted or opened during the cold months.
 
 ## Implementation & Phasing
 
-1. **Prototype and testing:** a prototype is built for common PVC window types and tested for airflow, water tightness, insect protection, **noise in strong wind** and insulation when closed.
+1. **Prototype and testing:** a prototype is built for common PVC window types and tested for airflow, water tightness, insect protection, **noise in strong wind**, insulation when closed and **ease of cleaning** (removal and refitting by hand, by an ordinary user).
 2. **Factory-fitted option:** window manufacturers offer the slider as an option on new windows.
 3. **Retrofit version:** a version that can be fitted to existing PVC windows is offered, so that homes with damp problems can benefit without replacing their windows.
 4. **Wider adoption:** housing projects, schools, hospitals and public buildings, where fresh air and damp prevention matter most, are encouraged to use it. Energy-efficiency or healthy-housing programs could include it.
@@ -64,10 +67,11 @@ The user simply slides it by hand, like adjusting a small shutter. The window it
 | Heat loss if left fully open in severe cold | Fine adjustment, so users can leave only a thin gap; clear markings for cold-weather settings |
 | Weakening the window's insulation or security | Full insulation when closed; the slot is too small for entry |
 | Wind noise (whistling, humming or rattling) through the open vent | A quiet airflow design, tested in strong wind at every opening setting |
-| Dust or dirt in the vent and screen | An easy-to-clean, removable screen |
+| Dust, soot, insects or mold in the vent and screen | Screen and slider removable by hand without tools, washable with water; a smooth channel with no hidden corners |
+| Seal or screen not refitted correctly after cleaning | Parts that fit only one way and click into place; a visible check that the seal is seated |
 | Similar background ventilators ("trickle vents") already exist in some markets | This proposal focuses on fine user adjustment at handle height, water and insect sealing together, and a retrofit version for existing PVC windows |
 
-**Keywords:** window ventilation, trickle vent, PVC windows, indoor air quality, condensation, damp and mold, energy efficiency, healthy housing, retrofit
+**Keywords:** window ventilation, trickle vent, PVC windows, indoor air quality, condensation, damp and mold, energy efficiency, healthy housing, retrofit, easy to clean, removable insect screen
 
 ## Support This Work
 

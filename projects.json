@@ -346,7 +346,7 @@
       "slug": "adjustable-window-vent-slider",
       "title": "Adjustable Window Vent Slider: Continuous Fresh Air Without Opening the Window",
       "title_tr": "Ayarlanabilir Pencere Havalandırma Sürgüsü: Pencereyi Açmadan Sürekli Temiz Hava",
-      "summary": "A small, adjustable, rain-, insect- and noise-proof vent slider on PVC windows for continuous winter ventilation without heat loss, preventing damp and mold.",
+      "summary": "A small, adjustable, rain-, insect- and noise-proof, easy-to-clean vent slider on PVC windows for continuous winter ventilation without heat loss, preventing damp and mold.",
       "theme": "Housing & health",
       "type": "Physical product",
       "keywords": [
@@ -358,7 +358,8 @@
         "damp and mold",
         "energy efficiency",
         "healthy housing",
-        "retrofit"
+        "retrofit",
+        "easy to clean"
       ],
       "keywords_tr": [
         "pencere havalandırma",
@@ -368,7 +369,8 @@
         "rutubet ve küf",
         "enerji verimliliği",
         "sağlıklı konut",
-        "sonradan takılabilir"
+        "sonradan takılabilir",
+        "kolay temizlenir"
       ],
       "url": "https://github.com/merihilgor/open-projects/tree/main/adjustable-window-vent-slider",
       "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.md",
