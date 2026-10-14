@@ -53,7 +53,7 @@ Each project is a self-contained proposal describing WHAT the idea is and WHY it
 
 ## Housing & health
 
-- [Adjustable Window Vent Slider: Continuous Fresh Air Without Opening the Window](https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.md): A small, adjustable, rain-, insect- and noise-proof vent slider on PVC windows for continuous winter ventilation without heat loss, preventing damp and mold. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.tr.md
+- [Adjustable Window Vent Slider: Continuous Fresh Air Without Opening the Window](https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.md): A small, adjustable, rain-, insect- and noise-proof, easy-to-clean vent slider on PVC windows for continuous winter ventilation without heat loss, preventing damp and mold. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/adjustable-window-vent-slider/README.tr.md
 
 ## Consumer products
 
