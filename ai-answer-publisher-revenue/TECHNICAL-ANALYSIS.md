@@ -34,6 +34,7 @@ The model fails if any of these fails. Every component below exists to guarantee
 ### 2.1 Source registry and terms
 - **Registration with proof of control.** A publisher proves control of its domain, the same way sites prove control today, and registers a legal entity for payouts.
 - **Machine-readable terms on the publisher's own site.** The terms state: ads allowed (yes/no), per-retrieval price, per-display price for cached content, attribution and link requirements, and whether training use is allowed (a separate licence). Existing work to reuse: the RSL licensing vocabulary and the robots.txt convention for discovery.
+- **Free metadata record.** The terms also carry a bounded, machine-readable record — a canonical link, a headline and a short, publisher-controlled blurb — that any AI may use at no cost. Using the record alone obliges the assistant only to cite and link; it never triggers an ad or a fee. Because the record is the publisher's own object, the blurb shown is on-brand rather than the model's paraphrase, which is what pulls traffic back to the source.
 - **Authorized sellers file.** The publisher lists which ad platforms may sell its inventory into AI sessions. This follows the ads.txt / sellers.json model from IAB Tech Lab, which already fights inventory fraud on the web.
 - **Signed registry entries.** Every entry carries the trust label, if any, as a signed, time-limited attestation from the certification body.
 
@@ -41,6 +42,7 @@ The model fails if any of these fails. Every component below exists to guarantee
 - Each retrieved item gets a **content ID**: its canonical URL, a hash of the retrieved text and the retrieval time. A new version of the article gets a new hash.
 - Passages get **segment IDs** (for example by paragraph), so attribution can work below article level.
 - The cache stores the content ID together with the content. Every cached display therefore emits an event that carries the original content ID (see 2.6).
+- **Metadata vs. full content.** The free metadata record has its own identifier, separate from the page's full content ID. This is what makes "beyond the metadata" detectable: an assistant that consumes only the record never fetches a content ID, so no fee or ad is triggered; fetching the page emits a `retrieval` or `cached_display` event that does (see 2.4).
 
 ### 2.3 Identified retrieval
 - AI crawlers and agents identify themselves with **signed requests** (HTTP Message Signatures, [RFC 9421][rfc9421]). This is also the basis of the "Web Bot Auth" proposals used by pay-per-crawl services.
@@ -51,6 +53,7 @@ The model fails if any of these fails. Every component below exists to guarantee
 - Each event has a unique event ID (idempotency), a content ID, a session type (free / paid / API / agent), a time and a provider signature. It never contains user identity or conversation text.
 - The ledger is **append-only and tamper-evident**, for example hash-chained daily batches whose roots are published. This lets auditors prove that nothing was removed afterwards (G1, G6).
 - **Reconciliation:** provider ledgers are matched daily against publisher-side receipts and CDN logs. Mismatches above a threshold open an automatic dispute.
+- **Fees and ads attach to content, not to citation.** A `citation_shown` or `citation_click` that uses only the free metadata record is a free event: no `retrieval` or `cached_display` of full content was emitted, so no ad or fee applies. Ad shares and per-use fees are charged only on `retrieval` or `cached_display` of full content. The source's metadata-only value is reported as impressions (`citation_shown`) and clicks (`citation_click`) through the clearing body, so it sees its reach even when few people click through.
 
 ### 2.5 Attribution (G2)
 - **Unit:** the generated answer is split into claims or sentences. Each claim is linked to the source segments that support it, and the citations shown to the user come from the same links.
@@ -82,7 +85,7 @@ This follows existing disclosure law: the EU Digital Services Act requires platf
 - **Per retrieval:** the price in the publisher's terms, paid when the content is fetched live.
 - **Per cached display:** when the answer uses cached content, a per-display price applies instead. The cache cannot be used to avoid payment, because every display emits a `cached_display` event with the original content ID.
 - **Price protection:** publishers set their own prices. The standard can define a default price and a monthly cap per provider and article, so that a single viral article does not become unaffordable and small AI providers stay viable.
-- **Pre-check:** before retrieval, the provider checks the terms from the registry (cached for a short time). If the price is above its own limit, it does not use the content and does not cite it.
+- **Pre-check:** before retrieval, the provider checks the terms from the registry (cached for a short time). If the price is above its own limit, it does not use the content and does not cite it. The free metadata record is exempt: it is not a retrieval, so it never enters the price check and is always free to cite.
 
 ### 2.9 Measurement and fraud (G7)
 - **Impression definition:** an ad counts only if it was rendered and visible on screen, following industry viewability standards (Media Rating Council guidelines). A click counts only if it is a valid, human, de-duplicated click.
@@ -143,6 +146,7 @@ Two ways to run the same standard:
 | Click fraud | Invalid-traffic filters, anomaly detection | Clicks voided, earnings clawed back |
 | Trust label withdrawn | Registry update | Label removed from answers within the fixed time |
 | Ad or fee system down | Health checks | Answer served without ads; fees recorded and settled later |
+| Assistant reports metadata-only but answers from full content | Attribution sampling finds claims the ledger shows no retrieval supported | Breach: the implied retrieval is charged retroactively with back-payment |
 
 ## 5. Phased build
 

@@ -34,6 +34,7 @@ Bunlardan biri aksarsa model çöker. Aşağıdaki her bileşen bunlardan birini
 ### 2.1 Kaynak sicili ve koşullar
 - **Kontrolün ispatıyla kayıt.** Yayıncı, sitelerin bugün yaptığı gibi alan adının kendi kontrolünde olduğunu ispatlar ve ödemeler için bir tüzel kişi kaydeder.
 - **Yayıncının kendi sitesinde makine tarafından okunabilir koşullar.** Koşullar şunları belirtir: reklama izin (evet/hayır), çekim başına fiyat, önbellekteki içerik için gösterim başına fiyat, atıf ve bağlantı şartları ve model eğitimine izin verilip verilmediği (ayrı lisans). Yeniden kullanılabilecek mevcut çalışmalar: RSL lisans sözlüğü ve keşif için robots.txt geleneği.
+- **Ücretsiz metadata kaydı.** Koşullar, aynı zamanda, herhangi bir yapay zekânın bedava kullanabileceği sınırlı, makine tarafından okunabilir bir kayıt taşır — kanonik bir link, bir başlık ve kısa, yayıncı-kontrolü bir açıklama. Yalnızca kaydı kullanmak, asistandan tek başına atıf ve bağlantı ister; asla reklam veya ücret tetiklemez. Kayıt yayıncının kendi nesnesi olduğundan, gösterilen açıklama modelin parafrazı değil yayıncının kendi dilindedir; trafiği kaynağa geri çeken de budur.
 - **Yetkili satıcılar dosyası.** Yayıncı, envanterini yapay zekâ oturumlarına hangi reklam platformlarının satabileceğini listeler. Bu, web'de envanter sahtekârlığıyla zaten mücadele eden IAB Tech Lab ads.txt / sellers.json modelini izler.
 - **İmzalı sicil kayıtları.** Varsa güven etiketi, sertifika kuruluşunun imzaladığı ve süresi sınırlı bir onay olarak her kayıtta yer alır.
 
@@ -41,6 +42,7 @@ Bunlardan biri aksarsa model çöker. Aşağıdaki her bileşen bunlardan birini
 - Çekilen her içerik bir **içerik kimliği** alır: kanonik URL, çekilen metnin özeti (hash) ve çekim zamanı. Haberin yeni sürümü yeni bir özet alır.
 - Pasajlar **bölüm kimlikleri** alır (örneğin paragraf bazında); böylece atıf haber düzeyinin altında da çalışabilir.
 - Önbellek içeriği içerik kimliğiyle birlikte saklar. Bu yüzden önbellekten yapılan her gösterim, asıl içerik kimliğini taşıyan bir olay üretir (bkz. 2.6).
+- **Metadata ile tam içerik.** Ücretsiz metadata kaydı, sayfanın tam içerik kimliğinden ayrı, kendi tanımlayıcısını taşır. "Metadata dışında" kavramının tespit edilebilir olması bundandır: yalnızca kaydı kullanan asistan hiçbir içerik kimliği çekmez, o yüzden ne ücret ne reklam tetiklenir; sayfanın çekilmesi tetikleyen bir `retrieval` veya `cached_display` olayı üretir (bkz. 2.4).
 
 ### 2.3 Kimliği belli çekim
 - Yapay zekâ tarayıcıları ve ajanları kendilerini **imzalı isteklerle** tanıtır (HTTP Message Signatures, [RFC 9421][rfc9421]). Bu, tarama başına ödeme hizmetlerinin kullandığı "Web Bot Auth" önerilerinin de temelidir.
@@ -51,6 +53,7 @@ Bunlardan biri aksarsa model çöker. Aşağıdaki her bileşen bunlardan birini
 - Her olayın benzersiz bir olay kimliği (tekrarı önlemek için), içerik kimliği, oturum türü (ücretsiz / ücretli / API / ajan), zamanı ve sağlayıcı imzası vardır. Kullanıcı kimliği veya sohbet metni asla içermez.
 - Defter **yalnızca eklemeye açık ve değiştirilemez**dir; örneğin kökleri yayımlanan, zincirleme özetli günlük paketler. Böylece denetçiler sonradan hiçbir şeyin silinmediğini ispatlayabilir (G1, G6).
 - **Mutabakat:** Sağlayıcı defterleri her gün yayıncı tarafındaki makbuzlar ve içerik dağıtım ağı kayıtlarıyla karşılaştırılır. Eşiği aşan uyumsuzluklar otomatik olarak itiraz açar.
+- **Ücret ve reklam, atıfa değil içeriğe bağlıdır.** Yalnızca ücretsiz metadata kaydını kullanan bir `citation_shown` veya `citation_click`, bedava bir olaydır: tam içeriğin `retrieval` veya `cached_display` olayı üretilmediğinden ne reklam ne ücret uygulanır. Reklam payları ve kullanım ücretleri yalnızca tam içeriğin `retrieval` veya `cached_display` olayına bağlanır. Kaynağın yalnız-metadata değeri, takas kuruluşu aracılığıyla gösterim (`citation_shown`) ve tıklama (`citation_click`) olarak raporlanır; böylece az kişi tıklasa bile kaynak erişimini görür.
 
 ### 2.5 Atıf (G2)
 - **Birim:** Üretilen cevap iddialara veya cümlelere ayrılır. Her iddia, onu destekleyen kaynak bölümlerine bağlanır. Kullanıcıya gösterilen kaynaklar da aynı bağlantılardan gelir.
@@ -82,7 +85,7 @@ Bu, mevcut bildirim kurallarını izler: AB Dijital Hizmetler Yasası, platforml
 - **Çekim başına:** İçerik canlı çekildiğinde, yayıncı koşullarındaki fiyat ödenir.
 - **Önbellekten gösterim başına:** Cevap önbellekteki içeriği kullandığında bunun yerine gösterim başına fiyat uygulanır. Önbellek ödemeden kaçmak için kullanılamaz, çünkü her gösterim asıl içerik kimliğini taşıyan bir `cached_display` olayı üretir.
 - **Fiyat koruması:** Yayıncılar fiyatlarını kendileri belirler. Standart bir varsayılan fiyat ve sağlayıcı-haber başına aylık bir üst sınır tanımlayabilir; böylece tek bir viral haber ödenemez hâle gelmez ve küçük yapay zekâ sağlayıcıları ayakta kalır.
-- **Ön kontrol:** Sağlayıcı çekimden önce sicilden koşulları kontrol eder (kısa süre önbellekte tutulur). Fiyat kendi sınırının üzerindeyse içeriği kullanmaz ve kaynak olarak göstermez.
+- **Ön kontrol:** Sağlayıcı çekimden önce sicilden koşulları kontrol eder (kısa süre önbellekte tutulur). Fiyat kendi sınırının üzerindeyse içeriği kullanmaz ve kaynak olarak göstermez. Ücretsiz metadata kaydı muaftır: bir çekim olmadığından asla fiyat kontrolüne girmez ve atıf için her zaman bedavadır.
 
 ### 2.9 Ölçüm ve sahtekârlık (G7)
 - **Gösterim tanımı:** Bir reklam ancak ekranda gösterilmiş ve görünür olmuşsa sayılır; sektörün görünürlük standartlarına (Media Rating Council kılavuzları) uyulur. Bir tıklama ancak geçerli, insan kaynaklı ve tekilleştirilmiş ise sayılır.
@@ -143,6 +146,7 @@ Aynı standardı işletmenin iki yolu:
 | Tıklama sahtekârlığı | Geçersiz trafik filtreleri, anomali tespiti | Tıklamaların iptali, kazancın geri alınması |
 | Güven etiketinin geri alınması | Sicil güncellemesi | Etiketin sabit süre içinde cevaplardan kaldırılması |
 | Reklam veya ücret sisteminin çökmesi | Sağlık kontrolleri | Cevap reklamsız sunulur; ücretler kaydedilip sonra ödenir |
+| Asistan yalnız-metadata derken tam içerikten cevap vermesi | Atıf örneklemesi, defterde karşılığı olmayan iddialar bulur | İhlal: gizli çekim geriye dönük olarak ücretlendirilir, geriye dönük ödeme |
 
 ## 5. Aşamalı kurulum
 

@@ -11,6 +11,7 @@ People increasingly get news and research from AI assistants instead of visiting
 - **Every use counts, including cached use.** One article read once and shown in a thousand sessions earns per display or per click, not once per crawl.
 - **One open standard, not private deals.** The same terms, measurement and clearing work for every AI provider and every publisher, large or small.
 - **Verified sources come first.** Sources certified by an independent, multi-stakeholder process take part in the revenue programme and carry a visible trust label, which raises answer quality without the state deciding what is true.
+- **Free metadata, cited not paid.** Every registered source always offers a short, publisher-controlled record — its link, headline and a brief blurb — that any AI may use at no cost. If an assistant answers from that record alone, a citation and a link are enough; the source is rewarded by the traffic the link brings. Only when the assistant goes beyond the record, into the full content, do the ad and fee rules apply.
 
 **In short: when AI reads the source, the source gets paid, through its own ads in free sessions and a small fee in paid ones.**
 
@@ -25,7 +26,7 @@ People increasingly get news and research from AI assistants instead of visiting
 
 ## Proposed Solution
 
-1. **Registered sources with their own terms.** A publisher registers once and states, in machine-readable form, how AI may use its content: with its ads, against a per-use fee, both, or not at all. Training use stays a separate licence and is not part of this flow.
+1. **Registered sources with their own terms.** A publisher registers once and states, in machine-readable form, how AI may use its content: with its ads, against a per-use fee, both, or not at all. Every registration also carries a **free metadata record** — a canonical link, a headline and a short, publisher-controlled blurb — that any AI may use at no cost, so the source pulls traffic to itself without a deal. If an assistant answers from that record alone, a **citation and a link are sufficient**, and no ad or fee is charged; the source is paid by the traffic the link brings. Going **beyond the record, into the full content, is what triggers the ad and fee rules (items 2 and 4)**. Training use stays a separate licence and is not part of this flow.
 2. **Ads from the source, in free sessions.** When an assistant answers a free-plan user with content from a registered source, it may show ads from that source's own ad inventory, matched to the content, not to the user. The number is capped, for example one ad block per answer. Every ad is **marked as an ad** ("Ad" / "Sponsored") with the advertiser's name, sits in its own frame outside the answer text, is announced as an ad in voice mode, and is never turned into an action by an agent.
 3. **Advertiser consent.** An advertiser who bought space on a publisher's site chooses whether its ads may also appear in AI sessions that use that publisher. Brand-safety rules from the original placement still apply.
 4. **Per-use fees in paid sessions.** In paid, ad-free sessions, and in API or agent use, the AI provider pays the source a small fee per retrieval, or per display when it serves cached content. The user sees no ads.
@@ -45,6 +46,7 @@ People increasingly get news and research from AI assistants instead of visiting
 | A free-plan user reads a news summary | The source earns nothing; any ads belong to the AI provider | The source's own ads appear next to the answer; the ad revenue is shared |
 | A paid-plan user gets the same summary | The source earns nothing | The AI provider pays a small per-use fee; the user sees no ads |
 | An article is cached and shown in many sessions | Paid at most once, if at all | Paid per display or click, like an ad impression |
+| An assistant answers only from a source's headline and blurb | May reword the summary and not show the link | Cites the source and links to it, for free; the source earns from the traffic the link brings |
 | An answer combines several sources | Unclear who contributed what | Each source is paid by its share of the answer and cited with a link |
 | A small local publisher | No deal, no leverage | Joins the same standard terms as large publishers |
 | A reader wants to know if a source is reliable | No signal in the answer | Certified sources carry a trust label |
@@ -59,6 +61,8 @@ People increasingly get news and research from AI assistants instead of visiting
 | **API and agents** (an AI acting for a user or a business) | Whatever the operator builds | The same per-use fee, charged to the operator |
 | **Publisher with a paywall or no ads** | The answer within the publisher's licence terms | The per-use fee it set; it may require a link to subscribe |
 | **Source not registered** | The AI may still cite it under general law | Nothing from the programme; no trust label |
+
+**Free metadata (the floor).** The free metadata record cuts across every session type: an assistant that answers only from a source's headline and short blurb just cites it and links to it, and that is free, in free and paid sessions alike. It is going beyond the record, into the full content, that triggers the session's own rule: the source's ads in a free session, a per-use fee in a paid or API session. In this channel the source's reward is measured in impressions (how often the blurb is shown) and clicks (link visits) that the clearing body reports, so the source sees its reach even when few people click through.
 
 **Cached content.** A provider may store content to answer faster. The meter then runs per display or click, not per crawl, so caching does not reduce what the source earns.
 
@@ -109,7 +113,7 @@ Parts of this model already exist. As far as this proposal's author knows, none 
 
 **Why it matters now.** In a Pew Research Center study of US Google searches, users clicked a traditional result 8% of the time when an AI summary appeared, against 15% without one, and clicked a link inside the summary only 1% of the time. ([VideoWeek][pew])
 
-**What this proposal adds:** the source's own ads travel with its content; paid sessions pay per use instead of from a discretionary pool; cached content is paid per display; one open standard and neutral clearing replace private deals; independent trust labels improve answer quality; and strict separation of ads and answers.
+**What this proposal adds:** the source's own ads travel with its content; paid sessions pay per use instead of from a discretionary pool; cached content is paid per display; one open standard and neutral clearing replace private deals; independent trust labels improve answer quality; strict separation of ads and answers; and a free metadata floor on which a source's own headline and blurb are free to cite, so that even a source that never earns a fee still pulls traffic by being cited and linked.
 
 [pplx-24]: https://techcrunch.com/2024/07/30/perplexitys-plan-to-share-ad-revenue-with-outlets-cited-by-its-ai-chatbot
 [pplx-25]: https://www.axios.com/2025/08/26/perplexity-comet-plus-subscription
@@ -141,7 +145,7 @@ An initial design, to be adapted: a real implementation should adapt the rates, 
 ## Stakeholders & Benefits
 
 - **Journalists, researchers and publishers:** income from AI use of their work, including from paid plans and cached content.
-- **Small and local publishers:** the same terms as large ones, without having to negotiate individual deals.
+- **Small and local publishers:** the same terms as large ones, without having to negotiate individual deals; and the free metadata floor lets them pull traffic and monetize it on their own site, even when they cannot run an ad network or charge a fee.
 - **AI providers:** legal certainty, access to quality content instead of blocks, and a clear way to meet press publishers' rights.
 - **Advertisers:** contextual placements next to the content they chose to support, with their brand-safety rules.
 - **Users:** better-sourced answers, visible trust labels, links to the original, and a choice between a free plan with capped ads and an ad-free paid plan.
@@ -161,6 +165,9 @@ An initial design, to be adapted: a real implementation should adapt the rates, 
 | Publishers block AI anyway | Flexible terms (ads, fees, both), so allowing AI pays more than blocking |
 | Fees make small AI providers uncompetitive | Low per-use rates, volume tiers and free use for research and non-commercial projects |
 | Payments go only to large publishers | Low entry threshold and payment by use, not by size |
+| Free metadata is shown but never clicked (zero-click) | The source controls its own blurb, so it teases rather than fully answers; the report counts impressions as well as clicks, so the source sees its reach; the citation and link keep the click possible |
+| An assistant over-sources a source because its metadata is free | Free sets the price of the teaser, not its priority: which sources are chosen and what the answer says are still governed by the neutrality rules, unchanged |
+| Unclear what counts as "beyond the metadata" | The usage record logs what the assistant consumed; the threshold is the registered metadata record, and audit resolves disputes about where the line falls |
 
 **Keywords:** AI search, generative AI, publisher revenue, journalism funding, advertising, contextual advertising, revenue sharing, pay per use, pay per crawl, AI attribution, content licensing, press publishers' right, trusted sources, media literacy, misinformation, news sustainability
 

@@ -3,6 +3,14 @@
 All notable changes to this project idea are recorded here, newest first.
 Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şekilde kaydedilir.
 
+## 2026-10-19
+
+### Added / Eklendi
+- **Free metadata and traffic (citation as the floor):** every registration now also carries a free metadata record — a canonical link, a headline and a short publisher-controlled blurb — that any AI may use at no cost. If an assistant answers from that record alone, a citation and a link are sufficient, and no ad or fee is charged; the source is rewarded by the traffic the link brings. Going beyond the record, into the full content, is what triggers the existing ad and fee rules. In this channel the source's reward is measured in impressions and clicks reported by the clearing body. Woven into the solution, the "how it works" and revenue tables, the risks and the small-publisher benefit.
+  **Ücretsiz metadata ve trafik (atıf zemin olarak):** Her kayıt artık, herhangi bir yapay zekânın bedava kullanabileceği ücretsiz bir metadata kaydı taşır — standart bir link, bir başlık ve kısa, yayıncı-kontrolü bir açıklama. Asistan yalnızca o kayıttan cevap verirse atıf ve bağlantı yeterlidir, reklam ve ücret alınmaz; kaynak linkin getirdiği trafikle ödüllendirilir. Kaydı aşmak, tam içeriğe geçmek, mevcut reklam ve ücret kurallarını tetikler. Bu kanalda ödül, takas kuruluşunun raporladığı gösterim ve tıklama olarak ölçülür. Çözüm, "nasıl çalışır" ve gelir tabloları, riskler ve küçük yayıncı faydası içine dokundu.
+- **Technical analysis:** the same boundary is written into the research-level note — the free metadata record in the source terms (2.1), a separate identifier that makes "beyond the metadata" detectable (2.2), the rule that fees and ads attach to full-content `retrieval`/`cached_display` events, never to a metadata-only citation (2.4, 2.8), and a new failure mode for an assistant that reports metadata-only but answers from full content (section 4).
+  **Teknik analiz:** Aynı sınır, araştırma düzeyi nota yazıldı — kaynak koşullarındaki ücretsiz metadata kaydı (2.1), "metadata dışında"nı tespit edilebilir kılan ayrı bir tanımlayıcı (2.2), ücret ve reklamların yalnızca tam içeriğin `retrieval`/`cached_display` olaylarına, asla yalnız-metadata bir atfa bağlanmadığı kural (2.4, 2.8) ve asistanın yalnız-metadata derken tam içerikten cevap vermesi için yeni bir hata durumu (bölüm 4).
+
 ## 2026-10-13
 
 ### Added / Eklendi

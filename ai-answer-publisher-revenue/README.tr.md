@@ -11,6 +11,7 @@ English: [README.md](README.md)
 - **Önbellekteki kullanım dahil her kullanım sayılır.** Bir kez okunup bin oturumda gösterilen bir haber, bir kez çekildiği için değil, her gösterim veya tıklama için kazandırır.
 - **Özel anlaşmalar yerine tek açık standart.** Aynı koşullar, ölçüm ve takas, büyük küçük her yapay zekâ sağlayıcısı ve her yayıncı için geçerlidir.
 - **Doğrulanmış kaynaklar önce gelir.** Bağımsız ve çok paydaşlı bir süreçle sertifikalanan kaynaklar gelir programına katılır ve görünür bir güven etiketi taşır. Böylece neyin doğru olduğuna devlet karar vermeden cevap kalitesi artar.
+- **Ücretsiz metadata, atıf yeterli.** Her kayıtlı kaynak, her zaman, herhangi bir yapay zekânın bedava kullanabileceği kısa, yayıncı-kontrolü bir kayıt sunar — linki, başlığı ve kısa bir açıklama. Asistan yalnızca o kayıttan cevap verirse, bir atıf ve bir bağlantı yeterlidir; kaynak, linkin getirdiği trafikle ödüllendirilir. Asistan kaydı aşınca, tam içeriğe geçince, reklam ve ücret kuralları devreye girer.
 
 **Kısacası: yapay zekâ kaynağı okuduğunda kaynak kazanır; ücretsiz oturumlarda kendi reklamlarıyla, ücretli oturumlarda küçük bir ücretle.**
 
@@ -25,7 +26,7 @@ English: [README.md](README.md)
 
 ## Önerilen Çözüm
 
-1. **Kendi koşullarını belirleyen kayıtlı kaynaklar.** Yayıncı bir kez kaydolur ve yapay zekânın içeriğini nasıl kullanabileceğini makine tarafından okunabilir biçimde belirtir: reklamlarıyla, kullanım başına ücretle, ikisiyle birden ya da hiç. Model eğitimi için kullanım ayrı bir lisans konusudur ve bu akışın parçası değildir.
+1. **Kendi koşullarını belirleyen kayıtlı kaynaklar.** Yayıncı bir kez kaydolur ve yapay zekânın içeriğini nasıl kullanabileceğini makine tarafından okunabilir biçimde belirtir: reklamlarıyla, kullanım başına ücretle, ikisiyle birden ya da hiç. Her kayıt, aynı zamanda, herhangi bir yapay zekânın bedava kullanabileceği **ücretsiz bir metadata kaydı** taşır — standart bir link, bir başlık ve kısa, yayıncı-kontrolü bir açıklama — böylece kaynak herhangi bir anlaşma yapmadan trafiği kendine çeker. Asistan yalnızca o kayıttan cevap verirse, **bir atıf ve bir bağlantı yeterlidir**; reklam ve ücret alınmaz, kaynak linkin getirdiği trafikle ödüllendirilir. **Kaydı aşmak, tam içeriğe geçmek, yukarıdaki reklam ve ücret kurallarını (madde 2 ve 4) devreye sokar.** Model eğitimi için kullanım ayrı bir lisans konusudur ve bu akışın parçası değildir.
 2. **Ücretsiz oturumlarda kaynağın reklamları.** Asistan ücretsiz plandaki bir kullanıcıya kayıtlı bir kaynağın içeriğiyle cevap verdiğinde, o kaynağın kendi reklam envanterinden, kullanıcıya göre değil içeriğe göre eşleşen reklamlar gösterebilir. Sayı sınırlıdır, örneğin cevap başına bir reklam alanı. Her reklam reklamverenin adıyla birlikte **açıkça reklam olarak işaretlenir** ("Reklam"), cevap metninin dışında kendi çerçevesinde durur, sesli modda reklam olduğu duyurulur ve bir ajan tarafından asla eyleme dönüştürülmez.
 3. **Reklamverenin onayı.** Bir yayıncının sitesinde yer satın alan reklamveren, reklamlarının o yayıncıyı kullanan yapay zekâ oturumlarında da görünüp görünmeyeceğini seçer. Asıl yerleşimdeki marka güvenliği kuralları burada da geçerlidir.
 4. **Ücretli oturumlarda kullanım başına ücret.** Ücretli ve reklamsız oturumlarda, ayrıca API veya ajan kullanımında, yapay zekâ sağlayıcısı kaynağa her çekim için ya da önbellekteki içeriği her gösterdiğinde küçük bir ücret öder. Kullanıcı reklam görmez.
@@ -45,6 +46,7 @@ English: [README.md](README.md)
 | Ücretsiz plandaki bir kullanıcı haber özeti okur | Kaynak hiçbir şey kazanmaz; reklam varsa yapay zekâ sağlayıcısınındır | Kaynağın kendi reklamları cevabın yanında görünür; reklam geliri paylaşılır |
 | Ücretli plandaki bir kullanıcı aynı özeti alır | Kaynak hiçbir şey kazanmaz | Yapay zekâ sağlayıcısı küçük bir kullanım ücreti öder; kullanıcı reklam görmez |
 | Bir haber önbelleğe alınıp birçok oturumda gösterilir | En fazla bir kez ödenir, o da ödenirse | Reklam gösterimi gibi, her gösterim veya tıklama için ödenir |
+| Asistan yalnızca bir kaynağın başlığı ve kısa açıklamasından cevap verir | Özeti kendi sözleriyle yeniden yazıp bağlantıyı göstermeyebilir | Kaynağı atıf verir ve bağlantıyla gösterir, bedava; kaynak, linkin getirdiği trafikten kazanır |
 | Bir cevap birkaç kaynağı birleştirir | Kimin ne kattığı belirsiz | Her kaynak cevaptaki payına göre kazanır ve bağlantısıyla gösterilir |
 | Küçük bir yerel yayıncı | Anlaşma yok, pazarlık gücü yok | Büyük yayıncılarla aynı standart koşullara katılır |
 | Okur bir kaynağın güvenilir olup olmadığını bilmek ister | Cevapta hiçbir işaret yok | Sertifikalı kaynaklar güven etiketi taşır |
@@ -59,6 +61,8 @@ English: [README.md](README.md)
 | **API ve ajanlar** (bir kullanıcı veya işletme adına çalışan yapay zekâ) | İşletenin kurduğu arayüz | Aynı kullanım başına ücret; işletene faturalanır |
 | **Ödeme duvarı olan veya reklam kullanmayan yayıncı** | Yayıncının lisans koşulları içinde cevap | Belirlediği kullanım ücreti; abonelik bağlantısı göstermeyi şart koşabilir |
 | **Kayıtlı olmayan kaynak** | Yapay zekâ genel hukuk çerçevesinde atıf yapabilir | Programdan bir şey almaz; güven etiketi yoktur |
+
+**Ücretsiz metadata (zemin).** Ücretsiz metadata kaydı her oturum türünü keser geçer: bir asistan, bir kaynağın yalnızca başlığı ve kısa açıklamasından cevap veriyorsa onu atıf verir ve bağlantıyla gösterir; bu, ücretsiz ve ücretli oturumların her ikisinde de bedavadır. Oturumun kendi kuralını tetikleyen, kaydı aşmak, tam içeriğe geçmektir: ücretsiz oturumda kaynağın reklamları, ücretli veya API oturumunda kullanım başına ücret. Bu kanalda kaynağın ödülü, takas kuruluşunun raporladığı gösterim (kısa açıklamanın ne sıklıkta gösterildiği) ve tıklama (link ziyaretleri) olarak ölçülür; böylece kaynak, az kişi tıklasa bile erişimini görür.
 
 **Önbellekteki içerik.** Sağlayıcı daha hızlı cevap vermek için içeriği saklayabilir. Bu durumda sayaç çekim başına değil, gösterim veya tıklama başına işler; böylece önbellek kaynağın kazancını azaltmaz.
 
@@ -109,7 +113,7 @@ Bu modelin parçaları zaten var. Bu önerinin yazarının bildiği kadarıyla h
 
 **Neden şimdi önemli.** Pew Research Center'ın ABD'deki Google aramaları üzerine çalışmasında, bir yapay zekâ özeti göründüğünde kullanıcılar klasik bir sonuca %8 oranında tıkladı; özet yokken bu oran %15'ti. Özetin içindeki bir bağlantıya ise yalnızca %1 oranında tıklandı. ([VideoWeek][pew])
 
-**Bu önerinin getirdikleri:** kaynağın kendi reklamlarının içeriğiyle birlikte gitmesi; ücretli oturumların takdire bağlı bir havuzdan değil kullanım başına ödemesi; önbellekteki içeriğin gösterim başına ödenmesi; özel anlaşmaların yerini tek açık standart ve tarafsız takasın alması; bağımsız güven etiketleriyle cevap kalitesinin artması ve reklam ile cevabın kesin olarak ayrılması.
+**Bu önerinin getirdikleri:** kaynağın kendi reklamlarının içeriğiyle birlikte gitmesi; ücretli oturumların takdire bağlı bir havuzdan değil kullanım başına ödemesi; önbellekteki içeriğin gösterim başına ödenmesi; özel anlaşmaların yerini tek açık standart ve tarafsız takasın alması; bağımsız güven etiketleriyle cevap kalitesinin artması; reklam ile cevabın kesin olarak ayrılması; ve her zaman mevcut bir ücretsiz metadata zemini — kaynağın kendi başlığı ve kısa açıklaması atıf için bedavadır, böylece hiç ücret kazanmayan bir kaynak bile atıf alıp bağlantıyla trafik çeker.
 
 [pplx-24]: https://techcrunch.com/2024/07/30/perplexitys-plan-to-share-ad-revenue-with-outlets-cited-by-its-ai-chatbot
 [pplx-25]: https://www.axios.com/2025/08/26/perplexity-comet-plus-subscription
@@ -141,7 +145,7 @@ Başlangıç tasarımı, uyarlanmak üzere: Gerçek bir uygulama oranları, sın
 ## Paydaşlar ve Faydalar
 
 - **Gazeteciler, araştırmacılar ve yayıncılar:** Emeklerinin yapay zekâ tarafından kullanılmasından, ücretli planlar ve önbellekteki içerik dahil, gelir.
-- **Küçük ve yerel yayıncılar:** Tek tek anlaşma pazarlığı yapmadan büyüklerle aynı koşullar.
+- **Küçük ve yerel yayıncılar:** Tek tek anlaşma pazarlığı yapmadan büyüklerle aynı koşullar; üstelik ücretsiz metadata zemini, bir reklam ağı kuramayıp ücret koyamasa bile kendi sitesinde trafiği çekip orada para etmelerini sağlar.
 - **Yapay zekâ sağlayıcıları:** Hukuki belirlilik, engellemeler yerine kaliteli içeriğe erişim ve basın yayıncılarının haklarını karşılamanın net bir yolu.
 - **Reklamverenler:** Desteklemeyi seçtikleri içeriğin yanında, kendi marka güvenliği kurallarıyla bağlamsal yerleşimler.
 - **Kullanıcılar:** Daha iyi kaynaklı cevaplar, görünür güven etiketleri, asıl kaynağa bağlantılar ve sınırlı reklamlı ücretsiz plan ile reklamsız ücretli plan arasında seçim.
@@ -161,6 +165,9 @@ Başlangıç tasarımı, uyarlanmak üzere: Gerçek bir uygulama oranları, sın
 | Yayıncıların yine de yapay zekâyı engellemesi | Esnek koşullar (reklam, ücret, ikisi birden); izin vermek engellemekten daha çok kazandırır |
 | Ücretlerin küçük yapay zekâ sağlayıcılarını rekabet dışı bırakması | Düşük kullanım ücretleri, hacim kademeleri, araştırma ve ticari olmayan projeler için ücretsiz kullanım |
 | Ödemelerin yalnızca büyük yayıncılara gitmesi | Düşük giriş eşiği ve büyüklüğe göre değil kullanıma göre ödeme |
+| Ücretsiz metadata gösterilip hiç tıklanmaması (zero-click) | Kaynak kendi açıklamasını yönetir; tamamen cevaplamak yerine merak uyandırır; rapor tıklama yanında gösterimi de sayar, böylece kaynak erişimini görür; atıf ve bağlantı tıklamayı mümkün tutar |
+| Bir asistanın metadatası bedava olduğu için bir kaynağı fazla kaynak göstermesi | Bedava, teaser'ın fiyatını değil önceliğini belirler: hangi kaynakların seçileceği ve cevabın ne söyleyeceği yine tarafsızlık kurallarıyla, değişmeden yönetilir |
+| "Metadata dışında"nın ne sayıldığı belirsiz | Kullanım kaydı, asistanın neyi tükettiğini kaydeder; eşik, kayıtlı metadata kaydıdır ve hatta nerede düştüğüne dair uyuşmazlıkları denetim çözer |
 
 **Anahtar kelimeler:** yapay zekâ araması, üretken yapay zekâ, yayıncı geliri, gazeteciliğin finansmanı, reklamcılık, bağlamsal reklam, gelir paylaşımı, kullanım başına ödeme, tarama başına ödeme, yapay zekâ atfı, içerik lisanslama, basın yayıncılarının hakkı, güvenilir kaynaklar, medya okuryazarlığı, yanlış bilgi, haberciliğin sürdürülebilirliği
 
