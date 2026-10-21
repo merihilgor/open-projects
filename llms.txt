@@ -103,6 +103,10 @@ Each project is a self-contained proposal describing WHAT the idea is and WHY it
 
 - [Publisher Revenue in AI Answers: Source Ads in Free Sessions, Per-Use Fees in Paid Ones](https://raw.githubusercontent.com/merihilgor/open-projects/main/ai-answer-publisher-revenue/README.md): When an AI assistant answers from a news or research site, free sessions show that source's own ads and share the revenue, paid sessions pay a small fee per retrieval or cached display, under one open standard with neutral clearing and independent trust labels. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/ai-answer-publisher-revenue/README.tr.md
 
+## Privacy & security
+
+- [Delegated Biometric Authentication: Pay at the Register and Enter the Building by Face, Without the Phone and Without Sharing Your Biometrics](https://raw.githubusercontent.com/merihilgor/open-projects/main/delegated-biometric-authentication/README.md): The phone's biometric system becomes a trusted broker: the user grants a per-reader, expiring, revocable delegation from the phone, then authenticates face-to-face at a point-of-sale terminal or an apartment gate with no phone and no card, while the biometric template never leaves the device. Turkish: https://raw.githubusercontent.com/merihilgor/open-projects/main/delegated-biometric-authentication/README.tr.md
+
 ## Optional
 
 - [Project catalog (JSON)](https://raw.githubusercontent.com/merihilgor/open-projects/main/projects.json): titles, summaries, themes and keywords for all projects

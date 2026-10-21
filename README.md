@@ -10,7 +10,8 @@ damp-free housing, fair payroll timing, innovation marketplaces, accessible voic
 control, electrical fire prevention, floating solar, building-level
 postcodes, safer bank transfers, dashcam traffic enforcement, startup
 taxation, fair brokerage fees, secure document submission, neutrino-based
-communication through the Earth, secure, pre-reviewed contracts and publisher revenue in AI answers.** Each proposal explains **what** the idea is and **why** it matters: the
+communication through the Earth, secure, pre-reviewed contracts, publisher revenue in AI answers
+and delegated biometric authentication that keeps your face out of other people's databases.** Each proposal explains **what** the idea is and **why** it matters: the
 problem, the proposed solution, how it works, phasing, stakeholders and risks.
 
 **Türkçe:** Bu depo; plastik atık, deprem güvenliği ve bina muayenesi, orman yangını
@@ -47,6 +48,7 @@ bilgisi için: [README.tr.md](README.tr.md).
 | [Neutrino Communication: Sending Signals Straight Through the Earth](neutrino-communication/) | [Türkçe](neutrino-communication/README.tr.md) | A new telecommunication method using neutrino transmitters and receivers: signals pass straight through rock, water and the whole planet, reaching submarines at depth and underground sites and linking distant points by the shortest path. | Telecommunications & frontier science |
 | [Secure Contract Flow: Pre-Reviewed, Version-Locked Contracts and a Real "Read and Understood" Check](secure-contract-flow/) | [Türkçe](secure-contract-flow/README.tr.md) | High-value private contracts need notarization above a yearly-reviewed limit; parties pre-review and approve the contract online, the notary prints the exact version locked under a unique document number, and a comprehension check makes "read and understood" real. | Law & citizen rights |
 | [Publisher Revenue in AI Answers: Source Ads in Free Sessions, Per-Use Fees in Paid Ones](ai-answer-publisher-revenue/) | [Türkçe](ai-answer-publisher-revenue/README.tr.md) | When an AI assistant answers from a news or research site, free sessions show that source's own ads and share the revenue, paid sessions pay a small fee per retrieval or cached display, under one open standard with neutral clearing and independent trust labels. | Digital policy & media |
+| [Delegated Biometric Authentication: Pay at the Register and Enter the Building by Face, Without the Phone and Without Sharing Your Biometrics](delegated-biometric-authentication/) | [Türkçe](delegated-biometric-authentication/README.tr.md) | The phone's biometric system becomes a trusted broker: the user grants a per-reader, expiring, revocable delegation, then pays at a terminal or enters a building face-to-face with no phone and no card, while the biometric template never leaves the device. | Privacy & security |
 
 ## Browse by theme
 
@@ -72,6 +74,7 @@ bilgisi için: [README.tr.md](README.tr.md).
 - **Telecommunications & frontier science:** [neutrino-communication](neutrino-communication/)
 - **Law & citizen rights:** [secure-contract-flow](secure-contract-flow/)
 - **Digital policy & media:** [ai-answer-publisher-revenue](ai-answer-publisher-revenue/)
+- **Privacy & security:** [delegated-biometric-authentication](delegated-biometric-authentication/)
 
 ## Intended use: for researchers and AI assistants
 
@@ -152,7 +155,7 @@ Every project is licensed **per folder** under a "CC+" model:
   | Public-policy idea | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days, library-sound-proof-booths, floating-solar-on-reservoirs, building-level-postcodes, incoming-transfer-approval, dashcam-traffic-violation-detection, zero-tax-until-first-profit, brokerage-fee-paid-by-client, secure-document-upload-portal, secure-contract-flow | 2% of net revenue |
   | Software | vestinno, remotebite | 8% of net revenue |
   | Vehicle safety feature & standard | hood-open-driving-warning | 2% of net revenue |
-  | Digital platform model & standard | ai-answer-publisher-revenue | 2% of net revenue |
+  | Digital platform model & standard | ai-answer-publisher-revenue, delegated-biometric-authentication | 2% of net revenue |
   | Physical product | adjustable-window-vent-slider, motorcycle-seat-galosh | 4% of net revenue |
   | Technology / research concept | neutrino-communication | 4% of net revenue |
 

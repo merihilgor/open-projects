@@ -839,6 +839,55 @@
       "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/ai-answer-publisher-revenue/README.tr.md",
       "license": "CC-BY-NC-SA-4.0",
       "commercial_royalty_default": "2% of net revenue"
+    },
+    {
+      "slug": "delegated-biometric-authentication",
+      "title": "Delegated Biometric Authentication: Pay at the Register and Enter the Building by Face, Without the Phone and Without Sharing Your Biometrics",
+      "title_tr": "Delegeli Biyometrik Kimlik Doğrulama: Kasada ve Binada Telefonsuz, Biyometriğinizi Paylaşmadan Yüzle Ödeme ve Giriş",
+      "summary": "The phone's biometric system becomes a trusted broker: the user grants a per-reader, expiring, revocable delegation from the phone, then authenticates face-to-face at a point-of-sale terminal or an apartment gate with no phone and no card, while the biometric template never leaves the device.",
+      "theme": "Privacy & security",
+      "type": "Digital platform model & standard",
+      "keywords": [
+        "biometric authentication",
+        "delegated authentication",
+        "face ID",
+        "passkey",
+        "privacy",
+        "data minimisation",
+        "secure element",
+        "contactless payment",
+        "access control",
+        "building entry",
+        "liveness detection",
+        "presentation attack detection",
+        "verifiable credentials",
+        "unlinkability",
+        "open standard",
+        "post-quantum"
+      ],
+      "keywords_tr": [
+        "biyometrik kimlik doğrulama",
+        "delegasyonlu kimlik doğrulama",
+        "face ID",
+        "passkey",
+        "gizlilik",
+        "veri minimizasyonu",
+        "güvenli öğe",
+        "temassuz ödeme",
+        "erişim kontrolü",
+        "bina girişi",
+        "canlılık denetimi",
+        "sunum saldırısı tespiti",
+        "doğrulanabilir kimlik belgeleri",
+        "izlenemezlik",
+        "açık standart",
+        "post-kuantum"
+      ],
+      "url": "https://github.com/merihilgor/open-projects/tree/main/delegated-biometric-authentication",
+      "readme_en": "https://raw.githubusercontent.com/merihilgor/open-projects/main/delegated-biometric-authentication/README.md",
+      "readme_tr": "https://raw.githubusercontent.com/merihilgor/open-projects/main/delegated-biometric-authentication/README.tr.md",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_royalty_default": "2% of net revenue"
     }
   ]
 }

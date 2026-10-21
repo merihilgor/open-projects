@@ -12,7 +12,7 @@ muayenesi, orman yangını önleme, çocukların çevrimiçi güvenliği ve yaş
 güvenliği, sağlıklı ve nemsiz konut, dengeli maaş ödeme günleri, inovasyon pazar yerleri ve
 erişilebilir sesli kontrol, elektrik yangınlarının önlenmesi, barajlarda yüzen güneş
 panelleri, bina düzeyinde posta kodu, daha güvenli banka transferleri, araç içi kamerayla
-trafik denetimi, girişim vergilendirmesi, adil emlak komisyonu, güvenli belge gönderimi ve yapay zekâ cevaplarında yayıncı geliri.
+trafik denetimi, girişim vergilendirmesi, adil emlak komisyonu, güvenli belge gönderimi, yapay zekâ cevaplarında yayıncı geliri ve yüzünüzü başkalarının veritabanına sokmayan delegeli biyometrik kimlik doğrulama.
 Her öneri fikrin **ne** olduğunu ve **neden** önemli olduğunu
 anlatır: sorun, önerilen çözüm, nasıl çalıştığı, aşamalar, paydaşlar ve riskler.
 
@@ -43,6 +43,7 @@ anlatır: sorun, önerilen çözüm, nasıl çalıştığı, aşamalar, paydaşl
 | [Nötrino ile Haberleşme: Sinyalleri Doğrudan Dünya'nın İçinden Göndermek](neutrino-communication/README.tr.md) | [English](neutrino-communication/README.md) |
 | [Güvenli Sözleşme Akışı: Önceden İncelenmiş, Sürümü Kilitli Sözleşmeler ve Gerçek Bir "Okudum, Anladım" Kontrolü](secure-contract-flow/README.tr.md) | [English](secure-contract-flow/README.md) |
 | [Yapay Zekâ Cevaplarında Yayıncı Geliri: Ücretsiz Oturumlarda Kaynağın Reklamları, Ücretli Oturumlarda Kullanım Başına Ücret](ai-answer-publisher-revenue/README.tr.md) | [English](ai-answer-publisher-revenue/README.md) |
+| [Delegeli Biyometrik Kimlik Doğrulama: Kasada ve Binada Telefonsuz, Biyometriğinizi Paylaşmadan Yüzle Ödeme ve Giriş](delegated-biometric-authentication/README.tr.md) | [English](delegated-biometric-authentication/README.md) |
 
 ## Kullanım amacı: araştırmacılar ve yapay zekâ asistanları için
 
@@ -123,7 +124,7 @@ Her proje **klasör bazında** "CC+" modeliyle lisanslanır:
   | Kamu politikası fikri | paid-beach-shower-and-toilet-facilities, ai-content-rating-with-verified-age, building-inspection-effective-age, wildfire-biological-circuit-breaker, staggered-salary-payment-days, library-sound-proof-booths, floating-solar-on-reservoirs, building-level-postcodes, incoming-transfer-approval, dashcam-traffic-violation-detection, zero-tax-until-first-profit, brokerage-fee-paid-by-client, secure-document-upload-portal, secure-contract-flow | Net gelirin %2'si |
   | Yazılım | vestinno, remotebite | Net gelirin %8'i |
   | Araç güvenlik özelliği ve standardı | hood-open-driving-warning | Net gelirin %2'si |
-  | Dijital platform modeli ve standardı | ai-answer-publisher-revenue | Net gelirin %2'si |
+  | Dijital platform modeli ve standardı | ai-answer-publisher-revenue, delegated-biometric-authentication | Net gelirin %2'si |
   | Fiziksel ürün | adjustable-window-vent-slider, motorcycle-seat-galosh | Net gelirin %4'ü |
   | Teknoloji / araştırma konsepti | neutrino-communication | Net gelirin %4'ü |
 
