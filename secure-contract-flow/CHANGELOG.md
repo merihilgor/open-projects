@@ -3,6 +3,12 @@
 All notable changes to this project idea are recorded here, newest first.
 Bu proje fikrindeki önemli değişiklikler burada, en yenisi üstte olacak şekilde kaydedilir.
 
+## 2026-10-23
+
+### Added / Eklendi
+- **Benefits of the digital method:** a new section in the EN/TR README, on three advantages of the digital form of the flow: a single, genuine digital copy of a long contract that a party can read and zoom to the accessibility level they need, instead of stitching together and zooming page-by-page photographs; easier AI-assisted analysis and clarification of long, complex contracts, with a question tied to a specific clause on that copy; and the comprehension check's effect of moving the parties to pin down details, neutralise risks and resolve ambiguities, paving the way for more independent, self-reliant work.
+  **Dijital yöntemin faydaları:** EN/TR README'ye, akışın dijital biçiminin üç avantajını anlatan yeni bir bölüm: sayfa sayfa çekilen fotoğrafların birleştirilip yaklaştırılması yerine, tarafın kendisi için gerekli erişilebilirlik düzeyinde okuyup yakınlaştırdığı uzun bir sözleşmenin tek ve gerçek dijital kopyası; sorunun bu kopyada belirli bir maddeye bağlanabilmesiyle çok sayfalı ve karmaşık sözleşmelerin yapay zekâ destekli çözümünün ve netleştirilmesinin kolaylaşması; ve idrak testinin tarafları ayrıntıları belirlemeye, riskleri bertaraf etmeye ve belirsizlikleri gidermeye sevk ederek daha bağımsız, kendi kendine yeten işlere öncülük etmesi.
+
 ## 2026-10-13
 
 ### Added / Eklendi

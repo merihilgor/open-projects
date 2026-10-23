@@ -151,6 +151,14 @@ Parts of this flow already exist in several countries. As far as this proposal's
 - **Courts:** fewer disputes over "I didn't read it", altered copies or capacity at signing.
 - **Banks, real estate and businesses:** more reliable contracts and fewer costly challenges later.
 
+## Benefits of the Digital Method
+
+Beyond the safeguards above, the digital form of the flow brings advantages of its own.
+
+- **A readable, accessible copy of a long contract.** A contract can run to thirty, forty or more pages. The secure contract flow delivers a single, genuine digital copy, not separate photographs taken one page at a time. A party can zoom into that copy and read it to the accessibility level they need; stitching together and zooming page-by-page photographs of a long contract to a usable, accessible standard is difficult, and a genuine digital copy avoids that difficulty.
+- **Easier analysis and clarification of complex, multi-page contracts.** For long and semantically complex contracts, AI tools help break the text down and make unclear parts clear. On a genuine digital copy, on which a question can be tied to a specific clause, such analysis and clarification become far easier than with a paper or photographed document.
+- **The comprehension check drives deeper engagement and enables independent work.** Because the comprehension check requires each party to grasp the subject, it moves the parties to pin down the details, neutralise the risks and resolve the ambiguities, through questioning and reflection. In doing so, the method paves the way for the parties to reach more independent, self-reliant outcomes.
+
 ## Risks & Mitigations
 
 | Risk | Mitigation |

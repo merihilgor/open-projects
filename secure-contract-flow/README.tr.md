@@ -152,6 +152,14 @@ Bu akışın parçaları birçok ülkede zaten uygulanıyor. Öneri sahibinin bi
 - **Mahkemeler:** "Okumadım", değiştirilmiş kopya veya imza anındaki ehliyet konusunda daha az uyuşmazlık.
 - **Bankalar, gayrimenkul sektörü ve işletmeler:** Daha güvenilir sözleşmeler ve daha sonra yaşanacak maliyetli itirazların azalması.
 
+## Dijital Yöntemin Faydaları
+
+Yukarıdaki güvencelerin ötesinde, akışın dijital biçimi kendine özgü bazı avantajlar sunar.
+
+- **Uzun bir sözleşmenin okunabilir ve erişilebilir kopyası.** Bir sözleşme otuz, kırk ve üzeri sayfaya ulaşabilir. Güvenli sözleşme akışı, sayfa sayfa ayrı ayrı çekilmiş fotoğraflar yerine tek ve gerçek bir dijital kopya sunar. Taraf o kopyada yakınlaştırma (zoom) yaparak kendisi için gerekli erişilebilirlik düzeyinde okuyabilir; uzun bir sözleşmenin sayfa sayfa fotoğraflarının birleştirilip kullanılır ve erişilebilir bir düzeye yaklaştırılması güçtür ve gerçek bir dijital kopya bu güçlüğü ortadan kaldırır.
+- **Karmaşık ve çok sayfalı sözleşmelerin çözümünün ve netleştirilmesinin kolaylaşması.** Uzun ve anlamsal olarak karmaşık sözleşmelerde yapay zekâ araçları metni parçalarına ayırıp anlaşılmayan kısımları netleştirmede yardımcı olur. Sorunun belirli bir maddeye bağlanabildiği gerçek bir dijital kopya üzerinde bu çözüm ve netleştirme, kâğıt ya da fotoğraflı bir belgeye kıyasla çok daha kolay olur.
+- **İdrak testi derinlemesine ilgiyi artırır ve bağımsız işlere öncülük eder.** İdrak testi her tarafın konuyu kavramasını gerektirdiğinden, tarafları ayrıntıları daha iyi belirlemeye, riskleri bertaraf etmeye ve belirsizlikleri gidermeye — sorgulama ve düşünme yoluyla — sevk eder. Bu yöntem böylece tarafların daha bağımsız, kendi kendine yeten sonuçlara ulaşmasına öncülük eder.
+
 ## Riskler ve Önlemler
 
 | Risk | Önlem |
