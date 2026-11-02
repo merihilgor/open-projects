@@ -66,7 +66,7 @@ The broker is the party that holds the template and speaks for the user. In prac
 - **The template lives in a secure element.** It is enrolled there and never readable by the operating system, the broker application or anyone with access to the ordinary file system. This is the same trust boundary that protects the phone's own unlock, which is why the user is already comfortable delegating through it.
 - **The broker holds a device key.** A private key that does not leave the secure element signs proofs. The public key is published in a certificate that the trust service lists, so a reader can check that a proof came from a registered device.
 - **The broker is the consent authority.** The user grants and revokes grants. No application can grant on the user's behalf, so a malicious or compromised app cannot create a delegation.
-- **The broker is the only party that sees the face.** The camera at the reader captures the presentation; the broker or the secure element matches it. The image itself is discarded once the match completes. The reader never receives a template, a reference image or a reusable embedding.
+- **In Mode A, the broker is the only party that sees the face.** The camera at the reader captures the presentation; the broker or the secure element matches it. The image itself is discarded once the match completes. The reader never receives a template, a reference image or a reusable embedding. **In Mode B**, the broker does not see the face at verification time; the reader matches the live presentation against a transformed reference the broker delivered off the verification path (Section 8.2 and Section 8.6). That reference is not a template, and the broker is not contacted at the gate.
 - **The broker is revocable.** A lost or stolen device can be de-registered at the trust service, which invalidates every grant it issued.
 
 ### 2.2 The grant registry
@@ -108,7 +108,7 @@ The reader is where the user actually is: a point-of-sale terminal, a gate, a tu
 - **It captures a live presentation and checks it.** A camera, a depth or multi-spectral sensor where available, and a presentation-attack check that rejects a photo, a mask, a screen replay and a printed image.
 - **It generates a challenge.** The challenge is unique per verification, so a captured proof cannot be replayed.
 - **It verifies the proof.** Signature, chain, validity window, reader binding, purpose binding, grant status, and the reader's own challenge response.
-- **It keeps no biometric data.** The capture is held in memory, used for the match, and discarded. The standard forbids retaining it, and the certification regime checks. Where the delegated-presence mechanism is one that places a *transformed* reference at the reader — the renewable-reference and zero-knowledge mechanisms — the reader holds that reference instead, under the conditions the [specification](SPECIFICATION.md) sets: renewable, grant-specific, reader-bound, revocable and not derivable back into the template.
+- **It keeps no enrolled template or reusable biometric identifier.** The capture is held in memory, used for the match, and discarded. The standard forbids retaining it, and the certification regime checks. In Mode B, where the delegated-presence mechanism is one that places a *transformed* reference at the reader — the renewable-reference and zero-knowledge mechanisms (M2, M4) — the reader holds that reference instead, under the conditions the [specification](SPECIFICATION.md) sets (Section 12.1.2): renewable, grant-specific, reader-bound, revocable, with a bounded reference age (Section 10.5), and not derivable back into the template. That reference is not a template, but it is a new breach surface that did not exist before the grant, and a deployment that cannot enforce all five conditions should not use Mode B.
 - **It keeps no reusable identifier.** A reader that stores a stable hash of the user's face is building a biometric database, and it violates the model. The reader's record of a verification is a reference to a grant and a proof, not to a person.
 
 ### 2.5 The two verification modes
@@ -122,14 +122,48 @@ The central design choice is how the reader learns that a live biometric check s
 - *Costs:* a network round trip on every verification, and a dependency on a service being up.
 - *Fits:* payment, building entry, hotel check-in, clinic reception — cases where a network is available and a few hundred milliseconds are acceptable.
 
-**Mode B — offline, signed proof.** The broker pre-issues a short-lived, reader-bound, purpose-bound proof signed with the device key. The reader verifies it against the published trust anchors and a cached status, with no network call to the broker.
+**Mode B — offline, pre-delivered reference.** The broker derives a renewable, irreversible, unlinkable transformed reference from the on-device source, signs it with the device key, and registers it with the trust service at grant creation and at each refresh (Section 8.6). At verification the reader captures a live presentation, runs presentation-attack detection, and matches the presentation against the cached reference, with no network call to the broker. There is no challenge-response round trip and no Section 6 proof.
 
-- *Requires:* the reader to have a cached status, and the proof to be genuinely short-lived.
-- *Gives:* operation without connectivity, which matters for gates in basements, rural transit, and anywhere a network is unreliable.
-- *Costs:* the revocation bound becomes visible. A revoked grant may still work at a reader that has not seen the revocation, until the proof expires. The bound must be small and stated.
+- *Requires:* the reader to have a cached status within the status-age bound and a cached reference within the reference-age bound.
+- *Gives:* operation without connectivity to the broker, which matters for gates in basements, rural transit, and anywhere a network is unreliable.
+- *Costs:* two bounds become visible. A revoked grant may still work at a reader that has not seen the revocation, until the status-age bound. A face that no longer matches the phone's current source may still open a door, until the reference-age bound. Both bounds must be small and stated (Section 10.3 and 10.5).
 - *Fits:* doors, turnstiles, offline checkpoints.
 
 **The choice is per reader and per grant, not per platform.** A building can run Mode B on its gates and Mode A for its staff entrance. A grant can be issued in whichever mode the reader supports, and the mode is visible to the user, because it changes what "revoked" means in practice.
+
+
+### 2.5.1 The pre-delivered reference: the reader validates biometric data against an artifact from the phone
+
+The design of Mode B (Section 7.2) is that **the biometric reader — a gate, a turnstile, a kiosk with a camera and an infrared sensor — validates the live biometric presentation against an artifact that the phone delivered once, at grant creation.** The phone is not contacted at verification time. There is no real-time hook, no challenge-response round trip, no network dependency between the reader and the device.
+
+**What the phone delivers is not a signature over camera data.** A cryptographic signature verifies a fixed message: the signed bytes must be byte-identical to the verified bytes. A camera or infrared capture is not a fixed message — it varies with lighting, head angle, expression, sensor noise, and over time. No signature scheme, classical or post-quantum, can match a fresh capture against a pre-signed value, because the capture is not the same bytes that were signed. This is a property of signatures, not a limitation of any particular algorithm.
+
+**What the phone delivers is a transformed biometric reference, signed by its device key.** The phone derives a *renewable, irreversible, unlinkable* reference from the biometric template held in its secure element — a protected representation that a live presentation can be matched against, but from which the template cannot be recovered. The phone signs this reference with its device key (the signature that authenticates the reference to the reader and the trust service) and registers it **once**, at grant creation. At every subsequent verification, the reader:
+
+1. captures a live presentation (camera, infrared, depth — per the reader's sensor suite and its presentation-attack certification, Section 9),
+2. extracts features from the capture,
+3. matches the features against the pre-delivered reference,
+4. accepts or rejects based on the match score and the reference's status.
+
+The phone is not involved in steps 1–4. The "signature" in the user's framing is the device key's signature over the reference; the reference itself is the artifact the biometric is matched against. Both are needed: the signature authenticates the reference; the reference is what the biometric is compared to.
+
+| Phase | Who | What |
+|---|---|---|
+| **Grant creation (once)** | Phone → Trust service / Reader | A transformed reference, signed by the device key, bound to this grant, this reader class, this purpose. Registered and published. |
+| **Verification (every time, no phone)** | Reader | Capture (camera + IR + liveness) → extract features → match against the pre-delivered reference → check reference status → accept or reject |
+| **Revocation** | Phone → Trust service → Reader | The reference is retired in the status. A reader that has not seen the retirement accepts the old reference until the status-age bound (Section 10.3). |
+
+**This is mechanism M2 (Section 8.3): renewable and revocable transformed reference with secure matching.** The reference is the "signature" that the phone pre-delivers. The biometric match at the reader is the "verification." The two are distinct operations — one is cryptographic (authenticating the reference), the other is biometric (matching the live presentation to the reference) — and both are required.
+
+**The fuzzy vault (M1) is the same model with a stronger binding.** In M1, the biometric *is* the private key: a fuzzy commitment of the biometric is pre-delivered, and a matching biometric unlocks the vault and recovers a secret that the reader uses to prove knowledge. This is the closest thing to "the phone signs something once and the reader validates biometric data against it later" — the biometric itself is the key. But M1 is subject to a granted Visa patent family ("Delegated biometric authentication," US11321445B2 and US12282539B2, with European and Chinese counterparts), and the specification flags this as a blocking risk. M2 is the patent-free equivalent and has ISO/IEC 24745 as its standardisation home.
+
+**The trade-offs of pre-delivering the reference, stated plainly:**
+
+- **The reference is a biometric-derived artifact at the reader.** It is not the template, but it is a new breach surface that did not exist before the grant. The specification's Section 12.1.2 requires it to be irreversible, unlinkable, reader-bound, grant-specific, and revocable. A reader that violates any of these conditions is a certification failure, and a deployment that cannot enforce all five should not use M2 — it should use Mode A, where the phone is reachable and no reference is placed at the reader.
+- **Revocation is bounded, not instant.** A retired reference may still work at a reader that has not seen the retirement, until the status-age bound. This is the price of removing the real-time phone connection, and it is the same cost every offline model pays.
+- **The match is fuzzy.** Error rates are typically worse than a direct template match, because the transformation introduces noise. The transformation's error rate is the system's error rate, and it must be published per attack class.
+
+**In short:** the phone pre-delivers a signed, transformed reference. The reader's camera and infrared sensor capture the live presentation and match it against that reference. The phone is not contacted. This is the design of Mode B, and it is the mechanism that makes phone-absent biometric verification possible.
 
 ### 2.6 Liveness and presentation-attack detection
 

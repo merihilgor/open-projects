@@ -67,7 +67,7 @@ Aracı, şablonu tutan ve kullanıcı adına konuşan taraftır. Uygulamada bu, 
 - **Şablon güvenli öğede tutulur.** Oraya kaydedilir ve işletim sistemi, aracı uygulaması ya da sıradan dosya sistemine erişebilen hiçbir kimse tarafından okunamaz. Bu, telefonun kendi kilidini koruyan sınırın aynısıdır; kullanıcı zaten bu yüzdan onun üzerinden delegasyon vermeye isteklidir.
 - **Aracı bir cihaz anahtarı tutar.** Güvenli öğeden çıkmayan özel bir anahtar kanıtları imzalar. Açık anahtar, aracı güven hizmetinde listelenen bir sertifikada yayımlanır; okuyucu, kanıtın kayıtlı bir cihazdan geldiğini böylece kontrol eder.
 - **Aracı onay makamıdır.** Kullanıcı yetkileri verir ve geri alır. Hiçbir uygulama kullanıcı adına yetki veremez; kötü niyetli ya da ele geçirilmiş bir uygulama delegasyon oluşturamaz.
-- **Aracı yüzü gören tek taraftır.** Okuyucudaki kamera sunumu yakalar; eşleştirme aracı ya da güvenli öğe tarafından yapılır. Görüntünün kendisi eşleştirme bittiğinde atılır. Okuyucu hiçbir zaman şablon, referans görüntü ya da yeniden kullanılabilir bir yerleştirme almaz.
+- **Kip A'da aracı yüzü gören tek taraftır.** Okuyucudaki kamera sunumu yakalar; eşleştirme aracı ya da güvenli öğe tarafından yapılır. Görüntünün kendisi eşleştirme bittiğinde atılır. Okuyucu hiçbir zaman şablon, referans görüntü ya da yeniden kullanılabilir bir yerleştirme almaz. **Kip B'de** aracı doğrulama anında yüzü görmez; okuyucu canlı sunumu, aracının doğrulama yolunun dışında teslim ettiği bir dönüştürülmüş referansla eşleştirir (Bölüm 8.2 ve 8.6). O referans şablon değildir ve aracı kapıda aranmaz.
 - **Aracın iptali mümkündür.** Kayıp ya da çalınmış cihaz güven hizmetinden kayıt düşürülebilir; bu, verdiği bütün yetkileri geçersiz kılar.
 
 ### 2.2 Yetki kaydı
@@ -109,7 +109,7 @@ Okuyucu, kullanıcının gerçekten bulunduğu yerdir: bir satış terminali, bi
 - **Canlı bir sunumu yakalar ve denetler.** Bir kamera, mümkünse derinlik ya da çok tayflı sensör ve bir fotoğrafı, maskeyi, ekran tekrar oynatımını ve basılı görüntüyü reddeden bir sunum saldırısı denetimi.
 - **Bir meydan okuma üretir.** Meydan okuma her doğrulama için benzersizdir; yakalanmış bir kanıt tekrar oynatılamaz.
 - **Kanıtı doğrular.** İmza, zincir, geçerlilik penceresi, okuyucuya bağlılık, amaç bağlılığı, yetki durumu ve kendi meydan okuma yanıtı.
-- **Hiçbir biyometrik veri saklamaz.** Yakalama bellekte tutulur, eşleştirmede kullanılır ve atılır. Standart saklamayı yasaklar ve sertifikasyon düzeni bunu denetler. Delegasyonlu varlık mekanizması, okuyucuya *dönüştürülmüş* bir referans yerleştiren bir mekanizma ise — yenilenebilir referans ve sıfır bilgi mekanizmaları — okuyucu bu referansı tutar; [şartnamenin](SPECIFICATION.tr.md) belirlediği koşullarla: yenilenebilir, yetkiye özgü, okuyucuya bağlı, iptal edilebilir ve şablona geri türetilemez.
+- **Hiçbir kaydedilmiş şablon ya da yeniden kullanılabilir biyometrik tanımlayıcı saklamaz.** Yakalama bellekte tutulur, eşleştirmede kullanılır ve atılır. Standart saklamayı yasaklar ve sertifikasyon düzeni bunu denetler. Kip B'de, delegasyonlu varlık mekanizması okuyucuya *dönüştürülmüş* bir referans yerleştiren bir mekanizma ise — yenilenebilir referans ve sıfır bilgi mekanizmaları (M2, M4) — okuyucu bu referansı tutar; [şartnamenin](SPECIFICATION.tr.md) (Bölüm 12.1.2) belirlediği koşullarla: yenilenebilir, yetkiye özgü, okuyucuya bağlı, iptal edilebilir, sınırlı referans yaşına sahip (Bölüm 10.5) ve şablona geri türetilemez. O referans şablon değildir, ama yetkiden önce var olmayan yeni bir ihlal yüzeyidir ve beş koşulun da uygulanamadığı bir dağıtım Kip B'yi kullanmamalıdır.
 - **Hiçbir yeniden kullanılabilir tanımlayıcı saklamaz.** Kullanıcının yüzünün kararlı bir özetini saklayan bir okuyucu bir biyometrik veritabanı kuruyor demektir ve modeli ihlal eder. Okuyucunun doğrulama kaydı bir kişiye değil, bir yetkiye ve bir kanıta referanstır.
 
 ### 2.5 İki doğrulama kipi
@@ -123,14 +123,48 @@ Merkezî tasarım seçimi şudur: okuyucu, şablonu hiç görmediği hâlde canl
 - *Bedeli:* her doğrulamada bir ağ turu ve çalışan bir hizmete bağımlılık.
 - *Uygun olduğu durumlar:* ödeme, bina girişi, otel check-in, klinik girişi — ağın bulunduğu ve birkaç yüz milisaniyenin kabul edilebilir olduğu durumlar.
 
-**Kip B — çevrimdışı, imzalı kanıt.** Araç, kısa ömürlü, okuyucuya ve amaca bağlı bir kanıtı cihaz anahtarıyla önceden imzalar. Okuyucu, yayımlanmış güven çapalarına ve önbelleğe alınmış bir duruma karşı, ağ çağrısı yapmadan kanıtı doğrular.
+**Kip B — çevrimdışı, önceden teslim edilmiş referans.** Aracı, cihaz kaynağından yenilenebilir, geri dönüşsüz, izlenemez bir dönüştürülmüş referans türetir, cihaz anahtarıyla imzalar ve yetki oluşturulurken ve her yenilemede (Bölüm 8.6) güven hizmetine kaydeder. Doğrulama anında okuyucu canlı bir sunum yakalar, sunum saldırısı tespitini çalıştırır ve sunumu önbellekteki referansla eşleştirir; araca ağ çağrısı yoktur. Meydan-okuma-yanıt turu yoktur ve Bölüm 6 kanıtı yoktur.
 
-- *Gerektirir:* okuyucunun önbelleğe alınmış bir durumu olması ve kanıtın gerçekten kısa ömürlü olması.
-- *Sağlar:* bağlantı olmadan çalışma; bodrum katlardaki kapılar, kırsal ulaşım ve ağın güvenilmez olduğu her yer için önemlidir.
-- *Bedeli:* iptal sınırı görünür hâle gelir. İptal edilmiş bir yetki, durumu görmemiş bir okuyucuda kanıtın süresi dolana kadar çalışabilir. Bu sınır küçük ve açıkça belirtilmelidir.
+- *Gerektirir:* okuyucunun durum yaşı sınırındaki önbelleğe alınmış bir durumu ve referans yaşı sınırındaki önbelleğe alınmış bir referansı olması.
+- *Sağlar:* araca bağlantı olmadan çalışma; bodrum katlardaki kapılar, kırsal ulaşım ve ağın güvenilmez olduğu her yer için önemlidir.
+- *Bedeli:* iki sınır görünür hâle gelir. İptal edilmiş bir yetki, durumu görmemiş bir okuyucuda durum yaşı sınırına kadar çalışabilir. Telefona artık uymayan bir yüz, referans yaşı sınırına kadar kapı açabilir. Her iki sınır da küçük ve açıkça belirtilmelidir (Bölüm 10.3 ve 10.5).
 - *Uygun olduğu durumlar:* kapılar, turnikeler, çevrimdışı kontrol noktaları.
 
 **Seçim okuyucu başına ve yetki başınadır, platform başına değil.** Bir bina, kapılarında Kip B'yi, personel girişinde Kip A'yı kullanabilir. Yetki, okuyucunun desteklediği kipte düzenlenir ve kip kullanıcıya görünür, çünkü pratikte "geri alındı"nın ne anlama geldiğini değiştirir.
+
+
+### 2.5.1 Önceden teslim edilmiş referans: okuyucu, telefondan gelen bir nesneye karşı biyometrik veriyi doğrular
+
+Kip B'nin (Bölüm 7.2) tasarımı şudur: **biyometrik okuyucu — bir geçit, bir turnike, kamera ve kızılötesi sensörü olan bir kiosk — canlı biyometrik sunumunu, telefonun yetki oluşturulurken bir kez teslim ettiği bir nesneye karşı doğrular.** Doğrulama anında telefon aranmaz. Gerçek zamanlı bir bağlantı, bir meydan-okuma-yanıt turu, okuyucu ile cihaz arasında bir ağ bağımlılığı yoktur.
+
+**Telefonun teslim ettiği bir kamera verisi üzerine imza değildir.** Bir kriptografik imza sabit bir mesajı doğrular: imzalanmış baytlar, doğrulanan baytlarla byte-byte aynı olmalıdır. Bir kamera ya da kızılötesi yakalaması sabit bir mesaj değildir — aydınlatma, baş açısı, ifade, sensör gürültüsü ve zamanla değişir. Klasik ya da post-kuantum, hiçbir imza şeması taze bir yakalamayı önceden imzalanmış bir değerle eşleştiremez, çünkü yakalama imzalanmış baytlar değildir. Bu, bir algoritmanın sınırlaması değil, imzaların bir özelliğidir.
+
+**Telefonun teslim ettiği, cihaz anahtarıyla imzalı bir dönüştürülmüş biyometrik referanstır.** Telefon, güvenli öğesinde tuttuğu biyometrik şablondan *yenilenebilir, geri dönüşsüz, izlenemez* bir referans türetir — canlı bir sunumun eşleştirilebileceği, ama şablonun geri çıkarılamayacağı korunan bir temsil. Telefon bu referansı cihaz anahtarıyla imzalar (referansı okuyucu ve güven hizmetine kimliklendiren imza) ve bunu **bir kez**, yetki oluşturulurken kaydeder. Sonraki her doğrulamada okuyucu:
+
+1. canlı bir sunum yakalar (kamera, kızılötesi, derinlik — okuyucunun sensör takımyanı ve sunum-saldırısı sertifikasyonuna göre, Bölüm 9),
+2. yakalamadan özellik çıkarır,
+3. özellikleri önceden teslim edilmiş referansla eşleştirir,
+4. eşleşme skoru ve referansın durumuna göre kabul eder ya da reddeder.
+
+Telefon 1–4 adımlarına dahil değildir. Kullanıcının çerçevesindeki "imza," referans üzerindeki cihaz anahtarı imzasıdır; referansın kendisi biyometrik eşleştirmesinin yapıldığı nesnedir. İkisi de gereklidir: imza referansı kimliklendirir; referans biyometrik karşılaştırmanın yapıldığı nesnedir.
+
+| Aşama | Kim | Ne |
+|---|---|---|
+| **Yetki oluşturulması (bir kez)** | Telefon → Güven hizmeti / Okuyucu | Bu yetki, bu okuyucu sınıfı, bu amaç için dönüştürülmüş bir referans; cihaz anahtarıyla imzalı, kayıtlı ve yayımlanmış. |
+| **Doğrulama (her seferinde, telefon yok)** | Okuyucu | Yakala (kamera + IR + canlılık) → özellik çıkar → önceden teslim edilmiş referansla eşleştir → referans durumunu kontrol et → kabul et ya da reddet |
+| **İptal** | Telefon → Güven hizmeti → Okuyucu | Referans, durumda emekli edilir. İptali görmemiş bir okuyucu, durum yaşı sınırına (Bölüm 10.3) kadar eski referansı kabul etmeye devam eder. |
+
+**Bu, Mekanizma M2'dir (Bölüm 8.3): güvenli eşleştirme ile yenilenebilir ve iptal edilebilir dönüştürülmüş referans.** Referans, telefonun önceden teslim ettiği "imza"dır. Okuyucudaki biyometrik eşleştirme "doğrulama"dır. İkisi ayrı işlemlerdir — biri kriptografik (referansı kimliklendirme), diğeri biyometrik (canlı sunumu referansla eşleştirme) — ve ikisi de gereklidir.
+
+**Bulanık kasa (M1), daha güçlü bir bağlılıkla aynı modeldir.** M1'de biyometrik *kendi içinde özel anahtardır:* biyometrik bir bulanık taahhüt önceden teslim edilir, eşleşen bir biyometrik kasayı açar ve okuyucunun bilgi kanıtı olarak kullandığı bir sırrı geri kazanır. Bu, "telefon bir kez bir şey imzalar ve okuyucu biyometrik veriyi sonradan ona karşı doğrular"a en yakın şeydir — biyometrik kendisi anahtardır. Ama M1 verilmiş bir Visa patent ailesine ("Delegated biometric authentication," US11321445B2 ve US12282539B2, Avrupa ve Çin karşılıklarıyla) tabidir ve şartname bunu bir engelleyici risk olarak işaretler. M2 patentle serbest eşdeğerdir ve ISO/IEC 24745'i standardizasyon yuvası olarak taşır.
+
+**Referansın önceden teslim edilmesinin değiş-tokuşları, açıkça:**
+
+- **Referans, okuyucuda bulunan biyometrik türevli bir nesnedir.** Şablon değildir, ama yetkiden önce var olmayan yeni bir ihlal yüzeyidir. Şartnamenin Bölüm 12.1.2'si, geri dönüşsüz, izlenemez, okuyucuya bağlı, yetkiye özgü ve iptal edilebilir olmasını şart koşar. Bu koşullardan herhangi birini ihlal eden bir okuyucu bir sertifikasyon hatasıdır ve beş koşulun da uygulanamadığı bir dağıtım M2'yi kullanmamalıdır — telefon erişilebilir olduğu için referansın okuyucuya yerleştirilmediği Kip A'yı kullanmalıdır.
+- **İptal sınırlıdır, anlık değildir.** Emekli edilmiş bir referans, iptali görmemiş bir okuyucuda, durum yaşı sınırına kadar çalışmaya devam edebilir. Bu, gerçek zamanlı telefon bağlantısının kaldırılmasının bedelidir ve her çevrimdışı modelin ödediği aynı bedeldir.
+- **Eşleştirme bulanıktır.** Dönüşüm gürültü kattığı için hata oranları, doğrudan şablon eşleştirmesinden tipik olarak daha kötüdür. Dönüşümün hata oranı sistemin hata oranıdır ve saldırı sınıfı başına yayımlanmalıdır.
+
+**Kısaca:** telefon, imzalı, dönüştürülmüş bir referans önceden teslim eder. Okuyucunun kamerası ve kızılötesi sensörü canlı sunumu yakalar ve bunu referansla eşleştirir. Telefon aranmaz. Bu Kip B'nin tasarısıdır ve telefonsuz biyometrik doğrulamayı mümkün kılan mekanizmadır.
 
 ### 2.6 Canlılık ve sunum saldırısı tespiti
 
